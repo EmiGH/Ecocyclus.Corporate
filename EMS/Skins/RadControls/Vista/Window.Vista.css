@@ -1,0 +1,401 @@
+/* RADWINDOW PROMETHEUS "VISTA" SKIN */
+
+div.radwindow_Vista table td.corner
+{
+	width: 4px;
+}
+
+div.radwindow_Vista table td.topleft
+{
+	background: transparent url('Window/CornerLeft.gif') no-repeat left bottom;
+	height: 6px;
+}
+
+div.radwindow_Vista table td.topright
+{
+	background: transparent url('Window/CornerRight.gif') no-repeat right bottom;
+	height: 6px;
+}
+
+div.radwindow_Vista table td.bodyleft
+{
+	background: transparent url('Window/BodyLeft.gif') repeat-y left top;
+}
+
+div.radwindow_Vista .windowcontent
+{
+	height: 100%;
+	border: solid 1px black;
+	border-bottom: 0;
+	background: white;
+}
+
+div.radwindow_Vista table td.bodyright
+{
+	background: transparent url('Window/BodyRight.gif') repeat-y right top;
+}
+
+div.radwindow_Vista table td.footerleft
+{
+	background: transparent url('Window/FooterLeft.gif') no-repeat left top;
+	height: 8px;
+}
+
+div.radwindow_Vista table td.footerright
+{
+	background: transparent url('Window/FooterRight.gif') no-repeat right top;
+	height: 8px;
+}
+
+div.radwindow_Vista table td.footercenter
+{
+	background: transparent url('Window/FooterCenter.gif') repeat-x;
+	height: 8px;
+}
+
+div.radwindow_Vista table td.titlebar
+{
+	background: transparent url('Window/TitleBar.gif') repeat-x left top;
+}
+
+div.radwindow_Vista td.statusbar
+{
+	height: 19px; line-height: 19px;
+	background: #f7f3e9;
+	border-top: solid 1px black;
+}
+
+div.radwindow_Vista td.statusbar .loading
+{	
+	background-image:url('Window/Loading.gif');	
+}
+
+div.radwindow_Vista td.statusbar span.statustext
+{
+	font: normal 11px Verdana, Arial, Sans-serif;
+	color: black;
+}
+
+div.radwindow_Vista td.statusbar div
+{		
+    background: transparent url('Window/WindowResizeHandle.gif') !important;
+}
+
+div.radwindow_Vista td.statusbar input
+{
+    background-color: #f7f3e9;
+    background-repeat: no-repeat;
+}
+
+div.radwindow_Vista table.titlebarcontrols ul.controlbuttons li a
+{
+	width: 28px; 
+	height: 15px; 
+	line-height: 15px; 
+	font-size: 1px;
+	cursor: default;
+	margin: 4px 0 4px 2px;
+}
+
+/* reload button */
+div.radwindow_Vista a.reloadbutton
+{
+	background: transparent url('Window/ControlButtons.gif') no-repeat -112px top;
+}
+
+div.radwindow_Vista a.reloadbutton:hover
+{
+	background: transparent url('Window/ControlButtons.gif') no-repeat -112px -15px;
+}
+
+/* unpin button */
+div.radwindow_Vista a.pinbutton
+{
+	background: transparent url('Window/ControlButtons.gif') no-repeat;	
+}
+
+div.radwindow_Vista a.pinbutton.on
+{
+	background-position: -140px top !important;
+}
+
+/* pin button */
+div.radwindow_Vista a.pinbutton
+{
+	background-position: -168px top;
+}
+
+div.radwindow_Vista a.pinbutton:hover
+{
+	background-position: -168px -15px;
+}
+
+/* minimize button */
+div.radwindow_Vista a.minimizebutton
+{
+	background: transparent url('Window/ControlButtons.gif') no-repeat left top;
+}
+
+div.radwindow_Vista a.minimizebutton:hover
+{
+	background: transparent url('Window/ControlButtons.gif') no-repeat 0 -15px;
+}
+
+/* maximize button */
+div.radwindow_Vista table.titlebarcontrols ul.controlbuttons li a.maximizebutton
+{
+	background: transparent url('Window/ControlButtons.gif') no-repeat -56px top;
+}
+
+div.radwindow_Vista a.maximizebutton:hover
+{
+	background: transparent url('Window/ControlButtons.gif') no-repeat -56px -15px !important;
+}
+
+/* close button */
+div.radwindow_Vista a.closebutton
+{
+	background: transparent url('Window/ControlButtons.gif') no-repeat -84px top;
+}
+
+div.radwindow_Vista a.closebutton:hover
+{
+	background: transparent url('Window/ControlButtons.gif') no-repeat -84px -15px;
+}
+
+/* restore button */
+div.radwindow_Vista.maximizedwindow a.maximizebutton,
+div.radwindow_Vista.minimizedwindow a.minimizebutton
+{
+	background: transparent url('Window/ControlButtons.gif') no-repeat -28px top !important;
+}
+
+div.radwindow_Vista.maximizedwindow a.maximizebutton:hover,
+div.radwindow_Vista.minimizedwindow a.minimizebutton:hover
+{	
+	background: transparent url('Window/ControlButtons.gif') no-repeat -28px -15px !important;
+}
+
+div.radwindow_Vista table.titlebarcontrols a.windowicon
+{
+	background: transparent url('Window/Icon.gif') no-repeat left top;
+	width: 16px; height: 16px;
+	cursor: default;
+	margin: 3px 0 3px 2px;
+}
+
+div.radwindow_Vista table.titlebarcontrols em
+{
+	font-style: normal;
+	font: normal 12px Verdana, Arial, sans-serif;
+	color: black;	
+	padding: 6px 0 0 4px;
+}
+
+div.radwindow_Vista.minimizedwindow,
+div.radwindow_Vista.minimizedwindow .corner
+{
+	background: url('Window/MinimizedParts.gif') !important;
+	height: 30px !important;
+}
+
+div.radwindow_Vista.minimizedwindow
+{
+	background-position: 0 -30px !important;
+	background-repeat: repeat-x;
+}
+
+div.radwindow_Vista.minimizedwindow:hover
+{
+	background-position: 0 -90px !important;
+	background-repeat: repeat-x;
+}
+
+div.radwindow_Vista.minimizedwindow
+{
+	width: 180px !important;
+}
+
+div.radwindow_Vista.minimizedwindow .corner.topleft
+{
+	background-position: 0 0 !important;
+}
+
+div.radwindow_Vista.minimizedwindow .corner.topright
+{
+	background-position: -10px 0 !important;
+}
+
+div.radwindow_Vista.minimizedwindow:hover .corner.topleft
+{
+	background-position: 0 -60px !important;
+}
+
+div.radwindow_Vista.minimizedwindow:hover .corner.topright
+{
+	background-position: -10px -60px !important;
+}
+
+.radwindow_Vista.minimizedwindow .windowicon
+{
+	margin: 10px 0 0 0 !important;
+}
+
+.radwindow_Vista.minimizedwindow .controlbuttons
+{
+	margin: 8px 0 0 0 !important;
+}
+
+/* overlay element should be minimized when the window is minimized */
+iframe.minimizedwindowoverlay_Vista
+{
+	/* take into account the borders of the main DIV of the window when setting width/height */
+	width: 152px !important; 
+	height: 28px !important;
+}
+
+div.radwindow.radwindow_Vista.minimizedwindow table.titlebarcontrols 
+{
+	width: 150px !important;
+    position: relative; 
+    top: -4px;
+}
+
+div.radwindow_Vista.minimizedwindow em
+{
+	color: white !important;
+	width: 58px !important;
+}
+
+div.radwindow_Vista.minimizedwindow td.corner
+{
+	cursor: default;
+}
+
+div.radwindow_Vista.minimizedwindow td.corner.topleft,
+div.radwindow_Vista.minimizedwindow td.corner.topright
+{
+	background: none;
+	width: 10px !important;
+}
+
+div.radwindow_Vista.minimizedwindow td.titlebar,
+div.radwindow_Vista.minimizedwindow:hover td.titlebar
+{
+	background: none;
+	cursor: default !important;
+}
+
+div.radwindow_Vista .windowcontent .windowpopup
+{
+	margin:16px;
+	font:normal 11px Arial;
+	color:black;	
+	padding:0px 0px 16px 50px;
+}
+
+div.radwindow_Vista .windowcontent .windowpopup.radalert
+{
+	background: transparent url('Window/ModalDialogAlert.gif') no-repeat 8px center;
+}
+
+div.radwindow_Vista .windowcontent .windowpopup.radprompt
+{
+	padding: 0;
+	
+}
+
+div.radwindow_Vista .windowcontent .windowpopup.radconfirm
+{
+	background: transparent url('Window/ModalDialogConfirm.gif') no-repeat 8px center;	
+}
+
+
+div.radwindow_Vista .windowcontent  input.dialoginput
+{
+	border: solid 1px #666;
+	padding: 3px 4px 0 4px;
+	height: 17px;
+	background: transparent url('<%=WebResource("Telerik.Web.UI.Skins.Vista.Window.ModalDialogButtonSprites.gif') repeat-x 0 -44px;
+	width: 100%;
+	font: normal 11px Verdana, Arial, Sans-serif;
+}
+
+div.radwindow_Vista .windowcontent   a,
+div.radwindow_Vista .windowcontent   a span
+{
+	text-decoration: none;
+	color: black;
+	line-height: 22px;
+	cursor: default;
+}
+
+div.radwindow_Vista .windowcontent a.radwindowbutton
+{
+	background: transparent url('Window/ModalDialogButtonSprites.gif') no-repeat 0 0; 
+	padding: 0 0 0 3px;
+	margin: 8px 8px 8px 0;
+}
+
+div.radwindow_Vista .windowcontent a.radwindowbutton span.outerspan
+{
+	background: transparent url('Window/ModalDialogButtonSprites.gif') no-repeat right 0;
+	padding: 0 3px 0 0;
+}
+
+div.radwindow_Vista .windowcontent a.radwindowbutton span.innerspan
+{
+	background: white url('Window/ModalDialogButtonSprites.gif') repeat-x 0 -22px;
+	padding: 0 12px;
+}
+
+div.radwindow_Vista .windowcontent a.radwindowbutton:hover
+{
+	background: transparent url('Window/ModalDialogButtonSprites.gif') no-repeat 0 -64px; 
+	padding: 0 0 0 3px;
+	margin: 8px 8px 8px 0;
+}
+
+div.radwindow_Vista .windowcontent a.radwindowbutton:hover span.outerspan
+{
+	background: transparent url('Window/ModalDialogButtonSprites.gif') no-repeat right -64px;
+	padding: 0 3px 0 0;
+}
+
+div.radwindow_Vista .windowcontent a.radwindowbutton:hover span.innerspan
+{
+	background: white url('Window/ModalDialogButtonSprites.gif') repeat-x 0 -86px;
+	padding: 0 12px;
+}
+
+div.modaldialogbacgkround
+{
+	background: black;
+}
+
+/* set window transparency */
+div.radwindow.radwindow_Vista.normalwindow.transparentwindow td.corner,
+div.radwindow.radwindow_Vista.normalwindow.transparentwindow td.titlebar,
+div.radwindow.radwindow_Vista.transparentwindow td.footercenter
+{
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80);
+	opacity: .8; -moz-opacity: .8;
+}
+
+div.radwindow_Vista .topresize
+{
+    background: transparent url('Window/TitleBar.gif') repeat-x;
+}
+
+div.radwindow_Vista.minimizedwindow .controlbuttons
+{
+	width: 60px !important;
+	float: left !important;
+	position: relative;
+	left: 20px;
+}
+
+div.radwindow_Vista.minimizedwindow em
+{
+	margin: 6px 0 0 0 !important;
+}

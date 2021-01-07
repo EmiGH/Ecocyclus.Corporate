@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Condesus.EMS.Business.NT.Entities.NotificationConfiguration">
+    <Position X="2.75" Y="0.75" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAEAAAIIAAEAAAAAACAACAQAAAAEAAIA=</HashCode>
+      <FileName>NT - Notification\Code\Entities\NotificationConfiguration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.NT.Entities.NotificationMessage">
+    <Position X="9.25" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IgAAAAAAAAAAAAAAAIABAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NT - Notification\Code\Entities\NotificationMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.NT.Entities.NotificationMessageDocumentExpiration">
+    <Position X="11.75" Y="9.5" Width="3" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAIABAAAAAAAIAACAAAAAAAAAAgA=</HashCode>
+      <FileName>NT - Notification\Code\Entities\NotificationMessageDocumentExpiration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.NT.Entities.NotificationMessageTaskOverdue">
+    <Position X="8.75" Y="9.5" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAIABAAAAAAAIAACAAAAAAAAAAgA=</HashCode>
+      <FileName>NT - Notification\Code\Entities\NotificationMessageTaskOverdue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.NT.Entities.NotificationRecipient">
+    <Position X="16.5" Y="1" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAEAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>NT - Notification\Code\Entities\NotificationRecipient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.NT.Entities.NotificationRecipientEmail">
+    <Position X="15.25" Y="3.75" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NT - Notification\Code\Entities\NotificationRecipientEmail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.NT.Entities.NotificationRecipientPerson">
+    <Position X="18" Y="3.75" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AIAAQAAAACAAAAACAAAAYAACAAAAAAAAAAAAABAAIAQ=</HashCode>
+      <FileName>NT - Notification\Code\Entities\NotificationRecipientPerson.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.NT.Entities.NotificationMessageTransformationError">
+    <Position X="5.25" Y="9.5" Width="3" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAIABAAAABAAIAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>NT - Notification\Code\Entities\NotificationMessageTransformationError.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

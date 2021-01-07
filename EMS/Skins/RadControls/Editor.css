@@ -1,0 +1,1608 @@
+.radeditor table
+{
+	border: 0;
+	table-layout: fixed;
+}
+
+.radeditor table table
+{
+	border: 0;
+	table-layout:auto;
+}
+
+.radeditor table td
+{
+	vertical-align: top;
+	padding: 0; margin: 0;
+}
+
+.rade_module input
+{
+  border:1px solid #ccc;
+}
+
+.rade_toolbar
+{
+	list-style: none !important;
+	padding: 0; 
+	margin: 0;
+	float: left;
+}
+
+.rade_toolbar li
+{
+	float: left;
+}
+
+.rade_tlbVertical .rade_dropdown span
+{
+	display: none;
+}
+
+.rade_tlbVertical ul,
+.rade_tlbVertical ul li
+{
+	float: none !important;
+}
+
+.rade_tlbVertical .rade_toolbar
+{
+	float:none !important;
+}
+
+.rade_tlbVertical ul
+{
+	width:100%;	
+}
+
+.rade_tlbVertical a
+{
+	width:auto;
+}
+
+.rade_tlbVertical a span
+{
+	float: left;
+	width: 22px;
+}
+
+.rade_button_text
+{
+	font: normal 11px Arial, Verdana, Sans-serif;
+	color: black;
+	line-height: 22px;
+	padding: 0 4px 0 0;
+	margin: 0 0 0 2px;
+	white-space: nowrap; 
+	width: auto;
+	background: none !important;
+	float: left;
+}
+
+.rade_toolbar li a,
+.rade_toolbar li a span
+{
+	display: block;
+	text-decoration: none;
+	cursor: pointer; cursor: default;
+}
+
+.rade_tool_disabled
+{
+	filter: alpha(opacity=40);
+	opacity: .4; -moz-opacity: .4;
+}
+
+.rade_tool_disabled,
+.rade_tool_disabled span
+{
+	
+}
+
+.rade_dropdown span
+{
+	background: none;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.rade_grip
+{
+	 font-size: 1px;
+}
+
+.rad_splitbutton span
+{
+	float: left;
+}
+
+.split_arrow
+{
+	float: right !important;
+}
+
+
+.rade_separator
+{
+	font-size: 1px;
+}
+
+.rade_dropDownBody .rade_tlbVertical .rade_toolbar .rade_tool_text
+{
+    _display: block;
+}
+
+/* =================================== More Common Styles =================================== */
+/* LAST EDITED: November 28, 2007 */
+.rade_toolbar li .rade_tool_text span
+{
+	float: left;
+	cursor: default;
+}
+
+.rade_toolbar li .rade_tool_text
+{
+	display: block;
+	_display: inline; /* IE6 double margins fix */
+	float: left;	
+	cursor: default;
+	text-decoration: none;
+}
+
+.rade_toolbar li .rade_tool_text .rade_button_text
+{
+	background-image: none;
+	width: auto;
+}
+
+.rade_toolbarWrapper
+{
+	float: left;	
+	height: auto;
+}
+
+.rade_toolZone .rade_toolbarWrapper
+{
+	background: transparent;
+	float: none;
+	clear: both;
+}
+
+.rade_AjaxSpellCheckSuggestions table
+{
+    width: 100%;    
+}
+
+.rade_AjaxSpellCheckSuggestions td
+{
+   width: 100% !important;
+}
+
+.rade_AlignmentSelector
+{
+	float: left;
+}
+
+.rade_AlignmentSelector table,
+.rade_AlignmentSelector td
+{
+	padding: 0px !important;
+	text-align:center;
+}
+
+.rade_AlignmentSelector div
+{
+	cursor: default;
+}
+
+.rade_module_visible_icon,
+.rade_module_hidden_icon
+{
+	display: block;
+	float: left;
+	border: 0 !important;
+}
+
+.rade_module_hidden_icon
+{
+	display: block;
+	float: left;
+	border: 0 !important;
+	background: url('Editor/CommandSprites.gif') no-repeat -1695px center !important;
+}
+
+.rade_module_visible_icon
+{
+	display: block;
+	float: left;
+	border: 0 !important;
+	background: url('Editor/CommandSprites.gif') no-repeat -4645px center !important;
+}
+
+a.rade_module_domlink
+{
+	outline: 0;
+}	
+
+a.rade_module_domlink_selected
+{
+	text-decoration: none;
+}
+
+.rade_ajaxspell_addicon,
+.rade_ajaxspell_ignoreicon,
+.rade_ajaxspell_okicon,
+.rade_loading
+{
+    float: left;
+}
+
+button.rade_ajaxspell_okicon
+{
+    float: none;
+}
+
+.rade_ajaxspell_wrapper button
+{
+	width: auto;
+}
+
+div.rade_editorModes ul,
+div.rade_editorModes ul li
+{
+	padding: 0;
+	margin: 0;
+	list-style: none !important;
+	float: left;
+}
+
+div.rade_editorModes a
+{
+	text-indent: -9999px;
+	outline: none;
+}
+
+div.rade_editorModes a,
+div.rade_editorModes a span
+{
+	display: block;
+	cursor: pointer;
+	float: left;
+}
+
+div.rade_editorModes a span
+{
+	display: inline; /* IE6 double margin fix */
+}
+
+.rade_dropDownBody
+{
+	overflow: auto;
+	overflow-x: hidden;
+}
+
+.rade_dropDownBody .rade_toolbar,
+.rade_dropDownBody .rade_tlbVertical .rade_toolbar
+{
+    height: auto;
+}
+
+.rade_dropDownBody table
+{
+	padding: 0; margin: 0; border: 0;
+}
+
+.rade_dropDownBody table td
+{
+	cursor:default;
+}
+
+.rade_ColorPicker
+{
+	-moz-user-select: none;
+}
+
+.rade_ColorPicker table
+{
+	border-collapse: collapse;
+}
+
+.rade_ColorPicker table td
+{
+	border:0;
+}
+
+.rade_ColorPicker .rade_ColorPickerFooter
+{
+	overflow: hidden; /* IE6 fix */
+}
+
+.rade_ColorPicker span
+{
+	display: block;
+	text-align: center;
+	float: left;
+	cursor: default;
+}
+
+.rade_InsertSymbol table td
+{
+	text-align: center;
+	overflow: hidden;
+	vertical-align: middle;
+}
+
+.rade_InsertTable table
+{
+	float: left;
+	cursor: default;	
+}
+
+.rade_InsertTable .rade_tlbVertical li
+{
+	float: left !important;
+}
+
+.rade_InsertTable .rade_tlbVertical li a,
+.rade_InsertTable .rade_tlbVertical .rade_toolbar a.rade_tool_disabled
+{
+    outline: none;
+}
+
+.rade_InsertTable .rade_tlbVertical li a .rade_button_text
+{
+	text-decoration: none;
+	cursor: default;
+}
+
+.rade_InsertTable .rade_tlbVertical li a .rade_button_text:hover
+{
+	cursor: pointer !important;
+}
+
+.rade_InsertTable .rade_tlbVertical ul
+{
+	float: left;
+	clear: left;
+	padding: 0;
+	margin: 0;
+}
+
+.rade_UndoRedo table
+{
+	border-collapse: collapse;
+}
+
+.rade_UndoRedo table td,
+.rade_UndoRedo table td.rade_itemOver
+{
+	border: 0 !important;
+	margin: 0 !important;
+}
+
+.rade_ApplyClass span
+{
+	font-size: 1px;
+	display: block; 
+	float: left;
+}
+
+ul.rade_CustomLinks,
+ul.rade_CustomLinks ul
+{
+	list-style: none !important;
+	padding: 0;
+	margin: 0;
+	cursor: default;
+}
+
+ul.rade_CustomLinks li ul
+{
+	margin-left: 12px !important;
+}
+
+.rade_dropDownBody .rade_CustomLinks a
+{
+    text-decoration: none;	
+}
+
+.rade_dropDownBody .rade_CustomLinks a:hover
+{
+    cursor: pointer;
+}
+
+ul.rade_CustomLinks li
+{
+	clear: both;
+	text-align:left;
+}
+
+ul.rade_CustomLinks span,
+ul.rade_CustomLinks a
+{
+	display: block;
+	float: left;
+}
+
+ul.rade_CustomLinks .rade_CustomLinksIcon
+{
+	font-size: 1px;
+}
+
+ul.rade_CustomLinks .rade_CustomLinksIcon.rade_icon_empty
+{
+	cursor: default;
+}
+
+.rade_toolbar
+{	
+	float: left;	
+}
+
+* html .radeditor
+{
+	background-image: none !important;
+}
+
+.rade_tlbVertical .rade_toolbar,
+.rade_dropDownBody .rade_tlbVertical .rade_toolbar li
+{
+    height: auto;	
+}
+
+.rade_dropDownBody .rade_tlbVertical .rade_toolbar .rade_tool_text
+{	
+	clear: both;
+	float: none;
+	width: 100% !important;
+}
+
+.rade_dropDownBody .rade_tlbVertical .rade_toolbar .rade_tool_disabled,
+.rade_dropDownBody .rade_tlbVertical .rade_toolbar .rade_tool_disabled:hover,
+.rade_dropDownBody .rade_tlbVertical .rade_toolbar .rade_tool_disabled:active,
+.rade_dropDownBody .rade_tlbVertical .rade_toolbar .rade_tool_disabled:focus
+{
+	opacity: 1;
+	-moz-opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+.rade_dropDownBody .rade_tlbVertical .rade_toolbar .rade_tool_disabled span
+{
+	opacity: 0.4;
+	-moz-opacity: 0.4;
+	filter: alpha(opacity=40);	
+}
+
+/* IE 6 and IE 7 have different behavior when showing with AJAX */
+.rade_toolbar .rade_dropdown
+{
+	width: auto;
+	_width: 20px;
+}
+
+/* =================================== / More Common Styles =================================== */
+
+*html .radwindow.normalwindow.transparentwindow .rade_dropdown
+{
+    _height: 18px !important;
+    _padding-top: 0 !important;
+    _padding-bottom: 0 !important;
+    _overflow-y: hidden !important;
+}
+
+.dialogtoolbar
+{
+    width: 1240px !important;
+    overflow: hidden !important;
+}
+
+.rade_dropDownBody  .rade_tool_text.rade_tool_selected,
+.rade_dropDownBody  .rade_tool_text
+{
+    _margin: 0 !important;
+}
+
+/* Safari Fix for Table Wizard */
+@media all and (min-width:0px) 
+{
+	body:not(:root:root) .rade_dropDownBody.rade_InsertTable div table td
+	{
+	    width: 13px;
+	    height: 13px;
+	    border: solid 1px #777777;
+	    background: white;
+	}
+	body:not(:root:root) .rade_dropDownBody.rade_InsertTable div table .rade_itemOver
+	{
+	    background: #eaeaea;
+	}
+}
+
+td.rade_tlbVertical .rade_toolbar .rade_dropdown,
+td.rade_tlbVertical .rade_toolbar .rade_dropdown:hover
+{
+    _width: 5px !important;
+}
+
+td.rade_tlbVertical .rade_toolbar .split_arrow
+{
+    display: none !important;
+}
+
+td.rade_tlbVertical .rade_toolbar li
+{
+    clear: both !important;
+}
+
+/* new Spinbox implementation. Remember to remove the old one above */
+.rade_SpinBox td
+{
+    padding: 0 !important;
+}
+
+.rade_SpinBox input
+{
+	display: block;
+	float: left;
+	width: 32px;
+	height: 18px;
+	line-height: 18px;
+	border-right: 0 !important;
+	text-align: right;
+	padding-right: 2px;
+}
+
+.rade_SpinBox a
+{
+	display: block;
+	width: 9px;
+	height: 11px;
+	line-height: 11px;
+	font-size: 1px;
+	background: url('Widgets/TableWizardSpites.gif') no-repeat;
+	text-indent: -9999px;
+	cursor: pointer;
+	cursor: default;
+}
+
+.rade_SpinBox .rade_SpinBoxIncrease
+{
+	background-position: 0 -321px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-321px;
+}
+
+.rade_SpinBox .rade_SpinBoxIncrease:hover
+{
+	background-position: -9px -321px;
+	-ms-background-position-x:-9px;
+	-ms-background-position-y:-321px;
+}
+
+.rade_SpinBox .rade_SpinBoxDecrease
+{
+	background-position: 0 -331px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-331px;
+}
+
+.rade_SpinBox .rade_SpinBoxDecrease:hover
+{
+	background-position: -9px -331px;
+	-ms-background-position-x:-9px;
+	-ms-background-position-y:-331px;
+}
+
+.rade_TableWizardSpinBox
+{
+	font: normal 12px Arial, Verdana, Sans-serif;
+	color: black;
+	-moz-user-select: none;
+}
+
+.rade_TableWizardSpinBox a
+{
+	margin: 1px;
+	outline: none;
+}
+
+.rade_TableWizardSpinBox a,
+.rade_TableWizardSpinBox a span
+{
+	display: block;
+	width: 23px;
+	height: 22px;
+	cursor: pointer;
+	cursor: hand;
+	background-repeat: no-repeat;
+	
+}
+
+.rade_TableWizardSpinBox a:hover
+{
+	background-image: url('Widgets/rade_TableWizardSpinBox.gif');
+}
+
+.rade_TableWizardSpinBox a span
+{
+	text-indent: -9999px;
+	background-image: url('Widgets/rade_TableWizardSpinBox.gif');
+}
+
+.rade_TableWizardSpinBox .rade_TableWizardSpinBox_Increase
+{
+	background-position: 0 -21px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-21px;
+}
+
+.rade_TableWizardSpinBox .rade_TableWizardSpinBox_Decrease
+{
+	background-position: 0 -42px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-42px;
+}
+
+/* COMMANDS BEGIN */
+
+.SilverlightManager
+{
+	/* waiting for icon */
+}
+
+.CustomDialog
+{
+	background-position: -1448px center;
+	-ms-background-position-x:-1448px;
+	-ms-background-position-y:center;
+}
+
+.FileSave,
+.FileSaveAs,
+.Save,
+.SaveLocal
+{
+	background-position: -1407px center;
+	-ms-background-position-x:-1407px;
+	-ms-background-position-y:center;
+}
+
+.AboutDialog
+{
+	background-position: -6px center;
+	-ms-background-position-x:-6px;
+	-ms-background-position-y:center;
+}
+
+.AbsolutePosition
+{
+	background-position: -47px center;
+	-ms-background-position-x:-47px;
+	-ms-background-position-y:center;
+}
+
+.AjaxSpellCheck
+{
+	background-position: -88px center;
+	-ms-background-position-x:-88px;
+	-ms-background-position-y:center;
+}
+
+.BackColor,
+.borderColor,
+.bgColor
+{
+	background-position: -1368px center;
+	-ms-background-position-x:-1368px;
+	-ms-background-position-y:center;
+}
+
+.Bold
+{
+	background-position: -127px center;
+	-ms-background-position-x:-127px;
+	-ms-background-position-y:center;
+}
+
+.Cut
+{
+	background-position: -206px center;
+	-ms-background-position-x:-206px;
+	-ms-background-position-y:center;
+}
+
+.Copy
+{
+	background-position: -167px center;
+	-ms-background-position-x:-167px;
+	-ms-background-position-y:center;
+}
+
+.DocumentManager,
+.InsertDocument
+{
+	background-position: -246px center;
+	-ms-background-position-x:-246px;
+	-ms-background-position-y:center;
+}
+
+.FindAndReplace
+{
+	background-position: -287px center;
+	-ms-background-position-x:-287px;
+	-ms-background-position-y:center;
+}
+
+.FlashManager,
+.InsertFlash
+{
+	background-position: -327px center;
+	-ms-background-position-x:-327px;
+	-ms-background-position-y:center;
+}
+
+.ForeColor
+{
+	background-position: -367px center;
+	-ms-background-position-x:-367px;
+	-ms-background-position-y:center;
+}
+
+.FormatCodeBlock
+{
+	background-position: -406px center;
+	-ms-background-position-x:-406px;
+	-ms-background-position-y:center;
+}
+
+.Help
+{
+	background-position: -447px center;
+	-ms-background-position-x:-447px;
+	-ms-background-position-y:center;
+}
+
+.ImageManager,
+.InsertImage
+{
+	background-position: -487px center;
+	-ms-background-position-x:-487px;
+	-ms-background-position-y:center;
+}
+
+.ImageMapDialog
+{
+	background-position: -527px center;
+	-ms-background-position-x:-527px;
+	-ms-background-position-y:center;
+}
+
+.Indent
+{
+	background-position: -568px center;
+	-ms-background-position-x:-568px;
+	-ms-background-position-y:center;
+}
+
+.InsertParagraph
+{
+	background-position: -606px center;
+	-ms-background-position-x:-606px;
+	-ms-background-position-y:center;
+}
+
+.Italic
+{
+	background-position: -647px center;
+	-ms-background-position-x:-647px;
+	-ms-background-position-y:center;
+}
+
+.StrikeThrough
+{
+	background-position: -4446px center;
+	-ms-background-position-x:-4446px;
+	-ms-background-position-y:center;
+}
+
+.JustifyCenter
+{
+	background-position: -688px center;
+	-ms-background-position-x:-688px;
+	-ms-background-position-y:center;
+}
+
+.JustifyFull
+{
+	background-position: -729px center;
+	-ms-background-position-x:-729px;
+	-ms-background-position-y:center;
+}
+
+.JustifyLeft
+{
+	background-position: -767px center;
+	-ms-background-position-x:-767px;
+	-ms-background-position-y:center;
+}
+
+.JustifyNone
+{
+	background-position: -807px center;
+	-ms-background-position-x:-807px;
+	-ms-background-position-y:center;
+}
+
+.JustifyRight
+{
+	background-position: -848px center;
+	-ms-background-position-x:-848px;
+	-ms-background-position-y:center;
+}
+
+.LinkManager,
+.CreateLink,
+.CustomLinkTool,
+.SetLinkProperties
+{
+	background-position: -886px center;
+	-ms-background-position-x:-886px;
+	-ms-background-position-y:center;
+}
+
+.MediaManager,
+.InsertMedia
+{
+	background-position:  -926px center;
+	-ms-background-position-x:-926px;
+	-ms-background-position-y:center;
+}
+
+.Outdent
+{
+	background-position: -968px center;
+	-ms-background-position-x:-968px;
+	-ms-background-position-y:center;
+}
+
+.PageProperties
+{
+	background-position: -1007px center;
+	-ms-background-position-x:-1007px;
+	-ms-background-position-y:center;
+}
+
+.Paste,
+.PasteStrip
+{
+	background-position: -1047px center;
+	-ms-background-position-x:-1047px;
+	-ms-background-position-y:center;
+}
+
+.PasteAsHtml,
+.PasteHtml
+{
+	background-position: -1086px center;
+	-ms-background-position-x:-1086px;
+	-ms-background-position-y:center;
+}
+
+.PasteFromWord
+{
+	background-position: -1126px center;
+	-ms-background-position-x:-1126px;
+	-ms-background-position-y:center;
+}
+
+.PasteFromWordNoFontsNoSizes
+{
+	background-position: -1166px center;
+	-ms-background-position-x:-1166px;
+	-ms-background-position-y:center;
+}
+
+.PastePlainText
+{
+	background-position: -1207px center;
+	-ms-background-position-x:-1297px;
+	-ms-background-position-y:center;
+}
+
+.Print
+{
+	background-position: -1248px center;
+	-ms-background-position-x:-1248px;
+	-ms-background-position-y:center;
+}
+
+.Redo
+{
+	background-position: -1287px center;
+	-ms-background-position-x:-1287px;
+	-ms-background-position-y:center;
+}
+
+.Undo
+{
+	background-position: -1327px center;
+	-ms-background-position-x:-1327px;
+	-ms-background-position-y:center;
+}
+
+.SetImageProperties
+{
+	background-position: -1487px center;
+	-ms-background-position-x:-1487px;
+	-ms-background-position-y:center;
+}
+
+.ConvertToLower
+{
+	background-position: -1528px center;
+	-ms-background-position-x:-1528px;
+	-ms-background-position-y:center;
+}
+
+.ConvertToUpper
+{
+	background-position: -1567px center;
+	-ms-background-position-x:-1567px;
+	-ms-background-position-y:center;
+}
+
+.BringToFront
+{
+	background-position: -1606px center;
+	-ms-background-position-x:-1606px;
+	-ms-background-position-y:center;
+}
+
+.AlignmentSelector
+{	
+	background-position: -1647px center;
+	-ms-background-position-x:-1647px;
+	-ms-background-position-y:center;
+}
+
+.Cancel
+{
+	background-position: -1687px center;
+	-ms-background-position-x:-1687px;
+	-ms-background-position-y:center;
+}
+
+.Custom,
+.ViewHtml
+{
+	background-position: -1728px center;
+	-ms-background-position-x:-1728px;
+	-ms-background-position-y:center;
+}
+
+.DeleteCell
+{
+	background-position: -1767px center;
+	-ms-background-position-x:-1767px;
+	-ms-background-position-y:center;
+}
+
+.DeleteColumn
+{
+	background-position: -1806px center;
+	-ms-background-position-x:-1806px;
+	-ms-background-position-y:center;
+}
+
+.DeleteRow
+{
+	background-position: -1846px center;
+	-ms-background-position-x:-1846px;
+	-ms-background-position-y:center;
+}
+
+.DecreaseSize
+{
+	background-position: -1886px center;
+	-ms-background-position-x:-1886px;
+	-ms-background-position-y:center;
+}
+
+.DeleteTable
+{
+	background-position: -1927px center;
+	-ms-background-position-x:-1927px;
+	-ms-background-position-y:center;
+}
+
+.FileOpen
+{
+	background-position: -1967px center;
+	-ms-background-position-x:-1967px;
+	-ms-background-position-y:center;
+}
+
+.InsertCodeSnippet
+{
+	background-position: -2006px center;
+	-ms-background-position-x:-2006px;
+	-ms-background-position-y:center;
+}
+
+.IncreaseSize
+{
+	background-position: -2046px center;
+	-ms-background-position-x:-2046px;
+	-ms-background-position-y:center;
+}
+
+.InsertAnchor
+{
+	background-position: -2086px center;
+	-ms-background-position-x:-2086px;
+	-ms-background-position-y:center;
+}
+
+.InsertColumnLeft
+{
+	background-position: -2126px center;
+	-ms-background-position-x:-2126px;
+	-ms-background-position-y:center;
+}
+
+.InsertColumnRight
+{
+	background-position: -2166px center;
+	-ms-background-position-x:-1327px;
+	-ms-background-position-y:center;
+}
+
+.InsertDate
+{
+	background-position: -2207px center;
+	-ms-background-position-x:-2207px;
+	-ms-background-position-y:center;
+}
+
+.InsertEmailLink
+{
+	background-position: -2246px center;
+	-ms-background-position-x:-2246px;
+	-ms-background-position-y:center;
+}
+
+.InsertFormButton,
+.InsertFormReset,
+.InsertFormSubmit
+{
+	background-position: -2288px center;
+	-ms-background-position-x:-2288px;
+	-ms-background-position-y:center;
+}
+
+.InsertFormCheckbox
+{
+	background-position: -2327px center;
+	-ms-background-position-x:-2327px;
+	-ms-background-position-y:center;
+}
+
+.InsertFormElement
+{
+	background-position: -2367px center;
+	-ms-background-position-x:-2367px;
+	-ms-background-position-y:center;
+}
+
+.InsertFormForm
+{
+	background-position: -2406px center;
+	-ms-background-position-x:-2406px;
+	-ms-background-position-y:center;
+}
+
+.InsertFormHidden
+{
+	background-position: -2447px center;
+	-ms-background-position-x:-2447px;
+	-ms-background-position-y:center;
+}
+
+.InsertFormImageButton
+{
+	background-position: -2486px center;
+	-ms-background-position-x:-2486px;
+	-ms-background-position-y:center;
+}
+
+.InsertFormPassword
+{
+	background-position: -2526px center;
+	-ms-background-position-x:-2426px;
+	-ms-background-position-y:center;
+}
+
+.InsertFormRadio
+{
+	background-position: -2568px center;
+	-ms-background-position-x:-2568px;
+	-ms-background-position-y:center;
+}
+
+.InsertFormSelect
+{
+	background-position: -2608px center;
+	-ms-background-position-x:-2608px;
+	-ms-background-position-y:center;
+}
+
+.InsertFormText
+{
+	background-position: -2647px center;
+	-ms-background-position-x:-2647px;
+	-ms-background-position-y:center;
+}
+
+.InsertFormTextarea
+{
+	background-position: -2688px center;
+	-ms-background-position-x:-2688px;
+	-ms-background-position-y:center;
+}
+
+.InsertGroupbox
+{
+	background-position: -2728px center;
+	-ms-background-position-x:-2728px;
+	-ms-background-position-y:center;
+}
+
+.InsertHorizontalRule
+{
+	background-position: -2768px center;
+	-ms-background-position-x:-2768px;
+	-ms-background-position-y:center;
+}
+
+.InsertOrderedList
+{
+	background-position: -2808px center;
+	-ms-background-position-x:-2808px;
+	-ms-background-position-y:center;
+}
+
+.InsertRowAbove
+{
+	background-position: -2847px center;
+	-ms-background-position-x:-2847px;
+	-ms-background-position-y:center;
+}
+
+.InsertRowBelow
+{
+	background-position: -2886px center;
+	-ms-background-position-x:-2886px;
+	-ms-background-position-y:center;
+}
+
+.InsertSnippet
+{
+	background-position: -2927px center;
+	-ms-background-position-x:-2927px;
+	-ms-background-position-y:center;
+}
+
+.InsertSymbol
+{
+	background-position: -2967px center;
+	-ms-background-position-x:-2967px;
+	-ms-background-position-y:center;
+}
+
+.InsertTable,
+.TableWizard
+{
+	background-position: -3006px center;
+	-ms-background-position-x:-3006px;
+	-ms-background-position-y:center;
+}
+
+.InsertTime
+{
+	background-position: -3047px center;
+	-ms-background-position-x:-3047px;
+	-ms-background-position-y:center;
+}
+
+.InsertUnorderedList
+{
+	background-position: -3087px center;
+	-ms-background-position-x:-3087px;
+	-ms-background-position-y:center;
+}
+
+.MergeColumns
+{
+	background-position: -3127px center;
+	-ms-background-position-x:-3127px;
+	-ms-background-position-y:center;
+}
+
+.MergeRows
+{
+	background-position: -3167px center;
+	-ms-background-position-x:-3167px;
+	-ms-background-position-y:center;
+}
+
+.ModuleManager
+{
+	background-position: -3207px center;
+	-ms-background-position-x:-3207px;
+	-ms-background-position-y:center;
+}
+
+.RepeatLastCommand
+{
+	background-position: -3248px center;
+	-ms-background-position-x:-3248px;
+	-ms-background-position-y:center;
+}
+
+.SelectAll
+{
+	background-position: -3286px center;
+	-ms-background-position-x:-3286px;
+	-ms-background-position-y:center;
+}
+
+.SendToBack
+{
+	background-position: -3326px center;
+	-ms-background-position-x:-3326px;
+	-ms-background-position-y:center;
+}
+
+.SetCellProperties,
+.SetTableProperties
+{
+	background-position: -3366px center;
+	-ms-background-position-x:-3366px;
+	-ms-background-position-y:center;
+}
+
+.XhtmlValidator
+{
+	background-position: -3407px center;
+	-ms-background-position-x:-3407px;
+	-ms-background-position-y:center;
+}
+
+.TrackChangesDialog
+{
+	background-position: -3445px center;
+	-ms-background-position-x:-3445px;
+	-ms-background-position-y:center;
+}
+
+.FormatStripper
+{
+	background-position: -3488px center;
+	-ms-background-position-x:-3488px;
+	-ms-background-position-y:center;
+}
+
+.StripAll
+{
+	background-position: -3526px center;
+	-ms-background-position-x:-3526px;
+	-ms-background-position-y:center;
+}
+
+.StripCss
+{
+	background-position: -3568px center;
+	-ms-background-position-x:-3568px;
+	-ms-background-position-y:center;
+}
+
+.StripFont
+{
+	background-position: -3608px center;
+	-ms-background-position-x:-3608px;
+	-ms-background-position-y:center;
+}
+
+.StripSpan
+{
+	background-position: -3648px center;
+	-ms-background-position-x:-3648px;
+	-ms-background-position-y:center;
+}
+
+.StripWord
+{
+	background-position: -3688px center;
+	-ms-background-position-x:-3688px;
+	-ms-background-position-y:center;
+}
+
+.TemplateManager
+{
+	background-position: -3728px center;
+	-ms-background-position-x:-3728px;
+	-ms-background-position-y:center;
+}
+
+.Superscript
+{
+	background-position: -3768px center;
+	-ms-background-position-x:-3768px;
+	-ms-background-position-y:center;
+}
+
+.Subscript
+{
+	background-position: -3807px center;
+	-ms-background-position-x:-3807px;
+	-ms-background-position-y:center;
+}
+
+.Unlink
+{
+	background-position: -3847px center;
+	-ms-background-position-x:-3847px;
+	-ms-background-position-y:center;
+}
+
+.ToggleTableBorder
+{
+	background-position: -3888px center;
+	-ms-background-position-x:-3888px;
+	-ms-background-position-y:center;
+}
+
+.ToggleScreenMode
+{
+	background-position: -3927px center;
+	-ms-background-position-x:-3927px;
+	-ms-background-position-y:center;
+}
+
+.StyleBuilder
+{
+	background-position: -3968px center;
+	-ms-background-position-x:-3968px;
+	-ms-background-position-y:center;
+}
+
+.ToggleFloatingToolbar
+{
+	background-position: -4006px center;
+	-ms-background-position-x:-4006px;
+	-ms-background-position-y:center;
+}
+
+.Underline
+{
+	background-position: -4405px center;
+	-ms-background-position-x:-4405px;
+	-ms-background-position-y:center;
+}
+
+.SplitCell
+{
+	background-position: -4487px center;
+	-ms-background-position-x:-4487px;
+	-ms-background-position-y:center;
+}
+/* COMMAND SPRITES END */
+
+/* ALIGNMENT SELECTOR BEGIN */
+.rade_TopCenter
+{
+	width: 15px;
+	height: 13px;
+	background-position: -4089px -10px;
+	-ms-background-position-x:-4089px;
+	-ms-background-position-y:-10px;
+}
+
+.rade_MiddleLeft
+{
+	width: 15px;
+	height: 13px;
+	background-position: -4172px -10px;
+	-ms-background-position-x:-4172px;
+	-ms-background-position-y:-10px;
+}
+
+.rade_MiddleCenter
+{
+	width: 15px;
+	height: 13px;
+	background-position: -4209px -10px;
+	-ms-background-position-x:-4209px;
+	-ms-background-position-y:-10px;
+}
+
+.rade_MiddleRight
+{
+	width: 15px;
+	height: 13px;
+	background-position: -4251px -10px;
+	-ms-background-position-x:-4251px;
+	-ms-background-position-y:-10px;
+}
+
+.rade_BottomCenter
+{
+	width: 15px;
+	height: 13px;
+	background-position: -4329px -10px;
+	-ms-background-position-x:-4329px;
+	-ms-background-position-y:-10px;
+}
+
+.rade_NoAlignment
+{
+	width: 15px;
+	height: 13px;
+	background-position: -1690px -10px;
+	-ms-background-position-x:-1690px;
+	-ms-background-position-y:-10px;
+}
+
+.rade_TopLeft
+{
+	background-position: -4052px -10px;
+	-ms-background-position-x:-4052px;
+	-ms-background-position-y:-10px;
+}
+
+.rade_TopRight
+{
+	background-position: -4130px -10px;
+	-ms-background-position-x:-4130px;
+	-ms-background-position-y:-10px;
+}
+
+.rade_BottomLeft
+{
+	background-position: -4292px -10px;
+	-ms-background-position-x:-4292px;
+	-ms-background-position-y:-10px;
+}
+
+.rade_BottomRight
+{
+	background-position: -4370px -10px;
+	-ms-background-position-x:-4370px;
+	-ms-background-position-y:-10px;
+}
+/* ALIGNMENT SELECTOR END */
+
+/* CONSTRAIN PROPORTIONS BEGIN */
+li.ConstrainProportions button
+{
+	position: absolute;
+	top: 7px;
+	left: 0;
+	height: 52px;
+	border: 0;
+	background-image: url('Editor/CommandSprites.gif');
+	background-repeat: no-repeat;
+	background-position: -7988px 9px;
+	-ms-background-position-x:-7988px;
+	-ms-background-position-y:9px;
+}
+
+li.ConstrainProportions.toggle button
+{
+	background-position: -7956px 9px;
+	-ms-background-position-x:-7956px;
+	-ms-background-position-y:9px;
+}
+/* CONSTRAIN PROPORTIONS END */
+
+.rade_ajaxspell_addicon,
+.rade_ajaxspell_ignoreicon,
+.rade_ajaxspell_okicon
+{
+    width: 16px !important;
+    height: 16px;
+    border: 0;
+    margin: 2px 4px 0 0;
+    background:url('Editor/CommandSprites.gif') no-repeat;
+}
+
+.rade_ajaxspell_ignoreicon
+{
+	background-position: -4533px center;
+	-ms-background-position-x:-4533px;
+	-ms-background-position-y:center;
+}
+
+.rade_ajaxspell_okicon
+{
+	background-position: -4571px center;
+	-ms-background-position-x:-4571px;
+	-ms-background-position-y:center;
+}
+
+.rade_ajaxspell_addicon
+{
+	background-position: -4610px center;
+	-ms-background-position-x:-4610px;
+	-ms-background-position-y:center;
+}
+
+button.rade_ajaxspell_okicon
+{
+    width: 22px;
+    height: 22px;
+}
+
+.rade_dropDownBody.rade_InsertTable
+{
+	overflow: hidden !important;
+}
+
+.rade_dropDownBody.rade_InsertTable span
+{
+	height: 22px !important;
+}
+
+/* global styles css reset (prevent mode) */
+.radeditor table,
+.rade_toolbar,
+.rade_toolbar li,
+.rade_tlbVertical,
+.rade_dropDownBody ul,
+.rade_dropDownBody ul li,
+.radwindow table,
+.radwindow table td,
+.radwindow table td ul,
+.radwindow table td ul li
+{
+	margin: 0 !important;
+	padding: 0 !important;
+	border: 0 !important;
+	list-style: none !important;
+}
+
+.rade_wrapper_corner,
+.rade_wrapper_center,
+.rade_leftVerticalSide,
+.rade_rightVerticalSide,
+.rade_toolZone,
+.rade_editorModes,
+.rade_resizeCell,
+.rade_toolZone table td,
+.radeditor .rade_toolbar,
+.radeditor .rade_editorModes ul
+{
+	border: 0 !important;
+}
+
+.rade_toolbar li,
+.rade_editorModes ul li,
+.rade_InsertTable .rade_tlbVertical .rade_toolbar li
+{
+	float: left !important;
+	clear: none !important;
+	border: 0 !important;
+}
+
+/* disabled dropdown menu items under Internet Explorer 7 fix */
+.rade_dropDownBody .rade_tlbVertical .rade_toolbar li .rade_tool_text.rade_tool_disabled .rade_button_text
+{
+	width: auto;
+}
+
+ul.rade_CustomLinks ul
+{
+	margin-left: 10px;
+}

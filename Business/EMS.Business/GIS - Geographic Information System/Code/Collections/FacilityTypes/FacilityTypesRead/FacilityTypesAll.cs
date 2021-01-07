@@ -1,0 +1,25 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Condesus.EMS.Business.Security;
+
+namespace Condesus.EMS.Business.GIS.Collections.FacilityTypesRead
+{
+    internal class FacilityTypesAll : ICollectionItems
+    {
+        private Credential _Credential;
+
+        internal FacilityTypesAll(Credential credential)
+        {
+            _Credential = credential;
+        }
+
+        public IEnumerable<System.Data.Common.DbDataRecord> getItems()
+        {
+            DataAccess.GIS.GeographicInformationSystem _dbGeographicInformationSystem = new Condesus.EMS.DataAccess.GIS.GeographicInformationSystem();
+
+            return _dbGeographicInformationSystem.FacilityTypes_ReadAll(_Credential.CurrentLanguage.IdLanguage);
+        }
+    }
+}

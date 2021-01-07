@@ -1,0 +1,220 @@
+﻿/* Docking Zone properties */
+
+.RadDockZone_EMS
+{
+    border:1px solid #a7bac5;
+    padding:4px 0 0 4px;
+}
+
+*>.RadDockZone_EMS.rdVertical /* hidden from IE6 */
+{
+    padding-right:4px;
+}
+
+/* Dock Object properties */
+
+/* wrappers and borders */
+
+.RadDockZone_EMS .rdPlaceHolder
+{
+    border-color:#666;
+}
+
+.RadDock_EMS
+{
+    margin:0 4px 4px 0;
+    /*background:window;*/
+    color:windowtext;
+    text-align:left;
+    overflow:hidden;
+}
+
+.RadDock_EMS .rdTopBorder,
+.RadDock_EMS .rdSideBorders,
+.RadDock_EMS .rdBottomBorder
+{
+    border-width:0px;
+    border-color:#a7bac5;
+}
+.RadDock_EMS .rdSideBorders
+{
+    border-style:none solid none;
+}
+.RadDock_EMS .rdTopBorder
+{
+    border-style:solid none none;
+}
+.RadDock_EMS .rdBottomBorder
+{
+    border-style:none none solid;
+}
+
+/* titlebar and buttons */
+
+.RadDock_EMS .rdTitlebar
+{
+    top:1px; /*brd*/
+    border-style:solid;
+}
+
+.RadDock_EMS .rdHTitlebar .rdTitlebar
+{
+    height:22px;
+    border-width:0 0 1px;
+}
+.RadDock_EMS.rdCollapsed .rdHTitlebar .rdTitlebar
+{
+    padding-bottom:0px; /*brd - title brd*/
+}
+.RadDock_EMS .rdVTitlebar .rdTitlebar
+{
+    left:1px;
+    width:22px;
+    border-width:0 1px 0 0;
+}
+
+.RadDock_EMS .rdTitle
+{
+    font:bold 11px/20px "segoe ui", arial,sans-serif;
+}
+
+.RadDock_EMS .rdHTitlebar .rdTitle
+{
+    padding-left:10px;
+    /*background:url('Dock/rdHTitle.gif') repeat-x;*/
+}
+.RadDock_EMS .rdVTitlebar .rdTitle
+{
+    padding:13px 0 0 8px;
+    background:url('Dock/rdVTitle.gif') repeat-y;
+    line-height:1.4em;
+}
+
+.RadDock_EMS .rdHTitlebar .rdCommands
+{
+    padding:0 3px 0 0;
+}
+
+.RadDock_EMS .rdHTitlebar .rdCommands a
+{
+    margin:0 0 0 0;
+}
+.RadDock_EMS .rdVTitlebar .rdCommands a
+{
+    margin:0 0 0 0;
+}
+
+.RadDock_EMS .rdTitlebar .rdCommands a
+{
+    height:20px;
+    background-repeat:no-repeat;
+    background-position:center center;
+}
+.RadDock_EMS .rdCollapse
+{
+    width:16px;
+    background-image:url('Dock/rdCollapse.gif');
+}
+.RadDock_EMS .rdExpand
+{
+    width:16px;
+    background-image:url('Dock/rdExpand.gif');
+}
+.RadDock_EMS .rdClose
+{
+	display:none;
+    width:16px;
+    background-image:url('Dock/rdClose.gif');
+}
+.RadDock_EMS .rdPin
+{
+    width:16px;
+    background-image:url('Dock/rdPin.gif');
+}
+.RadDock_EMS .rdUnpin
+{
+    width:16px;
+    background:url('Dock/rdUnpin.gif') repeat-x;
+}
+.RadDock_EMS .rdCustom
+{
+    width:16px;
+    background:url('Dock/rdCustom.gif');
+}
+
+/* inner content */
+
+.RadDock_EMS .rdContent
+{
+    top:1px; /*brd*/
+    padding-bottom:1px; /*brd*/
+    font:12px/1.2 "segoe ui",arial,sans-serif;
+}
+
+.RadDock_EMS .rdVTitlebar .rdContent
+{
+    margin-left:24px;
+}
+
+
+/* drag grips */
+
+.RadDock_EMS .rdGripTop,
+.RadDock_EMS .rdGripLeft
+{
+    background:#3c7fb1;
+}
+
+.RadDock_EMS .rdGripTop
+{
+    top:1px; /*brd*/
+    height:3px;
+}
+.RadDock_EMS .rdGripLeft
+{
+    left:1px; /*brd*/
+    width:3px;
+}
+
+.RadDock_EMS .rdWGripLeft .rdContent
+{
+    margin-left:3px;
+}
+
+.RadDock_EMS .rdTopLeft,
+.RadDock_EMS .rdTopRight,
+.RadDock_EMS .rdBottomLeft,
+.RadDock_EMS .rdBottomRight,
+.RadDock_EMS .rdLeftMiddle,
+.RadDock_EMS .rdRightMiddle
+{
+	height: 3px;
+	width: 3px;
+	line-height: 3px;
+	background: #a6d9f4;
+}
+
+.RadDock_EMS .rdTopCenter, 
+.RadDock_EMS .rdBottomCenter 
+{
+	background: #a6d9f4;
+	height: 3px;
+	line-height: 3px;
+}
+
+.RadDock_EMS .rdWrapTable .rdTitlebar,
+.RadDock_EMS .rdWrapTable .rdTitle,
+.RadDock_EMS .rdWrapTable .rdCommands
+{
+    /*background:url(Dock/rdHTitle.gif) repeat-x;*/
+}
+
+.RadDock_EMS .rdWrapTable .rdCommands
+{
+    margin-top: 1px;
+}
+
+.RadDock_Default .rdWrapTable .rdSideBorders.rdHTitlebar
+{
+    border: 0 !important;
+}

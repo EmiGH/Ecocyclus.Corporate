@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Condesus.EMS.Business.IA.Entities.Exception">
+    <Position X="3" Y="2" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAIFAEAASEAECAgEECHBwASgAAAAIEEAQQMQKEABA=</HashCode>
+      <FileName>IA - Improvement Actions\Code\Entities\Exception.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ExceptionState" />
+      <Property Name="ExceptionType" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Condesus.EMS.Business.IA.Entities.ExceptionState">
+    <Position X="9" Y="5.25" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EAAIAAAAAAEAAACAAEAAAAAAAAAAAgAAAAAAgAKEAAA=</HashCode>
+      <FileName>IA - Improvement Actions\Code\Entities\ExceptionState.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="LanguageOption" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Condesus.EMS.Business.IA.Entities.ExceptionState_LG">
+    <Position X="12.5" Y="5.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAACAAAAIAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IA - Improvement Actions\Code\Entities\ExceptionState_LG.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.IA.Entities.ExceptionType">
+    <Position X="9" Y="2.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAEAAABAAAAAAAAAAAAAAgEAAAAA=</HashCode>
+      <FileName>IA - Improvement Actions\Code\Entities\ExceptionType.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="LanguageOption" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Condesus.EMS.Business.IA.Entities.ExceptionType_LG">
+    <Position X="12.25" Y="2.25" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAgAAACAAAAIAQAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>IA - Improvement Actions\Code\Entities\ExceptionType_LG.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.IA.Entities.ExceptionStateOpen" Collapsed="true">
+    <Position X="7" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>IA - Improvement Actions\Code\Entities\ExceptionStateOpen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.IA.Entities.ExceptionStateTreat" Collapsed="true">
+    <Position X="9" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>IA - Improvement Actions\Code\Entities\ExceptionStateTreat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.IA.Entities.ExceptionStateClose" Collapsed="true">
+    <Position X="11.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>IA - Improvement Actions\Code\Entities\ExceptionStateClose.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.IA.Entities.ExceptionProcessTask">
+    <Position X="1" Y="11" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAABAAACBAAAMAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IA - Improvement Actions\Code\Entities\ExceptionProcessTask.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.IA.Entities.ExceptionResourceVersion">
+    <Position X="4.5" Y="11" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IA - Improvement Actions\Code\Entities\ExceptionResourceVersion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

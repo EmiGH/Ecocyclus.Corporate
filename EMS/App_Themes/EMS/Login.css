@@ -1,0 +1,87 @@
+﻿.divLoginBg
+{
+    
+    background-image:url('Images/Login/BgTopCenter.png');
+}
+.divLoginTexture
+{   
+    background-image:url('Images/Login/BgTopTexture.png');
+}
+.divLoginImage
+{    
+    background-image:url('Images/Login/BgImage.png');
+}
+
+.divLoginContainer .divLoginContent .divLoginLogoGhree
+{    
+    background-image:url('Images/Login/LogoGhree.png');
+}
+
+.divLoginContainer .divLoginContent  .input
+{
+    color: #ffffff;
+    
+    background-color: #1369a7;
+    border: solid 1px #3878a0;
+}
+.divLoginContainer .divLoginContent .button
+{    
+    /*background-color: #1453a8;
+    border: solid 1px #60a7d8;*/
+     
+    background-image:url('Images/Login/BgButtonAccess.png');
+}
+.divLoginContainer .divLoginContent .button:hover
+{     
+    background-image:url('Images/Login/BgButtonAccessOver.png');
+}
+
+.divLoginContainer .divLoginContent  span
+{    
+    color: #788dbe;
+   
+}
+.divLoginContainer .divLoginContent  a
+{     
+    color: #788dbe;
+}
+
+.divLoginContainer .divLoginContent .divLoginBgRegister div
+{
+    
+    background-image:url('Images/Login/BgRegister.png');
+}
+
+.divLoginContainer .divLoginContent .divLoginBgRegister span
+{ 
+    color:#fff;
+}
+
+.divLoginContainer .divLoginContent  .divLoginBgRegister .input
+{   
+    color: #ffffff;
+ 
+    background-color: #105e92;
+    border: solid 1px #3e79a2;
+
+}
+.divLoginContainer .divLoginContent .divLoginBgRegister .button
+{ 
+   
+    background-color: #165692;
+    border: solid 1px #4184ae;
+
+    color: #89bced;    
+}
+.divLoginContainer .divLoginContent .divLoginBgRegister .button:hover
+{
+    color:#fff;
+}
+
+
+
+.divLoginContainer .divLoginContent .divContentSlogan
+{
+    background-image:url('Images/Login/BgSlogan.png');
+    color: #89bced;
+}

@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Condesus.EMS.Business.GIS.Entities.Address">
+    <Position X="7.5" Y="2.75" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAABAAAhAgAAEAEBCAAGAAoAAAIAAoggAIAAAA=</HashCode>
+      <FileName>GIS - Geographic Information System\Code\Entities\Address.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Condesus.EMS.Business.GIS.Entities.Facility">
+    <Position X="9.5" Y="6.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>ABAAIAEABAAAAAAAAAAAEAAAAAAAAAAAAAgQAAAAAAA=</HashCode>
+      <FileName>GIS - Geographic Information System\Code\Entities\Facility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.GIS.Entities.Site_LG">
+    <Position X="14.5" Y="1.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAgAAACAAAAIAQAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>GIS - Geographic Information System\Code\Entities\Site_LG.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.GIS.Entities.GeographicArea">
+    <Position X="4" Y="1.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="Addresses" Type="Condesus.EMS.Business.GIS.Entities.Address">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="2.722" Y="1.9" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>MAJIIAIAQAEABAAAAMIUJAAAAAAIAAAkAAAggAIAAAY=</HashCode>
+      <FileName>GIS - Geographic Information System\Code\Entities\GeographicArea.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="LanguageOption" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Addresses" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Condesus.EMS.Business.GIS.Entities.GeographicArea_LG">
+    <Position X="0.5" Y="1.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAgAAACAAAAIAQAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>GIS - Geographic Information System\Code\Entities\GeographicArea_LG.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.GIS.Entities.Sector">
+    <Position X="13.5" Y="6.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>ABAAIAAAAAAAAAAAAAAAUAAAAAAAIAAAAAAAAIAAAAA=</HashCode>
+      <FileName>GIS - Geographic Information System\Code\Entities\Sector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.GIS.Entities.Site">
+    <Position X="11" Y="1.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>WBZIQAgASAEABAAAAEYQNAAAAAAZAAAigIAggAMAJgY=</HashCode>
+      <FileName>GIS - Geographic Information System\Code\Entities\Site.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="LanguageOption" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Addresses" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Condesus.EMS.Business.IGoegraphicData">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Interfaces\IGoegraphicData.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

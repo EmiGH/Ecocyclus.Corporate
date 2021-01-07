@@ -1,0 +1,798 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A7350932-3711-4450-9EBB-B807F49993DE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Condesus.EMS.Business</RootNamespace>
+    <AssemblyName>Condesus.EMS.Business</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <RegisterForComInterop>false</RegisterForComInterop>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DeepSeaObfuscate>false</DeepSeaObfuscate>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ciloci.FormulaEngine, Version=0.1.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dlls\ciloci.FormulaEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="grammatica-1.5.alpha2, Version=1.5.0.22907, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dlls\grammatica-1.5.alpha2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>Dlls\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dlls\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dlls\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="office, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>Dlls\office.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\EP - ExtendedProperties\Collections\ExtendedProperties.cs" />
+    <Compile Include="Common\EP - ExtendedProperties\Collections\ExtendedProperties_LG.cs" />
+    <Compile Include="Common\EP - ExtendedProperties\Collections\ExtendedPropertyClassifications.cs" />
+    <Compile Include="Common\EP - ExtendedProperties\Collections\ExtendedPropertyClassifications_LG.cs" />
+    <Compile Include="Common\EP - ExtendedProperties\Collections\ExtendedPropertyValues\ExtendedPropertyValuesRead\ExtendedPropertiesValuesByCalculate.cs" />
+    <Compile Include="Common\EP - ExtendedProperties\Collections\ExtendedPropertyValues\ExtendedPropertyValuesRead\ExtendedPropertiesValuesByFormula.cs" />
+    <Compile Include="Common\EP - ExtendedProperties\Collections\ExtendedPropertyValues\ExtendedPropertyValuesRead\ExtendedPropertiesValuesByParameterGroup.cs" />
+    <Compile Include="Common\EP - ExtendedProperties\Collections\ExtendedPropertyValues\ExtendedPropertyValuesRead\ExtendedPropertiesValuesByProcess.cs" />
+    <Compile Include="Common\EP - ExtendedProperties\Collections\ExtendedPropertyValues\ExtendedPropertyValuesRead\ExtendedPropertyValuesByIndicators.cs" />
+    <Compile Include="Common\EP - ExtendedProperties\Collections\ExtendedPropertyValues\ExtendedPropertyValuesRead\ExtendedPropertyValuesByOrganizations.cs" />
+    <Compile Include="Common\EP - ExtendedProperties\Collections\ExtendedPropertyValues\ExtendedPropertyValuesRead\ExtendedPropertyValuesByResources.cs" />
+    <Compile Include="Common\EP - ExtendedProperties\Entities\ExtendedProperty.cs" />
+    <Compile Include="Common\EP - ExtendedProperties\Entities\ExtendedPropertyClassification.cs" />
+    <Compile Include="Common\EP - ExtendedProperties\Entities\ExtendedPropertyClassification_LG.cs" />
+    <Compile Include="Common\EP - ExtendedProperties\Entities\ExtendedProperty_LG.cs" />
+    <Compile Include="Common\EP - ExtendedProperties\Facade\ExtendedProperties.cs" />
+    <Compile Include="Common\EP - ExtendedProperties\Interfaces\IExtendedPropertiesCollection.cs" />
+    <Compile Include="Common\Interfaces\ICollectionItem.cs" />
+    <Compile Include="Common\Interfaces\ICollectionItems.cs" />
+    <Compile Include="Common\Interfaces\ICollectionRead.cs" />
+    <Compile Include="Common\Interfaces\IExtendedProperty.cs" />
+    <Compile Include="Common\Interfaces\IGoegraphicData.cs" />
+    <Compile Include="Common\Interfaces\ILanguageOption.cs" />
+    <Compile Include="Common\Interfaces\IModule.cs" />
+    <Compile Include="Common\Interfaces\INotificationRecipient.cs" />
+    <Compile Include="Common\Interfaces\INotificationReported.cs" />
+    <Compile Include="Common\Interfaces\IOperand.cs" />
+    <Compile Include="Common\Interfaces\ISecurityEntity.cs" />
+    <Compile Include="Common\Interfaces\ISecurity.cs" />
+    <Compile Include="Common\Interfaces\ISecurityElement.cs" />
+    <Compile Include="Common\Interfaces\ISecurityMap.cs" />
+    <Compile Include="Common\Interfaces\IObjectIdentifier.cs" />
+    <Compile Include="Common\Interfaces\ISerializable.cs" />
+    <Compile Include="Common\Interfaces\ITransformer.cs" />
+    <Compile Include="Common\Resources\ConstantMessage.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ConstantMessage.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Common\Resources\ConstantMessage.es.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ConstantMessage.es.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Common\Resources\Errors.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Errors.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Common\Resources\Errors.es.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Errors.es.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Common\Stack.cs" />
+    <Compile Include="CT - Forum\Code\Collections\Categories.cs" />
+    <Compile Include="CT - Forum\Code\Collections\Categories_LG.cs" />
+    <Compile Include="CT - Forum\Code\Collections\Forums\Forums.cs" />
+    <Compile Include="CT - Forum\Code\Collections\Forums\ForumsRead\ForumByProcess.cs" />
+    <Compile Include="CT - Forum\Code\Collections\Forums\ForumsRead\ForumsAll.cs" />
+    <Compile Include="CT - Forum\Code\Collections\Forums_LG.cs" />
+    <Compile Include="CT - Forum\Code\Collections\Messages\Messages.cs" />
+    <Compile Include="CT - Forum\Code\Collections\Messages\MessagesRead\MessagesAll.cs" />
+    <Compile Include="CT - Forum\Code\Collections\Messages\MessagesRead\MessagesByPerson.cs" />
+    <Compile Include="CT - Forum\Code\Collections\Messages\MessagesRead\MessagesByTopic.cs" />
+    <Compile Include="CT - Forum\Code\Collections\Polls\Polls.cs" />
+    <Compile Include="CT - Forum\Code\Collections\Polls\PollsRead\PollsAll.cs" />
+    <Compile Include="CT - Forum\Code\Collections\Polls\PollsRead\PollsByMessages.cs" />
+    <Compile Include="CT - Forum\Code\Collections\Topics\Topics.cs" />
+    <Compile Include="CT - Forum\Code\Collections\Topics\TopicsRead\TopicsAll.cs" />
+    <Compile Include="CT - Forum\Code\Collections\Topics\TopicsRead\TopicsByCategory.cs" />
+    <Compile Include="CT - Forum\Code\Collections\Topics\TopicsRead\TopicsByForum.cs" />
+    <Compile Include="CT - Forum\Code\Collections\Topics\TopicsRead\TopicsByPerson.cs" />
+    <Compile Include="CT - Forum\Code\Collections\WordFilters.cs" />
+    <Compile Include="CT - Forum\Code\Entities\Category\Category.cs" />
+    <Compile Include="CT - Forum\Code\Entities\Message\BannedMessage.cs" />
+    <Compile Include="CT - Forum\Code\Entities\Message\Factory\FactoryMessage.cs" />
+    <Compile Include="CT - Forum\Code\Entities\Message\NormalMessage.cs" />
+    <Compile Include="CT - Forum\Code\Entities\Category\Category_LG.cs" />
+    <Compile Include="CT - Forum\Code\Entities\Topic\ActiveTopic.cs" />
+    <Compile Include="CT - Forum\Code\Entities\Topic\Factory\FactoryTopic.cs" />
+    <Compile Include="CT - Forum\Code\Entities\Topic\InactiveTopic.cs" />
+    <Compile Include="CT - Forum\Code\Entities\Forum\ActiveForum.cs" />
+    <Compile Include="CT - Forum\Code\Entities\Forum\Factory\FactoryForum.cs" />
+    <Compile Include="CT - Forum\Code\Entities\Forum\Forum.cs" />
+    <Compile Include="CT - Forum\Code\Entities\Forum\Forum_LG.cs" />
+    <Compile Include="CT - Forum\Code\Entities\Message\Message.cs" />
+    <Compile Include="CT - Forum\Code\Entities\Poll.cs" />
+    <Compile Include="CT - Forum\Code\Entities\Topic\Topic.cs" />
+    <Compile Include="CT - Forum\Code\Entities\WordFilter.cs" />
+    <Compile Include="CT - Forum\Code\Entities\Forum\InactiveForum.cs" />
+    <Compile Include="CT - Forum\Code\Facade\CollaborationTools.cs" />
+    <Compile Include="CT - Forum\Code\Facade\ConfigurationCT.cs" />
+    <Compile Include="CT - Forum\Code\Facade\MapCT.cs" />
+    <Compile Include="DS - Directory Service\Code\Collections\DashBoards.cs" />
+    <Compile Include="DS - Directory Service\Code\Collections\Gadgets.cs" />
+    <Compile Include="DS - Directory Service\Code\Collections\OrganizationalCharts.cs" />
+    <Compile Include="DS - Directory Service\Code\Collections\OrganizationalCharts_LG.cs" />
+    <Compile Include="DS - Directory Service\Code\Collections\OrganizationClassifications.cs" />
+    <Compile Include="DS - Directory Service\Code\Collections\OrganizationClassifications_LG.cs" />
+    <Compile Include="DS - Directory Service\Code\Collections\Posts\PostRead\PostByJobTitle.cs" />
+    <Compile Include="DS - Directory Service\Code\Collections\Posts\PostRead\PostByOrganization.cs" />
+    <Compile Include="DS - Directory Service\Code\Collections\Posts\PostRead\PostByPerson.cs" />
+    <Compile Include="DS - Directory Service\Code\Collections\Telephones\TelephoneRead\TelephoneByFacility.cs" />
+    <Compile Include="DS - Directory Service\Code\Collections\Telephones\TelephoneRead\TelephoneByPerson.cs" />
+    <Compile Include="DS - Directory Service\Code\Collections\Telephones\Telephones.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\Gadgets\BuyerProjectSummary.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\Gadgets\ExceptionsSummary.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\Gadgets\Factory\GadgetsFactory.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\Gadgets\Gadget.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\Gadgets\NewsSummary.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\Gadgets\ProjectSummary.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\Gadgets\TasksSummary.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\JobTitle\Factory\FactoryJobtitle.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\JobTitle\JobtitleWithChart.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\OrganizationalChart.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\OrganizationalChart_LG.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\Persons\Factory\FactoryPerson.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\Persons\PersonwithoutUser.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\Persons\PersonwithUser.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\Telephone.cs" />
+    <Compile Include="DS - Directory Service\Code\Facades\ConfigurationDS.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\Dashboard.cs" />
+    <Compile Include="DS - Directory Service\Code\Facades\MapDS.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\OrganizationClassification.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\OrganizationClassification_LG.cs" />
+    <Compile Include="EMS - Facade\EMSServices.cs" />
+    <Compile Include="GIS - Geographic Information System\Code\Collections\Facilities\FacilitiesRead\FacilityByActivity.cs" />
+    <Compile Include="GIS - Geographic Information System\Code\Collections\Facilities\FacilitiesRead\FacilityByDashboard.cs" />
+    <Compile Include="GIS - Geographic Information System\Code\Collections\Facilities\FacilitiesRead\FacilityByFacilityType.cs" />
+    <Compile Include="GIS - Geographic Information System\Code\Collections\Facilities\FacilitiesRead\FacilityByFacilityTypeAndProcess.cs" />
+    <Compile Include="GIS - Geographic Information System\Code\Collections\Facilities\FacilitiesRead\FacilityByProcess.cs" />
+    <Compile Include="GIS - Geographic Information System\Code\Collections\FacilityTypes\FacilityTypes.cs" />
+    <Compile Include="GIS - Geographic Information System\Code\Collections\FacilityTypes\FacilityTypesRead\FacilityTypesAll.cs" />
+    <Compile Include="GIS - Geographic Information System\Code\Collections\FacilityTypes\FacilityTypesRead\FacilityTypesByProcessWhitMeasurements.cs" />
+    <Compile Include="GIS - Geographic Information System\Code\Collections\FacilityTypes\FacilityTypes_LG.cs" />
+    <Compile Include="GIS - Geographic Information System\Code\Entities\FacilityType.cs" />
+    <Compile Include="GIS - Geographic Information System\Code\Entities\FacilityType_LG.cs" />
+    <Compile Include="IA - Improvement Actions\Code\Collections\ExceptionHistories.cs" />
+    <Compile Include="IA - Improvement Actions\Code\Entities\ExceptionProcessTask.cs" />
+    <Compile Include="IA - Improvement Actions\Code\Entities\ExceptionResourceVersion.cs" />
+    <Compile Include="GIS - Geographic Information System\Code\Collections\Addresses\Addresses.cs" />
+    <Compile Include="GIS - Geographic Information System\Code\Collections\Addresses\AddressesRead\AddresByGeographicArea.cs" />
+    <Compile Include="GIS - Geographic Information System\Code\Collections\Addresses\AddressesRead\AddressAll.cs" />
+    <Compile Include="GIS - Geographic Information System\Code\Collections\Addresses\AddressesRead\AddressByPerson.cs" />
+    <Compile Include="GIS - Geographic Information System\Code\Collections\Addresses\AddressesRead\AddressBySite.cs" />
+    <Compile Include="GIS - Geographic Information System\Code\Collections\Facilities\Facilities.cs" />
+    <Compile Include="GIS - Geographic Information System\Code\Collections\Facilities\FacilitiesRead\FacilityByOrganization.cs" />
+    <Compile Include="GIS - Geographic Information System\Code\Collections\Facilities\FacilitiesRead\FacilityRead.cs" />
+    <Compile Include="GIS - Geographic Information System\Code\Collections\Facilities\FacilitiesRead\SectorRead.cs" />
+    <Compile Include="GIS - Geographic Information System\Code\Collections\Facilities\Sites_LG.cs" />
+    <Compile Include="GIS - Geographic Information System\Code\Collections\GeographicAreas\GeographicAreas.cs" />
+    <Compile Include="GIS - Geographic Information System\Code\Collections\GeographicAreas\GeographicAreasRead\GeographicAreasAll.cs" />
+    <Compile Include="GIS - Geographic Information System\Code\Collections\GeographicAreas\GeographicAreasRead\GeographicAreasByGeographicArea.cs" />
+    <Compile Include="GIS - Geographic Information System\Code\Collections\GeographicAreas\GeographicAreasRead\GeographicAreasRoot.cs" />
+    <Compile Include="GIS - Geographic Information System\Code\Collections\GeographicAreas\GeographicAreas_LG.cs" />
+    <Compile Include="GIS - Geographic Information System\Code\Entities\Address.cs" />
+    <Compile Include="GIS - Geographic Information System\Code\Entities\AddressFacility.cs" />
+    <Compile Include="GIS - Geographic Information System\Code\Entities\AddressPerson.cs" />
+    <Compile Include="GIS - Geographic Information System\Code\Entities\Facility.cs" />
+    <Compile Include="GIS - Geographic Information System\Code\Entities\Site_LG.cs" />
+    <Compile Include="GIS - Geographic Information System\Code\Entities\GeographicArea.cs" />
+    <Compile Include="GIS - Geographic Information System\Code\Entities\GeographicArea_LG.cs" />
+    <Compile Include="GIS - Geographic Information System\Code\Entities\Sector.cs" />
+    <Compile Include="GIS - Geographic Information System\Code\Entities\Site.cs" />
+    <Compile Include="GIS - Geographic Information System\Code\Facades\GeographicInformationSystem.cs" />
+    <Compile Include="GIS - Geographic Information System\Code\Factories\AddressFactory.cs" />
+    <Compile Include="GIS - Geographic Information System\Code\Factories\SiteFactory.cs" />
+    <Compile Include="IA - Improvement Actions\Code\Collections\Exceptions.cs" />
+    <Compile Include="IA - Improvement Actions\Code\Collections\ExceptionStates.cs" />
+    <Compile Include="IA - Improvement Actions\Code\Collections\ExceptionStates_LG.cs" />
+    <Compile Include="IA - Improvement Actions\Code\Collections\ExceptionTypes.cs" />
+    <Compile Include="IA - Improvement Actions\Code\Collections\ExceptionTypes_LG.cs" />
+    <Compile Include="IA - Improvement Actions\Code\Collections\ProjectClassifications.cs" />
+    <Compile Include="IA - Improvement Actions\Code\Collections\ProjectClassifications_LG.cs" />
+    <Compile Include="IA - Improvement Actions\Code\Collections\Projects.cs" />
+    <Compile Include="IA - Improvement Actions\Code\Facades\ConfigurationIA.cs" />
+    <Compile Include="IA - Improvement Actions\Code\Entities\Exception.cs" />
+    <Compile Include="IA - Improvement Actions\Code\Entities\ExceptionState.cs" />
+    <Compile Include="IA - Improvement Actions\Code\Entities\ExceptionStateClose.cs" />
+    <Compile Include="IA - Improvement Actions\Code\Entities\ExceptionStateOpen.cs" />
+    <Compile Include="IA - Improvement Actions\Code\Entities\ExceptionStateTreat.cs" />
+    <Compile Include="IA - Improvement Actions\Code\Entities\ExceptionState_LG.cs" />
+    <Compile Include="IA - Improvement Actions\Code\Entities\ExceptionType.cs" />
+    <Compile Include="IA - Improvement Actions\Code\Entities\ExceptionType_LG.cs" />
+    <Compile Include="IA - Improvement Actions\Code\Facades\MapIA.cs" />
+    <Compile Include="IA - Improvement Actions\Code\Entities\Project.cs" />
+    <Compile Include="IA - Improvement Actions\Code\Entities\ProjectClassification.cs" />
+    <Compile Include="IA - Improvement Actions\Code\Entities\ProjectClassification_LG.cs" />
+    <Compile Include="IA - Improvement Actions\Code\Facades\ImprovementAction.cs" />
+    <Compile Include="IA - Improvement Actions\Code\Factories\ExceptionFactory.cs" />
+    <Compile Include="IA - Improvement Actions\Code\Factories\ExceptionStateFactory.cs" />
+    <Compile Include="KC - Knowledge Collaboration\Code\Collections\Catalogues.cs" />
+    <Compile Include="KC - Knowledge Collaboration\Code\Collections\FileAttachs.cs" />
+    <Compile Include="KC - Knowledge Collaboration\Code\Collections\ResourceVersionHistories.cs" />
+    <Compile Include="KC - Knowledge Collaboration\Code\Collections\Versions.cs" />
+    <Compile Include="KC - Knowledge Collaboration\Code\Collections\ResourceHistoryStates.cs" />
+    <Compile Include="KC - Knowledge Collaboration\Code\Collections\ResourceHistoryStates_LG.cs" />
+    <Compile Include="KC - Knowledge Collaboration\Code\Collections\Resources.cs" />
+    <Compile Include="KC - Knowledge Collaboration\Code\Collections\Resources_LG.cs" />
+    <Compile Include="KC - Knowledge Collaboration\Code\Collections\ResourceTypes.cs" />
+    <Compile Include="KC - Knowledge Collaboration\Code\Collections\ResourceTypes_LG.cs" />
+    <Compile Include="KC - Knowledge Collaboration\Code\Entities\Catalog.cs" />
+    <Compile Include="KC - Knowledge Collaboration\Code\Entities\CatalogFile.cs" />
+    <Compile Include="KC - Knowledge Collaboration\Code\Facades\ConfigurationKC.cs" />
+    <Compile Include="KC - Knowledge Collaboration\Code\Entities\FileAttach.cs" />
+    <Compile Include="KC - Knowledge Collaboration\Code\Facades\MapKC.cs" />
+    <Compile Include="KC - Knowledge Collaboration\Code\Entities\Resource.cs" />
+    <Compile Include="KC - Knowledge Collaboration\Code\Entities\ResourceCatalog.cs" />
+    <Compile Include="KC - Knowledge Collaboration\Code\Entities\CatalogDoc.cs" />
+    <Compile Include="KC - Knowledge Collaboration\Code\Entities\CatalogURL.cs" />
+    <Compile Include="KC - Knowledge Collaboration\Code\Entities\ResourceVersion.cs" />
+    <Compile Include="KC - Knowledge Collaboration\Code\Entities\VersionDoc.cs" />
+    <Compile Include="KC - Knowledge Collaboration\Code\Entities\ResourceVersionHistory.cs" />
+    <Compile Include="KC - Knowledge Collaboration\Code\Entities\ResourceHistoryState_LG.cs" />
+    <Compile Include="KC - Knowledge Collaboration\Code\Entities\VersionURL.cs" />
+    <Compile Include="KC - Knowledge Collaboration\Code\Entities\ResourceHistoryState.cs" />
+    <Compile Include="KC - Knowledge Collaboration\Code\Entities\ResourceType.cs" />
+    <Compile Include="KC - Knowledge Collaboration\Code\Entities\ResourceType_LG.cs" />
+    <Compile Include="KC - Knowledge Collaboration\Code\Entities\Resource_LG.cs" />
+    <Compile Include="KC - Knowledge Collaboration\Code\Entities\Version.cs" />
+    <Compile Include="KC - Knowledge Collaboration\Code\Facades\KnowledgeCollaboration.cs" />
+    <Compile Include="KC - Knowledge Collaboration\Code\Factories\CatalogFactory.cs" />
+    <Compile Include="KC - Knowledge Collaboration\Code\Factories\ResourceFactory.cs" />
+    <Compile Include="KC - Knowledge Collaboration\Code\Factories\VersionFactory.cs" />
+    <Compile Include="NT - Notification\Code\Collections\NotificationConfigurations.cs" />
+    <Compile Include="NT - Notification\Code\Collections\NotificationMessages.cs" />
+    <Compile Include="NT - Notification\Code\Collections\NotificationRecipient\NotificationRecipientRead\NotificationRecipientByResource.cs" />
+    <Compile Include="NT - Notification\Code\Collections\NotificationRecipient\NotificationRecipientRead\NotificationRecipientByTask.cs" />
+    <Compile Include="NT - Notification\Code\Collections\NotificationRecipient\NotificationRecipientRead\NotificationRecipientByTransformation.cs" />
+    <Compile Include="NT - Notification\Code\Collections\NotificationRecipient\NotificationRecipients.cs" />
+    <Compile Include="NT - Notification\Code\Entities\Email.cs" />
+    <Compile Include="NT - Notification\Code\Entities\NotificationConfiguration.cs" />
+    <Compile Include="NT - Notification\Code\Entities\NotificationMessage.cs" />
+    <Compile Include="NT - Notification\Code\Entities\NotificationMessageDocumentExpiration.cs" />
+    <Compile Include="NT - Notification\Code\Entities\NotificationMessageTaskOverdue.cs" />
+    <Compile Include="NT - Notification\Code\Entities\NotificationMessageTransformationError.cs" />
+    <Compile Include="NT - Notification\Code\Entities\NotificationMessageValueOutOfRange.cs" />
+    <Compile Include="NT - Notification\Code\Entities\NotificationRecipient.cs" />
+    <Compile Include="NT - Notification\Code\Entities\NotificationRecipientEmail.cs" />
+    <Compile Include="NT - Notification\Code\Entities\NotificationRecipientPerson.cs" />
+    <Compile Include="NT - Notification\Code\Facades\Notifications.cs" />
+    <Compile Include="NT - Notification\Code\Factories\NotificationRecipientFactory.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\AccountingActivities\AccountingActivities.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\AccountingActivities\AccountingActivitiesRead\AccountingActivityByActivity.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\AccountingActivities\AccountingActivitiesRead\AccountingActivityRoot.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\AccountingActivities\AccountingActivities_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\AccountingScenarios\AccountingScenarios.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\AccountingScenarios\AccountingScenariosRead\AccountigScenariosRoot.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\AccountingScenarios\AccountingScenarios_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\AccountingScopes\AccountingScopes.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\AccountingScopes\AccountingScopesRead\AccountingScopesRoot.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\AccountingScopes\AccountingScopes_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\AccountingSectors\AccountingSectors.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\AccountingSectors\AccountingSectorsRead\AccountingSectorBySector.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\AccountingSectors\AccountingSectorsRead\AccountingSectorRoot.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\AccountingSectors\AccountingSectors_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\CalculateOfTransformations\CalculateOfTransformationErrors.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\CalculateOfTransformations\CalculateOfTransformationRead\CalculateOfTransformationByConstant.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\CalculateOfTransformations\CalculateOfTransformationRead\CalculateOfTransformationByIndicator.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\CalculateOfTransformations\CalculateOfTransformationRead\CalculateOfTransformationByProcess.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\CalculateOfTransformations\CalculateOfTransformationRead\CalculateOfTransformationByTransformation.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\CalculateOfTransformations\CalculateOfTransformationRead\CalculateOfTransformationReadAll.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\CalculateOfTransformations\CalculateOfTransformationRead\CalculateOfTransformationReadAllRoots.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\CalculateOfTransformations\CalculateOfTransformationRead\CalculateOfTransformationReadWhitErrors.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\CalculationCertificates.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\CalculationEstimates.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\CalculateOfTransformations\CalculateOfTransformationResultRead\ResultByMeasurement.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\CalculateOfTransformations\CalculateOfTransformationResultRead\ResultByTransformation.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\CalculateOfTransformations\CalculateOfTransformationResults.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\CalculateOfTransformations\CalculateOfTransformationParameters.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\CalculateOfTransformations\CalculateOfTransformationRead\CalculateOfTransformationByMeasurements.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\CalculateOfTransformations\CalculateOfTransformations.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\CalculateOfTransformations\CalculateOfTransformations_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\CalculationParameters.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\Calculations.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\CalculationScenarioTypeProcessClassifications.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\CalculationScenarioTypes.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\CalculationScenarioTypes_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\Calculations_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\ConfigurationExcelFiles.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\ConstantClassifications\ConstantClassifications.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\ConstantClassifications\ConstantClassificationsRead\ConstantClassificationByConstantClassification.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\ConstantClassifications\ConstantClassificationsRead\ConstantClassificationRoot.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\ConstantClassifications\ConstantClassifications_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\Constants\ConstantsRead\ConstantByConstantClassification.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\Constants\Constants_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\Constants\Constants.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\FormulaParameters.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\FormulaStoredProcedureParameters.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\FormulaStoredProcedures.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\Indicators\IndicatorsRead\IndicatorsAll.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\Indicators\IndicatorsRead\IndicatorsByIndicatorClassification.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\Magnitudes.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\Magnitudes_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\Formulas.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\Formulas_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\IndicatorClassifications.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\IndicatorClassifications_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\Indicators\Indicators.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\Indicators\Indicators_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\MeasurementDevices.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\MeasurementDeviceTypes.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\MeasurementDeviceTypes_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\Measurements.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\Measurements_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\MeasurementUnits.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\MeasurementUnits_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\Methodologies\Methodologies.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\Methodologies\MethodologiesRead\MethodologyReadAll.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\Methodologies\Methodologies_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\ParameterGroups.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\ParameterGroups_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\ParameterRanges.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\Parameters.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\Parameters_LG.cs" />
+    <Compile Include="KC - Knowledge Collaboration\Code\Collections\ResourceClassifications.cs" />
+    <Compile Include="KC - Knowledge Collaboration\Code\Collections\ResourceClassifications_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\Qualities\Qualities.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\Qualities\QualitiesRead\QualitiesReadAll.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\Qualities\Qualities_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\TransformationFunctions\TransformationFunctionParameters.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Collections\TransformationFunctions\TransformationFunctions.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\AccountingActivity.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\AccountingActivity_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\AccountingScenario.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\AccountingScenario_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\AccountingScope.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\AccountingScope_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\AccountingSector.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\AccountingSector_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\ConfigurationAsociationMeasurementExcelFile.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\ConfigurationExcelFile.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\Calculation.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\CalculationCertificated.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\CalculationEstimated.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\CalculateOfTransformation.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\CalculateOfTransformationParameter.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\CalculateOfTransformation_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\CalculationParameter.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\CalculationPoint.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\CalculationScenarioType.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\CalculationScenarioTypeProcessClassification.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\CalculationScenarioType_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\Calculation_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\ConstantClassification.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\ConstantClassification_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\Constant.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\Constant_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\MeasurementExtensive.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\MeasurementIntensive.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\Methodology.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\Methodology_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\Quality.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\Quality_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\TransformationEquation.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\TransformationFunction.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\TransformationFunctionParameter.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Facades\ConfigurationPA.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\FormulaParameter.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\FormulaStoredProcedure.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\FormulaStoredProcedureParameter.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Facades\MapPA.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\MeasurementPoint.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Facades\Transformations.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Factories\MeasurementFactory.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Factories\OperandFactory.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Factories\IndicatorFactory.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Factories\TransformerFactory.cs" />
+    <Compile Include="PF - Processes Framework\Code\Collections\ParticipationTypes_LG.cs" />
+    <Compile Include="PF - Processes Framework\Code\Collections\Processes.cs" />
+    <Compile Include="PF - Processes Framework\Code\Collections\Processes_LG.cs" />
+    <Compile Include="PF - Processes Framework\Code\Collections\ProcessGroupExceptions.cs" />
+    <Compile Include="PF - Processes Framework\Code\Collections\ProcessGroupNodes.cs" />
+    <Compile Include="PF - Processes Framework\Code\Collections\ProcessGroupProcesses.cs" />
+    <Compile Include="PF - Processes Framework\Code\Collections\ProcessGroups.cs" />
+    <Compile Include="PF - Processes Framework\Code\Collections\ProcessPosts.cs" />
+    <Compile Include="PF - Processes Framework\Code\Collections\ProcessResources.cs" />
+    <Compile Include="PF - Processes Framework\Code\Collections\ProcessTaskExecutionFileAttachs.cs" />
+    <Compile Include="PF - Processes Framework\Code\Collections\ProcessTaskExecutions.cs" />
+    <Compile Include="PF - Processes Framework\Code\Collections\ProcessTasks.cs" />
+    <Compile Include="PF - Processes Framework\Code\Collections\ParticipationTypes.cs" />
+    <Compile Include="PF - Processes Framework\Code\Collections\ProcessParticipations.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Collections\Evolutionary.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Collections\Graphics.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Collections\MultiObservatory.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Collections\Report_A_F_by_I_COL.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Collections\Report_FT_F_S_A_COL.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Collections\Report_GA_FT_F_S_A_COL.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Collections\Report_GA_S_A_FT_F_COL.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Collections\Report_O_S_A_FT_F_COL.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Collections\Report_S_A_FT_F_COL.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Collections\Report_S_GA_A_FT_F_COL.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Entities\BAR\Graphic-Bar.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Entities\Evolutionary\Evolutionary_O.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Entities\FT-F-S-A\Report_FT_F_S_A_Obj_A.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Entities\FT-F-S-A\Report_FT_F_S_A_Obj_F.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Entities\FT-F-S-A\Report_FT_F_S_A_Obj_I.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Entities\FT-F-S-A\Report_FT_F_S_A_Obj_S.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Entities\GA-FT-F-S-A\Report-GA-FT-F-S-A-Obj_I.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Entities\GA-S-A-FT-F\Report-GA-S-A-FT-F-Obj_I.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Entities\Indicator\FacilitiesByIndicators.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Entities\O_S_A_FT_F\Report_O_S_A_FT_F.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Entities\O_S_A_FT_F\Report_O_S_A_FT_F_Obj_A.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Entities\O_S_A_FT_F\Report_O_S_A_FT_F_Obj_F.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Entities\O_S_A_FT_F\Report_O_S_A_FT_F_Obj_FT.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Entities\O_S_A_FT_F\Report_O_S_A_FT_F_Obj_I.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Entities\O_S_A_FT_F\Report_O_S_A_FT_F_Obj_O.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Entities\O_S_A_FT_F\Report_O_S_A_FT_F_Obj_S.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Entities\PIE\Graphic-Pie-S.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Entities\PIE\Graphic-Pie.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Entities\BAR\Graphic_Bar_A.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Entities\BAR\Graphic_Bar_FT.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Entities\FT-F-S-A\Report-FT-F-S-A-Obj_FT.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Entities\GA-FT-F-S-A\Report-GA-FT-F-S-A-Obj_A.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Entities\GA-FT-F-S-A\Report-GA-FT-F-S-A-Obj_F.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Entities\GA-FT-F-S-A\Report-GA-FT-F-S-A-Obj_FT.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Entities\GA-FT-F-S-A\Report-GA-FT-F-S-A-Obj_GA.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Entities\GA-FT-F-S-A\Report-GA-FT-F-S-A-Obj_S.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Entities\GA-FT-F-S-A\Report-GA-FT-F-S-A.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Entities\GA-S-A-FT-F\Report-GA-S-A-FT-F.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Entities\GA-S-A-FT-F\Report-GA-S-A-FT-F-Obj_F.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Entities\GA-S-A-FT-F\Report-GA-S-A-FT-F-Obj_FT.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Entities\S-A-FT-F\Report_S_A_FT_F.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Entities\S-A-FT-F\Report_S_A_FT_F_Obj_A.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Entities\S-A-FT-F\Report_S_A_FT_F_Obj_F.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Entities\S-A-FT-F\Report_S_A_FT_F_Obj_FT.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Entities\S-A-FT-F\Report_S_A_FT_F_Obj_I.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Entities\S-A-FT-F\Report_S_A_FT_F_Obj_S.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Entities\S-GA-A-FT-F\Report-S-GA-A-FT-F.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Entities\GA-S-A-FT-F\Report-GA-S-A-FT-F-Obj_A.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Entities\GA-S-A-FT-F\Report-GA-S-A-FT-F-Obj_GA.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Entities\GA-S-A-FT-F\Report-GA-S-A-FT-F-Obj_S.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Entities\S-GA-A-FT-F\Report-S-GA-A-FT-F-Obj_A.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Entities\S-GA-A-FT-F\Report-S-GA-A-FT-F-Obj_F.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Entities\S-GA-A-FT-F\Report-S-GA-A-FT-F-Obj_FT.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Entities\S-GA-A-FT-F\Report-S-GA-A-FT-F-Obj_GA.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Entities\S-GA-A-FT-F\Report-S-GA-A-FT-F-Obj_S.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Entities\FT-F-S-A\Report-FT-F-S-A.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Entities\S-GA-A-FT-F\Report_S_GA_A_FT_F_Obj_I.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Facade\ReportGraphic.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Interfaces\IColumnsReport.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Interfaces\IGraphicBar.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Code\Interfaces\IGraphicPie.cs" />
+    <Compile Include="RM - Risk Management\Code\Collections\Risks.cs" />
+    <Compile Include="Security\Code\Collections\RoleTypes.cs" />
+    <Compile Include="Security\Code\Collections\RoleTypes_LG.cs" />
+    <Compile Include="PF - Processes Framework\Code\Collections\TimeUnits.cs" />
+    <Compile Include="PF - Processes Framework\Code\Collections\TimeUnits_LG.cs" />
+    <Compile Include="PF - Processes Framework\Code\Facades\ConfigurationPF.cs" />
+    <Compile Include="PF - Processes Framework\Code\Facades\MapPF.cs" />
+    <Compile Include="PF - Processes Framework\Code\Entities\ProcessResource.cs" />
+    <Compile Include="PF - Processes Framework\Code\Entities\ProcessParticipation.cs" />
+    <Compile Include="PF - Processes Framework\Code\Entities\ParticipationType.cs" />
+    <Compile Include="PF - Processes Framework\Code\Entities\ParticipationType_LG.cs" />
+    <Compile Include="PF - Processes Framework\Code\Entities\Process.cs" />
+    <Compile Include="PF - Processes Framework\Code\Entities\ProcessGroupException.cs" />
+    <Compile Include="PF - Processes Framework\Code\Entities\ProcessGroupNode.cs" />
+    <Compile Include="PF - Processes Framework\Code\Entities\ProcessGroupProcess.cs" />
+    <Compile Include="PF - Processes Framework\Code\Entities\ProcessTaskDataRecovery.cs" />
+    <Compile Include="PF - Processes Framework\Code\Entities\ProcessTaskExecution.cs" />
+    <Compile Include="PF - Processes Framework\Code\Entities\ProcessTaskExecutionFileAttach.cs" />
+    <Compile Include="PF - Processes Framework\Code\Entities\Process_LG.cs" />
+    <Compile Include="Security\Code\Entities\Rights\RightEntity.cs" />
+    <Compile Include="Security\Code\Entities\Rights\RightPerson.cs" />
+    <Compile Include="Security\Code\Entities\RoleType.cs" />
+    <Compile Include="Security\Code\Entities\RoleType_LG.cs" />
+    <Compile Include="PF - Processes Framework\Code\Entities\TimeUnit.cs" />
+    <Compile Include="PF - Processes Framework\Code\Entities\TimeUnit_LG.cs" />
+    <Compile Include="PF - Processes Framework\Code\Factories\ExecutionFactory.cs" />
+    <Compile Include="PF - Processes Framework\Code\Factories\GroupsFactory.cs" />
+    <Compile Include="PF - Processes Framework\Code\Factories\NodesFactory.cs" />
+    <Compile Include="PF - Processes Framework\Code\Factories\ProcessFactory.cs" />
+    <Compile Include="PF - Processes Framework\Code\Factories\ProjectsFactory.cs" />
+    <Compile Include="PF - Processes Framework\Code\Interfaces\IProcessParent.cs" />
+    <Compile Include="PF - Processes Framework\Code\Interfaces\IProject.cs" />
+    <Compile Include="RM - Risk Management\Code\Collections\RiskClassifications.cs" />
+    <Compile Include="RM - Risk Management\Code\Collections\RiskClassifications_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\Magnitud.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\Magnitud_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\Formula.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\Formula_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\Indicator.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\IndicatorClassification.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\IndicatorClassification_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\Indicator_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\Measurement.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\MeasurementDataRecovery.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\MeasurementDeviceType.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\MeasurementDeviceType_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\MeasurementUnit.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\MeasurementUnit_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\Measurement_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\Parameter.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\ParameterGroup.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\ParameterGroup_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\ParameterRange.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\Parameter_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\ProcessTaskMeasurementExecutionValue.cs" />
+    <Compile Include="KC - Knowledge Collaboration\Code\Entities\ResourceClassification.cs" />
+    <Compile Include="KC - Knowledge Collaboration\Code\Entities\ResourceClassification_LG.cs" />
+    <Compile Include="RM - Risk Management\Code\Facades\ConfigurationRM.cs" />
+    <Compile Include="RM - Risk Management\Code\Facades\MapRM.cs" />
+    <Compile Include="RM - Risk Management\Code\Entities\Risk.cs" />
+    <Compile Include="RM - Risk Management\Code\Entities\RiskClassification.cs" />
+    <Compile Include="RM - Risk Management\Code\Entities\RiskClassification_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Facades\PerformanceAssessments.cs" />
+    <Compile Include="PF - Processes Framework\Code\Collections\ProcessClassifications.cs" />
+    <Compile Include="PF - Processes Framework\Code\Collections\ProcessClassifications_LG.cs" />
+    <Compile Include="PF - Processes Framework\Code\Entities\ProcessClassification.cs" />
+    <Compile Include="PF - Processes Framework\Code\Entities\ProcessClassification_LG.cs" />
+    <Compile Include="PF - Processes Framework\Code\Entities\ProcessTaskExecutionCalibration.cs" />
+    <Compile Include="PF - Processes Framework\Code\Entities\ProcessTaskExecutionMeasurement.cs" />
+    <Compile Include="Common\Common.cs" />
+    <Compile Include="DS - Directory Service\Code\Collections\SalutationTypes_LG.cs" />
+    <Compile Include="DS - Directory Service\Code\Collections\ApplicabilityContactTypes.cs" />
+    <Compile Include="DS - Directory Service\Code\Collections\ApplicabilityContactTypes_LG.cs" />
+    <Compile Include="DS - Directory Service\Code\Collections\ContactAddresses.cs" />
+    <Compile Include="DS - Directory Service\Code\Collections\ContactEmails.cs" />
+    <Compile Include="DS - Directory Service\Code\Collections\ContactMessengers.cs" />
+    <Compile Include="DS - Directory Service\Code\Collections\ContactMessengersApplications.cs" />
+    <Compile Include="DS - Directory Service\Code\Collections\ContactMessengersProviders.cs" />
+    <Compile Include="DS - Directory Service\Code\Collections\ContactTelephones.cs" />
+    <Compile Include="DS - Directory Service\Code\Collections\ContactTypes.cs" />
+    <Compile Include="DS - Directory Service\Code\Collections\ContactTypes_LG.cs" />
+    <Compile Include="DS - Directory Service\Code\Collections\ContactURLs.cs" />
+    <Compile Include="DS - Directory Service\Code\Collections\ContactURLs_LG.cs" />
+    <Compile Include="DS - Directory Service\Code\Collections\FunctionalAreas.cs" />
+    <Compile Include="DS - Directory Service\Code\Collections\FunctionalAreas_LG.cs" />
+    <Compile Include="DS - Directory Service\Code\Collections\FunctionalPositions.cs" />
+    <Compile Include="DS - Directory Service\Code\Collections\GeographicAreas.cs" />
+    <Compile Include="DS - Directory Service\Code\Collections\GeographicAreas_LG.cs" />
+    <Compile Include="DS - Directory Service\Code\Collections\GeographicFunctionalAreas.cs" />
+    <Compile Include="DS - Directory Service\Code\Collections\OrganizationsRelationshipsTypes_LG.cs" />
+    <Compile Include="DS - Directory Service\Code\Collections\OrganizationsRelationships.cs" />
+    <Compile Include="DS - Directory Service\Code\Collections\OrganizationsRelationshipsTypes.cs" />
+    <Compile Include="DS - Directory Service\Code\Collections\Positions_LG.cs" />
+    <Compile Include="DS - Directory Service\Code\Collections\Posts\Posts.cs" />
+    <Compile Include="DS - Directory Service\Code\Collections\Organizations.cs" />
+    <Compile Include="DS - Directory Service\Code\Collections\Languages.cs" />
+    <Compile Include="Security\Code\Collections\Modules.cs" />
+    <Compile Include="DS - Directory Service\Code\Collections\Countries.cs" />
+    <Compile Include="DS - Directory Service\Code\Collections\Countries_LG.cs" />
+    <Compile Include="DS - Directory Service\Code\Collections\People.cs" />
+    <Compile Include="DS - Directory Service\Code\Collections\Positions.cs" />
+    <Compile Include="DS - Directory Service\Code\Collections\Presences.cs" />
+    <Compile Include="DS - Directory Service\Code\Collections\JobTitles\JobTitles.cs" />
+    <Compile Include="DS - Directory Service\Code\Collections\Responsibilities.cs" />
+    <Compile Include="DS - Directory Service\Code\Collections\SalutationTypes.cs" />
+    <Compile Include="DS - Directory Service\Code\Collections\Users.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\ApplicabilityContactType_LG.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\ContactAddress.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\ContactEmail.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\ContactMessenger.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\ContactMessengerApplication.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\ContactMessengerProvider.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\ContactTelephone.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\ContactType.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\ApplicabilityContactType.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\ContactType_LG.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\ContactURL.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\ContactURL_LG.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\FunctionalArea.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\FunctionalArea_LG.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\FunctionalPosition.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\GeographicArea.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\GeographicAreaFacilities.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\GeographicArea_LG.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\GeographicFunctionalArea.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\OrganizationRelationship.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\OrganizationRelationshipType.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\OrganizationRelationshipType_LG.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\Position_LG.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\Post.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\Responsibility.cs" />
+    <Compile Include="DS - Directory Service\Code\Facades\DirectoryServices.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\Organization.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\Language.cs" />
+    <Compile Include="Security\Code\Entities\Module.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\Country.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\Country_LG.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\Persons\Person.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\Position.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\Presence.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\JobTitle\JobTitle.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\SalutationType.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\SalutationType_LG.cs" />
+    <Compile Include="DS - Directory Service\Code\Entities\User.cs" />
+    <Compile Include="DS - Directory Service\Code\Factories\GeographicAreaFactory.cs" />
+    <Compile Include="EMS - Facade\EMS.cs" />
+    <Compile Include="PA - Performance Assessment\Code\Entities\MeasurementDevice.cs" />
+    <Compile Include="PF - Processes Framework\Code\Entities\ProcessTaskCalibration.cs" />
+    <Compile Include="PF - Processes Framework\Code\Facades\ProcessFramework.cs" />
+    <Compile Include="PF - Processes Framework\Code\Factories\TaskFactory.cs" />
+    <Compile Include="PF - Processes Framework\Code\Entities\ProcessGroup.cs" />
+    <Compile Include="Common\EP - ExtendedProperties\Collections\ExtendedPropertyValues\ExtendedPropertyValues.cs" />
+    <Compile Include="Common\EP - ExtendedProperties\Entities\ExtendedPropertyValue.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RM - Risk Management\Code\Facades\RiskManagement.cs" />
+    <Compile Include="Security\Code\Collections\Permissions.cs" />
+    <Compile Include="Security\Code\Collections\Permissions_LG.cs" />
+    <Compile Include="Security\Code\Collections\Rights.cs" />
+    <Compile Include="Security\Code\Entities\Authority.cs" />
+    <Compile Include="Security\Code\Entities\Permission.cs" />
+    <Compile Include="Security\Code\Entities\Permission_LG.cs" />
+    <Compile Include="Security\Code\Entities\Rights\Right.cs" />
+    <Compile Include="Security\Code\Entities\Rights\RightConfigurationDS.cs" />
+    <Compile Include="Security\Code\Entities\Rights\RightConfigurationIA.cs" />
+    <Compile Include="Security\Code\Entities\Rights\RightConfigurationKC.cs" />
+    <Compile Include="Security\Code\Entities\Rights\RightConfigurationPA.cs" />
+    <Compile Include="Security\Code\Entities\Rights\RightConfigurationPF.cs" />
+    <Compile Include="Security\Code\Entities\Rights\RightConfigurationRM.cs" />
+    <Compile Include="Security\Code\Entities\Rights\RightJobTitle.cs" />
+    <Compile Include="Security\Code\Entities\Rights\RightMapDS.cs" />
+    <Compile Include="Security\Code\Entities\Rights\RightMapIA.cs" />
+    <Compile Include="Security\Code\Entities\Rights\RightMapKC.cs" />
+    <Compile Include="Security\Code\Entities\Rights\RightMapPA.cs" />
+    <Compile Include="Security\Code\Entities\Rights\RightMapPF.cs" />
+    <Compile Include="Security\Code\Entities\Rights\RightMapRM.cs" />
+    <Compile Include="Security\Code\Entities\Rights\RightOrganization.cs" />
+    <Compile Include="Security\Code\Entities\Rights\RightPost.cs" />
+    <Compile Include="Security\Code\Entities\Rights\RightProcess.cs" />
+    <Compile Include="Security\Code\Facades\Security.cs" />
+    <Compile Include="Security\Code\Entities\Credential.cs" />
+    <Compile Include="Security\Code\Entities\Cryptography.cs" />
+    <Compile Include="PF - Processes Framework\Code\Entities\ProcessTask.cs" />
+    <Compile Include="PF - Processes Framework\Code\Entities\ProcessTaskMeasurement.cs" />
+    <Compile Include="PF - Processes Framework\Code\Entities\ProcessTaskOperation.cs" />
+    <Compile Include="Security\Code\Factories\RightFactories.cs" />
+    <Compile Include="Temporal.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Common\Documentation\Interfaces.cd" />
+    <None Include="CT - Forum\Documentation\CT-completo.cd" />
+    <None Include="DS - Directory Service\Documentacion\PersonyUsers.cd" />
+    <None Include="DS - Directory Service\Documentacion\DirectoryService.cd" />
+    <None Include="EMS - Facade\Documentation\Facades.cd" />
+    <None Include="GIS - Geographic Information System\Documentation\Gis.cd" />
+    <None Include="IA - Improvement Actions\Documentation\IA-Exceptions.cd" />
+    <None Include="KC - Knowledge Collaboration\Documentation\KC.cd" />
+    <None Include="NT - Notification\Documentation\NT-Complete.cd" />
+    <None Include="PA - Performance Assessment\Documentation\Transformation.cd" />
+    <None Include="PA - Performance Assessment\Documentation\PA-All.cd" />
+    <None Include="PF - Processes Framework\Documentation\PF-All.cd" />
+    <None Include="Security\Documentation\SS-All.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Common\Resources\ConstantMessage.es.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ConstantMessage.es.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\Resources\ConstantMessage.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ConstantMessage.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\Resources\Errors.es.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Errors.es.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\Resources\Errors.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Errors.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EMS.DataAccess\EMS.DataAccess.csproj">
+      <Project>{DCC3A44C-E110-4067-AADA-23D2C64BB04E}</Project>
+      <Name>EMS.DataAccess</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Dlls\ciloci.FormulaEngine.dll" />
+    <Content Include="Dlls\grammatica-1.5.alpha2.dll" />
+    <Content Include="Dlls\Microsoft.Office.Interop.Excel.dll" />
+    <Content Include="Dlls\Microsoft.Practices.EnterpriseLibrary.Common.dll" />
+    <Content Include="Dlls\Microsoft.Practices.EnterpriseLibrary.Data.dll" />
+    <Content Include="Dlls\office.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DS - Directory Service\Code\Collections\JobTitles\JobTitlesRead\" />
+    <Folder Include="RG - Reports &amp; Graphics\Documentation\" />
+    <Folder Include="RM - Risk Management\Code\Factories\" />
+    <Folder Include="RM - Risk Management\Documentation\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />  
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

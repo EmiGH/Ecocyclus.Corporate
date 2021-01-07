@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="http://wsghreelicense.condesus.com.ar/wsghreelicense.asmx?wsdl" docRef="http://wsghreelicense.condesus.com.ar/wsghreelicense.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="http://wsghreelicense.condesus.com.ar/wsghreelicense.asmx" xmlns:q1="http://wsGhreeLicense.condesus.com.ar/" binding="q1:wsGhreeLicenseSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="http://wsghreelicense.condesus.com.ar/wsghreelicense.asmx" xmlns:q2="http://wsGhreeLicense.condesus.com.ar/" binding="q2:wsGhreeLicenseSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>

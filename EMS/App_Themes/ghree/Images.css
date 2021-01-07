@@ -1,0 +1,489 @@
+﻿/* Images Company */
+body.login
+{	
+	background-image:url('Images/LoginBackground.jpg');
+	background-repeat:no-repeat;
+}
+.Loading
+{
+	background-image: url('Images/Loading.gif');
+}
+.login #Logo, 
+.login #logindivLogo,
+#masterTableHeader,
+#masterTableHeader .LogoCompany,
+#masterTableHeader .tdRight,
+#masterTableFooter
+{
+	background-image: url('Images/Company.png');
+}
+#masterTableHeader,
+#masterTableFooter
+{
+    background-image:url('Images/Master/BgHeader.png');
+    background-position: center;
+}
+#masterTableHeader .LogoCompany
+{
+    background-image:url('Images/Master/BgHeaderLogo.png');
+}
+
+
+/* End Images Company */
+
+
+
+/* Images Button Framework */
+
+#masterBreadCrumb .breadCrumbNavigateButtonBack,
+#masterBreadCrumb .breadCrumbNavigateButtonBackDisabled,
+#masterBreadCrumb .breadCrumbNavigateButtonNext,
+#masterBreadCrumb .breadCrumbNavigateButtonNextDisabled,
+#masterBreadCrumb .breadCrumbNavigateButtonHistoryOpen,
+#masterBreadCrumb .breadCrumbNavigateButtonHistory,
+#masterBreadCrumb .breadCrumbNavigateButtonSet,
+#masterBreadCrumb .LogOff,
+#masterTableGlobalToolbar .GlobalToolbarDashboard,
+#masterTableGlobalToolbar .GlobalToolbarDashboardOpen,
+#masterTableGlobalToolbar .GlobalToolbarModule,
+#masterTableGlobalToolbar .GlobalToolbarModuleOpen,
+#masterTableGlobalToolbar .GlobalToolbarSearch,
+#masterTableGlobalToolbar .GlobalToolbarSearchOpen,
+#masterTableGlobalToolbar .GlobalToolbarOperativeDash,
+#masterTableGlobalToolbar .GlobalToolbarOperativeDashOpen,
+.GlobalNavigator .globalNavigatorButtonMap,
+.GlobalNavigator .globalNavigatorButtonMapOpen,
+.GlobalNavigator .globalNavigatorButtonConfig,
+.GlobalNavigator .globalNavigatorButtonConfigOpen,
+#masterTableContentToolbar .contentToolbarGRC,
+#masterTableContentToolbar .contentToolbarGRCOpen,
+#masterTableContentToolbar .contentToolbarOption,
+#masterTableContentToolbar .contentToolbarOptionOpen,
+#masterTableContentToolbar .contentToolbarSecurity,
+#masterTableContentToolbar .contentToolbarSecurityOpen,
+#masterTableContentToolbar .contentToolbarMap,
+#masterTableContentToolbar .contentToolbarMapOpen,
+#masterTableContentToolbarSave .contentToolbarReturn,
+#masterTableContentToolbarSave .contentToolbarNext,
+#masterTableContentToolbarSave .contentToolbarSave,
+.contentCalculationOfTransformationsPropertiesbtnAdd,
+.contentCalculationOfTransformationsPropertiesbtnRemove,
+.contentCalculationOfTransformationsPropertieslnkTestFormula,
+.contentListViewReportImagesOpen,
+.contentListViewReportImages,
+.contentListViewReportImagesOpen,
+.contentListViewReportMap,
+.contentListViewReportMapOpen,
+.contentListViewReportChart,
+.contentListViewReportChartOpen,
+.contentListViewMainData,
+.contentListViewMainDataOpen,
+.contentListViewExtendedInformation,
+.contentListViewExtendedInformationOpen,
+.contentListViewForum,
+.contentListViewForumOpen,
+.contentListViewStatistics,
+.contentListViewStatisticsOpen,
+.contentListViewClassifications,
+.contentListViewClassificationsOpen,
+.contentListViewProcessExtendedProperties,
+.contentListViewProcessExtendedPropertiesOpen,
+.contentListViewProcessParticipations,
+.contentListViewProcessParticipationsOpen,
+.contentListViewAddress,
+.contentListViewAddressOpen,
+.contentListViewTelephone,
+.contentListViewTelephoneOpen,
+.contentListViewEmail,
+.contentListViewEmailOpen,
+.contentListViewURL,
+.contentListViewURLOpen,
+.contentListViewMSN,
+.contentListViewMSNOpen,
+.contentListViewFacility,
+.contentListViewFacilityOpen,
+.contentListViewStats,
+.contentListViewStatsOpen,
+.contentListViewDataSeries,
+.contentListViewDataSeriesOpen,
+.contentListViewExecutions,
+.contentListViewExecutionsOpen,
+.contentListViewExceptions,
+.contentListViewExceptionsOpen,
+.contentListViewKeyIndicators,
+.contentListViewKeyIndicatorsOpen,
+.contentListViewCalculations,
+.contentListViewCalculationsOpen,
+.contentListViewProcessResources,
+.contentListViewProcessResourcesOpen,
+.contentListViewUsers,
+.contentListViewPosts,
+.contentListViewPostsOpen,
+.contentListViewUsersOpen,
+.ContentFormulaGrid .Popup .ContentNavigator .Cancel,
+.ContentFormulaGrid .Popup .ContentNavigator .Ok,
+.ContentFormPickUpCoordinates .tdInfo .buttonSave,
+.ContentFormPickUpCoordinates .tdInfo .buttonCancel
+{
+	background-image:url(Images/Buttons.gif);
+	width: 20px;
+	height: 20px;
+}
+
+/* End Images Button Framework */
+
+.ContentFormPickUpCoordinates .tdInfo .buttonSearch,
+.ContentFormPickUpCoordinates .tdInfo .buttonSearch:hover
+{
+	background-image:url(Images/Buttons.gif);
+	width: 18px;
+	height: 18px;
+}
+
+/* TreeViee.EMS */
+
+.RadTreeView_EMS .rtIn,
+.RadTreeView_EMS .Folder,
+.RadTreeView_EMS .FolderHover,
+.RadTreeView_EMS .FolderSelected,
+.RadTreeView_EMS .Document,
+.RadTreeView_EMS .DocumentHover,
+.RadTreeView_EMS .DocumentSelected,
+.RadTreeView_EMS .DS,
+.RadTreeView_EMS .User,
+.RadTreeView_EMS .Post,
+.RadTreeView_EMS .Contact,
+.RadTreeView_EMS .Addresse,
+.RadTreeView_EMS .Address,
+.RadTreeView_EMS .Telephone,
+.RadTreeView_EMS .Email,
+.RadTreeView_EMS .URL,
+.RadTreeView_EMS .Messenger,
+.RadTreeView_EMS .OrganizationRelationship,
+.RadTreeView_EMS .OrganizationClassification,
+.RadTreeView_EMS .Organization,
+.RadTreeView_EMS .OrganizationalChart,
+.RadTreeView_EMS .Responsibility,
+.RadTreeView_EMS .ProcessParticipation,
+.RadTreeView_EMS .PA,
+.RadTreeView_EMS .ParameterGroup,
+.RadTreeView_EMS .Parameter,	
+.RadTreeView_EMS .ParameterRange,	
+.RadTreeView_EMS .Calculation,	
+.RadTreeView_EMS .Classification,	
+.RadTreeView_EMS .Indicators,	
+.RadTreeView_EMS .Measurements,
+.RadTreeView_EMS .MeasurementDevice,
+.RadTreeView_EMS .PF,
+.RadTreeView_EMS .ProcessParticipation,
+.RadTreeView_EMS .Execution,
+.RadTreeView_EMS .ExtendedProperties,
+.RadTreeView_EMS .Processes,
+.RadTreeView_EMS .KC,
+.RadTreeView_EMS .Resource,
+.RadTreeView_EMS .ResourceVersion,
+.RadTreeView_EMS .ResourceCatalog,
+.RadTreeView_EMS .ProcessNode,
+.RadTreeView_EMS .ProcessTaskOperation,
+.RadTreeView_EMS .ProcessTaskCalibration,
+.RadTreeView_EMS .ProcessTaskMeasurement,
+.RadTreeView_EMS .KCResource,
+.RadTreeView_EMS .KCResourceOverdue,
+.RadTreeView_EMS .KCResourceWorking,
+.RadTreeView_EMS .ProcessGroupProcesses,
+.RadTreeView_EMS .Indicator,
+.RadTreeView_EMS .Organization,
+.RadTreeView_EMS .JobTitle,
+.RadTreeView_EMS .Post,
+.RadTreeView_EMS .CalculationCertificated,
+.RadTreeView_EMS .CalculationEstimated,
+.RadTreeView_EMS .FunctionalArea,
+.RadTreeView_EMS .GeographicalArea,
+.RadTreeView_EMS .Position,
+.RadTreeView_EMS .FunctionalPosition,
+.RadTreeView_EMS .GeographicFunctionalArea,
+.RadTreeView_EMS .Person,
+.RadTreeView_EMS .Forum,
+.RadTreeView_EMS .Measurement,
+.RadTreeView_EMS .CT,
+.RadTreeView_EMS .RPT,
+.RadTreeView_EMS .AllTopic,
+.RadTreeView_EMS .GeneralProperties,
+.RadTreeView_EMS .SummaryForOwner,
+.RadTreeView_EMS .Category,
+.RadTreeView_EMS .Exception,
+.RadTreeView_EMS .Topic,
+.RadTreeView_EMS .Message,
+.RadTreeView_EMS .IA,
+.RadTreeView_EMS .Facility,
+.RadTreeView_EMS .Sector,
+.RadTreeView_EMS .Transformation
+{
+	background-image: url('Images/TreeView.gif');
+	background-color: Transparent;
+	background-repeat: no-repeat;
+}
+
+/* End TreeViee.EMS */
+
+
+
+/* TreeView.ContextElementMapsByProcess */
+
+.ProcessGroupProcessesWorking,
+.ProcessNodeWorking,
+.ProcessTaskOperationWorking,
+.ProcessTaskCalibrationWorking,
+.ProcessTaskMeasurementWorking,
+
+
+.ProcessGroupProcessesOverdue,
+.ProcessNodeOverdue,
+.ProcessTaskOperationOverdue,
+.ProcessTaskCalibrationOverdue,
+.ProcessTaskMeasurementOverdue,
+
+
+.ProcessGroupProcessesPlanned,
+.ProcessNodePlanned,
+.ProcessTaskOperationPlanned,
+.ProcessTaskCalibrationPlanned,
+.ProcessTaskMeasurementPlanned,
+
+
+.ProcessGroupProcessesFinished,
+.ProcessNodeFinished,
+.ProcessTaskOperationFinished,
+.ProcessTaskCalibrationFinished,
+.ProcessTaskMeasurementFinished,
+
+.RadTreeView_ContextElementMapsByProcess .Folder,
+.RadTreeView_ContextElementMapsByProcess .FolderHover,
+.RadTreeView_ContextElementMapsByProcess .FolderSelected
+{
+	background-image: url('Images/TreeViewContextElementMapsByProcess.gif' );
+	background-color:Transparent;
+	background-repeat:no-repeat;
+	display:inline-block;
+	height: 5px;
+}
+
+/* End TreeView.ContextElementMapsByProcess */
+
+
+/*TreeView tPlus rtMinus */
+
+/*TreeView.EMS */
+.RadTreeView_EMS .rtPlus,
+/* End TreeView.EMS */
+/*TreeView.ContextElementMapsByProcess */
+.RadTreeView_ContextElementMapsByProcess .rtPlus,
+/* End TreeView.ContextElementMapsByProcess */
+/*Telerik TreeView.ComboTreeView Skin*/
+.RadTreeView_ComboTreeView .rtPlus,
+/*End Telerik TreeView.ComboTreeView Skin*/
+/*Telerik TreeView.Form Skin*/
+.RadTreeView_Form .rtPlus,
+/*End Telerik TreeView.Form Skin*/
+/*Telerik TreeView.Manage Skin*/
+.RadTreeView_Manage .rtPlus
+{
+	background: transparent url('Images/TreeView.gif') 0px 0px no-repeat;
+}
+/*End Telerik TreeView.Manage Skin*/
+
+
+/*TreeView.EMS */
+.RadTreeView_EMS .rtMinus,
+/*End TreeView.EMS */
+/*TreeView.ContextElementMapsByProcess */
+.RadTreeView_ContextElementMapsByProcess .rtMinus,
+/* End TreeView.ContextElementMapsByProcess */
+/*Telerik TreeView.ComboTreeView Skin*/
+.RadTreeView_ComboTreeView .rtMinus,
+/*End Telerik TreeView.ComboTreeView Skin*/
+/*Telerik TreeView.Form Skin*/
+.RadTreeView_Form .rtMinus,
+/*End Telerik TreeView.Form Skin*/
+/*Telerik TreeView.Manage Skin*/
+.RadTreeView_Manage .rtMinus
+{
+	background: transparent url('Images/TreeView.gif') 0px -16px no-repeat;
+}
+/*End Telerik TreeView.Manage Skin*/
+
+/*End TreeView tPlus rtMinus */
+
+
+
+/* Telerik RadCalendar EMS skin */
+
+.Calendar img,
+.Time img
+{
+	background-image: url('Images/LibraryIcons.gif');
+	width: 16px;
+	height: 16px;
+	margin-top: 2px;
+}
+
+/* End Telerik RadCalendar EMS skin */
+
+
+
+/* RadComboBox Default skin */
+
+/*.RadComboBox_EMS td.rcbArrowCell,
+.RadComboBox_EMS td.rcbArrowCell:hover
+{
+	background-image: url('Images/LibraryIcons.gif');
+	background-repeat: no-repeat;
+}*/
+
+/* End RadComboBox Default skin */
+
+
+
+/* Docking Zone properties */
+
+.RadDock_EMS .rdHTitlebar .rdTitlebar
+{
+    border-width:0 0 0px;    
+    background-color:#737b8c;
+    /*background-image:url('Images/Master/BgHeader.png');*/
+    background-position: center;
+	height: 24px;
+}
+
+/* End Docking Zone properties */
+
+
+
+/*Telerik RadGrid EMS Skin*/
+
+.RadGrid_EMS .rgAdd,
+.RadGrid_EMS .rgRefresh,
+.RadGrid_EMS .rgEdit,
+.RadGrid_EMS .rgDel,
+.RadGrid_EMS .rgFilter,
+.RadGrid_EMS .rgPagePrev,
+.RadGrid_EMS .rgPageNext,
+.RadGrid_EMS .rgExpand,
+.RadGrid_EMS .rgCollapse,
+.RadGrid_EMS .rgSortAsc,
+.RadGrid_EMS .rgSortDesc,
+.RadGrid_EMS .rgUpdate,
+.RadGrid_EMS .rgCancel,
+.RadGrid_EMS .rgPageFirst,
+.RadGrid_EMS .rgPagePrev,
+.RadGrid_EMS .rgPageNext,
+.RadGrid_EMS .rgPageLast
+{
+	background-color:transparent;
+	background-image: url('Images/Arrows.gif');
+	background-repeat:no-repeat;
+}
+
+/* End Telerik RadGrid EMS Skin*/
+
+
+
+/*Telerik Menu EMS Skin*/
+
+.RadMenu_EMS .rmGroup
+{
+	/*background-image: url('Images/LibraryIcons.gif');*/
+}
+
+/*End Telerik Menu EMS Skin*/
+
+
+
+/*Telerik Menu.FrameworkAccionMenu Skin*/
+
+.RadMenu_FrameworkAccionMenu
+{
+	/*background-image: url('Images/LibraryIcons.gif');*/
+}
+
+/*End Telerik Menu.FrameworkAccionMenu Skin*/
+
+
+
+/*Library Icons*/
+
+.GlobalNavigator .globalNavigatorButtonDocked,
+.GlobalNavigator .globalNavigatorButtonUnDocked,
+
+.ContentSearch .ImagesControlSearch,
+.ContentSearch .ImagesControlSearchClose,
+
+.ContentForm .FormLink,
+/*.ContentForm .Validator,*/
+
+.contentProyectBuyerSummaryTable .contentProyectBuyerSummaryTDPicture .Back,
+.contentProyectBuyerSummaryTable .contentProyectBuyerSummaryTDPicture .Back:hover,
+.contentProyectBuyerSummaryTable .contentProyectBuyerSummaryTDPicture .Next,
+.contentProyectBuyerSummaryTable .contentProyectBuyerSummaryTDPicture .Next:hover,
+
+.contentGeographicDashboard .contentGeographicDashboardTDPicture .Back,
+.contentGeographicDashboard .contentGeographicDashboardTDPicture .Back:hover,
+.contentGeographicDashboard .contentGeographicDashboardTDPicture .Next,
+.contentGeographicDashboard .contentGeographicDashboardTDPicture .Next:hover,
+.contentListViewReportTable .Picture .Back,
+.contentListViewReportTable .Picture .Back:hover,
+.contentListViewReportTable .Picture .Next,
+.contentListViewReportTable .Picture .Next:hover,
+.contentListViewReportTable .PictureSmall .Back,
+.contentListViewReportTable .PictureSmall .Back:hover,
+.contentListViewReportTable .PictureSmall .Next,
+.contentListViewReportTable .PictureSmall .Next:hover,
+.pnlPhotoGallery .Back,
+.pnlPhotoGallery .Back:hover,
+.pnlPhotoGallery .Next,
+.pnlPhotoGallery .Next:hover,
+
+.MenuGrid,
+.MenuGrid:hover,
+.DocumentGrid,
+.ImgBtnRefreshChart,
+.ImgBtnRefreshChart:hover,
+.ImgBtnResetChart,
+.ImgBtnResetChart:hover, 
+.login #logindivMessenger .Images,
+div.RadWindow_EMS table.rwTitlebarControls ul.rwControlButtons li a,
+.ContentForm .ColContentCoord .tableCoord .tdEdit input
+{
+	background-image: url('Images/LibraryIcons.gif');
+	background-repeat:no-repeat;
+}
+
+
+/* Search */
+
+.ContentSearch .Header .Link,
+.ContentSearch .HeaderOpen .Link,
+.ContentSearch .Header .Link:hover,
+.ContentSearch .HeaderOpen .Link:hover,
+.ContentSearch .Header .LinkActive,
+.ContentSearch .HeaderOpen .LinkActive,
+
+.ContentFilter .Header .Link,
+.ContentFilter .HeaderOpen .Link,
+.ContentFilter .Header .Link:hover,
+.ContentFilter .HeaderOpen .Link:hover,
+.ContentFilter .Header .LinkActive,
+.ContentFilter .HeaderOpen .LinkActive
+
+{
+	background-image: url('Images/Arrows.gif');
+	background-repeat: no-repeat;
+}
+
+.ContentSearch .Header .LinkSearch,
+.ContentSearch .HeaderOpen .LinkSearch
+{
+		background-image: url('Images/LibraryIcons.gif');
+}
+
+/*End Library Icons*/

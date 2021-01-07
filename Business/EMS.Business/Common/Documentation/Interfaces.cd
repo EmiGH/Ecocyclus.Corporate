@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Interface Name="Condesus.EMS.Business.IModule">
+    <Position X="1.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Interfaces\IModule.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Condesus.EMS.Business.ISecurity">
+    <Position X="3.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAFAAAAQAAAAAAAAAGBAAAAAAAAIEEAAAIAAAAAA=</HashCode>
+      <FileName>Common\Interfaces\ISecurity.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Condesus.EMS.Business.IObjectIdentifier">
+    <Position X="6.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Interfaces\IObjectIdentifier.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Condesus.EMS.Business.ISecurityEntity">
+    <Position X="7.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Interfaces\ISecurityEntity.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Condesus.EMS.Business.ICollectionItem">
+    <Position X="16.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Interfaces\ICollectionItem.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Condesus.EMS.Business.ICollectionItems">
+    <Position X="14.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Common\Interfaces\ICollectionItems.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Condesus.EMS.Business.ICollectionRead">
+    <Position X="15.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Interfaces\ICollectionRead.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Condesus.EMS.Business.IExtendedProperty">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAQACAAAAAAAAAAAAABAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Common\Interfaces\IExtendedProperty.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Condesus.EMS.Business.IGoegraphicData">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Interfaces\IGoegraphicData.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Condesus.EMS.Business.IOperand">
+    <Position X="9.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Interfaces\IOperand.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Condesus.EMS.Business.ITransformer">
+    <Position X="9.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAACAABAAAAAAAAAAAAAAAAAAgAAQ=</HashCode>
+      <FileName>Common\Interfaces\ITransformer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Condesus.EMS.Business.INotificationRecipient" Collapsed="true">
+    <Position X="11.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAABAAAAAAAAAABgAAAAAAAAAA=</HashCode>
+      <FileName>Common\Interfaces\INotificationRecipient.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Condesus.EMS.Business.INotificationReported" Collapsed="true">
+    <Position X="11.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Interfaces\INotificationReported.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

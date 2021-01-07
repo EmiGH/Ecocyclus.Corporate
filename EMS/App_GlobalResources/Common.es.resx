@@ -1,0 +1,741 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActionNotAllowed" xml:space="preserve">
+    <value>La acción que está intentando ejecutar no está permitida.</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Agregar</value>
+  </data>
+  <data name="btnBack" xml:space="preserve">
+    <value>Volver</value>
+  </data>
+  <data name="btnCancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="btnOk" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="btnSave" xml:space="preserve">
+    <value>Grabar</value>
+  </data>
+  <data name="CreateUser" xml:space="preserve">
+    <value>Primero Ud. debe crear un usuario.</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Borrar</value>
+  </data>
+  <data name="DeleteOK" xml:space="preserve">
+    <value>Correctamente eliminado.</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="ErrorFileNotFound" xml:space="preserve">
+    <value>La página que ha solicitado no pudo ser encontrada.</value>
+  </data>
+  <data name="ErrorForbiddenAccess" xml:space="preserve">
+    <value>Ud. no posee permisos para acceder a este recurso.&lt;br&gt;Por favor contacte al Administrador.&lt;br&gt;&lt;br&gt;Gracias.</value>
+  </data>
+  <data name="ErrorUnexpected" xml:space="preserve">
+    <value>Ha ocurrido un error inesperado.&lt;br&gt;Lamentamos el inconveniente.&lt;br&gt;Por favor intente nuevamente más tarde.&lt;br&gt;&lt;br&gt;Gracias.</value>
+  </data>
+  <data name="GeneralOptions" xml:space="preserve">
+    <value>Opciones Generales</value>
+  </data>
+  <data name="LanguageDefault" xml:space="preserve">
+    <value>Ud. no puede remover datos específicos del idioma por defecto.</value>
+  </data>
+  <data name="Languages" xml:space="preserve">
+    <value>Idiomas</value>
+  </data>
+  <data name="msgConfirmDelete" xml:space="preserve">
+    <value>¿Está seguro que desea borrar la información?</value>
+  </data>
+  <data name="PageNotAlowed" xml:space="preserve">
+    <value>Usted no está autorizado para ingresar en la página solicitada.</value>
+  </data>
+  <data name="Properties" xml:space="preserve">
+    <value>Propiedades</value>
+  </data>
+  <data name="SaveFailed" xml:space="preserve">
+    <value>Fallo. Error: {0}</value>
+  </data>
+  <data name="SaveOK" xml:space="preserve">
+    <value>Correctamente almacenado.</value>
+  </data>
+  <data name="UserExists" xml:space="preserve">
+    <value>El nombre del usuario provisto ya existe.</value>
+  </data>
+  <data name="EmptyStack" xml:space="preserve">
+    <value>La pila se encuentra vacía.</value>
+  </data>
+  <data name="DeleteFailed" xml:space="preserve">
+    <value>Fallo. Error: {0}</value>
+  </data>
+  <data name="MainMenuPTDashboardTitle" xml:space="preserve">
+    <value>Tablero de Mando</value>
+  </data>
+  <data name="MainMenuATDirectoryServicesTitle" xml:space="preserve">
+    <value>Organizaciones e Instalaciones</value>
+  </data>
+  <data name="MainMenuATImprovementActions" xml:space="preserve">
+    <value>Acciones de Mejora</value>
+  </data>
+  <data name="MainMenuATKnowledgeCollaborationTitle" xml:space="preserve">
+    <value>Conocimiento y Colaboración</value>
+  </data>
+  <data name="MainMenuMTKnowledgeMapTitle" xml:space="preserve">
+    <value>Conocimiento y Colaboración</value>
+  </data>
+  <data name="MainMenuATPerformanceAssessmentTitle" xml:space="preserve">
+    <value>Evaluación de Desempeño</value>
+  </data>
+  <data name="MainMenuMTPerformanceMapTitle" xml:space="preserve">
+    <value>Mapa de Esquema de Indicadores</value>
+  </data>
+  <data name="MainMenuATProcessesMapTitle" xml:space="preserve">
+    <value>Planes de Monitoreo</value>
+  </data>
+  <data name="MainMenuMTProcessesMapTitle" xml:space="preserve">
+    <value>Mapa de Procesos</value>
+  </data>
+  <data name="MainMenuPTProfileTitle" xml:space="preserve">
+    <value>Información del Perfil</value>
+  </data>
+  <data name="MainMenuATRiskManagementTitle" xml:space="preserve">
+    <value>Gestión de Riesgos y Potenciales</value>
+  </data>
+  <data name="MainMenuMTRiskMapTitle" xml:space="preserve">
+    <value>Mapa de Riesgos y Potenciales</value>
+  </data>
+  <data name="ProcessResultNotOk" xml:space="preserve">
+    <value>No Ok</value>
+  </data>
+  <data name="ProcessResultOk" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="NotCalibration" xml:space="preserve">
+    <value>El dispositivo de medición no se encuentra correctamente calibrado.</value>
+  </data>
+  <data name="NotUsed" xml:space="preserve">
+    <value>- no utilizado -</value>
+  </data>
+  <data name="OrganizationUndefined" xml:space="preserve">
+    <value>Organización no definida</value>
+  </data>
+  <data name="IncorrectMeasurementDate" xml:space="preserve">
+    <value>La fecha de la medición ingresada no es correcta.</value>
+  </data>
+  <data name="NoRecordSelectedToDelete" xml:space="preserve">
+    <value>Usted debe seleccionar al menos un registro para poder eliminarlo.</value>
+  </data>
+  <data name="mnuAdd" xml:space="preserve">
+    <value>Agregar</value>
+  </data>
+  <data name="mnuDelete" xml:space="preserve">
+    <value>Borrar</value>
+  </data>
+  <data name="mnuEdit" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="mnuLanguage" xml:space="preserve">
+    <value>Idioma</value>
+  </data>
+  <data name="mnuView" xml:space="preserve">
+    <value>Ver</value>
+  </data>
+  <data name="WordFrequency" xml:space="preserve">
+    <value>Cada</value>
+  </data>
+  <data name="mnuAddNode" xml:space="preserve">
+    <value>Agregar Nodo</value>
+  </data>
+  <data name="mnuAddTask" xml:space="preserve">
+    <value>Agregar Tarea</value>
+  </data>
+  <data name="mnuCalculation" xml:space="preserve">
+    <value>Cálculo</value>
+  </data>
+  <data name="mnuCalibration" xml:space="preserve">
+    <value>Calibración</value>
+  </data>
+  <data name="mnuDirectoryServices" xml:space="preserve">
+    <value>Organizaciones e Instalaciones</value>
+  </data>
+  <data name="mnuExecution" xml:space="preserve">
+    <value>Ejecución</value>
+  </data>
+  <data name="mnuExtendedProperties" xml:space="preserve">
+    <value>Propiedades Extendidas</value>
+  </data>
+  <data name="mnuGRC" xml:space="preserve">
+    <value>Información Relacionada</value>
+  </data>
+  <data name="mnuImprovementActions" xml:space="preserve">
+    <value>Acciones de Mejora</value>
+  </data>
+  <data name="mnuKnwledgeCollaboration" xml:space="preserve">
+    <value>Conocimiento y Colaboración</value>
+  </data>
+  <data name="mnuMainData" xml:space="preserve">
+    <value>Datos Principales</value>
+  </data>
+  <data name="mnuMeasurement" xml:space="preserve">
+    <value>Medición</value>
+  </data>
+  <data name="mnuMeasurementDevice" xml:space="preserve">
+    <value>Dispositivo de Medición</value>
+  </data>
+  <data name="mnuOperation" xml:space="preserve">
+    <value>Operativas</value>
+  </data>
+  <data name="mnuPerformanceAssessment" xml:space="preserve">
+    <value>Evaluación de Desempeño</value>
+  </data>
+  <data name="mnuProcessMap" xml:space="preserve">
+    <value>Mapa de seguimiento</value>
+  </data>
+  <data name="mnuRiskManagement" xml:space="preserve">
+    <value>Gestión de Riesgos y Potenciales</value>
+  </data>
+  <data name="mnuStandardNode" xml:space="preserve">
+    <value>Nodo Estándar</value>
+  </data>
+  <data name="MainMenuNoItems" xml:space="preserve">
+    <value>No hay ítems disponibles.</value>
+  </data>
+  <data name="mnuParticipation" xml:space="preserve">
+    <value>Participaciones de Organizaciones</value>
+  </data>
+  <data name="mnuRole" xml:space="preserve">
+    <value>Roles</value>
+  </data>
+  <data name="mnuSecurity" xml:space="preserve">
+    <value>Seguridad</value>
+  </data>
+  <data name="mnuEditResource" xml:space="preserve">
+    <value>Editar Recurso</value>
+  </data>
+  <data name="mnuModifyComment" xml:space="preserve">
+    <value>Modificar Comentario</value>
+  </data>
+  <data name="ComboBoxAll" xml:space="preserve">
+    <value>Mostrar todo</value>
+  </data>
+  <data name="ComboBoxNoDependency" xml:space="preserve">
+    <value>Sin dependencia</value>
+  </data>
+  <data name="lblSearch" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="lnkSeach" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="lnkSeachToolTip" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="mnuSSJobTitle" xml:space="preserve">
+    <value>Cargos</value>
+  </data>
+  <data name="mnuSSPost" xml:space="preserve">
+    <value>Puestos</value>
+  </data>
+  <data name="lnkSeachActive" xml:space="preserve">
+    <value>Búsqueda finalizada</value>
+  </data>
+  <data name="lnkSeachToolTipActive" xml:space="preserve">
+    <value>Búsqueda finalizada</value>
+  </data>
+  <data name="lblFilter" xml:space="preserve">
+    <value>Filtro</value>
+  </data>
+  <data name="ContextInformationTitlePanel" xml:space="preserve">
+    <value>Información de Contexto</value>
+  </data>
+  <data name="ContextElementMapsTitlePanel" xml:space="preserve">
+    <value>Mapa de Elementos de Contexto</value>
+  </data>
+  <data name="Unavailable" xml:space="preserve">
+    <value>No disponible</value>
+  </data>
+  <data name="RightJobTitle" xml:space="preserve">
+    <value>Permisos del Cargo </value>
+  </data>
+  <data name="RightPerson" xml:space="preserve">
+    <value>Permisos del Puesto</value>
+  </data>
+  <data name="GrdiPagerStylePrevPageText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="GridPagerStyleNextPagesToolTip" xml:space="preserve">
+    <value>Próximas Páginas</value>
+  </data>
+  <data name="GridPagerStyleNextPageText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="GridPagerStyleNextPageToolTip" xml:space="preserve">
+    <value>Próxima Página</value>
+  </data>
+  <data name="GridPagerStylePagerTextFormat" xml:space="preserve">
+    <value>Cambiar Página: {4} &amp;nbsp;Mostrando página {0} de {1}, ítems {2} a {3} de {5}.</value>
+  </data>
+  <data name="GridPagerStylePrevPagesToolTip" xml:space="preserve">
+    <value>Páginas Previas</value>
+  </data>
+  <data name="GridPagerStylePrevPageToolTip" xml:space="preserve">
+    <value>Página Previa</value>
+  </data>
+  <data name="mnuClassification" xml:space="preserve">
+    <value>Clasificación</value>
+  </data>
+  <data name="mnuElement" xml:space="preserve">
+    <value>Elemento</value>
+  </data>
+  <data name="Calibrated" xml:space="preserve">
+    <value>El dispositivo de medición está correctamente calibrado.</value>
+  </data>
+  <data name="forumEdit" xml:space="preserve">
+    <value>Editado por</value>
+  </data>
+  <data name="forumWrote" xml:space="preserve">
+    <value>escribió</value>
+  </data>
+  <data name="tabChart" xml:space="preserve">
+    <value>Gráfico</value>
+  </data>
+  <data name="tabMainInfo" xml:space="preserve">
+    <value>Información</value>
+  </data>
+  <data name="tabMoreInfo" xml:space="preserve">
+    <value>Más Información</value>
+  </data>
+  <data name="tabPhotos" xml:space="preserve">
+    <value>Imágenes</value>
+  </data>
+  <data name="forumEditing" xml:space="preserve">
+    <value>Editando</value>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>Tablero de Mando</value>
+  </data>
+  <data name="GeographicDashboard" xml:space="preserve">
+    <value>Puntos Geográficos</value>
+  </data>
+  <data name="Joined" xml:space="preserve">
+    <value>Unido:</value>
+  </data>
+  <data name="PostReply" xml:space="preserve">
+    <value>Responder envío</value>
+  </data>
+  <data name="PostsCount" xml:space="preserve">
+    <value>Envíos:</value>
+  </data>
+  <data name="BackToTop" xml:space="preserve">
+    <value>Volver al Inicio</value>
+  </data>
+  <data name="MessageEdit" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="MessageReply" xml:space="preserve">
+    <value>Responder</value>
+  </data>
+  <data name="NumberPosted" xml:space="preserve">
+    <value>Enviado:</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>Usuario</value>
+  </data>
+  <data name="msgStatusPageReady" xml:space="preserve">
+    <value>Listo</value>
+  </data>
+  <data name="AdministrationTools" xml:space="preserve">
+    <value>Herramientas de Administración </value>
+  </data>
+  <data name="ManagementTools" xml:space="preserve">
+    <value>Herramientas de Gestión</value>
+  </data>
+  <data name="PageSubtitleList" xml:space="preserve">
+    <value>[Listado]</value>
+  </data>
+  <data name="PageSubtitleProperties" xml:space="preserve">
+    <value>[Propiedades]</value>
+  </data>
+  <data name="Property" xml:space="preserve">
+    <value>Propiedad</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Valor</value>
+  </data>
+  <data name="Home_Title" xml:space="preserve">
+    <value>EMS</value>
+  </data>
+  <data name="Home_Description" xml:space="preserve">
+    <value>Página Principal EMS</value>
+  </data>
+  <data name="mnuCompute" xml:space="preserve">
+    <value>Calcular</value>
+  </data>
+  <data name="False" xml:space="preserve">
+    <value>Falso</value>
+  </data>
+  <data name="True" xml:space="preserve">
+    <value>Verdadero</value>
+  </data>
+  <data name="Chart" xml:space="preserve">
+    <value>Gráfico</value>
+  </data>
+  <data name="Map" xml:space="preserve">
+    <value>Mapa Geográfico</value>
+  </data>
+  <data name="Photo" xml:space="preserve">
+    <value>Foto</value>
+  </data>
+  <data name="mnuCloseException" xml:space="preserve">
+    <value>Cerrar excepción</value>
+  </data>
+  <data name="mnuCreateException" xml:space="preserve">
+    <value>Crear excepción</value>
+  </data>
+  <data name="mnuTreatException" xml:space="preserve">
+    <value>Tratar Excepción</value>
+  </data>
+  <data name="MainData" xml:space="preserve">
+    <value>Datos Principales</value>
+  </data>
+  <data name="RelatedData" xml:space="preserve">
+    <value>Datos relacionados</value>
+  </data>
+  <data name="mnuSSPerson" xml:space="preserve">
+    <value>Personas</value>
+  </data>
+  <data name="Today" xml:space="preserve">
+    <value>Hoy</value>
+  </data>
+  <data name="LeyendGeographicDashboardFacility" xml:space="preserve">
+    <value>Acceso al Observatorio de la Sostenibilidad</value>
+  </data>
+  <data name="OperativeDashboard" xml:space="preserve">
+    <value>Tablero de Instrumentos Operativos</value>
+  </data>
+  <data name="TasksByDate" xml:space="preserve">
+    <value>Tareas por Fecha</value>
+  </data>
+  <data name="OperativeDashboardDayTooltip" xml:space="preserve">
+    <value>Haga click para ver las tareas que tiene para ejecutar en este dia.</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Detalles</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>TOTAL</value>
+  </data>
+  <data name="Totals" xml:space="preserve">
+    <value>Totales</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Imprimir</value>
+  </data>
+  <data name="LeyendGeographicManageFacility" xml:space="preserve">
+    <value>Acceda a las instalaciones de la organización</value>
+  </data>
+  <data name="TitlePopFilter" xml:space="preserve">
+    <value>Filtro</value>
+  </data>
+  <data name="TitlePopSearch" xml:space="preserve">
+    <value>Buscador</value>
+  </data>
+  <data name="Unassigned" xml:space="preserve">
+    <value>Sin asignar</value>
+  </data>
+  <data name="ClearFilter" xml:space="preserve">
+    <value>Limpiar Filtro</value>
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>Filtrar</value>
+  </data>
+  <data name="CL" xml:space="preserve">
+    <value>Contaminantes Locales</value>
+  </data>
+  <data name="GEI" xml:space="preserve">
+    <value>Gases de Efecto Invernadero</value>
+  </data>
+  <data name="Report" xml:space="preserve">
+    <value>Reporte</value>
+  </data>
+  <data name="ReportType" xml:space="preserve">
+    <value>Tipo de Reporte</value>
+  </data>
+  <data name="ChartActivities" xml:space="preserve">
+    <value>Actividades</value>
+  </data>
+  <data name="ChartFacilities" xml:space="preserve">
+    <value>Intalaciones</value>
+  </data>
+  <data name="ChartFacilityTypes" xml:space="preserve">
+    <value>Tipos de Instalaciones</value>
+  </data>
+  <data name="ChartGeographicalAreas" xml:space="preserve">
+    <value>Areas Geográficas</value>
+  </data>
+  <data name="ChartScopes" xml:space="preserve">
+    <value>Alcances</value>
+  </data>
+  <data name="ChartSeriesType" xml:space="preserve">
+    <value>Tipo de gráfico de la serie:</value>
+  </data>
+  <data name="ChartSeriesTypeStackedBar" xml:space="preserve">
+    <value>Barra Apilada</value>
+  </data>
+  <data name="ChartSeriesTypeStackedBar100" xml:space="preserve">
+    <value>Barra Apilada al 100%</value>
+  </data>
+  <data name="Expand" xml:space="preserve">
+    <value>Expandir</value>
+  </data>
+  <data name="FT_F_S_A" xml:space="preserve">
+    <value>Actividades por Tipo de Instalaciones</value>
+  </data>
+  <data name="GA_FT_F_S_A" xml:space="preserve">
+    <value>Actividades por Áreas Geográficas</value>
+  </data>
+  <data name="GA_S_A_FT_F" xml:space="preserve">
+    <value>Tipo de Instalaciones por Área Geográficas</value>
+  </data>
+  <data name="S_A_FT_F" xml:space="preserve">
+    <value>Tipo de Instalaciones por Alcances</value>
+  </data>
+  <data name="S_GA_A_FT_F" xml:space="preserve">
+    <value>Tipo de Instalaciones por Alcances en Áreas Geográficas</value>
+  </data>
+  <data name="DataSeries" xml:space="preserve">
+    <value>Series de Datos</value>
+  </data>
+  <data name="ChartCL" xml:space="preserve">
+    <value>Contaminantes</value>
+  </data>
+  <data name="ChartGEI" xml:space="preserve">
+    <value>GEI</value>
+  </data>
+  <data name="CalibrationPlan" xml:space="preserve">
+    <value>Plan de Calibración</value>
+  </data>
+  <data name="MonitoringPlan" xml:space="preserve">
+    <value>Plan de Monitoreo</value>
+  </data>
+  <data name="OperativePlan" xml:space="preserve">
+    <value>Plan Operativo</value>
+  </data>
+  <data name="Unexecuted" xml:space="preserve">
+    <value>Sin Ejecutar</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Correo electrònico</value>
+  </data>
+  <data name="ForgetPassword" xml:space="preserve">
+    <value>¿La olvidaste?</value>
+  </data>
+  <data name="FullName" xml:space="preserve">
+    <value>Nombre completo</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Contraseña</value>
+  </data>
+  <data name="RememberUser" xml:space="preserve">
+    <value>Recordar usuario</value>
+  </data>
+  <data name="TitleRegister" xml:space="preserve">
+    <value>¿Quieres unirte a ghree? ¡Regístrate hoy!</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>Registrarse</value>
+  </data>
+  <data name="SloganLogin" xml:space="preserve">
+    <value>comunidad sostenible</value>
+  </data>
+  <data name="lnkHelpdesk" xml:space="preserve">
+    <value>Servicio de ayuda</value>
+  </data>
+  <data name="lnkPrivacy" xml:space="preserve">
+    <value>Privacidad</value>
+  </data>
+  <data name="lnkTerms" xml:space="preserve">
+    <value>Condiciones</value>
+  </data>
+  <data name="tabProperties" xml:space="preserve">
+    <value>Propiedades</value>
+  </data>
+  <data name="tabReports" xml:space="preserve">
+    <value>Reportes</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Inicio</value>
+  </data>
+  <data name="ComboBoxSelectItemDefaultPrefix" xml:space="preserve">
+    <value>Seleccione un item...</value>
+  </data>
+  <data name="NoRecordsToDisplay" xml:space="preserve">
+    <value>No hay registros para mostrar.</value>
+  </data>
+  <data name="dtDatePickerTooltip" xml:space="preserve">
+    <value>abrir la ventana emergente del calendario.</value>
+  </data>
+  <data name="dtTimePickerTooltip" xml:space="preserve">
+    <value>abrir la ventana emergente de horario.</value>
+  </data>
+  <data name="ErrorUnknown" xml:space="preserve">
+    <value>Ha ocurrido un error desconocido.&lt;br&gt;Lamentamos el inconveniente.&lt;br&gt;Por favor intente nuevamente más tarde.&lt;br&gt;&lt;br&gt;Gracias.</value>
+  </data>
+  <data name="ObservatoryExcel" xml:space="preserve">
+    <value>Excel</value>
+  </data>
+  <data name="AuditPlan" xml:space="preserve">
+    <value>Plan de Auditoría</value>
+  </data>
+  <data name="mnuAuditFile" xml:space="preserve">
+    <value>Archivo de Auditoría</value>
+  </data>
+  <data name="O_S_A_FT_F" xml:space="preserve">
+    <value>Tipo de Instalaciones por Organizaciones</value>
+  </data>
+  <data name="Evolution" xml:space="preserve">
+    <value>Evolución Anual</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Exportar</value>
+  </data>
+  <data name="SearchbyName" xml:space="preserve">
+    <value>Buscar por Nombre</value>
+  </data>
+  <data name="btnClosePopup" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="btnSearchApply" xml:space="preserve">
+    <value>Aplicar</value>
+  </data>
+  <data name="General" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="InterObservatory" xml:space="preserve">
+    <value>Inter-Observatorio</value>
+  </data>
+  <data name="IntraObservatory" xml:space="preserve">
+    <value>Intra-Observatorio</value>
+  </data>
+</root>

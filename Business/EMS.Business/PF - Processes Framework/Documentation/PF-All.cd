@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Condesus.EMS.Business.PF.Entities.ProcessGroup">
+    <Position X="22.25" Y="14" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="ChildrenTask" Type="Condesus.EMS.Business.PF.Entities.ProcessTask">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="8.148" Y="0.207" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAYAAAgABAAgAAAAAAAAAAAgBEACAAA=</HashCode>
+      <FileName>PF - Processes Framework\Code\Entities\ProcessGroup.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="ChildrenTask" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Condesus.EMS.Business.PF.Entities.ProcessTask">
+    <Position X="29.25" Y="14" Width="3.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>ApBAAASjKCACgBIAAoAoBA1gAAQSIIABgBEQRMEEAAI=</HashCode>
+      <FileName>PF - Processes Framework\Code\Entities\ProcessTask.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="ProcessTaskExecutions" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Condesus.EMS.Business.PF.Entities.ProcessTaskOperation">
+    <Position X="24.5" Y="24.25" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAIAAEAAAAAAAAAAAARAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>PF - Processes Framework\Code\Entities\ProcessTaskOperation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.PF.Entities.ProcessClassification">
+    <Position X="14.5" Y="17.75" Width="3.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EAAIIAAAAIMAiAAAEkCQBAAAAAAAAAABAAIAgIAQAgA=</HashCode>
+      <FileName>PF - Processes Framework\Code\Entities\ProcessClassification.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="LanguageOption" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Condesus.EMS.Business.PF.Entities.ProcessClassification_LG">
+    <Position X="15" Y="22.25" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAgAAACAAAAIAQAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>PF - Processes Framework\Code\Entities\ProcessClassification_LG.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.PF.Entities.ParticipationType_LG">
+    <Position X="19.25" Y="29.25" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAACAAAAIAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PF - Processes Framework\Code\Entities\ParticipationType_LG.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.PF.Entities.ProcessTaskMeasurement">
+    <Position X="28" Y="24.25" Width="3" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAJICAACAAAQABAAAUVAAAIAEIABAEAAAQAAEABAA=</HashCode>
+      <FileName>PF - Processes Framework\Code\Entities\ProcessTaskMeasurement.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Measurement" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Condesus.EMS.Business.PF.Entities.ProcessTaskCalibration">
+    <Position X="32.5" Y="24.25" Width="3" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAACAAAAAAAAAARAAAAAAAgAIAAAIAAAAAAAA=</HashCode>
+      <FileName>PF - Processes Framework\Code\Entities\ProcessTaskCalibration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.PF.Entities.Process">
+    <Position X="25" Y="8" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="LanguageOption" Type="Condesus.EMS.Business.PF.Entities.Process_LG">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="2.096" Y="0.092" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ECAIQAKAGAEAAAIAAEAARAwgAKAAAKEQQQAAhEYACAQ=</HashCode>
+      <FileName>PF - Processes Framework\Code\Entities\Process.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="LanguageOption" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="ProcessResources" />
+      <Property Name="ProcessResourceFiles" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Condesus.EMS.Business.PF.Entities.Process_LG">
+    <Position X="30.75" Y="7" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAgAEACIAAAAAAAAIAAAAAEIAAAAAAAAAA=</HashCode>
+      <FileName>PF - Processes Framework\Code\Entities\Process_LG.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.PF.Entities.ProcessTaskDataRecovery">
+    <Position X="37" Y="24.25" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAQAAAAAAAAIRAAAAAEAAAAAAAIACACAAAA=</HashCode>
+      <FileName>PF - Processes Framework\Code\Entities\ProcessTaskDataRecovery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.PF.Entities.ProcessTaskExecution">
+    <Position X="37.25" Y="14.25" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>gAAAIAQMQAAAAQAAAEgAJAAiCIAAAgARJABwJAICBAA=</HashCode>
+      <FileName>PF - Processes Framework\Code\Entities\ProcessTaskExecution.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.PF.Entities.ProcessTaskExecutionCalibration">
+    <Position X="37" Y="19.5" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAEAAAAAAAAAAAAAAgAIAAAIAIAECAAA=</HashCode>
+      <FileName>PF - Processes Framework\Code\Entities\ProcessTaskExecutionCalibration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.PF.Entities.ProcessTaskExecutionFileAttach">
+    <Position X="30.25" Y="10" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAEAAgAAAAABIAAAAAQIAAAAAAAAAA=</HashCode>
+      <FileName>PF - Processes Framework\Code\Entities\ProcessTaskExecutionFileAttach.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.PF.Entities.ProcessTaskExecutionMeasurement">
+    <Position X="33.5" Y="19.5" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AIAAJACAAAAAAAAiEACABAAAAAIAqAYAAAIgIAEAAAA=</HashCode>
+      <FileName>PF - Processes Framework\Code\Entities\ProcessTaskExecutionMeasurement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.PF.Entities.TimeUnit">
+    <Position X="34.25" Y="10.75" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EAAIAEABAAkAEAAAAEAAAAAAAAAAEQAgMABEgAAAAAA=</HashCode>
+      <FileName>PF - Processes Framework\Code\Entities\TimeUnit.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="LanguageOption" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Condesus.EMS.Business.PF.Entities.TimeUnit_LG">
+    <Position X="37.75" Y="10.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAACAAAAIAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PF - Processes Framework\Code\Entities\TimeUnit_LG.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.PF.Entities.ProcessGroupProcess">
+    <Position X="19.75" Y="18.5" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AZQkIAiLBCWENoYEQsUAdFaibAkKAICmEAi4BkEQIBY=</HashCode>
+      <FileName>PF - Processes Framework\Code\Entities\ProcessGroupProcess.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Classifications" />
+      <Property Name="ProcessParticipations" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.205" />
+  </Class>
+  <Class Name="Condesus.EMS.Business.PF.Entities.ProcessGroupException">
+    <Position X="23.75" Y="19" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAIAAIAAAAAAIAAAAARAQgAAAAAICAACAABEAAABA=</HashCode>
+      <FileName>PF - Processes Framework\Code\Entities\ProcessGroupException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.PF.Entities.ParticipationType">
+    <Position X="15.75" Y="29" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EAAIIIAAAAEAAAAAAEAAAAAAAAAAAAAAAAACgAAAAAA=</HashCode>
+      <FileName>PF - Processes Framework\Code\Entities\ParticipationType.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="LanguageOption" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Condesus.EMS.Business.PF.Entities.ProcessParticipation">
+    <Position X="15.75" Y="25" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAIIAEEAAAAAAEAEAAIAAEAIAAAAAIAAASAAAAIAQ=</HashCode>
+      <FileName>PF - Processes Framework\Code\Entities\ProcessParticipation.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ParticipationType" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Condesus.EMS.Business.PF.Entities.ProcessResource">
+    <Position X="21.25" Y="7.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAIAAEIAAAAAAAAkAAgAAAAIAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>PF - Processes Framework\Code\Entities\ProcessResource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.PA.Entities.Measurement">
+    <Position X="24.75" Y="27.25" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Condesus.EMS.Business.PA.Entities.Measurement.AggregateType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>PA - Performance Assessment\Code\Entities\Measurement.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="Condesus.EMS.Business.PA.Entities.Measurement.GroupingType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>PA - Performance Assessment\Code\Entities\Measurement.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ECMIIAQMJiGgkkB1QHGEJAQGAOBAAEAAABAAoA6yCAU=</HashCode>
+      <FileName>PA - Performance Assessment\Code\Entities\Measurement.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Condesus.EMS.Business.CT.Entities.Category">
+    <Position X="11.75" Y="3.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="LanguageOption" Type="Condesus.EMS.Business.CT.Entities.Category_LG">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.565" Y="0.084" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Topics" Type="Condesus.EMS.Business.CT.Entities.Topic">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.789" Y="0.1" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>EAAIAAAAAAEAAAIAAGAAAAAAAAAAAAAAAAAAgCIAIAA=</HashCode>
+      <FileName>CT - Forum\Code\Entities\Category\Category.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="LanguageOption" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Topics" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Condesus.EMS.Business.CT.Entities.Forum">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EAAIIAAAAAEABAAAAEAABAAAAAAAAAAAAAAAgAIACgA=</HashCode>
+      <FileName>CT - Forum\Code\Entities\Forum\Forum.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="LanguageOption" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Condesus.EMS.Business.CT.Entities.Forum_LG">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAoAAACAAAAIAQAAAAAAAAEAAAAAAAACgA=</HashCode>
+      <FileName>CT - Forum\Code\Entities\Forum\Forum_LG.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.CT.Entities.Category_LG">
+    <Position X="15" Y="3.25" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAoAAACACAAIAQAAAAAAAAEAAAAAAAAIAA=</HashCode>
+      <FileName>CT - Forum\Code\Entities\Category\Category_LG.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.CT.Entities.Message">
+    <Position X="13" Y="9.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AIAAKAAAAAAAgAAAAEEABAACACDAAAACAACACCIBAAA=</HashCode>
+      <FileName>CT - Forum\Code\Entities\Message\Message.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.CT.Entities.Poll">
+    <Position X="8.5" Y="14.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAgBAQAEAAAQACAAAAAAAAAACgAAAAIAA=</HashCode>
+      <FileName>CT - Forum\Code\Entities\Poll.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.CT.Entities.Topic">
+    <Position X="8" Y="3.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>IAAAIAAUIAAABEAAAGAABAACAIDAACACAAIBAgIACgA=</HashCode>
+      <FileName>CT - Forum\Code\Entities\Topic\Topic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.CT.Entities.WordFilter">
+    <Position X="4" Y="6.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAgAAAAAAAAAAAAAAEAAAAABAAQAAAAAAAQ=</HashCode>
+      <FileName>CT - Forum\Code\Entities\WordFilter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.CT.Entities.InactiveForum">
+    <Position X="2" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAEAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CT - Forum\Code\Entities\Forum\InactiveForum.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.CT.Entities.InactiveTopic">
+    <Position X="6.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CT - Forum\Code\Entities\Topic\InactiveTopic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.CT.Entities.BannedMessage">
+    <Position X="14.75" Y="14.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CT - Forum\Code\Entities\Message\BannedMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.CT.Entities.ActiveForum">
+    <Position X="4.5" Y="3.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAIAEAAABAAAACAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>CT - Forum\Code\Entities\Forum\ActiveForum.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Topics" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Condesus.EMS.Business.CT.Entities.ActiveTopic">
+    <Position X="9.25" Y="9.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="Messages" Type="Condesus.EMS.Business.CT.Entities.Message">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="1.214" Y="0.091" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAABAAAABAAAAAEAAAAIQAAAAA=</HashCode>
+      <FileName>CT - Forum\Code\Entities\Topic\ActiveTopic.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Messages" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Condesus.EMS.Business.CT.Entities.NormalMessage">
+    <Position X="11.5" Y="14.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="Polls" Type="Condesus.EMS.Business.CT.Entities.Poll">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.881" Y="0.094" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAEABAAACAAACAAAAAAAAAAAEAA=</HashCode>
+      <FileName>CT - Forum\Code\Entities\Message\NormalMessage.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Polls" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

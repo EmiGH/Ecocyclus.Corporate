@@ -1,0 +1,645 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Applicability_LG" xml:space="preserve">
+    <value>~/AdministrationTools/DirectoryServices/ApplicabilitiesLanguageProperties.aspx</value>
+  </data>
+  <data name="Calculation" xml:space="preserve">
+    <value>~/AdministrationTools/PerformanceAssessment/CalculationProperties.aspx</value>
+  </data>
+  <data name="CalculationScenarioType" xml:space="preserve">
+    <value>~/AdministrationTools/PerformanceAssessment/CalculationScenarioTypesProperties.aspx</value>
+  </data>
+  <data name="CalculationScenarioType_LG" xml:space="preserve">
+    <value>~/AdministrationTools/PerformanceAssessment/CalculationScenarioTypesLanguagesProperties.aspx</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>~/AdministrationTools/DirectoryServices/AddressesProperties.aspx</value>
+  </data>
+  <data name="ContactEmail" xml:space="preserve">
+    <value>~/AdministrationTools/DirectoryServices/EmailsProperties.aspx</value>
+  </data>
+  <data name="ContactMessenger" xml:space="preserve">
+    <value>~/AdministrationTools/DirectoryServices/MessengersProperties.aspx</value>
+  </data>
+  <data name="ContactMessengerApplication" xml:space="preserve">
+    <value>~/AdministrationTools/DirectoryServices/ContactMessengersApplicationsProperties.aspx</value>
+  </data>
+  <data name="ContactMessengerProvider" xml:space="preserve">
+    <value>~/AdministrationTools/DirectoryServices/ContactMessengersProvidersProperties.aspx</value>
+  </data>
+  <data name="Telephone" xml:space="preserve">
+    <value>~/AdministrationTools/DirectoryServices/TelephonesProperties.aspx</value>
+  </data>
+  <data name="ContactType" xml:space="preserve">
+    <value>~/AdministrationTools/DirectoryServices/ContactTypesProperties.aspx</value>
+  </data>
+  <data name="ContactType_LG" xml:space="preserve">
+    <value>~/AdministrationTools/DirectoryServices/ContactTypesLanguageProperties.aspx</value>
+  </data>
+  <data name="ContactUrl" xml:space="preserve">
+    <value>~/AdministrationTools/DirectoryServices/URLsProperties.aspx</value>
+  </data>
+  <data name="ContactUrl_LG" xml:space="preserve">
+    <value>~/AdministrationTools/DirectoryServices/URLsLanguagesProperties.aspx</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>~/AdministrationTools/DirectoryServices/CountriesProperties.aspx</value>
+  </data>
+  <data name="Country_LG" xml:space="preserve">
+    <value>~/AdministrationTools/DirectoryServices/CountriesLanguageProperties.aspx</value>
+  </data>
+  <data name="ExtendedProperty" xml:space="preserve">
+    <value>~/AdministrationTools/ProcessesFramework/ExtendedPropertiesProperties.aspx</value>
+  </data>
+  <data name="ExtendedPropertyClassification" xml:space="preserve">
+    <value>~/AdministrationTools/ProcessesFramework/ExtendedPropertyClassificationsProperties.aspx</value>
+  </data>
+  <data name="ExtendedPropertyClassification_LG" xml:space="preserve">
+    <value>~/AdministrationTools/ProcessesFramework/ExtendedPropertyClassificationsLanguagesProperties.aspx</value>
+  </data>
+  <data name="ExtendedProperty_LG" xml:space="preserve">
+    <value>~/AdministrationTools/ProcessesFramework/ExtendedPropertiesLanguagesProperties.aspx</value>
+  </data>
+  <data name="FunctionalArea" xml:space="preserve">
+    <value>~/AdministrationTools/DirectoryServices/FunctionalAreasProperties.aspx</value>
+  </data>
+  <data name="FunctionalArea_LG" xml:space="preserve">
+    <value>~/AdministrationTools/DirectoryServices/FunctionalAreasLanguagesProperties.aspx</value>
+  </data>
+  <data name="FunctionalPosition" xml:space="preserve">
+    <value>~/AdministrationTools/DirectoryServices/FunctionalPositionsProperties.aspx</value>
+  </data>
+  <data name="GeographicArea" xml:space="preserve">
+    <value>~/AdministrationTools/DirectoryServices/GeographicAreasProperties.aspx</value>
+  </data>
+  <data name="GeographicArea_LG" xml:space="preserve">
+    <value>~/AdministrationTools/DirectoryServices/GeographicAreasLanguageProperties.aspx</value>
+  </data>
+  <data name="GeographicFunctionalArea" xml:space="preserve">
+    <value>~/AdministrationTools/DirectoryServices/GeographicFunctionalAreasProperties.aspx</value>
+  </data>
+  <data name="Indicator" xml:space="preserve">
+    <value>~/AdministrationTools/PerformanceAssessment/IndicatorsProperties.aspx</value>
+  </data>
+  <data name="IndicatorClassification" xml:space="preserve">
+    <value>~/AdministrationTools/PerformanceAssessment/IndicatorClassificationsProperties.aspx</value>
+  </data>
+  <data name="Indicator_LG" xml:space="preserve">
+    <value>~/AdministrationTools/PerformanceAssessment/IndicatorsLanguagesProperties.aspx</value>
+  </data>
+  <data name="JobTitle" xml:space="preserve">
+    <value>~/AdministrationTools/DirectoryServices/JobTitlesProperties.aspx</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>~/AdministrationTools/DirectoryServices/LanguagesProperties.aspx</value>
+  </data>
+  <data name="Magnitud" xml:space="preserve">
+    <value>~/AdministrationTools/PerformanceAssessment/MagnitudesProperties.aspx</value>
+  </data>
+  <data name="Magnitud_LG" xml:space="preserve">
+    <value>~/AdministrationTools/PerformanceAssessment/MagnitudesLanguagesProperties.aspx</value>
+  </data>
+  <data name="MeasurementDevice" xml:space="preserve">
+    <value>~/AdministrationTools/PerformanceAssessment/MeasurementDevicesProperties.aspx</value>
+  </data>
+  <data name="MeasurementDeviceType" xml:space="preserve">
+    <value>~/AdministrationTools/PerformanceAssessment/MeasurementDeviceTypesProperties.aspx</value>
+  </data>
+  <data name="MeasurementDeviceType_LG" xml:space="preserve">
+    <value>~/AdministrationTools/PerformanceAssessment/MeasurementDeviceTypesLanguagesProperties.aspx</value>
+  </data>
+  <data name="MeasurementUnit" xml:space="preserve">
+    <value>~/AdministrationTools/PerformanceAssessment/MeasurementUnitsProperties.aspx</value>
+  </data>
+  <data name="MeasurementUnit_LG" xml:space="preserve">
+    <value>~/AdministrationTools/PerformanceAssessment/MeasurementUnitsLanguagesProperties.aspx</value>
+  </data>
+  <data name="Organization" xml:space="preserve">
+    <value>~/AdministrationTools/DirectoryServices/OrganizationProperties.aspx</value>
+  </data>
+  <data name="OrganizationalChart" xml:space="preserve">
+    <value>~/AdministrationTools/DirectoryServices/OrganizationalChartsProperties.aspx</value>
+  </data>
+  <data name="OrganizationalChart_LG" xml:space="preserve">
+    <value>~/AdministrationTools/DirectoryServices/OrganizationalChartsLanguageProperties.aspx</value>
+  </data>
+  <data name="OrganizationClassification" xml:space="preserve">
+    <value>~/AdministrationTools/DirectoryServices/OrganizationClassificationsProperties.aspx</value>
+  </data>
+  <data name="OrganizationClassification_LG" xml:space="preserve">
+    <value>~/AdministrationTools/DirectoryServices/OrganizationClassificationsLanguagesProperties.aspx</value>
+  </data>
+  <data name="OrganizationRelationship" xml:space="preserve">
+    <value>~/AdministrationTools/DirectoryServices/RelationshipsProperties.aspx</value>
+  </data>
+  <data name="OrganizationRelationshipType" xml:space="preserve">
+    <value>~/AdministrationTools/DirectoryServices/OrganizationsRelationShipsTypesProperties.aspx</value>
+  </data>
+  <data name="OrganizationRelationshipType_LG" xml:space="preserve">
+    <value>~/AdministrationTools/DirectoryServices/OrganizationsRelationShipsTypesLanguagesProperties.aspx</value>
+  </data>
+  <data name="Parameter" xml:space="preserve">
+    <value>~/AdministrationTools/PerformanceAssessment/ParametersProperties.aspx</value>
+  </data>
+  <data name="ParameterGroup" xml:space="preserve">
+    <value>~/AdministrationTools/PerformanceAssessment/ParameterGroupsProperties.aspx</value>
+  </data>
+  <data name="ParameterGroup_LG" xml:space="preserve">
+    <value>~/AdministrationTools/PerformanceAssessment/ParameterGroupsLanguagesProperties.aspx</value>
+  </data>
+  <data name="ParameterRange" xml:space="preserve">
+    <value>~/AdministrationTools/PerformanceAssessment/ParameterRangesProperties.aspx</value>
+  </data>
+  <data name="Parameter_LG" xml:space="preserve">
+    <value>~/AdministrationTools/PerformanceAssessment/ParametersLanguagesProperties.aspx</value>
+  </data>
+  <data name="ParticipationType" xml:space="preserve">
+    <value>~/AdministrationTools/ProcessesFramework/ParticipationTypesProperties.aspx</value>
+  </data>
+  <data name="ParticipationType_LG" xml:space="preserve">
+    <value>~/AdministrationTools/ProcessesFramework/ParticipationTypesLanguagesProperties.aspx</value>
+  </data>
+  <data name="Person" xml:space="preserve">
+    <value>~/AdministrationTools/DirectoryServices/PeopleProperties.aspx</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>~/AdministrationTools/DirectoryServices/PositionsProperties.aspx</value>
+  </data>
+  <data name="Position_LG" xml:space="preserve">
+    <value>~/AdministrationTools/DirectoryServices/PositionsLanguagesProperties.aspx</value>
+  </data>
+  <data name="Post" xml:space="preserve">
+    <value>~/AdministrationTools/DirectoryServices/PostsProperties.aspx</value>
+  </data>
+  <data name="Presence" xml:space="preserve">
+    <value>~/DS/PresencesProperties.aspx</value>
+  </data>
+  <data name="ProcessClassification" xml:space="preserve">
+    <value>~/AdministrationTools/ProcessesFramework/ProcessClassificationsProperties.aspx</value>
+  </data>
+  <data name="ProcessClassification_LG" xml:space="preserve">
+    <value>~/AdministrationTools/ProcessesFramework/ProcessClassificationsLanguagesProperties.aspx</value>
+  </data>
+  <data name="ProcessExtendedProperty" xml:space="preserve">
+    <value>~/AdministrationTools/DirectoryServices/ExtendedPropertyValuesProperties.aspx</value>
+  </data>
+  <data name="ProcessParticipation" xml:space="preserve">
+    <value>~/AdministrationTools/ProcessesFramework/ParticipationProperties.aspx</value>
+  </data>
+  <data name="ProjectClassification" xml:space="preserve">
+    <value>~/AdministrationTools/ImprovementActions/ProjectClassificationsProperties.aspx</value>
+  </data>
+  <data name="ProjectClassification_LG" xml:space="preserve">
+    <value>~/AdministrationTools/ImprovementActions/ProjectClassificationsLanguagesProperties.aspx</value>
+  </data>
+  <data name="ResourceClassification" xml:space="preserve">
+    <value>~/AdministrationTools/KnowledgeCollaboration/ResourceClassificationsProperties.aspx</value>
+  </data>
+  <data name="ResourceClassification_LG" xml:space="preserve">
+    <value>~/AdministrationTools/KnowledgeCollaboration/ResourceClassificationsLanguagesProperties.aspx</value>
+  </data>
+  <data name="ResourceHistoryState" xml:space="preserve">
+    <value>~/AdministrationTools/KnowledgeCollaboration/ResourceFileStatesProperties.aspx</value>
+  </data>
+  <data name="ResourceHistoryState_LG" xml:space="preserve">
+    <value>~/AdministrationTools/KnowledgeCollaboration/ResourceFileStatesLanguagesProperties.aspx</value>
+  </data>
+  <data name="ResourceType" xml:space="preserve">
+    <value>~/AdministrationTools/KnowledgeCollaboration/ResourceTypesProperties.aspx</value>
+  </data>
+  <data name="ResourceType_LG" xml:space="preserve">
+    <value>~/AdministrationTools/KnowledgeCollaboration/ResourceTypesLanguagesProperties.aspx</value>
+  </data>
+  <data name="Responsibility" xml:space="preserve">
+    <value>~/DS/ResponsibilitiesProperties.aspx</value>
+  </data>
+  <data name="RightJobTitleOrganization" xml:space="preserve">
+    <value>~/Security/JobTitlesProperties.aspx</value>
+  </data>
+  <data name="RightPersonOrganization" xml:space="preserve">
+    <value>~/Security/SecurityPersonProperties.aspx</value>
+  </data>
+  <data name="RiskClassification" xml:space="preserve">
+    <value>~/AdministrationTools/RiskManagement/RiskClassificationsProperties.aspx</value>
+  </data>
+  <data name="RiskClassification_LG" xml:space="preserve">
+    <value>~/AdministrationTools/RiskManagement/RiskClassificationsLanguagesProperties.aspx</value>
+  </data>
+  <data name="SalutationType" xml:space="preserve">
+    <value>~/AdministrationTools/DirectoryServices/SalutationTypesProperties.aspx</value>
+  </data>
+  <data name="SalutationType_LG" xml:space="preserve">
+    <value>~/AdministrationTools/DirectoryServices/SalutationTypesLanguagesProperties.aspx</value>
+  </data>
+  <data name="TimeUnit_LG" xml:space="preserve">
+    <value>~/AdministrationTools/DirectoryServices/TimeUnitsLanguagesProperties.aspx</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>~/AdministrationTools/DirectoryServices/UsersProperties.aspx</value>
+  </data>
+  <data name="ProcessGroupNode" xml:space="preserve">
+    <value>~/AdministrationTools/ProcessesFramework/ProcessGroupNodeStandardProperties.aspx</value>
+  </data>
+  <data name="ProcessTaskCalibration" xml:space="preserve">
+    <value>~/AdministrationTools/ProcessesFramework/ProcessTaskCalibrationsProperties.aspx</value>
+  </data>
+  <data name="ProcessTaskExecutionCalibration" xml:space="preserve">
+    <value>~/AdministrationTools/ProcessesFramework/ProcessTaskExecutionCalibrationsProperties.aspx</value>
+  </data>
+  <data name="ProcessTaskExecutionOperation" xml:space="preserve">
+    <value>~/AdministrationTools/ProcessesFramework/ProcessTaskExecutionsProperties.aspx</value>
+  </data>
+  <data name="ProcessTaskOperation" xml:space="preserve">
+    <value>~/AdministrationTools/ProcessesFramework/ProcessTaskOperationsProperties.aspx</value>
+  </data>
+  <data name="ProcessTaskMeasurement" xml:space="preserve">
+    <value>~/AdministrationTools/ProcessesFramework/ProcessTaskMeasurementsProperties.aspx</value>
+  </data>
+  <data name="ProcessTaskExecutionMeasurement" xml:space="preserve">
+    <value>~/AdministrationTools/ProcessesFramework/ProcessTaskExecutionMeasurementsProperties.aspx</value>
+  </data>
+  <data name="ProcessGroupProcess" xml:space="preserve">
+    <value>~/AdministrationTools/ProcessesFramework/ProcessGroupProcessProperties.aspx</value>
+  </data>
+  <data name="Calibration" xml:space="preserve">
+    <value>~/AdministrationTools/ProcessesFramework/ProcessTaskExecutionCalibrationsProperties.aspx</value>
+  </data>
+  <data name="Datarecovery" xml:space="preserve">
+    <value>~/AdministrationTools/ProcessesFramework/ProcessTaskExecutionMeasurementsProperties.aspx</value>
+  </data>
+  <data name="Measurement" xml:space="preserve">
+    <value>~/AdministrationTools/ProcessesFramework/ProcessTaskExecutionMeasurementsProperties.aspx</value>
+  </data>
+  <data name="Operation" xml:space="preserve">
+    <value>~/AdministrationTools/ProcessesFramework/ProcessTaskExecutionsProperties.aspx</value>
+  </data>
+  <data name="IndicatorClassification_LG" xml:space="preserve">
+    <value>~/AdministrationTools/PerformanceAssessment/IndicatorClassificationsLanguagesProperties.aspx</value>
+  </data>
+  <data name="RoleType" xml:space="preserve">
+    <value>~/AdministrationTools/ProcessesFramework/RoleTypesProperties.aspx</value>
+  </data>
+  <data name="RoleType_LG" xml:space="preserve">
+    <value>~/AdministrationTools/DirectoryServices/RoleTypesLanguagesProperties.aspx</value>
+  </data>
+  <data name="Formula" xml:space="preserve">
+    <value>~/AdministrationTools/PerformanceAssessment/FormulaProperties.aspx</value>
+  </data>
+  <data name="ProcessGroupProcess_LG" xml:space="preserve">
+    <value>~/AdministrationTools/ProcessesFramework/ProcessesLanguagesProperties.aspx</value>
+  </data>
+  <data name="Formula_LG" xml:space="preserve">
+    <value>~/AdministrationTools/PerformanceAssessment/FormulasLanguagesProperties.aspx</value>
+  </data>
+  <data name="Measurement_LG" xml:space="preserve">
+    <value>~/AdministrationTools/PerformanceAssessment/MeasurementsLanguagesProperties.aspx</value>
+  </data>
+  <data name="KCResource" xml:space="preserve">
+    <value>~/AdministrationTools/KnowledgeCollaboration/ResourcesProperties.aspx</value>
+  </data>
+  <data name="ResourceCatalog" xml:space="preserve">
+    <value>~/AdministrationTools/KnowledgeCollaboration/ResourceCatalogFilesProperties.aspx</value>
+  </data>
+  <data name="ResourceVersion" xml:space="preserve">
+    <value>~/AdministrationTools/KnowledgeCollaboration/ResourceFilesProperties.aspx</value>
+  </data>
+  <data name="Catalog" xml:space="preserve">
+    <value>~/AdministrationTools/KnowledgeCollaboration/ResourceCatalogFilesProperties.aspx</value>
+  </data>
+  <data name="VersionFile" xml:space="preserve">
+    <value>~/AdministrationTools/KnowledgeCollaboration/ResourceFilesProperties.aspx</value>
+  </data>
+  <data name="ProcessResource" xml:space="preserve">
+    <value>~/AdministrationTools/ProcessesFramework/ProcessResourcesProperties.aspx</value>
+  </data>
+  <data name="RightPersonProcess" xml:space="preserve">
+    <value>~/Security/SecurityPersonProperties.aspx</value>
+  </data>
+  <data name="RightJobTitleMapDS" xml:space="preserve">
+    <value>~/Security/JobTitlesProperties.aspx</value>
+  </data>
+  <data name="RightJobTitleMapIA" xml:space="preserve">
+    <value>~/Security/JobTitlesProperties.aspx</value>
+  </data>
+  <data name="RightJobTitleMapKC" xml:space="preserve">
+    <value>~/Security/JobTitlesProperties.aspx</value>
+  </data>
+  <data name="RightJobTitleMapPA" xml:space="preserve">
+    <value>~/Security/JobTitlesProperties.aspx</value>
+  </data>
+  <data name="RightJobTitleMapPF" xml:space="preserve">
+    <value>~/Security/JobTitlesProperties.aspx</value>
+  </data>
+  <data name="RightJobTitleMapRM" xml:space="preserve">
+    <value>~/Security/JobTitlesProperties.aspx</value>
+  </data>
+  <data name="RightJobTitleProcess" xml:space="preserve">
+    <value>~/Security/JobTitlesProperties.aspx</value>
+  </data>
+  <data name="RightPersonMapDS" xml:space="preserve">
+    <value>~/Security/SecurityPersonProperties.aspx</value>
+  </data>
+  <data name="RightPersonMapIA" xml:space="preserve">
+    <value>~/Security/SecurityPersonProperties.aspx</value>
+  </data>
+  <data name="RightPersonMapKC" xml:space="preserve">
+    <value>~/Security/SecurityPersonProperties.aspx</value>
+  </data>
+  <data name="RightPersonMapPA" xml:space="preserve">
+    <value>~/Security/SecurityPersonProperties.aspx</value>
+  </data>
+  <data name="RightPersonMapPF" xml:space="preserve">
+    <value>~/Security/SecurityPersonProperties.aspx</value>
+  </data>
+  <data name="RightPersonMapRM" xml:space="preserve">
+    <value>~/Security/SecurityPersonProperties.aspx</value>
+  </data>
+  <data name="RightJobTitleConfigurationDS" xml:space="preserve">
+    <value>~/Security/JobTitlesProperties.aspx</value>
+  </data>
+  <data name="RightJobTitleConfigurationIA" xml:space="preserve">
+    <value>~/Security/JobTitlesProperties.aspx</value>
+  </data>
+  <data name="RightJobTitleConfigurationKC" xml:space="preserve">
+    <value>~/Security/JobTitlesProperties.aspx</value>
+  </data>
+  <data name="RightJobTitleConfigurationPA" xml:space="preserve">
+    <value>~/Security/JobTitlesProperties.aspx</value>
+  </data>
+  <data name="RightJobTitleConfigurationPF" xml:space="preserve">
+    <value>~/Security/JobTitlesProperties.aspx</value>
+  </data>
+  <data name="RightJobTitleConfigurationRM" xml:space="preserve">
+    <value>~/Security/JobTitlesProperties.aspx</value>
+  </data>
+  <data name="RightPersonConfigurationDS" xml:space="preserve">
+    <value>~/Security/SecurityPersonProperties.aspx</value>
+  </data>
+  <data name="RightPersonConfigurationIA" xml:space="preserve">
+    <value>~/Security/SecurityPersonProperties.aspx</value>
+  </data>
+  <data name="RightPersonConfigurationKC" xml:space="preserve">
+    <value>~/Security/SecurityPersonProperties.aspx</value>
+  </data>
+  <data name="RightPersonConfigurationPA" xml:space="preserve">
+    <value>~/Security/SecurityPersonProperties.aspx</value>
+  </data>
+  <data name="RightPersonConfigurationPF" xml:space="preserve">
+    <value>~/Security/SecurityPersonProperties.aspx</value>
+  </data>
+  <data name="RightPersonConfigurationRM" xml:space="preserve">
+    <value>~/Security/SecurityPersonProperties.aspx</value>
+  </data>
+  <data name="CalculationCertificate" xml:space="preserve">
+    <value>~/AdministrationTools/PerformanceAssessment/CalculationCertificatesProperties.aspx</value>
+  </data>
+  <data name="CalculationEstimate" xml:space="preserve">
+    <value>~/AdministrationTools/PerformanceAssessment/CalculationEstimatesProperties.aspx</value>
+  </data>
+  <data name="Calculation_LG" xml:space="preserve">
+    <value>~/AdministrationTools/PerformanceAssessment/CalculationsLanguagesProperties.aspx</value>
+  </data>
+  <data name="Process" xml:space="preserve">
+    <value>~/AdministrationTools/ProcessesFramework/ProcessGroupProcessProperties.aspx</value>
+  </data>
+  <data name="Exception" xml:space="preserve">
+    <value>~/AdministrationTools/ImprovementActions/ExceptionProperties.aspx</value>
+  </data>
+  <data name="FinishedTasks" xml:space="preserve">
+    <value>~/AdministrationTools/ImprovementActions/ExceptionProperties.aspx</value>
+  </data>
+  <data name="CalculationExtendedProperty" xml:space="preserve">
+    <value>~/AdministrationTools/DirectoryServices/ExtendedPropertyValuesProperties.aspx</value>
+  </data>
+  <data name="FormulaExtendedProperty" xml:space="preserve">
+    <value>~/AdministrationTools/DirectoryServices/ExtendedPropertyValuesProperties.aspx</value>
+  </data>
+  <data name="IndicatorExtendedProperty" xml:space="preserve">
+    <value>~/AdministrationTools/DirectoryServices/ExtendedPropertyValuesProperties.aspx</value>
+  </data>
+  <data name="OrganizationExtendedProperty" xml:space="preserve">
+    <value>~/AdministrationTools/DirectoryServices/ExtendedPropertyValuesProperties.aspx</value>
+  </data>
+  <data name="ParameterGroupExtendedProperty" xml:space="preserve">
+    <value>~/AdministrationTools/DirectoryServices/ExtendedPropertyValuesProperties.aspx</value>
+  </data>
+  <data name="ResourceExtendedProperty" xml:space="preserve">
+    <value>~/AdministrationTools/DirectoryServices/ExtendedPropertyValuesProperties.aspx</value>
+  </data>
+  <data name="Facility" xml:space="preserve">
+    <value>~/AdministrationTools/DirectoryServices/FacilitiesProperties.aspx</value>
+  </data>
+  <data name="Sector" xml:space="preserve">
+    <value>~/AdministrationTools/DirectoryServices/SectorsProperties.aspx</value>
+  </data>
+  <data name="Facility_LG" xml:space="preserve">
+    <value>~/AdministrationTools/DirectoryServices/FacilitiesLanguagesProperties.aspx</value>
+  </data>
+  <data name="Sector_LG" xml:space="preserve">
+    <value>~/AdministrationTools/DirectoryServices/SectorsLanguagesProperties.aspx</value>
+  </data>
+  <data name="AccountingActivity" xml:space="preserve">
+    <value>~/AdministrationTools/PerformanceAssessment/AccountingActivitiesProperties.aspx</value>
+  </data>
+  <data name="AccountingActivity_LG" xml:space="preserve">
+    <value>~/AdministrationTools/PerformanceAssessment/AccountingActivitiesLanguagesProperties.aspx</value>
+  </data>
+  <data name="AccountingScenario" xml:space="preserve">
+    <value>~/AdministrationTools/PerformanceAssessment/AccountingScenariosProperties.aspx</value>
+  </data>
+  <data name="AccountingScenario_LG" xml:space="preserve">
+    <value>~/AdministrationTools/PerformanceAssessment/AccountingScenariosLanguagesProperties.aspx</value>
+  </data>
+  <data name="AccountingScope" xml:space="preserve">
+    <value>~/AdministrationTools/PerformanceAssessment/AccountingScopesProperties.aspx</value>
+  </data>
+  <data name="AccountingScope_LG" xml:space="preserve">
+    <value>~/AdministrationTools/PerformanceAssessment/AccountingScopesLanguagesProperties.aspx</value>
+  </data>
+  <data name="AccountingSector" xml:space="preserve">
+    <value>~/AdministrationTools/PerformanceAssessment/AccountingSectorsProperties.aspx</value>
+  </data>
+  <data name="AccountingSector_LG" xml:space="preserve">
+    <value>~/AdministrationTools/PerformanceAssessment/AccountingSectorsLanguagesProperties.aspx</value>
+  </data>
+  <data name="Constant" xml:space="preserve">
+    <value>~/AdministrationTools/PerformanceAssessment/ConstantsProperties.aspx</value>
+  </data>
+  <data name="ConstantClassification" xml:space="preserve">
+    <value>~/AdministrationTools/PerformanceAssessment/ConstantClassificationsProperties.aspx</value>
+  </data>
+  <data name="ConstantClassification_LG" xml:space="preserve">
+    <value>~/AdministrationTools/PerformanceAssessment/ConstantClassificationsLanguagesProperties.aspx</value>
+  </data>
+  <data name="Constant_LG" xml:space="preserve">
+    <value>~/AdministrationTools/PerformanceAssessment/ConstantsLanguagesProperties.aspx</value>
+  </data>
+  <data name="FacilityType" xml:space="preserve">
+    <value>~/AdministrationTools/DirectoryServices/FacilityTypesProperties.aspx</value>
+  </data>
+  <data name="FacilityType_LG" xml:space="preserve">
+    <value>~/AdministrationTools/DirectoryServices/FacilityTypesLanguagesProperties.aspx</value>
+  </data>
+  <data name="Methodology" xml:space="preserve">
+    <value>~/AdministrationTools/PerformanceAssessment/MethodologiesProperties.aspx</value>
+  </data>
+  <data name="Methodology_LG" xml:space="preserve">
+    <value>~/AdministrationTools/PerformanceAssessment/MethodologiesLanguagesProperties.aspx</value>
+  </data>
+  <data name="Quality" xml:space="preserve">
+    <value>~/AdministrationTools/PerformanceAssessment/QualitiesProperties.aspx</value>
+  </data>
+  <data name="Quality_LG" xml:space="preserve">
+    <value>~/AdministrationTools/PerformanceAssessment/QualitiesLanguagesProperties.aspx</value>
+  </data>
+  <data name="Transformation" xml:space="preserve">
+    <value>~/AdministrationTools/PerformanceAssessment/CalculationOfTransformationsProperties.aspx</value>
+  </data>
+  <data name="Transformation_LG" xml:space="preserve">
+    <value>~/AdministrationTools/PerformanceAssessment/CalculationOfTransformationsLanguagesProperties.aspx</value>
+  </data>
+  <data name="TransformationByTransformation_LG" xml:space="preserve">
+    <value>~/AdministrationTools/PerformanceAssessment/CalculationOfTransformationsLanguagesProperties.aspx</value>
+  </data>
+  <data name="TransformationByTransformation" xml:space="preserve">
+    <value>~/AdministrationTools/PerformanceAssessment/CalculationOfTransformationsProperties.aspx</value>
+  </data>
+  <data name="Forum" xml:space="preserve">
+    <value>~/AdministrationTools/CollaborationTools/ForumsProperties.aspx</value>
+  </data>
+  <data name="Forum_LG" xml:space="preserve">
+    <value>~/AdministrationTools/CollaborationTools/ForumsLanguagesProperties.aspx</value>
+  </data>
+  <data name="FacilitiesByProcess" xml:space="preserve">
+    <value>~/Dashboard/GeographicDashboardFacilities.aspx</value>
+  </data>
+  <data name="OpenedExceptions" xml:space="preserve">
+    <value>~/AdministrationTools/ImprovementActions/ExceptionProperties.aspx</value>
+  </data>
+  <data name="ConfigurationExcelFile" xml:space="preserve">
+    <value>~/AdministrationTools/PerformanceAssessment/ConfigurationExcelFilesProperties.aspx</value>
+  </data>
+  <data name="BulkLoad" xml:space="preserve">
+    <value>~/AdministrationTools/ProcessesFramework/BulkLoadMeasurementsProperties.aspx</value>
+  </data>
+  <data name="ProcessTaskMeasurement_LG" xml:space="preserve">
+    <value>~/AdministrationTools/ProcessesFramework/ProcessesLanguagesProperties.aspx</value>
+  </data>
+</root>

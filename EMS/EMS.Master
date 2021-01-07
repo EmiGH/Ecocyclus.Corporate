@@ -1,0 +1,604 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="EMS.Master.cs" Inherits="Condesus.EMS.WebUI.EMS" %>
+
+<%@ Register Assembly="CondesusPageTitle" Namespace="Condesus.WebControls" TagPrefix="condesus" %>
+<%@ Register Assembly="PnyxStatusBar" Namespace="Pnyx.WebControls" TagPrefix="condesus" %>
+<%@ Register TagPrefix="rad" Namespace="Telerik.Web.UI" Assembly="Telerik.Web.UI" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+<%--<meta http-equiv="X-UA-Compatible" content="IE=10; IE=9; IE=8;"/>--%>
+
+    <link href="~/Skins/Content.css" type="text/css" rel="stylesheet" />
+    <link href="~/Skins/ListViewer.css" type="text/css" rel="stylesheet" />
+    <link href="~/Skins/Master.css" type="text/css" rel="stylesheet" />
+    <link href="~/Skins/PageTitle.css" type="text/css" rel="stylesheet" />
+    <link href="~/Skins/RadControls/Calendar.EMS.css" type="text/css" rel="stylesheet" />
+    <link href="~/Skins/RadControls/ComboBox.EMS.css" type="text/css" rel="stylesheet" />
+    <link href="~/Skins/RadControls/Dock.css" type="text/css" rel="stylesheet" />
+    <link href="~/Skins/RadControls/Dock.EMS.css" type="text/css" rel="stylesheet" />
+    <link href="~/Skins/RadControls/Grid.EMS.css" type="text/css" rel="stylesheet" />
+    <link href="~/Skins/RadControls/Menu.EMS.css" type="text/css" rel="stylesheet" />
+    <link href="~/Skins/RadControls/Menu.FrameworkAccionMenu.css" type="text/css" rel="stylesheet" />
+    <link href="~/Skins/RadControls/Slider.EMS.css" type="text/css" rel="stylesheet" />
+    <link href="~/Skins/RadControls/TabStrip.EMS.css" type="text/css" rel="stylesheet" />
+    <link href="~/Skins/RadControls/TreeView.ComboTreeView.css" type="text/css" rel="stylesheet" />
+    <link href="~/Skins/RadControls/TreeView.ContextElementMapsByProcess.css" type="text/css" rel="stylesheet" />
+    <link href="~/Skins/RadControls/TreeView.EMS.css" type="text/css" rel="stylesheet" />
+    <link href="~/Skins/RadControls/TreeView.Form.css" type="text/css" rel="stylesheet" />
+    <link href="~/Skins/RadControls/TreeView.Manage.css" type="text/css" rel="stylesheet" />
+    <link href="~/Skins/RadControls/Window.EMS.css" type="text/css" rel="stylesheet" />
+    <link href="~/Skins/RadControls/Editor.EMS.css" type="text/css" rel="stylesheet" />
+    <link href="~/Skins/RadControls/ListBox.EMS.css" type="text/css" rel="stylesheet" />
+    <title>Ghree!</title>
+
+    <script type="text/javascript">
+        //Con esto se bloquea el back desde el navegador.
+        history.forward();
+    </script>
+    
+    <script src="http://widgets.twimg.com/j/2/widget.js"></script>    
+
+    <script type="text/javascript">
+        //Constantes para identificar al navegador y variable publica para saber cual es el navegador actual.
+        var _IEXPLORER = "Microsoft Internet Explorer";
+        var _FIREFOX = "Netscape";
+        var _BrowserName = navigator.appName;
+
+        //Funciones globales para obtener posiciones del mouse X e Y
+        function GetMousePositionX(e) {
+            if (_BrowserName == _IEXPLORER)
+            { return window.event.x; }
+            else
+            { return e.clientX; }
+        }
+        function GetMousePositionY(e) {
+            if (_BrowserName == _IEXPLORER)
+            { return window.event.y; }
+            else
+            { return e.clientY; }
+        }
+
+        // Prevents event bubble up or any usage after this is called.
+        // pE - event object
+        function StopEvent(e) {
+            if (_BrowserName == _IEXPLORER) {
+                window.event.returnValue = false;
+            }
+            else {
+                e.preventDefault();
+            }
+        }
+    </script>
+
+    <script type="text/javascript">
+        function GetListByCurrentFactory() {
+            var _current = GetCurrentBreadCrumbListId();
+
+            return document.getElementById(_current);
+        }
+        function HideList(oList) {
+            oList.style.display = "none";
+            oList.style.top = '0px';
+            oList.style.left = '-500px';
+        }
+        function ShowList(oList) {
+            var _oBound = GetListBoundObject();
+
+            oList.style.display = "block";
+            oList.style.top = String(_oBound.y + 22) + 'px';
+            oList.style.left = String(_oBound.x - 1) + 'px';
+        }
+        function GetListBoundObject() {
+            return Sys.UI.DomElement.getBounds($get("ctl00_btnBreadCrumbHistory"));
+        }
+        function ChangeBreadCrumbHistoryList(e) {
+            _currentValue = GetCurrentBreadCrumbListId();
+            _newValue = "breadCrumbHistoryList";
+
+            switch (_currentValue) {
+                case "breadCrumbHistoryList":
+                    _newValue = "breadCrumbContextInfoPathList";
+                    break;
+                case "breadCrumbContextInfoPathList":
+                    _newValue = "breadCrumbHistoryList";
+                    break;
+            }
+
+            SetCurrentBreadCrumbListId(_newValue);
+
+            SetVisibilityOnChange();
+            StopEvent(e);     //window.event.returnValue = false;
+        }
+        function SetVisibilityOnChange() {
+            //array
+            var _bcListDefault = document.getElementById('breadCrumbHistoryList');
+            var _bcListCIPath = document.getElementById('breadCrumbContextInfoPathList');
+            var _currentList = GetListByCurrentFactory();
+
+            var _listIsOpen = (_bcListDefault.style.display == "block" || _bcListCIPath.style.display == "block");
+
+            if (_listIsOpen) {
+                HideList(_bcListDefault);
+                HideList(_bcListCIPath);
+
+                ShowList(_currentList);
+            }
+        }
+        function ShowBreadCrumbHistoryList(sender, e) {
+
+            var _breadCrumbHistoryList = GetListByCurrentFactory(); //document.getElementById('breadCrumbHistoryList');
+
+            if (_breadCrumbHistoryList.style.display != "none") {
+                UnselectedLinkButton(sender, 'breadCrumbCurrent');
+                SetClassNameInButtonBreadCrumb(sender, false);
+                HideList(_breadCrumbHistoryList);
+            }
+            else {
+                SelectedLinkButton(sender);
+                SetClassNameInButtonBreadCrumb(sender, true);
+                ShowList(_breadCrumbHistoryList);
+            }
+            StopEvent(e);     //window.event.returnValue = false;
+        }
+    </script>
+
+    <script type="text/javascript">
+        document.onkeypress = AbortTextBoxPostBack;
+        function AbortTextBoxPostBack(e) {
+            var tecla;
+            if (_BrowserName == _IEXPLORER) {
+                //Si viene desde un TextArea, no hago nada.
+                if (window.event.srcElement.type == 'textarea') { return true; }
+                //Si viene un enter... (Tecla 13 = ENTER)
+                // averiguamos el código de la tecla pulsada (keyCode para IE y which para Firefox)
+                tecla = window.event.keyCode;
+            }
+            else {
+                //Si viene desde un TextArea, no hago nada.
+                if (e.target.type == 'textarea') { return true; }
+                //Si viene un enter... (Tecla 13 = ENTER)
+                // averiguamos el código de la tecla pulsada (keyCode para IE y which para Firefox)
+                tecla = e.which;
+            }
+            // si la tecla no es 13 devuelve verdadero,  si es 13 devuelve false y la pulsación no se ejecuta
+            return (tecla != 13);
+        }
+        function SetClassNameInButtonBreadCrumb(sender, isSelected) {
+            var _imageBtn;
+            if (sender.id == "ctl00_lnkBreadCrumbCurrent") {
+                _imageBtn = $get("ctl00_btnBreadCrumbHistory");
+                if (isSelected == true) {
+                    _imageBtn.className = "breadCrumbNavigateButtonHistoryOpen";
+                }
+                else {
+                    _imageBtn.className = "breadCrumbNavigateButtonHistory";
+                }
+            }
+            if (sender.id == "ctl00_btnBreadCrumbHistory") {
+                _imageBtn = $get("ctl00_lnkBreadCrumbCurrent");
+                if (isSelected == true) {
+                    _imageBtn.className = "breadCrumbCurrentOpen";
+                }
+                else {
+                    _imageBtn.className = "breadCrumbCurrent";
+                }
+            }
+        }
+        function HideBreadCrumbHistoryList(sender) {
+            //var breadCrumbCurrent = document.getElementById('');
+
+            //UnselectedLinkButton(, 'breadCrumbCurrent');
+            sender.style.display = "none";
+        }
+
+        function SelectedLinkButton(sender) {
+            sender.className = ReturnClassNameByButtonSelected(sender.id);   //"selected";
+        }
+
+        function ReturnClassNameByButtonSelected(idButton) {
+            switch (idButton) {
+                case "ctl00_btnGlobalToolbarGlobalNavigatorShowMenu":
+                    return "GlobalToolbarModuleOpen";
+                    break;
+
+                case "ctl00_btnGlobalToolbarHomeDashboardFW":
+                    return "GlobalToolbarDashboardOpen";
+                    break;
+
+                case "ctl00_btnGlobalToolbarSearch":
+                    return "GlobalToolbarSearchOpen";
+                    break;
+
+                case "ctl00_btnGlobalToolbarOperativeDashboardFW":
+                    return "GlobalToolbarOperativeDashOpen";
+                    break;
+
+                case "ctl00_btnBreadCrumbHistory":
+                    return "breadCrumbNavigateButtonHistoryOpen";
+                    break;
+
+                case "ctl00_lnkBreadCrumbCurrent":
+                    return "breadCrumbCurrentOpen";
+                    break;
+
+                case "ctl00_btnContentToolbarContentNavigatorShowMenuContextInfo":
+                    //Se revisa si existe el boton de context element map.
+                    if ($get("ctl00_btnContentToolbarContentNavigatorShowMenuContextElementMaps") != null) {
+                        //Como ahora el CustomPanels, al presionar uno, los demas se cierra...
+                        $get("ctl00_btnContentToolbarContentNavigatorShowMenuContextElementMaps").className = "contentToolbarMap";
+                    }
+                    return "contentToolbarGRCOpen";
+                    break;
+                    
+                case "ctl00_btnContentToolbarContentNavigatorShowMenuContextElementMaps":
+                    //Se revisa si existe el boton de context info...
+                    if ($get("ctl00_btnContentToolbarContentNavigatorShowMenuContextInfo") != null) {
+                        //Como ahora el CustomPanels, al presionar uno, los demas se cierra...
+                        $get("ctl00_btnContentToolbarContentNavigatorShowMenuContextInfo").className = "contentToolbarGRC";
+                    }
+                    return "contentToolbarMapOpen";
+                    break;
+            }
+        }
+        function ReturnClassNameByButtonUnSelected(idButton) {
+            switch (idButton) {
+                case "ctl00_btnGlobalToolbarGlobalNavigatorShowMenu":
+                    return "GlobalToolbarModule";
+                    break;
+
+                case "ctl00_btnGlobalToolbarHomeDashboardFW":
+                    return "GlobalToolbarDashboard";
+                    break;
+
+                case "ctl00_btnGlobalToolbarSearch":
+                    return "GlobalToolbarSearch";
+                    break;
+
+                case "ctl00_btnGlobalToolbarOperativeDashboardFW":
+                    return "GlobalToolbarOperativeDash";
+                    break;
+
+                case "ctl00_btnBreadCrumbHistory":
+                    return "breadCrumbNavigateButtonHistory";
+                    break;
+
+                case "ctl00_lnkBreadCrumbCurrent":
+                    return "breadCrumbCurrent";
+                    break;
+
+                case "ctl00_btnContentToolbarContentNavigatorShowMenuContextInfo":
+                    return "contentToolbarGRC";
+                    break;
+                case "ctl00_btnContentToolbarContentNavigatorShowMenuContextElementMaps":
+                    return "contentToolbarMap";
+                    break;
+            }
+        }
+        function ChangeCssClassHome(sender) {
+            if ((sender.className == "GlobalToolbarDashboard") || (sender.className == "GlobalToolbarSearch") || (sender.className == "GlobalToolbarOperativeDash")) {
+                sender.className = ReturnClassNameByButtonSelected(sender.id);
+            }
+            else {
+                sender.className = ReturnClassNameByButtonUnSelected(sender.id);
+            }
+        }
+
+        function UnselectedLinkButton(sender, className) {
+            sender.className = ReturnClassNameByButtonUnSelected(sender.id);  //className;
+        }
+
+        function SetNavigatorHeights() {
+            //La altura del Content (ya calculada)
+            var _contentHeight = parseInt(document.getElementById('divContent').style.height);
+
+
+            //GlobalNavigator
+            SetGlobalNavigatorBounds(_contentHeight);
+
+            //ContentNavigator
+            SetContentNavigatorBounds(_contentHeight);
+        }
+
+        function SetMenuPanelLeftPosition(panel) {
+
+            //Constantes definidas por BR Marco FW
+            //El 'top' propiamente dicho lo setea el constructor del panel,
+            //por lo que todos los offSet hacen referencia a la posicion en 'X' (left) 
+            //segun como este definido el Docking (docking-zone) del panel
+            var _offsetTop = 0;
+            var _offsetRight = 35; //[Separator  3] + [ContentToolbar 30] + [ieOffset 2] = 35
+            var _offsetBottom = 0;
+            var _offsetLeft = 38;  //[GlobalToolbar 30] + [ieOffset 1] = 31
+
+            var _toolbarPanelLocation = 0;
+
+            try {
+                switch (panel.attributes["docking-zone"].value) {
+                    case 'Right':
+                        _toolbarPanelLocation = document.body.clientWidth;
+                        _toolbarPanelLocation -= _offsetRight;
+                        _toolbarPanelLocation -= Sys.UI.DomElement.getBounds(panel).width;
+                        break;
+                    case 'Left':
+                        _toolbarPanelLocation += _offsetLeft;
+                        break;
+                    case 'Top':
+                        _toolbarPanelLocation += _offsetTop;
+                        break;
+                    case 'Bottom':
+                        _toolbarPanelLocation += _offsetBottom;
+                        break;
+                }
+
+                panel.style.left = _toolbarPanelLocation + 'px';
+            }
+            catch (err) {
+                alert('No docking-zone was set for this ToolBar'); //O se puede ubicar el menu en un lugar x Default
+                panel.style.display = 'none';
+            }
+        }
+
+
+
+        function GetKeyValues(strKeyValues) {
+
+        }
+    </script>
+
+    <script type="text/javascript">
+        function ShowMenuGlobalPanel(e) {
+            //Si el GlobalNavigatorMenu esta Dockeado, no hace nada.                     
+            //debugger;
+            if (MenuIsDocked()) {
+                StopEvent(e);     //window.event.returnValue = false; return;            
+                return;
+            }
+
+            var _menuPanel = document.getElementById('ctl00_masterGlobalNavigator');
+
+            //Si alguien mueve el mouse antes que termine de cargar da error...por eso se valida
+            if (_menuPanel != null) {
+                _menuPanel.style.display = 'block';
+                SetMenuPanelLeftPosition(_menuPanel);
+            }
+            StopEvent(e);     //window.event.returnValue = false;
+        }
+        function ShowMenuContextElementMapPanel(e) {
+            //debugger;
+            var _menuPanel = document.getElementById('ctl00_masterGlobalNavigator');
+
+            //Si alguien mueve el mouse antes que termine de cargar da error...por eso se valida
+            if (_menuPanel != null) {
+                _menuPanel.style.display = 'block';
+                SetMenuPanelLeftPosition(_menuPanel);
+            }
+            StopEvent(e);     //window.event.returnValue = false;
+        }
+        function HideMenuPanel(e) {
+            //Si el GlobalNavigatorMenu esta Dockeado, no hace nada.                     
+
+            //debugger;
+            if (MenuIsDocked()) {
+                StopEvent(e);     //window.event.returnValue = false; return;            
+                return;
+            }
+
+            var _menuPanel = document.getElementById('ctl00_masterGlobalNavigator');
+
+            //Si alguien mueve el mouse antes que termine de cargar da error...por eso se valida
+            if (_menuPanel != null) {
+                _menuPanel.style.display = 'none';
+            }
+
+            StopEvent(e);     //window.event.returnValue = false;
+        }
+        function HideCustomMenuPanel(e) {
+            //debugger;
+            var _menuPanel = document.getElementById('ctl00_masterGlobalNavigator');
+
+            CloseAllPanels(_menuPanel, '');
+
+            //Al cerrar todos los custom panels, tambien desactivo los iconos...
+            if ($get("ctl00_btnContentToolbarContentNavigatorShowMenuContextElementMaps") != undefined) {
+                $get("ctl00_btnContentToolbarContentNavigatorShowMenuContextElementMaps").className = "contentToolbarMap";
+            }
+            if ($get("ctl00_btnContentToolbarContentNavigatorShowMenuContextInfo") != undefined) {
+                $get("ctl00_btnContentToolbarContentNavigatorShowMenuContextInfo").className = "contentToolbarGRC";
+            }
+            
+            StopEvent(e);     //window.event.returnValue = false;                        
+        }                                                                                       
+    </script>
+
+    <asp:ContentPlaceHolder ID="headContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="frmMasterForm" runat="server">
+    <asp:ScriptManager ID="smEMSMaster" EnablePageMethods="true" runat="server" AsyncPostBackTimeout="180" />
+    <%--<rad:RadScriptManager ID="smEMSMaster" runat="server">
+    </rad:RadScriptManager>--%>
+    <div id="FWMasterGlobalUpdateProgress" class="Loading" style="display: none">
+    </div>
+    <!-- Traquea el Estado del Global Menu -->
+    <asp:HiddenField ID="hdn_globalNavigatorMenuDockingState" Value="UnDocked" runat="server" />
+    <asp:HiddenField ID="hdn_globalNavigatorCurrentBreadCrumbState" Value="breadCrumbHistoryList"
+        runat="server" />
+    <table id="masterMainTable" cellpadding="0" cellspacing="0">
+        <!-- Header -->
+        <tr>
+            <td id="masterTableHeader" onmouseover="javascript:HideCustomMenuPanel(event);">
+                <table cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                        <td class="tdLeft">
+                            <div class="LogoCompany">
+                            </div>
+                        </td>
+                        <td class="tdRight">
+                            <div class="divContentInfo">
+                                <asp:Label ID="lblProductName" runat="server"></asp:Label>
+                                <a id="lblTechnicalSupport" runat="server">
+                                    <asp:Literal ID="lblTechnicalSupportDescription" runat="server" />
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td class="masterTableContentSeparationH">
+            </td>
+        </tr>
+        <!-- Content -->
+        <tr>
+            <td id="masterTableContent">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td class="masterTableContentSeparationV">
+                        </td>
+                        <!-- GLOBAL TOOLBAR -->
+                        <td id="masterTableGlobalToolbar" onmouseover="javascript:HideCustomMenuPanel(event);">
+                            <asp:UpdatePanel ID="upMasterGlobalToolbar" runat="server" UpdateMode="Always">
+                                <ContentTemplate>
+                                    <asp:PlaceHolder ID="phMasterTableGlobalToolbar" runat="server" />
+                                </ContentTemplate>
+                            </asp:UpdatePanel>
+                        </td>
+                        <!-- END GLOBAL TOOLBAR -->
+                        <td class="masterTableContentSeparationV" id="globalNavigatorDockingZone">
+                        </td>
+                        <td>
+                            <!-- Marco de Contenido Ppal -->
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0" onmouseover="javascript:HideMenuPanel(event);">
+                                <tr>
+                                    <td id="masterBreadCrumb" onmouseover="javascript:HideCustomMenuPanel(event);">
+                                        <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td>
+                                                    <!-- BreadCrumb -->
+                                                    <asp:ImageButton ID="btnBreadCrumbBack" runat="server" SkinID="BreadCrumbBack" CausesValidation="false" />
+                                                    <asp:ImageButton ID="btnBreadCrumbNext" runat="server" SkinID="BreadCrumbNext" CausesValidation="false" />
+                                                    <asp:ImageButton ID="btnBreadCrumbHistory" runat="server" SkinID="BreadCrumbHistory"
+                                                        CausesValidation="false" OnClientClick="ShowBreadCrumbHistoryList(this, event);" />
+                                                    <asp:ImageButton ID="btnChangeBreadCrumbView" runat="server" SkinID="BreadCrumbSet"
+                                                        CausesValidation="false" OnClientClick="ChangeBreadCrumbHistoryList(event);" />
+                                                    <asp:LinkButton ID="lnkBreadCrumbCurrent" runat="server" Text="" OnClientClick="ShowBreadCrumbHistoryList(this, event);"
+                                                        CssClass="breadCrumbCurrent" CausesValidation="false" />
+                                                    <!-- END BreadCrumb -->
+                                                </td>
+                                                <td class="masterUser">
+                                                    <!-- UserName -->
+                                                    <asp:Label ID="lblUserName" runat="server" />
+                                                    <asp:ImageButton ID="btnLogOff" CausesValidation="false" runat="server" SkinID="LogOff" />
+                                                    <!-- END UserName -->
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="masterTableContentSeparationH">
+                                    </td>
+                                </tr>
+                                <!-- Pagetitle -->
+                                <tr>
+                                    <td id="masterTableContentPageTitle" onmouseover="javascript:HideCustomMenuPanel(event);">
+                                        <condesus:CondesusPageTitle ID="pnyxPageTitle" runat="server" />
+                                    </td>
+                                </tr>
+                                <!-- END Pagetitle -->
+                                <tr>
+                                    <td>
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td id="masterTableContentPlaceHolderContainer" rowspan="2">
+                                                    <div id="divContent">
+                                                        <div id="FWContent">
+                                                            <table id="FWContentTable" cellpadding="0" cellspacing="0" onmouseover="javascript:HideCustomMenuPanel(event);">
+                                                                <tr>
+                                                                    <td>
+                                                                        <!-- *******   ContentBody   ****** -->
+                                                                        <asp:UpdatePanel ID="upContentBody" runat="server" ChildrenAsTriggers="false" UpdateMode="Conditional">
+                                                                            <ContentTemplate>
+                                                                                <!-- *******   ContentPlaceHolder   ****** -->
+                                                                                <asp:ContentPlaceHolder ID="ContentMain" runat="server" />
+                                                                                <!-- ******* END ContentPlaceHolder ****** -->
+                                                                            </ContentTemplate>
+                                                                        </asp:UpdatePanel>
+                                                                        <!-- *******   ContentBody   ****** -->
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <!-- CONTENT TOOLBAR -->
+                                                <td id="masterTableContentToolbar" style="width: 100px;">
+                                                    <asp:PlaceHolder ID="phMasterTableContentToolbar" runat="server" />
+                                                    <br />
+                                                    &nbsp;
+                                                </td>
+                                                <!-- END CONTENT TOOLBAR -->
+                                            </tr>
+                                            <tr>
+                                                <td id="masterTableContentToolbarSave">
+                                                    <asp:PlaceHolder ID="phMasterTableContentToolbarFileActions" runat="server" />
+                                                    <br />
+                                                    &nbsp;
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <!-- Status -->
+                                <tr>
+                                    <td id="masterTableContentStatusBar" onmouseover="javascript:HideCustomMenuPanel(event);">
+                                        <asp:UpdatePanel ID="upStatusBar" runat="server" UpdateMode="Always">
+                                            <ContentTemplate>
+                                                <condesus:PnyxStatusBar ID="pnyxStatusBar" runat="server" />
+                                            </ContentTemplate>
+                                        </asp:UpdatePanel>
+                                    </td>
+                                </tr>
+                            </table>
+                            <!-- END Marco de Contenido Ppal -->
+                        </td>
+                        <td class="masterTableContentSeparationV">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td class="masterTableContentSeparationH">
+            </td>
+        </tr>
+        <!-- Footer -->
+        <tr>
+            <td id="masterTableFooter">
+                <asp:Label ID="lblFooter" runat="server" />
+            </td>
+        </tr>
+    </table>
+    <!-- ********* Panels  *********************************************************************************** -->
+    <!-- BreadCrumb HistoryList-->
+    <div id="breadCrumbHistoryList" style="display: none;">
+        <asp:PlaceHolder ID="phBreadCrumbHistoryList" runat="server" />
+    </div>
+    <!-- END BreadCrumb HistoryList-->
+    <!-- ContextInfoPath -->
+    <div id="breadCrumbContextInfoPathList" style="display: none;">
+        <asp:PlaceHolder ID="phContextInfoPath" runat="server" />
+    </div>
+    <!-- END ContextInfoPath -->
+    <!-- MenuPanels -->
+    <asp:UpdatePanel ID="upToolbarMenuPanels" runat="server" UpdateMode="Always">
+        <ContentTemplate>
+            <asp:PlaceHolder ID="cphToolbarMenuPanels" runat="server" />
+        </ContentTemplate>
+    </asp:UpdatePanel>
+    <!-- *******  END Panels  ******************************************************************************** -->
+    </form>
+</body>
+</html>

@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Condesus.EMS.Business.DS.Collections.OrganizationClassifications_LG">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <Members>
+      <Field Name="_Credential" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAIAIAAAAAAACAAAAEAABAAEAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>DS - Directory Service\Code\Collections\OrganizationClassifications_LG.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.DS.Collections.OrganizationsRelationshipsTypes">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <Members>
+      <Field Name="_Credential" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAIAIAAAAAAACAAAAEAABAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DS - Directory Service\Code\Collections\OrganizationsRelationshipsTypes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.DS.Entities.OrganizationRelationshipType_LG">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <Members>
+      <Field Name="_Description" Hidden="true" />
+      <Field Name="_IdLanguage" Hidden="true" />
+      <Field Name="_Name" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAgAAACAAAAIAQAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>DS - Directory Service\Code\Entities\OrganizationRelationshipType_LG.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.DS.Collections.People">
+    <Position X="15" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAIAAAAAAACAAAAEAABAAEAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>DS - Directory Service\Code\Collections\People.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.DS.Entities.Person">
+    <Position X="17.5" Y="0.5" Width="1.5" />
+    <Members>
+      <Field Name="_FirstName" Hidden="true" />
+      <Field Name="_LastName" Hidden="true" />
+      <Field Name="_NickName" Hidden="true" />
+      <Field Name="_PosName" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>CBRQZEgAACEBQqKKoUuINmAChAAYBQECAcIgAAIEJAw=</HashCode>
+      <FileName>DS - Directory Service\Code\Entities\Persons\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.DS.Entities.Language">
+    <Position X="17" Y="7.5" Width="1.5" />
+    <Members>
+      <Field Name="_IdLanguage" Hidden="true" />
+      <Field Name="_IsDefault" Hidden="true" />
+      <Field Name="_Name" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAIAAACAAAAKAQAgAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>DS - Directory Service\Code\Entities\Language.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.DS.Collections.Languages">
+    <Position X="19.75" Y="10.25" Width="1.5" />
+    <Members>
+      <Field Name="_Credential" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAIAIAAAAAAACAAAQEAABAAEAAAAAAAAAAAAAABBAAA=</HashCode>
+      <FileName>DS - Directory Service\Code\Collections\Languages.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.DS.DirectoryServices">
+    <Position X="13.5" Y="10.25" Width="2.25" />
+    <Members>
+      <Field Name="_Credential" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAABAAAAAAAEAAAAAAAAAAAAACgAAAAAAAAAA=</HashCode>
+      <FileName>DS - Directory Service\Code\Facades\DirectoryServices.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Condesus.EMS.Business.DS.Collections.Users">
+    <Position X="13.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAIAAAAAAACAAAAEAAJAAEAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>DS - Directory Service\Code\Collections\Users.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.DS.Entities.User">
+    <Position X="20.5" Y="0.5" Width="1.5" />
+    <Members>
+      <Field Name="_Active" Hidden="true" />
+      <Field Name="_LastIP" Hidden="true" />
+      <Field Name="_LastLogin" Hidden="true" />
+      <Field Name="_Password" Hidden="true" />
+      <Field Name="_Username" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>QIgYAAABgQACFEhSEWJQIAACAEAAAAIiAA4EABIAIAI=</HashCode>
+      <FileName>DS - Directory Service\Code\Entities\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.DS.Collections.SalutationTypes">
+    <Position X="16.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAIAAAAAAACAAAAEAABAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DS - Directory Service\Code\Collections\SalutationTypes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.DS.Entities.SalutationType">
+    <Position X="16.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAIAAAAAAEAAAAIAEAAAAAAAAAAAAAgAAAAgAAAAAA=</HashCode>
+      <FileName>DS - Directory Service\Code\Entities\SalutationType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.DS.Collections.Organizations">
+    <Position X="17.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAIAAAAAEACIAAAEAABAAEAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>DS - Directory Service\Code\Collections\Organizations.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.DS.Entities.Organization">
+    <Position X="1.25" Y="14.5" Width="1.5" />
+    <Members>
+      <Field Name="_CorporateName" Hidden="true" />
+      <Field Name="_GeographicAreas" Hidden="true" />
+      <Field Name="_Name" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ENcZ6SiQBKWFYoBgJEUoNHQYDpgCdUg0UAhkoAIMAiI=</HashCode>
+      <FileName>DS - Directory Service\Code\Entities\Organization.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Condesus.EMS.Business.DS.Entities.GeographicFunctionalArea">
+    <Position X="16.25" Y="13.25" Width="3" />
+    <Members>
+      <Field Name="_FunctionalArea" Hidden="true" />
+      <Field Name="_GeographicArea" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>IAMAAAAARAkAAQAAAEAUIAQAAAAAAAAAAAgwAAAYIAY=</HashCode>
+      <FileName>DS - Directory Service\Code\Entities\GeographicFunctionalArea.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="FunctionalArea" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Condesus.EMS.Business.DS.Entities.FunctionalArea">
+    <Position X="17.25" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAIAAAAAAEAAQAAAEAUJAAAAACAAAAAAAAQgQIIIAY=</HashCode>
+      <FileName>DS - Directory Service\Code\Entities\FunctionalArea.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.DS.Collections.FunctionalAreas">
+    <Position X="12.75" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAIAAAAAAACAAAAEAABAAEAAAAAAAAAAAAAAAQAAQ=</HashCode>
+      <FileName>DS - Directory Service\Code\Collections\FunctionalAreas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.DS.Entities.JobTitle">
+    <Position X="4" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEMAAAABBAAAASAopWiApAQACAAgAgAAAQjwAAIQJAY=</HashCode>
+      <FileName>DS - Directory Service\Code\Entities\JobTitle\JobTitle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.DS.Collections.Positions">
+    <Position X="8.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAIAAAAAAACAAAAEAABAAEAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>DS - Directory Service\Code\Collections\Positions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.DS.Entities.Position">
+    <Position X="6" Y="12.5" Width="1.5" />
+    <Members>
+      <Field Name="_IdPosition" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>EAAIAAAAAAEAAAACAUAAIAAAAAAAAgAAAAAAgAAAIAY=</HashCode>
+      <FileName>DS - Directory Service\Code\Entities\Position.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.DS.Entities.Post">
+    <Position X="11" Y="11.75" Width="1.5" />
+    <Members>
+      <Field Name="_EndDate" Hidden="true" />
+      <Field Name="_JobTitle" Hidden="true" />
+      <Field Name="_Person" Hidden="true" />
+      <Field Name="_StartDate" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AIAAIAAABAAiAQCAAEAApAAiAAAAIgAhAAAgQFIYIAA=</HashCode>
+      <FileName>DS - Directory Service\Code\Entities\Post.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

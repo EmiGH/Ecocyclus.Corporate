@@ -1,0 +1,548 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Condesus.EMS.Business.PA.Entities.MeasurementDevice">
+    <Position X="35.25" Y="11.75" Width="2" />
+    <Members>
+      <Field Name="_SerialNumber" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="DeviceType" Type="Condesus.EMS.Business.PA.Entities.MeasurementDeviceType">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.199" Y="0.932" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>IFQABAuAAAAAicBAWEAIDACGAgEAAQAAgAoCAAgDCIU=</HashCode>
+      <FileName>PA - Performance Assessment\Code\Entities\MeasurementDevice.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DeviceType" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Condesus.EMS.Business.PA.Entities.Formula">
+    <Position X="8.75" Y="17.75" Width="2.25" />
+    <Members>
+      <Field Name="_IdFormula" Hidden="true" />
+      <Field Name="_LiteralFormula" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="MeasurementUnit" Type="Condesus.EMS.Business.PA.Entities.MeasurementUnit">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="13.779" Y="0.14" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="LanguageOption" Type="Condesus.EMS.Business.PA.Entities.Formula_LG">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.257" Y="-0.596" Height="0.182" Width="1.244" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>+AMAYACoBAAEEABwAECAxAAQIEAQAAAQRBIAoAIAACA=</HashCode>
+      <FileName>PA - Performance Assessment\Code\Entities\Formula.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="MeasurementUnit" />
+      <Property Name="LanguageOption" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="FormulaParameters" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Condesus.EMS.Business.PA.Entities.Parameter">
+    <Position X="31.75" Y="27" Width="2" />
+    <Members>
+      <Field Name="_IdParameter" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EAgIICAAgAEAABEAAECABAAhIAAAAEAAAAAAgggAAAA=</HashCode>
+      <FileName>PA - Performance Assessment\Code\Entities\Parameter.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="LanguageOption" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="ParameterRanges" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Condesus.EMS.Business.PA.Entities.ParameterRange">
+    <Position X="25.5" Y="30.25" Width="1.75" />
+    <Members>
+      <Field Name="_HighValue" Hidden="true" />
+      <Field Name="_IdParameter" Hidden="true" />
+      <Field Name="_IdParameterRange" Hidden="true" />
+      <Field Name="_LowValue" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAQEAaAAABAAAQAAiAAAAAAAAAAQA=</HashCode>
+      <FileName>PA - Performance Assessment\Code\Entities\ParameterRange.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.PA.Entities.Indicator">
+    <Position X="20.25" Y="9.5" Width="2.75" />
+    <Members>
+      <Field Name="_IdMagnitud" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="Magnitud" Type="Condesus.EMS.Business.PA.Entities.Magnitud" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="22.125" Y="9.5" />
+        <Point X="22.125" Y="9.125" />
+        <Point X="10.125" Y="9.125" />
+        <Point X="10.125" Y="10.753" />
+        <Point X="10.5" Y="10.753" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="Measurements" Type="Condesus.EMS.Business.PA.Entities.Measurement">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="7.398" Y="0.308" Height="0.182" Width="1.564" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="ParameterGroups" Type="Condesus.EMS.Business.PA.Entities.ParameterGroup">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="9.368" Y="5.581" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>EAIoYAiAEAEAEAABAMQABACAAAAAAQAQQAAQgAMAgBQ=</HashCode>
+      <FileName>PA - Performance Assessment\Code\Entities\Indicator.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="LanguageOption" />
+      <Property Name="Magnitud" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Measurements" />
+      <Property Name="Formulas" />
+      <Property Name="ParameterGroups" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Condesus.EMS.Business.PA.Entities.Magnitud">
+    <Position X="10.5" Y="9.75" Width="2" />
+    <Members>
+      <Field Name="_IdMagnitud" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="LanguageOption" Type="Condesus.EMS.Business.PA.Entities.Magnitud_LG">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="-0.495" Y="0.256" Height="0.182" Width="1.286" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>EEAIIEAAEAEAAAAAEESABAAAAgAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>PA - Performance Assessment\Code\Entities\Magnitud.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="LanguageOption" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Condesus.EMS.Business.PA.Entities.MeasurementUnit">
+    <Position X="24.5" Y="17.5" Width="1.75" />
+    <Members>
+      <Field Name="_Constant" Hidden="true" />
+      <Field Name="_Exponent" Hidden="true" />
+      <Field Name="_IdMagnitud" Hidden="true" />
+      <Field Name="_IdMeasurementUnit" Hidden="true" />
+      <Field Name="_IsPattern" Hidden="true" />
+      <Field Name="_Numerator" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EAAIAEABEAkAEAAhAEAAAAAAAAQQEQgAMAAAgAEAAAA=</HashCode>
+      <FileName>PA - Performance Assessment\Code\Entities\MeasurementUnit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.PA.Entities.Parameter_LG">
+    <Position X="26.25" Y="27.5" Width="1.75" />
+    <Members>
+      <Field Name="_Description" Hidden="true" />
+      <Field Name="_IdLanguage" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAgAAACAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>PA - Performance Assessment\Code\Entities\Parameter_LG.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.PA.Entities.Indicator_LG">
+    <Position X="25" Y="9.5" Width="1.75" />
+    <Members>
+      <Field Name="_Description" Hidden="true" />
+      <Field Name="_IdLanguage" Hidden="true" />
+      <Field Name="_Name" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAACAAAACAAgGCACAAAAIAQgAAAAAAAEAAAAACAAAAA=</HashCode>
+      <FileName>PA - Performance Assessment\Code\Entities\Indicator_LG.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.PA.Entities.Magnitud_LG">
+    <Position X="10.5" Y="13" Width="1.5" />
+    <Members>
+      <Field Name="_IdLanguage" Hidden="true" />
+      <Field Name="_Name" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAACAAAAIAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PA - Performance Assessment\Code\Entities\Magnitud_LG.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.PA.Entities.Formula_LG">
+    <Position X="6" Y="18.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAQAACAAAAAACAAAAIAQAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>PA - Performance Assessment\Code\Entities\Formula_LG.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.PA.Entities.ParameterGroup">
+    <Position X="30.25" Y="23" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EAAIYACCAAEAEAEAAECABAQAAAAQAAAQQJAAgAIAAAA=</HashCode>
+      <FileName>PA - Performance Assessment\Code\Entities\ParameterGroup.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="LanguageOption" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Parameters" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Condesus.EMS.Business.PA.Entities.ParameterGroup_LG">
+    <Position X="26.25" Y="24.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAgAAACAAAAIAQAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>PA - Performance Assessment\Code\Entities\ParameterGroup_LG.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.PA.Entities.MeasurementDeviceType">
+    <Position X="35.25" Y="18.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="LanguageOption" Type="Condesus.EMS.Business.PA.Entities.MeasurementDeviceType_LG">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.088" Y="0.681" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>EAIIIAAAAAEAQAAAAEAAAAAAAAEAgAIAAAAAggAAAAA=</HashCode>
+      <FileName>PA - Performance Assessment\Code\Entities\MeasurementDeviceType.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="LanguageOption" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Condesus.EMS.Business.PA.Entities.MeasurementDeviceType_LG">
+    <Position X="35.25" Y="22.25" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAgAAACAAAAIAQAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>PA - Performance Assessment\Code\Entities\MeasurementDeviceType_LG.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.PA.Entities.Measurement">
+    <Position X="29" Y="12" Width="3.5" />
+    <Members>
+      <Field Name="_IdDevice" Hidden="true" />
+      <Field Name="_IdIndicator" Hidden="true" />
+      <Field Name="_IdMeasurement" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Condesus.EMS.Business.PA.Entities.Measurement.AggregateType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>PA - Performance Assessment\Code\Entities\Measurement.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="Condesus.EMS.Business.PA.Entities.Measurement.GroupingType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>PA - Performance Assessment\Code\Entities\Measurement.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <AssociationLine Name="Device" Type="Condesus.EMS.Business.PA.Entities.MeasurementDevice">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="3.326" Y="0.134" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="MeasurementUnit" Type="Condesus.EMS.Business.PA.Entities.MeasurementUnit">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="3.422" Y="4.826" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ECMIIAQMJiGgkkB1AHGEJAQGAOBAAEAAABAAoA6yCAU=</HashCode>
+      <FileName>PA - Performance Assessment\Code\Entities\Measurement.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Device" />
+      <Property Name="MeasurementUnit" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Condesus.EMS.Business.PA.Entities.IndicatorClassification">
+    <Position X="14.75" Y="9.75" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="ChildrenElements" Type="Condesus.EMS.Business.PA.Entities.Indicator">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="3.951" Y="-2.158" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>EAAIIEAAAJEBgAEAAECwBAAAAAAAAAAAgBAAgAIAAgA=</HashCode>
+      <FileName>PA - Performance Assessment\Code\Entities\IndicatorClassification.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="LanguageOption" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="ChildrenElements" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Condesus.EMS.Business.PA.Entities.IndicatorClassification_LG">
+    <Position X="15.5" Y="13.75" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAgAAACAAAAIAQAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>PA - Performance Assessment\Code\Entities\IndicatorClassification_LG.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.PA.Entities.Calculation">
+    <Position X="8.75" Y="25.25" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="Formula" Type="Condesus.EMS.Business.PA.Entities.Formula">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.131" Y="4.061" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="MeasurementUnit" Type="Condesus.EMS.Business.PA.Entities.MeasurementUnit" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="10.625" Y="25.25" />
+        <Point X="10.625" Y="24.75" />
+        <Point X="25.312" Y="24.75" />
+        <Point X="25.312" Y="20.661" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="15.029" Y="6.568" Height="0.182" Width="1.322" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>UBAIaAiIhKEQACwgBMiARBCAQKBQBgQQRICA4AKAAEE=</HashCode>
+      <FileName>PA - Performance Assessment\Code\Entities\Calculation.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Formula" />
+      <Property Name="MeasurementUnit" />
+      <Property Name="LanguageOption" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="CalculationParameters" />
+      <Property Name="CalculationEstimates" />
+      <Property Name="CalculationCertificates" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Condesus.EMS.Business.PA.Entities.Calculation_LG">
+    <Position X="5.5" Y="27.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAgAAACAAAAIAQAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>PA - Performance Assessment\Code\Entities\Calculation_LG.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.PA.Entities.CalculationCertificated">
+    <Position X="14.75" Y="25" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AIAAIAAABAAAAFAAAkAAAAAgAUAAIAAAAAAgQEAAAAE=</HashCode>
+      <FileName>PA - Performance Assessment\Code\Entities\CalculationCertificated.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.PA.Entities.CalculationEstimated">
+    <Position X="14.75" Y="31.25" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="CalculationScenarioType" Type="Condesus.EMS.Business.PA.Entities.CalculationScenarioType">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.831" Y="2.331" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AIAAIIAAAAAAABAAAEAAAAAgEEAAICAAAAIgQEAAAAA=</HashCode>
+      <FileName>PA - Performance Assessment\Code\Entities\CalculationEstimated.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CalculationScenarioType" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Condesus.EMS.Business.PA.Entities.CalculationParameter">
+    <Position X="14.75" Y="28.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAEAAEAAEQAAAAJAiAAAQRAAAAAA=</HashCode>
+      <FileName>PA - Performance Assessment\Code\Entities\CalculationParameter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.PA.Entities.CalculationPoint">
+    <Position X="17.25" Y="25.25" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAgQAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PA - Performance Assessment\Code\Entities\CalculationPoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.PA.Entities.CalculationScenarioType">
+    <Position X="14.5" Y="35" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EAAIIAAAAAEAEAAAAEAAAAAAEAAAAAACAAAAgAAAAAA=</HashCode>
+      <FileName>PA - Performance Assessment\Code\Entities\CalculationScenarioType.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="LanguageOption" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Condesus.EMS.Business.PA.Entities.CalculationScenarioType_LG">
+    <Position X="18.75" Y="35" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAgAAACAAAAIAQAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>PA - Performance Assessment\Code\Entities\CalculationScenarioType_LG.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.PA.Entities.CalculationScenarioTypeProcessClassification">
+    <Position X="9" Y="35" Width="3.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAEAAAAAAEAAAAAABAAIAAAAAAAA=</HashCode>
+      <FileName>PA - Performance Assessment\Code\Entities\CalculationScenarioTypeProcessClassification.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CalculationScenarioType" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Condesus.EMS.Business.PA.Entities.FormulaParameter">
+    <Position X="13" Y="21" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAIACCAAAAEABgAECAQAAAAAAAABAiABAAIAAAAAA=</HashCode>
+      <FileName>PA - Performance Assessment\Code\Entities\FormulaParameter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.PA.Entities.FormulaStoredProcedure">
+    <Position X="15.25" Y="21" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAIAQAAAAAAAAAAAAAQAAQAAA=</HashCode>
+      <FileName>PA - Performance Assessment\Code\Entities\FormulaStoredProcedure.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="StoredProcedureParameters" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Condesus.EMS.Business.PA.Entities.FormulaStoredProcedureParameter">
+    <Position X="18.5" Y="20.5" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>ACEAAAggAIIIAAAAAEAQIAwCAAAAAAAAgAAAAAAAAIA=</HashCode>
+      <FileName>PA - Performance Assessment\Code\Entities\FormulaStoredProcedureParameter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

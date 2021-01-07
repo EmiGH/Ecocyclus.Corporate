@@ -1,0 +1,307 @@
+﻿/*
+
+RadTreeView ContextElementMapsByProcess skin
+
+* For notes on some CSS class names, please check RadTreeView common skin file *
+
+*/
+
+/* general styles */
+
+.RadTreeView_ContextElementMapsByProcess, .RadTreeView_ContextElementMapsByProcess .rtEdit .rtIn input
+{
+	font: 10px verdana, arial, sans-serif;
+	color: #333;
+	line-height: 1.273em;
+}
+
+.RadTreeView_ContextElementMapsByProcess .rtTop, .RadTreeView_ContextElementMapsByProcess .rtMid, .RadTreeView_ContextElementMapsByProcess .rtBot
+{
+	padding: 0 0 0 20px;
+}	
+
+.RadTreeView_ContextElementMapsByProcess .rtPlus, .RadTreeView_ContextElementMapsByProcess .rtMinus
+{
+	margin: 5px 8px 0 -17px;
+	width: 9px;
+	height: 9px;
+}
+
+.RadTreeView_ContextElementMapsByProcess .rtPlus
+{
+}
+
+.RadTreeView_ContextElementMapsByProcess .rtMinus
+{
+}
+.RadTreeView_ContextElementMapsByProcess .rtSp
+{
+	height: 18px;
+}
+
+.RadTreeView_ContextElementMapsByProcess .rtChk
+{
+	margin: 0 2px;
+	padding: 0;
+	width: 12px;
+	height: 12px;
+}
+
+.RadTreeView_ContextElementMapsByProcess .rtIn
+{
+	margin-left: 3px;
+	padding: 0 30px 10px;
+	text-decoration: none;
+}
+
+/* endof general styles */
+
+
+/* node states */
+
+.RadTreeView_ContextElementMapsByProcess .rtHover .rtIn
+{
+	color: #363636;
+	text-decoration: underline;
+}
+
+.RadTreeView_ContextElementMapsByProcess .rtSelected .rtIn
+{
+	color: #363636;
+	text-decoration: underline;
+}
+
+.RadTreeView_ContextElementMapsByProcess_disabled .rtIn, .RadTreeView_ContextElementMapsByProcess .rtDisabled .rtIn
+{
+	color: #ccc;
+}
+
+.RadTreeView_ContextElementMapsByProcess .rtSelected .rtLoadingBelow
+{
+	color: #000;
+}
+
+/* endof node states */
+
+
+
+/* node lines */
+
+.RadTreeView_ContextElementMapsByProcess .rtLines .rtLI, .RadTreeView_ContextElementMapsByProcess .rtLines .rtFirst .rtUL
+{
+	background: url(TreeView/NodeSpan.gif) repeat-y 0 0;
+}
+.RadTreeView_ContextElementMapsByProcess_rtl .rtLines .rtLI, .RadTreeView_ContextElementMapsByProcess_rtl .rtLines .rtFirst .rtUL
+{
+	background: url(TreeView/NodeSpan_rtl.gif) repeat-y 100% 0;
+}
+
+.RadTreeView_ContextElementMapsByProcess .rtLines .rtFirst
+{
+	background: url(TreeView/FirstNodeSpan.gif) no-repeat 0 1.273em;
+}
+.RadTreeView_ContextElementMapsByProcess_rtl .rtLines .rtFirst
+{
+	background: url(TreeView/FirstNodeSpan_rtl.gif) no-repeat 100% 1.273em;
+}
+
+.RadTreeView_ContextElementMapsByProcess .rtLines .rtFirst .rtUL
+{
+	background: url(TreeView/FirstNodeSpan.gif) repeat-y 0 1.273em;
+}
+
+.RadTreeView_ContextElementMapsByProcess_rtl .rtLines .rtFirst .rtUL
+{
+	background: url(TreeView/FirstNodeSpan_rtl.gif) repeat-y 100% 1.273em;
+}
+
+.RadTreeView_ContextElementMapsByProcess .rtLines .rtLast, .RadTreeView_ContextElementMapsByProcess .rtLines .rtLast .rtUL
+{
+	background: none;
+}
+
+.RadTreeView_ContextElementMapsByProcess .rtLines .rtTop
+{
+	background: url(TreeView/TopLine.gif) 0 0 no-repeat;
+}
+.RadTreeView_ContextElementMapsByProcess_rtl .rtLines .rtTop
+{
+	background: url(TreeView/TopLine_rtl.gif) 100% 0 no-repeat;
+}
+
+.RadTreeView_ContextElementMapsByProcess .rtLines .rtLast .rtTop
+{
+	background: url(TreeView/SingleLine.gif) 0 0 no-repeat;
+}
+
+.RadTreeView_ContextElementMapsByProcess_rtl .rtLines .rtLast .rtTop
+{
+	background: url(TreeView/SingleLine_rtl.gif) 100% 0 no-repeat;
+}
+
+.RadTreeView_ContextElementMapsByProcess .rtLines .rtMid
+{
+	background: url(TreeView/MiddleLine.gif) 0 0 no-repeat;
+}
+.RadTreeView_ContextElementMapsByProcess_rtl .rtLines .rtMid
+{
+	background: url(TreeView/MiddleLine_rtl.gif) 100% 0 no-repeat;
+}
+
+.RadTreeView_ContextElementMapsByProcess .rtLines .rtBot
+{
+	background: url(TreeView/BottomLine.gif) 0 0 no-repeat;
+}
+.RadTreeView_ContextElementMapsByProcess_rtl .rtLines .rtBot
+{
+	background: url(TreeView/BottomLine_rtl.gif) 100% 0 no-repeat;
+}
+
+/* endof node lines */
+
+
+/* rtl-specific styles */
+
+/* firefox */
+.RadTreeView_ContextElementMapsByProcess_rtl .rtPlus, .RadTreeView_ContextElementMapsByProcess_rtl .rtMinus
+{
+	margin-right: -9px;
+	right: -14px;
+}
+
+* html .RadTreeView_ContextElementMapsByProcess_rtl .rtPlus, * html .RadTreeView_ContextElementMapsByProcess_rtl .rtMinus
+{
+	margin-right: -17px;
+	right: 0;
+}
+
+* + html .RadTreeView_ContextElementMapsByProcess_rtl .rtPlus, * + html .RadTreeView_ContextElementMapsByProcess_rtl .rtMinus
+{
+	margin-right: -17px;
+	right: 0;
+}
+
+.RadTreeView_ContextElementMapsByProcess_rtl .rtTop, .RadTreeView_ContextElementMapsByProcess_rtl .rtMid, .RadTreeView_ContextElementMapsByProcess_rtl .rtBot
+{
+	padding: 0 20px 2px 0;
+	margin: 0;
+}
+
+/* endof rtl-specific styles */
+
+
+/* hacks for Opera & Safari */
+@media screen and (min-width:550px)
+{
+	/* fixes for opera (changes the paddings/margins automatically in rtl mode) */
+
+	html:first-child .RadTreeView_ContextElementMapsByProcess_rtl .rtPlus, html:first-child .RadTreeView_ContextElementMapsByProcess_rtl .rtMinus, html:first-child .RadTreeView_ContextElementMapsByProcess_rtl .rtFirst .rtLI .rtPlus, html:first-child .RadTreeView_ContextElementMapsByProcess_rtl .rtFirst .rtLI .rtMinus
+	{
+		margin: 5px 8px 0 -17px;
+		right: 0;
+	}
+
+	/* fix for safari bug (inline-block positioned elements in rtl mode get no width) */
+	:root .RadTreeView_ContextElementMapsByProcess_rtl .rtPlus, :root .RadTreeView_ContextElementMapsByProcess_rtl .rtMinus
+	{
+		right: 0;
+		margin-right: -17px;
+		margin-left: 8px;
+	}
+}
+
+/* endof hacks */
+
+
+.RadTreeView_ContextElementMapsByProcess .Folder
+{
+	background-position: -0px -325px;
+	-ms-background-position-x: 0px;
+	-ms-background-position-y: -325px;
+}
+.RadTreeView_ContextElementMapsByProcess .FolderHover
+{
+	background-position: -0px -325px;
+	-ms-background-position-x: 0px;
+	-ms-background-position-y: -325px;
+}
+.ProcessNodeWorking
+{
+	background-position:  -0px -0px;
+}
+.ProcessTaskOperationWorking
+{
+	background-position:  -0px -16px;
+}
+.ProcessTaskCalibrationWorking
+{
+	background-position:  -0px -32px;
+}
+.ProcessTaskMeasurementWorking
+{
+	background-position:  -0px -48px;
+}
+.ProcessGroupProcessesWorking
+{
+	background-position:  -0px -64px;
+}
+.ProcessNodeOverdue
+{
+	background-position:  -0px -80px;
+}
+.ProcessTaskOperationOverdue
+{
+	background-position:  -0px -96px;
+}
+.ProcessTaskCalibrationOverdue
+{
+	background-position:  -0px -112px;
+}
+.ProcessTaskMeasurementOverdue
+{
+	background-position:  -0px -128px;
+}
+.ProcessGroupProcessesOverdue
+{
+	background-position:  -0px -144px;
+}
+.ProcessNodePlanned
+{
+	background-position:  -0px -160px;
+}
+.ProcessTaskOperationPlanned
+{
+	background-position:  -0px -176px;
+}
+.ProcessTaskCalibrationPlanned
+{
+	background-position:  -0px -192px;
+}
+.ProcessTaskMeasurementPlanned
+{
+	background-position:  -0px -208px;
+}
+.ProcessGroupProcessesPlanned
+{
+	background-position:  -0px -224px;
+}
+.ProcessNodeFinished
+{
+	background-position:  -0px -240px;
+}
+.ProcessTaskOperationFinished
+{
+	background-position:  -0px -256px;
+}
+.ProcessTaskCalibrationFinished
+{
+	background-position:  -0px -272px;
+}
+.ProcessTaskMeasurementFinished
+{
+	background-position:  -0px -288px;
+}
+.ProcessGroupProcessesFinished
+{
+	background-position:  -0px -304px;
+}

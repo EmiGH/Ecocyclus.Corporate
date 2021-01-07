@@ -1,0 +1,571 @@
+/* RadWindow 2 Common Css */
+
+div.RadWindow
+{
+	float: left;
+	position: absolute;
+	border: 1px solid #a9a9a9;
+}
+
+div.RadWindow a
+{
+    outline: none;
+}
+
+div.RadWindow table
+{
+    width: 100%;
+    height: 100%;
+    table-layout: auto;
+}
+
+div.RadWindow div.min
+{
+	display: none;
+}
+
+div.RadWindow table td
+{
+	padding: 0; 
+	margin: 0;
+	border-collapse: collapse;
+	vertical-align: top;
+}
+
+.RadWindow .rwCorner,
+.RadWindow .rwFooterCenter
+{
+    line-height:1;
+}
+
+div.RadWindow table td.rwTitlebar
+{
+	-moz-user-select: none;
+	/*cursor: move;*/
+}
+
+div.RadWindow td.rwTitlebar div.rwTopResize
+{
+	font-size: 1px;
+	height: 4px !important;
+	line-height: 4px !important;
+	width: 100%;
+}
+
+div.RadWindow td.rwStatusbar input
+{
+	border: 0px;		
+	background-color: transparent !important; 
+	background-repeat: no-repeat;		
+	width: 100%;	
+	cursor: default;
+	-moz-user-select: none;
+	overflow: hidden; 
+	text-overflow: ellipsis;
+	display: block; 
+	float: left;
+}
+
+div.RadWindow td.rwStatusbar div
+{		
+	width: 18px; 
+	height: 18px;	
+}
+
+div.RadWindow td.rwStatusbar .rwLoading
+{
+	padding-left:30px;
+}
+
+div.RadWindow td.rwStatusbar span.statustext
+{
+	cursor: default; 
+	-moz-user-select: none;
+}
+
+div.RadWindow.nostatusbar tr.rwStatusbarRow
+{
+	display: none;
+}
+
+div.RadWindow table.rwTitlebarControls ul.rwControlButtons
+{
+	padding: 0; 
+	margin: 0;
+	list-style: none  !important; 
+	white-space:nowrap;	
+	float: right; 
+}
+
+div.RadWindow_rtl table.rwTitlebarControls ul.rwControlButtons
+{
+	float: left; 
+}
+
+div.RadWindow table.rwTitlebarControls ul.rwControlButtons li
+{
+	float: left;
+}
+
+div.RadWindow_rtl table.rwTitlebarControls ul.rwControlButtons li
+{
+	float: right;
+}
+
+div.RadWindow table.rwTitlebarControls ul.rwControlButtons li a
+{
+	display: block; 
+	text-decoration: none;
+}
+
+div.RadWindow table.rwTitlebarControl ul.rwControlButtons li a span
+{
+	text-indent: -9999px; 
+	display: block;	
+}
+
+div.RadWindow table.rwTitlebarControls a.rwIcon
+{
+	display: block; 
+	margin-right: 3px;	
+	width: 0px !important;
+	height: 16px !important;
+}
+
+div.RadWindow table.rwTitlebarControls em
+{	
+	overflow: hidden; 
+	text-overflow: ellipsis; 
+	white-space: nowrap; 
+	float: left;	
+}
+
+div.RadWindow.rwMinimizedWindow
+{
+	overflow: hidden;
+}
+
+div.RadWindow div.iconmenu
+{
+	float: left; 
+	position: absolute; 
+	z-index: 56000000;
+}
+
+div.RadWindow div.iconmenu a
+{
+	cursor: default;
+}
+
+div.RadWindow.inactivewindow table.rwTitlebarControls
+{
+	position: static;
+}
+/* end of inactive window settings */
+
+/* popup windows */
+.RadWindow .rwDialogPopup a.rwPopupButton
+{
+    margin-top: 24px !important;
+}
+
+.RadWindow .rwDialogPopup a.rwPopupButton:focus,
+.RadWindow .rwDialogPopup a.rwPopupButton:active
+{
+    border: 1px dotted #999999;                        
+}
+
+.RadWindow .rwDialogPopup a.rwPopupButton,
+.RadWindow .rwDialogPopup a.rwPopupButton span
+{
+	display: block; 
+	float: left;
+}
+
+div.RadWindow table.rwTitlebarControls ul.rwControlButtons li a
+{
+    text-indent: -9999px;
+}
+
+/* opera fix */
+html:first-child div.RadWindow ul
+{
+    float: right; 
+    border: solid 1px transparent;
+}
+
+.RadWindow .rwDialogText
+{
+    text-align: left;
+}
+
+div.RadWindow.rwMinimizedWindow .rwPinButton,
+div.RadWindow.rwMinimizedWindow .rwReloadButton,
+div.RadWindow.rwMinimizedWindow .rwMaximizeButton,
+div.RadWindow.rwMinimizedWindow .rwTopResize
+{
+    display: none !important;
+}
+
+.RadWindow .contentrow .rwWindowContent
+{
+    font-size: 11px;
+}
+
+/* inactive window settings */
+div.RadWindow.inactivewindow td.rwCorner,
+div.RadWindow.inactivewindow td.rwTitlebar,
+div.RadWindow.inactivewindow td.rwFooterCenter
+{
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=65) !important;
+	opacity: .65 !important; 
+	-moz-opacity: .65 !important;
+}
+
+
+/* RADWINDOW TELERIK SKIN */
+
+div.RadWindow_EMS.rwMinimizedWindow table td
+{
+	vertical-align: top;
+}
+
+div.RadWindow_EMS table td.rwTopLeft,
+div.RadWindow_EMS table td.rwTopRight
+{
+    width: 6px; height: 6px;
+    /*background-image: url('Window/WindowSprites.gif');*/
+    background-color: #dad8d8;
+    background-repeat: no-repeat;
+}
+
+div.RadWindow_EMS table td.rwTopLeft
+{
+	background-position: 0 0;
+}
+
+div.RadWindow_EMS table td.rwTopRight
+{
+    background-position: 0 -29px;
+}
+
+div.RadWindow_EMS table td.rwTitlebar
+{
+	  background-color: #dad8d8;
+	  border-bottom: 1px solid #a9a9a9;
+    /*background: transparent url('Window/WindowSprites.gif') repeat-x 0 -58px;*/
+}
+
+div.RadWindow_EMS .rwWindowContent
+{
+	height: 100%;
+	border-bottom: 0;
+	background: white;
+}
+
+div.RadWindow_EMS table td.rwBodyLeft,
+div.RadWindow_EMS table td.rwBodyRight
+{
+    width: 6px;
+    background-color: #dad8d8;
+    /*background-image: url('Window/WindowVerticalSprites.gif');*/
+    background-repeat: repeat-y;
+}
+
+div.RadWindow_EMS table td.rwBodyLeft
+{
+    background-position: 0 0;
+    border-right: 1px solid #a9a9a9;
+
+}
+
+div.RadWindow_EMS table td.rwBodyRight
+{
+    background-position: -6px 0;
+    border-left: 1px solid #a9a9a9;
+}
+
+div.RadWindow_EMS table td.rwFooterLeft,
+div.RadWindow_EMS table td.rwFooterRight
+{
+    background: white;
+    width: 6px; height: 3px;
+
+}
+
+div.RadWindow_EMS table td.rwFooterLeft
+{
+    /*background: white url('Window/WindowVerticalSprites.gif') repeat-y 0 0;*/
+    background-color: #dad8d8;
+}
+
+div.RadWindow_EMS table td.rwFooterRight
+{
+	/*background: transparent url('Window/WindowVerticalSprites.gif') repeat-y -6px 0;*/
+    background-color: #dad8d8;
+}
+
+div.RadWindow_EMS table td.rwFooterCenter
+{
+	height: 3px;
+    border-top: 1px solid #a9a9a9;
+	background-color: #dad8d8;
+
+}
+
+div.RadWindow_EMS td.rwStatusbar
+{
+	height: 23px; line-height: 23px;
+	background: white;
+}
+
+div.RadWindow_EMS td.rwStatusbar input
+{
+    background-repeat: no-repeat;
+    background: transparent;
+    color: black;
+    padding-top: 6px;
+    height: 17px;
+    font: normal 11px Arial, Verdana;
+}
+
+div.RadWindow_EMS td.rwStatusbar div
+{
+      /*background: url('Window/WindowVerticalSprites.gif') no-repeat -40px 4px;*/
+       background-color: #dad8d8;
+}
+
+div.RadWindow_EMS td.rwStatusbar .rwLoading
+{	
+	/*background-image: url('../Images/Loading.gif');*/
+	background-repeat: no-repeat;
+}
+
+div.RadWindow_EMS td.rwStatusbar span.statustext
+{
+	font: normal 11px Verdana, Arial, Sans-serif;
+	color: black;
+}
+
+div.RadWindow_EMS tr.rwStatusbarRow .rwCorner.rwBodyLeft,
+div.RadWindow_EMS tr.rwStatusbarRow .rwCorner.rwBodyRight
+{
+    width: 6px;
+    /*background-image: url('Window/WindowVerticalSprites.gif');*/
+}
+
+div.RadWindow_EMS tr.rwStatusbarRow .rwCorner.rwBodyLeft
+{
+    background-position: 0 0;
+}
+
+div.RadWindow_EMS tr.rwStatusbarRow .rwCorner.rwBodyRight
+{
+    background-position: -6px 0;    
+}
+
+div.RadWindow_EMS table.rwTitlebarControls ul.rwControlButtons li a
+{
+	width: 33px; height: 20px; line-height: 20px; font-size: 1px;
+	cursor: default;
+	margin: 0;
+	position: relative; top: -4px;
+}
+
+/* reload button */
+div.RadWindow_EMS a.rwReloadButton
+{
+	background-position: -165p	x 0;
+}
+
+/* unpin button */
+div.RadWindow_EMS a.rwPinButton
+{
+	background-position: -99px 0;
+}
+
+/* pinon button */
+div.RadWindow_EMS a.rwPinButton.on
+{
+	background-position: -132px 0;
+}
+
+/* minimize button */
+div.RadWindow_EMS a.rwMinimizeButton
+{
+	background-position: 0 0;
+}
+
+/* maximize button */
+div.RadWindow_EMS a.rwMaximizeButton
+{
+	background-position: -33px 0;
+}
+
+/* restore button */
+div.RadWindow_EMS.rwMinimizedWindow a.rwMaximizeButton,
+div.RadWindow_EMS.rwMinimizedWindow a.rwMinimizeButton
+{
+    background-position: -66px 0 !important;
+}
+
+/* close button */
+div.RadWindow_EMS a.rwCloseButton
+{
+	background-position: 0px -740px;
+}
+
+div.RadWindow_EMS table.rwTitlebarControls a.rwIcon
+{
+	/*background: transparent url('Window/Icon.gif') no-repeat left top;*/
+	width: 16px; height: 16px;
+	cursor: default;
+	margin: 6px 0 0 2px;
+}
+
+div.RadWindow_EMS table.rwTitlebarControls em
+{
+	font-size: 11px;
+	font-family: Verdana, Arial !important;
+	font-weight: bold;
+	font-style:normal;
+	color: #4a5d81;	
+	margin: 2px;
+	margin-top: 2px;
+}
+
+div.RadWindow_EMS.rwMinimizedWindow
+{
+	width: 170px !important; height: 29px !important;
+	/*background: transparent url('Window/WindowSprites.gif') repeat-x 0 -58px;*/
+	border: solid 1px #e1e1e1;
+	border-top: 0;
+}
+
+/* overlay element should be minimized when the window is minimized */
+iframe.rwMinimizedWindowOverlay_EMS
+{
+	/* take into account the borders of the main DIV of the window when setting width/height */
+	width: 172px !important; height: 30px !important;
+}
+
+div.RadWindow_EMS.rwMinimizedWindow td
+{
+    background: none !important;
+}
+
+div.RadWindow.radwindow_EMS.rwMinimizedWindow table.rwTitlebarControls 
+{
+	width: 150px !important; height: 40px !important;
+	/*margin-top: -3px;*/
+}
+
+div.RadWindow.radwindow_EMS.rwMinimizedWindow table.rwTitlebarControls ul
+{
+    /*position: relative; top: -1px;*/
+}
+
+div.RadWindow_EMS.rwMinimizedWindow em
+{
+	color: black !important;
+	width: 75px !important;
+}
+
+div.RadWindow_EMS.rwMinimizedWindow td.rwCorner
+{
+	cursor: default;
+}
+
+div.RadWindow_EMS.rwMinimizedWindow td.rwCorner.rwTopLeft,
+div.RadWindow_EMS.rwMinimizedWindow td.rwCorner.rwTopRight
+{
+	width: 10px !important;
+}
+
+div.RadWindow_EMS.rwMinimizedWindow td.rwTitlebar
+{
+	cursor: default !important;
+	background: #4b4b4b;
+}
+
+div.RadWindow_EMS .rwWindowContent .rwDialogPopup
+{
+	margin: 16px;
+	font: normal 11px Arial;
+	color: black;	
+	padding: 0px 0px 16px 50px;
+}
+
+div.RadWindow_EMS .rwWindowContent .rwDialogPopup.radalert
+{
+	/*background: transparent url('Window/ModalDialogAlert.gif') no-repeat 8px center;*/
+}
+
+div.RadWindow_EMS .rwWindowContent .rwDialogPopup.radprompt
+{
+	padding: 0;
+}
+
+div.RadWindow_EMS .rwWindowContent .rwDialogPopup.radconfirm
+{
+	/*background: transparent url('Window/ModalDialogConfirm.gif') no-repeat 8px center;	*/
+}
+
+div.RadWindow_EMS .rwWindowContent  input.rwDialogInput
+{
+	padding: 3px 4px 0 4px;
+	height: 17px; width: 100%;
+	font: normal 11px Verdana, Arial, Sans-serif;
+}
+
+div.RadWindow_EMS .rwWindowContent   a,
+div.RadWindow_EMS .rwWindowContent   a span
+{
+	text-decoration: none;
+	color: black;
+	line-height: 22px;
+	cursor: default;
+}
+
+div.RadWindow_EMS .rwWindowContent a.rwPopupButton
+{
+	/*background: transparent url('Window/ModalDialogButtonSprites.gif') no-repeat 0 0; */
+	padding: 0 0 0 3px;
+	margin: 8px 8px 8px 0;
+}
+
+div.RadWindow_EMS .rwWindowContent a.rwPopupButton span.rwOuterSpan
+{
+	/*background: transparent url('Window/ModalDialogButtonSprites.gif') no-repeat right 0;*/
+	padding: 0 3px 0 0;
+}
+
+div.RadWindow_EMS .rwWindowContent a.rwPopupButton span.rwInnerSpan
+{
+	/*background: white url('Window/ModalDialogButtonSprites.gif') repeat-x 0 -22px;*/
+	padding: 0 12px;
+}
+
+div.RadWindow_EMS .rwWindowContent a.rwPopupButton:hover
+{
+	/*background: transparent url('Window/ModalDialogButtonSprites.gif') no-repeat 0 -64px; */
+	padding: 0 0 0 3px;
+	margin: 8px 8px 8px 0;
+}
+
+div.RadWindow_EMS .rwWindowContent a.rwPopupButton:hover span.rwOuterSpan
+{
+	/*background: transparent url('Window/ModalDialogButtonSprites.gif') no-repeat right -64px;*/
+	padding: 0 3px 0 0;
+}
+
+div.RadWindow_EMS .rwWindowContent a.rwPopupButton:hover span.rwInnerSpan
+{
+	/*background: white url('Window/ModalDialogButtonSprites.gif') repeat-x 0 -86px;*/
+	padding: 0 12px;
+}
+
+div.modaldialogbacgkround
+{
+	background: black;
+}

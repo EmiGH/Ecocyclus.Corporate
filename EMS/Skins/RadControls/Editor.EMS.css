@@ -1,0 +1,1840 @@
+/* RadEditor EMS Skin */
+
+/* =========================== button with text begin ============================== */
+.rade_toolbar.EMS li .rade_tool_text span
+{
+	background-image: url('Editor/CommandSprites.gif');
+	background-repeat: no-repeat;
+	width: 25px; height: 24px;
+	line-height: 24px;
+	/*float: left;
+	cursor: default;*/
+}
+
+.rade_toolbar.EMS li .rade_tool_text
+{
+	/*display: block;
+	_display: inline;
+	float: left;*/
+	height: 23px;
+	/*cursor: default;*/
+	margin: 1px 1px 1px 1px;
+	color: white;
+	/*text-decoration: none;*/
+	font: normal 11px Arial, Verdana, Sans-serif;
+}
+
+.rade_toolbar.EMS li .rade_tool_text:hover,
+.rade_toolbar.EMS li .rade_tool_text.rade_tool_selected
+{
+	border: solid 1px #a1a6ad;
+	margin: 0;
+	background-color: #dcdee2;
+    background-image: none;
+}
+
+
+.rade_toolbar.EMS li .rade_tool_text:hover,
+.rade_toolbar.EMS li .rade_tool_text.rade_tool_selected
+{
+	_border: 0;
+}
+
+.rade_toolbar.EMS li .rade_tool_text.rade_tool_selected
+{
+    background-color: #c3d6e1;
+}
+
+.rade_toolbar.EMS li .rade_tool_text .rade_button_text
+{
+	/*background-image: none;
+	width: auto;*/
+	padding-right: 4px;
+	color: black;
+}
+/* =========================== button with text end ============================== */
+
+/* This color must coincide with back color defined in .rade_wrapper */
+.EMS.rade_toolbarWrapper
+{
+	background-color: #f0f2f4 !important;
+	/*float:left;	
+	height:auto;*/
+}
+
+.EMS.rade_toolZone .rade_toolbarWrapper
+{
+	background:transparent;
+	float:none;
+	clear:both;
+}
+
+/*==============================Editor wrapper=========================================*/
+.radeditor.EMS.rade_wrapper
+{
+	border: solid 1px #a7bac5;
+	font: normal 11px Arial, Verdana, Sans-serif;
+	background: #effbfe !important;
+}
+
+.rade_tlbVertical
+{
+	width: 2px; font-size:1px;
+}
+
+.rade_tlbVertical,
+.radeditor.EMS.rade_wrapper table td.rade_toolZone
+{
+	/**/	
+}
+
+.radeditor.EMS.rade_wrapper table td.rade_contentCell
+{
+	border: solid 1px #c7dbe6;
+	background: white;
+}
+
+/* ======================= rade_AlignmentSelector =================================*/
+.EMS.rade_AlignmentSelector
+{
+	border: solid 1px #777;
+	/*float: left;	*/
+	background: white;	
+}
+
+/*.EMS.rade_AlignmentSelector TABLE,
+.EMS.rade_AlignmentSelector TD
+{
+	padding:0px !important;
+	text-align:center;
+}
+
+.EMS.rade_AlignmentSelector TD
+{
+    border:1px solid #646464;
+}*/
+
+.EMS.rade_AlignmentSelector div
+{
+	width: 18px;
+	height: 18px;
+	/*cursor: default;*/
+	/*float: left;*/
+	margin: 1px auto;
+	background-image: url('Editor/CommandSprites.gif');
+	background-repeat: no-repeat;
+}
+
+.rade_NoAlignment
+{
+	background-position: -2339px 0;
+}
+
+.rade_TopLeft
+{
+	background-position: -2507px -10px;
+}
+
+.rade_TopCenter
+{
+	background-position: -2537px -10px;
+}
+
+.rade_TopRight
+{
+	background-position: -2567px -10px;
+}
+
+.rade_MiddleLeft
+{
+	background-position: -2597px -10px;
+}
+
+.rade_MiddleCenter
+{
+	background-position: -2627px -10px;
+}
+
+.rade_MiddleRight
+{
+	background-position: -2657px -10px;
+}
+
+.rade_BottomLeft
+{
+	background-position: -2687px -10px;
+}
+
+.rade_BottomCenter
+{
+	background-position: -2717px -10px;
+}
+
+.rade_BottomRight
+{
+	background-position: -2747px -10px;
+}
+
+/* SpinBox */
+.EMS.rade_SpinBox
+{
+	/*float: left;
+	height: auto;*/
+}
+
+.EMS.rade_SpinBox li
+{
+	/*float: none; clear: both;*/
+	line-height: 11px;
+	margin: 0 0 1px 1px;
+}
+
+.EMS.rade_SpinBox input
+{	
+    /*display: block; float: left;
+	text-align: right;*/
+	border: solid 1px #b2b4b5;
+	height: 19px; line-height: 19px;
+	background: white;
+}
+
+.EMS.rade_SpinBox label
+{
+	/*display: block; float: left;*/
+	width: 100px;
+	line-height: 24px;
+}
+
+/*.EMS.rade_SpinBox ul
+{	
+	background: none;
+	float: left;
+	padding: 0; margin: 0;
+	list-style:none;
+}*/
+
+.EMS.rade_SpinBox a
+{
+	/*display: block; float: left;*/
+	border: solid 1px #b2b4b5;
+	text-align: center;
+	font: bold 10px Arial, Verdana, Sans-serif;
+	color: #b2b4b5;
+	/*cursor: default;
+	text-decoration: none;*/
+	background: #fff;
+}
+
+.EMS.rade_SpinBox a:hover
+{
+	background: #fff;
+	border: solid 1px #b2b4b5;
+	color: #c7dbe6;
+}
+
+.EMS.rade_SpinBox a span
+{
+	/*display: block;*/
+	width: 9px; height: 9px; line-height: 9px;
+}
+
+/* End of SpinBox */
+
+/*============================== Rounded corners ===========================================*/
+.radeditor.EMS.rade_wrapper
+{
+	height:480px;
+	width:640px;
+	border: 1px solid #b2b4b5;
+}
+
+.radeditor.EMS .rade_wrapper_corner
+{
+    width: 4px; height: 4px; line-height: 4px; font-size:1px;
+}
+
+.radeditor.EMS .rade_wrapper_center
+{		
+	height: 4px; line-height: 4px; font-size:1px;
+}
+
+.rade_center_top,
+.rade_leftVerticalSide,
+.rade_rightVerticalSide,
+.rade_toolZone,
+.rade_center_bottom
+{
+	background-color: #f0f2f4 !important;
+}
+
+/*=============== Editor modules & modes ==============================*/
+
+.rade_editorModesCell
+{
+	width: 100px;
+}
+
+.rade_module
+{
+	color: #333;
+	font: normal 11px Tahoma, sans-serif;
+	line-height:normal;
+	padding: 2px 5px;
+	text-align: left;
+	background:#fbfcfc;
+	border:1px solid #e2e5e6;
+}
+
+/*=====  modules switcher  =====*/
+
+.rade_module_visible_icon,
+.rade_module_hidden_icon
+{
+	width: 16px;
+	height: 16px;
+	/*display: block;
+	float: left;*/
+	background: transparent url('Editor/CommandSprites.gif') no-repeat;
+	/*border: 0 !important;*/
+	margin: -2px 4px 0;
+}
+
+.rade_module_visible_icon
+{
+	background-position: -2368px -2px;
+}
+
+.rade_module_hidden_icon
+{
+	background-position: -2368px -24px;
+}
+
+/*=====  built-in modules specific: DOM Paths  =====*/
+
+a.rade_module_domlink
+{
+	color:#333;
+	font: normal 11px Tahoma;
+	padding: 3px 6px 1px;
+	/*outline: 0;*/
+	text-decoration: underline;
+}	
+
+a.rade_module_domlink_selected
+{
+	color:#333;
+	font: normal 11px Tahoma;
+	/*text-decoration: none;*/
+	background-color:#eee;
+	border:1px solid #898989;
+	padding: 0 5px;
+}
+
+/*=============== Editor resizer ====================================*/
+
+.radeditor.EMS .rade_resizeCell div
+{
+    width:20px;
+    height:20px;
+    float:right;
+    background:url('Editor/CornersSprites.gif') right -74px no-repeat; 
+}
+
+/* ======================== Editor AJAX Spellcheck ====================================*/
+.rade_loading
+{
+    width:30px;
+    background:url('Editor/LoadingSpell.gif') center center no-repeat;
+    float:left;
+}
+
+/* use it to style the <button>s and the text <label>s inside */
+.rade_ajaxspell_wrapper
+{
+    border: 1px solid #515151 !important;    
+}
+
+.rade_ajaxspell_wrapper td
+{
+    line-height:20px;
+}
+
+.rade_ajaxspell_addicon,
+.rade_ajaxspell_ignoreicon,
+.rade_ajaxspell_okicon
+{
+    width: 16px !important;
+    height: 16px;
+    /*float: left;*/
+    border: 0;
+    margin: 2px 4px 0 0;
+    background:url('Editor/CommandSprites.gif') no-repeat; 
+}
+
+.rade_ajaxspell_ignoreicon
+{
+	background-position: -2407px -1px;
+}
+
+.rade_ajaxspell_okicon
+{
+	background-position: -2433px -1px;
+}
+
+.rade_ajaxspell_addicon
+{
+	background-position: -2463px -1px;
+}
+
+/* BUTTON IN the 'manual change' popup */
+button.rade_ajaxspell_okicon
+{
+   /* float:none;*/
+    width: 22px;
+    height: 22px;
+}
+
+.rade_ajaxspell_wrapper button
+{
+	/*width: auto;*/
+}
+
+/*============================== Editor modes ==============================================*/
+.radeditor.EMS div.rade_editorModes
+{
+	width: 100%;
+    position: relative; top: -1px;
+}
+
+.radeditor.EMS div.rade_editorModes ul,
+.radeditor.EMS div.rade_editorModes ul li
+{
+	/*padding: 0; margin: 0; list-style: none;
+	float: left;*/
+}
+
+.radeditor.EMS div.rade_editorModes a
+{
+	/*text-indent: -9999px;*/
+	width: 27px; height: 21px;
+	margin: 1px;
+	margin-top: 0;
+	/*outline: none;*/
+}
+
+.radeditor.EMS div.rade_editorModes .rade_mode_selected
+{
+	background-color: white;
+	border: solid 1px #c7dbe6;
+	border-top: 0;
+	margin: 0;
+}
+
+.radeditor.EMS div.rade_editorModes a,
+.radeditor.EMS div.rade_editorModes a span
+{
+	/*display: block;
+	cursor: hand;
+	float: left;*/
+}
+
+.radeditor.EMS div.rade_editorModes a span
+{
+	background-image: url('Editor/ModesSprites.gif');
+	background-repeat: no-repeat;
+	background-color: transparent;
+	height: 16px;
+	width: 16px;
+	margin: 2px 0 0 6px;
+	/*display: inline;*/  /*IE6 left margin fix*/
+}
+
+.radeditor.EMS div.rade_editorModes .rade_mode_design span,
+.radeditor.EMS div.rade_editorModes .rade_mode_selected.rade_mode_design span
+{
+	background-position: 0 0;
+}
+
+.radeditor.EMS div.rade_editorModes .rade_mode_html span,
+.radeditor.EMS div.rade_editorModes .rade_mode_selected.rade_mode_html span
+{
+	background-position: -16px 0;
+}
+
+.radeditor.EMS div.rade_editorModes .rade_mode_preview span,
+.radeditor.EMS div.rade_editorModes .rade_mode_selected.rade_mode_preview span
+{
+	background-position: -32px 0;
+}
+
+
+/*============================== Editor css - TODO: Add skin specific prefixes!! ========================================== */
+.EMS.rade_dropDownBody
+{
+	background-color: white !important;
+	background-image: none !important;
+	border: solid 1px #c7dbe6;
+	/*overflow: auto;
+	overflow-x: hidden;*/
+	padding: 0 4px 0 0;
+	-moz-border-radius: 0.3em;
+	border-radius: 0.3em; 
+	-webkit-border-radius: 0.3;
+}
+
+.EMS.rade_dropDownBody,
+.EMS.rade_dropDownBody table /*quirks mode*/
+{
+	font: normal 13px SegoeUI, Arial, Verdana, Sans-serif;
+}
+
+.EMS.rade_dropDownBody .rade_toolbar.EMS
+{
+    height: auto; background:white;
+}
+
+.EMS.rade_dropDownBody a
+{
+    background-image: none !important;
+    background-color: white;
+    border-bottom: solid 1px #aaaaaa;
+    margin: 0;
+    width: 100% !important;
+}
+
+.EMS.rade_dropDownBody a:hover
+{
+    background-image: none !important;
+    background-color: #effbfe !important;
+    border-bottom: solid 1px #aaaaaa;
+    background-repeat: no-repeat !important
+}
+
+/*.EMS.rade_dropDownBody table
+{
+	padding: 0; margin: 0; border: 0;
+}*/
+
+.EMS.rade_dropDownBody table td
+{
+	text-align:left;
+	padding: 0 0 0 2px; margin: 0;
+	border: solid 1px #fff;
+	/*cursor: default;*/
+	color: black;
+	margin-bottom:2px;
+	padding:2px;
+}
+
+.EMS.rade_dropDownBody .rade_itemOver
+{
+	border: solid 1px #a7bac5 !important;
+	background: #effbfe !important;
+}
+
+
+/* /DROPDOWNS: TODO!!*/
+
+.EMS.rade_ColorPicker
+{
+	border: solid 1px #c7dbe6;
+	padding: 4px;
+	/*-moz-user-select: none;*/
+	-moz-border-radius: 3px;
+	background: #fff;
+}
+
+.EMS.rade_ColorPicker table
+{
+	/*border-collapse:collapse;*/
+}
+
+.EMS.rade_ColorPicker table div
+{
+	width: 11px; height: 11px; line-height: 11px; font-size: 1px;
+	border: solid 1px #c5c5c5;
+}
+
+.EMS.rade_ColorPicker table td.rade_itemOver div
+{
+	border-color:#868c94;
+}
+
+.EMS.rade_ColorPicker table td
+{
+	padding: 2px;
+	padding-bottom: 0;
+	padding-top: 0;
+}
+
+.EMS.rade_dropDownBody.rade_ColorPicker table td.rade_itemOver
+{
+	border: 0 !important;
+	background: transparent !important;
+}
+
+.EMS.rade_ColorPicker .rade_ColorPickerFooter
+{
+	margin:0 auto;
+	font: normal 11px Verdana, Arial, Sans-serif;
+	height: 22px;
+	line-height: 18px;
+	width: 166px;
+	padding:4px 0;
+	/*overflow:hidden;*//*IE6*/
+}
+
+.EMS.rade_ColorPicker span
+{
+	width: 82px;
+	/*display: block;
+	text-align: center;
+	float: left;*/
+	height: 20px;
+	line-height: 18px;
+	/*cursor: default;*/
+	border: solid 1px #c5c5c5;
+}
+
+.rade_ColorPicker .rade_ColorPickerFooter .rade_DarkColor
+{
+	background: black;
+	color: white;
+	border-right:0;
+}
+
+.rade_ColorPicker .rade_ColorPickerFooter .rade_LightColor
+{
+	background: white;
+	color: black;
+	border-left:0;
+}
+
+/* /DROPDOWNS: INSERT SYMBOL ELEMENT */
+
+.rade_InsertSymbol
+{
+	border: solid 1px #8f8f8f;
+	background: white;
+	width: auto !important;
+}
+
+.EMS.rade_InsertSymbol table
+{
+	width: auto !important;
+}
+
+.EMS.rade_InsertSymbol table td
+{
+	/*text-align: center;
+	vertical-align: middle;*/
+	font: bold 11px Tahoma,"Lucida Grande",Verdana,Arial,Helvetica,sans-serif;
+	color: #333;
+	width: 18px !important;
+	height: 22px !important;
+	/*overflow: hidden;*/
+	padding: 2px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.EMS.rade_InsertSymbol table td.rade_itemOver
+{
+	color: #000;
+}
+
+/* /DROPDOWNS: INSERT TABLE ELEMENT */
+
+.rade_InsertTable table
+{
+	float: left;
+	background-color:#f9f9f9;
+	cursor:default;	
+	width: 142px;
+}
+
+.rade_InsertTable td 
+{
+	padding:0 !important;
+	border-color: #777 !important;
+}
+
+.rade_InsertTable td.rade_itemOver
+{
+	border-color: #ddd !important;
+}
+
+.rade_InsertTable td div
+{	
+	font-size:1px;
+	width:10px;
+	height: 10px;
+	margin:1px !important;
+	padding:0 !important;
+}
+
+.rade_InsertTable .rade_tlbVertical li
+{
+	float: left !important;
+	width: 23px;
+	margin: 0;
+}
+
+.rade_InsertTable .rade_tlbVertical li a,
+.EMS.rade_InsertTable .rade_tlbVertical .EMS.rade_toolbar a.rade_tool_disabled
+{
+    background: none !important;
+    margin: 0 !important;
+    padding: 1px !important;
+    border: 0 !important;
+    /*outline: 0 !important;*/
+}
+
+.EMS.rade_InsertTable .rade_tlbVertical li a:hover
+{
+	border: 1px solid #ccc !important;
+	padding: 0 !important;
+}
+
+.EMS.rade_InsertTable .rade_tlbVertical li a .rade_button_text
+{
+	width: auto !important;
+	padding-left: 4px;
+	color: black;
+	/*text-decoration: none;
+	cursor: default;*/
+}
+
+.EMS.rade_InsertTable .rade_tlbVertical li a .rade_button_text:hover
+{
+	color: black;
+	/*cursor: pointer !important;*/
+}
+
+/*.EMS.rade_InsertTable .rade_tlbVertical ul
+{
+	float: left;
+	clear: left;
+	padding: 0;
+	margin: 0;
+}*/
+
+/* /DROPDOWNS: UNDO REDO ELEMENT */
+.rade_UndoRedo
+{
+	border: solid 1px #8f8f8f;
+	background-color: white;
+	padding: 0;
+}
+
+/*.EMS.rade_UndoRedo table
+{
+	border-collapse: collapse;
+}*/
+
+/*.EMS.rade_UndoRedo table td,
+.EMS.rade_UndoRedo table td.rade_itemOver
+{
+	border: 0 !important;
+	margin: 0 !important;
+}*/
+
+/* /DROPDOWNS: APPLY CLASS ELEMENT - TODO: MUST IMPLEMENT - Change the SPRITE PICTURE!!!!*/
+.rade_ApplyClass span
+{
+	/*font-size: 1px;*/
+	width: 12px; height: 13px; line-height: 13px;
+	/*display: block; 
+	float: left;*/
+	background-image: url('Editor/ApplyClassSprites.gif');
+	background-repeat: no-repeat;	
+}
+ .rade_ApplyClass .rade_class_all
+ {
+	background-position: 0 -52px;
+ }
+
+ .rade_ApplyClass .rade_class_img
+ {
+	background-position: 0 -13px;
+ }
+ .rade_ApplyClass .rade_class_a
+ {
+	background-position: 0 -26px;
+ }
+ .rade_ApplyClass .rade_class_table
+ {
+	background-position: 0 -39px;
+ }
+  
+ .rade_ApplyClass .rade_class_unknown
+ {	
+	background-position: 0 0;
+ }
+ 
+ .rade_ApplyClass .rade_class_td
+ {
+	/*TODO*/
+ }
+
+
+
+/* DROPDOWNS: CUSTOM LINKS */
+ ul.rade_CustomLinks,
+ ul.rade_CustomLinks ul
+{
+	/*list-style: none;
+	padding: 0; margin: 0;*/
+	font: normal 11px Verdana, Arial, Sans-serif;
+	color: black;
+	/*cursor: default;*/
+	background: none;		
+}
+
+.EMS.rade_CustomLinks ul
+{
+	margin-left: 12px;
+}
+
+.EMS.rade_CustomLinks li
+{
+	clear: both;
+	padding: 1px 0;
+	
+	text-align:left;
+}
+
+.EMS.rade_CustomLinks a
+{
+	/*text-decoration: none;*/
+	color: black;
+	border:0 !important;
+	width:auto !important;
+}
+
+.EMS.rade_CustomLinks a:hover
+{
+	text-decoration: underline;
+	color: #666;
+	border-bottom:0 !important;
+}
+
+.EMS.rade_CustomLinks span,
+.EMS.rade_CustomLinks a
+{
+	/*display: block; float: left;*/
+	cursor: hand; cursor: pointer;
+}
+
+ ul.rade_CustomLinks .rade_CustomLinksIcon
+{
+	/*font-size: 1px;*/
+	width: 9px; height: 9px;
+	background-image: url('Editor/CustomLinksSprites.gif');
+	background-repeat: no-repeat;
+	margin: 2px 4px 0 0;
+}
+
+ ul.rade_CustomLinks .rade_CustomLinksIcon.rade_icon_plus
+{
+	background-position: 0 0;
+}
+
+ ul.rade_CustomLinks .rade_CustomLinksIcon.rade_icon_minus
+{
+	background-position: -9px 0;
+}
+
+ ul.rade_CustomLinks .rade_CustomLinksIcon.rade_icon_empty
+{
+	background: none;
+	/*cursor: default;*/
+}
+/* DROPDOWNS: CUSTOM LINKS */
+
+/* ================================================ Toolbar css ============================================== */
+.EMS.rade_toolbar
+{
+	background: url(Editor/ToolBarSprites.gif) repeat-x 0 -242px;
+	height: 26px;
+	float: left;
+	margin: 1px 0;
+}
+
+/* orientation-specific css */
+.rade_toolbar.EMS ul,
+.rade_tlbHorizontal .rade_toolbar.EMS ul
+{
+	/**/
+}
+
+/* orientation-specific css */
+.rade_tlbVertical .rade_toolbar.EMS ul
+{	
+	/**/
+}
+
+.rade_toolbar.EMS .rade_tool
+{
+	width: 25px; height: 24px;
+	background-color: transparent;
+	margin: 1px 0;
+	padding:1px 0 0;
+}
+
+.rade_toolbar.EMS .rade_tool:hover
+{
+	background: url(Editor/ToolBarSprites.gif) repeat-x 0 -217px;
+}
+
+.rade_toolbar.EMS .rade_tool:active,
+.rade_toolbar.EMS .rade_tool:focus,
+.rade_toolbar.EMS .rade_tool_selected,
+.rade_toolbar.EMS .rade_tool_selected:hover,
+.rade_toolbar.EMS .rade_tool_selected:active,
+.rade_toolbar.EMS .rade_tool_selected:focus
+{
+	background: url(Editor/ToolBarSprites.gif) repeat-x 0 -192px;
+}
+
+.rade_toolbar.EMS .rade_tool_disabled,
+.rade_toolbar.EMS .rade_tool_disabled:hover,
+.rade_toolbar.EMS .rade_tool_disabled:active,
+.rade_toolbar.EMS .rade_tool_disabled:focus
+{
+	border: 0;
+	background: none;
+}
+
+/* vertical dropdowns with tools (e.g. insert form elements) */
+
+.rade_dropDownBody .rade_tlbVertical .EMS.rade_toolbar .rade_tool_text
+{
+	background: transparent url('Editor/ToolBarVerticalSprites.gif') repeat-y -40px 0;
+	border: 0;
+	padding: 3px 1px 3px 3px;
+	margin: 0;
+	/*clear: both;*/ /* tools with text */
+	/*float: none;*/ /* tools with text */
+	/*width: 100% !important;*/ /* tools with text */
+}
+
+/* IE6 fix */
+.rade_dropDownBody .rade_tlbVertical .EMS.rade_toolbar .rade_tool_text
+{
+    _display: block;
+}
+
+.rade_dropDownBody .rade_tlbVertical .EMS.rade_toolbar .rade_tool_text:hover,
+.rade_dropDownBody .rade_tlbVertical .EMS.rade_toolbar .rade_tool_selected
+{
+	border: 1px solid #8f8f8f;
+	padding: 2px 0 2px 2px;
+	background: #eaeaea;
+	color: white;
+}
+
+.EMS.rade_dropDownBody .rade_tlbVertical .EMS.rade_toolbar .rade_tool_disabled
+{
+	background-image: none !important;
+	border: 0;
+	padding: 1px;
+	color: #000;
+}
+
+.EMS.rade_dropDownBody .rade_tlbVertical .EMS.rade_toolbar .rade_tool_text span.rade_button_text
+{
+	padding-left: 13px;
+}
+
+.EMS.rade_dropDownBody .rade_tlbVertical .EMS.rade_toolbar .rade_tool_disabled
+{
+	/*opacity: 1;
+	-moz-opacity: 1;
+	filter: alpha(opacity=100);*/
+}
+
+.EMS.rade_dropDownBody .rade_tlbVertical .EMS.rade_toolbar .rade_tool_disabled span
+{
+	opacity: 0.4;
+	-moz-opacity: 0.4;
+	filter: alpha(opacity=40);
+}
+
+.rade_toolbar.EMS .rade_tool span
+{
+	background-image: url('Editor/CommandSprites.gif');
+	background-repeat: no-repeat;
+	background-color: transparent;
+	height: 20px; /*!important;*/
+}
+
+/* -- DROPDOWN -- */
+.rade_toolbar.EMS .rade_dropdown,
+.rade_toolbar.EMS .rade_tool_disabled.rade_dropdown:hover
+{
+	width: auto;
+	_width: 20px;
+	height: 16px;
+	border: solid 1px #abc1de;
+	margin: 3px 0 2px 0;
+	padding: 2px 14px 0 2px;
+	font: normal 11px SegoeUI, Verdana, Arial, Sans-serif;
+	color: black;
+	background: #c8d2dd url(Editor/ToolBarSprites.gif) no-repeat right -92px;
+}
+
+.rade_toolbar.EMS .rade_dropdown:hover,
+.rade_toolbar.EMS .rade_dropdown:active,
+.rade_toolbar.EMS .rade_dropdown:focus
+{
+    background-color: white;
+}
+
+* html .rade_dropDownBody .rade_tlbVertical .rade_toolbar.EMS .rade_tool_disabled:hover,
+* html .rade_dropDownBody .rade_tlbVertical .rade_toolbar.EMS .rade_tool_disabled:active,
+* html .rade_dropDownBody .rade_tlbVertical .rade_toolbar.EMS .rade_tool_disabled:focus
+{
+    background: transparent url('Editor/ToolBarVerticalSprites.gif') repeat-y -40px 0 !important;
+    border:0 !important;
+    padding:1px !important;
+    zoom:1;
+}
+
+
+.rade_tlbVertical .rade_dropdown
+{
+	width: 4px;
+}
+/* -- END OF DROPDOWN -- */
+
+/* -- GRIP HANDLES -- */
+/* -- horizontal grips -- */
+.rade_toolbar.EMS .rade_grip
+{
+	background-image: url('Editor/ToolBarSprites.gif');
+	background-repeat: no-repeat;
+	width: 3px; height: 22px;
+}
+
+.rade_toolbar.EMS .grip_first
+{
+	background-position: 0 -271px;
+}
+
+.rade_toolbar.EMS .grip_last
+{
+	background-position: -38px -271px;
+}
+/* -- horizontal grips end -- */
+
+/* -- vertical grips -- */
+.rade_tlbVertical .rade_grip
+{
+	background-image: url('Editor/ToolBarSprites.gif');
+	width: 23px;
+	height: 9px !important; line-height: 9px;
+}
+
+.rade_tlbVertical .grip_first
+{
+	background-position: right 0;
+}
+
+.rade_tlbVertical .grip_last
+{
+	background-position: right -9px;
+}
+/* -- vertical grips end -- */
+/* -- END OF GRIP HANDLES -- */
+
+/* -- SPLIT BUTTON -- */
+.rade_toolbar.EMS .rad_splitbutton
+{
+	width: 37px !important;
+}
+
+.rade_toolbar.EMS .rad_splitbutton:hover
+{
+    background: transparent url(Editor/ToolBarSprites.gif) no-repeat 0 -167px !important;
+}
+
+.rade_toolbar.EMS .rad_splitbutton.rade_tool_disabled:hover
+{
+	background:transparent !important;
+}
+
+.rade_toolbar.EMS .rad_splitbutton span
+{
+	width: 25px;
+}
+
+.rade_toolbar.EMS .split_arrow
+{
+	background: transparent url(Editor/ToolBarSprites.gif) no-repeat 0 -108px !important;
+	width: 5px !important;
+	height: 22px;
+	padding: 0 3px 0 1px;
+}
+
+/* -- SEPARATOR -- */
+/* default: horizontal toolbar separator */
+.rade_toolbar.EMS li.rade_separator
+{
+	border-left: solid 1px #bed4ed;
+	background: #eaf2fc;
+	height: 20px; width: 1px;
+	margin: 3px 2px 0 2px;
+}
+
+/* vertical toolbar separator */
+.rade_tlbVertical .rade_toolbar.EMS li.rade_separator
+{
+	border-top: solid 1px #dcdcdc;
+	background: white;
+	height: 1px; width: 18px; line-height: 1px;
+	margin: 2px 0 2px 3px;
+}
+/* -- / SEPARATOR -- */
+
+
+
+/* -- SPLIT BUTTON -- */
+/* -- COMMANDS BEGIN -- */
+.rade_toolbar.EMS .AboutDialog
+{
+	background-position: 4px 4px;
+}
+
+.AbsolutePosition
+{
+	background-position: -15px -16px;
+}
+
+.AjaxSpellCheck
+{
+	background-position: -38px 0;
+}
+
+.BackColor, .borderColor, .bgColor
+{
+	background-position: -60px 0;
+}
+
+.Bold
+{
+	background-position: -78px 1px;
+}
+
+.BringToFront
+{
+	background-position: -100px 0;
+}
+
+.Cancel
+{
+	background-position: -117px 0;
+}
+
+.Cancel
+{
+	background-position: -117px 0;
+}
+
+.ConvertToLower
+{
+	background-position: -138px 0;
+}
+
+.ConvertToUpper
+{
+	background-position: -157px -21px;
+}
+
+.Copy
+{
+	background-position: -179px 0;
+}
+
+.CreateLink
+{
+	background-position: -199px 0;
+}
+
+.Custom
+{
+	background-position: -219px 0;
+}
+
+.CustomLinkTool
+{
+	background-position: -237px -20px;
+}
+
+.ViewHtml
+{
+	background-position: -219px 0;
+}
+
+.CustomDialog
+{
+	background-position: -239px 0;
+}
+
+.rade_toolbar.EMS .Cut
+{
+	background-position: -259px -20px;
+}
+
+.DecreaseSize
+{
+	background-position: -279px 0;
+}
+
+.DeleteCell
+{
+	background-position: -299px 0;
+}
+
+.DeleteColumn
+{
+	background-position: -319px 0;
+}
+
+.DeleteRow
+{
+	background-position: -338px 0;
+}
+
+.DeleteTable
+{
+	background-position: -359px 0;
+}
+
+.DocumentManager
+{
+	background-position: -379px -18px;
+}
+
+.FileOpen
+{
+	background-position: -399px 0;
+}
+
+.FileSave
+{
+	background-position: -418px 0;
+}
+
+.FileSaveAs
+{
+	background-position: -439px 0;
+}
+
+.FindAndReplace
+{
+	background-position: -457px -18px;
+}
+
+.FlashManager
+{
+	background-position: -477px -2px;
+}
+
+.ForeColor
+{
+	background-position: -498px 0;
+}
+
+.FormatCodeBlock
+{
+	background-position: -519px 0;
+}
+
+.FormatStripper
+{
+	background-position: -537px 0;
+}
+
+.Help
+{
+	background-position: -2938px 3px;
+}
+
+.ImageManager
+{
+	background-position: -576px -16px;
+}
+
+.ImageMapDialog
+{
+	background-position: -599px 0;
+}
+
+
+.IncreaseSize
+{
+	background-position: -617px 0;
+}
+
+.Indent
+{
+	background-position: -637px -17px;
+}
+
+.InsertAnchor
+{
+	background-position: -660px 0;
+}
+
+.InsertCodeSnippet
+{
+	background-position: -681px 0;
+}
+
+.InsertColumnLeft
+{
+	background-position: -699px 0;
+}
+
+.InsertColumnRight
+{
+	background-position: -719px 0;
+}
+
+.InsertDate
+{
+	background-position: -736px 0;
+}
+
+.InsertDocument
+{
+	background-position: -757px 0;
+}
+
+.InsertEmailLink
+{
+	background-position: -778px 0;
+}
+
+.InsertFlash
+{
+	background-position: -799px 0;
+}
+
+.InsertFormButton
+{
+	background-position: -819px -21px;
+}
+
+.InsertFormCheckbox
+{
+	background-position: -834px 1px;
+}
+
+.InsertFormElement
+{
+	background-position: -858px 1px;
+}
+
+.InsertFormForm
+{
+	background-position: -879px 4px;
+}
+
+.InsertFormHidden
+{
+	background-position: -897px -20px;
+}
+
+.InsertFormImageButton
+{
+	background-position: -917px 0;
+}
+
+.InsertFormPassword
+{
+	background-position: -937px 0;
+}
+
+.InsertFormPassword
+{
+	background-position: -937px -20px;
+}
+
+.InsertFormRadio
+{
+	background-position: -958px 1px;
+}
+
+.InsertFormReset
+{
+	background-position: -977px 0;
+}
+
+.InsertFormSelect
+{
+	background-position: -999px 0;
+}
+
+.InsertFormSubmit
+{
+	background-position: -999px -20px;
+}
+
+.InsertFormText
+{
+	background-position: -1037px -20px;
+}
+
+.InsertFormTextarea
+{
+	background-position: -1057px 1px;
+}
+
+.InsertGroupbox
+{
+	background-position: -1077px -20px;
+}
+
+.InsertHorizontalRule
+{
+	background-position: -1097px 0;
+}
+
+.InsertImage
+{
+	background-position: -1117px 0;
+}
+
+.InsertMedia
+{
+	background-position: -1137px 0;
+}
+
+.InsertOrderedList
+{
+	background-position: -1157px 0;
+}
+
+.rade_toolbar.EMS .InsertParagraph
+{
+	background-position: -1176px 0;
+}
+
+.InsertRowAbove
+{
+	background-position: -1197px 0;
+}
+
+.InsertRowBelow
+{
+	background-position: -1217px 0;
+}
+
+.InsertSnippet
+{
+	background-position: -1236px -17px;
+}
+
+.InsertSymbol
+{
+	background-position: -1257px 1px;
+}
+
+.InsertTable
+{
+	background-position: -1277px 1px;
+}
+
+.rade_toolbar.EMS .InsertTime
+{
+	background-position: -1298px 0;
+}
+
+.InsertUnorderedList
+{
+	background-position: -1318px 0;
+}
+
+.rade_toolbar.EMS .Italic
+{
+	background-position: -1338px 1px;
+}
+
+.JustifyCenter
+{
+	background-position: -1357px 0;
+}
+
+.rade_toolbar.EMS .JustifyFull
+{
+	background-position: -1377px 0;
+}
+
+.JustifyLeft
+{
+	background-position: -1397px 0;
+}
+
+.JustifyNone
+{
+	background-position: -1417px 0;
+}
+
+.JustifyRight
+{
+	background-position: -1438px 0;
+}
+
+.LinkManager
+{
+	background-position: -1456px -16px;
+}
+
+.MediaManager
+{
+	background-position:  -1138px -18px;
+}
+
+.MergeColumns
+{
+	background-position: -1498px 0;
+}
+
+.MergeRows
+{
+	background-position: -1518px 0;
+}
+
+.ModuleManager
+{
+	background-position: -1536px 0;
+}
+
+.rade_toolbar.EMS .Outdent
+{
+	background-position: -1558px 0;
+}
+
+.PageProperties
+{
+	background-position: -1578px 0;
+}
+
+
+.PasteStrip
+{
+	background-position: -1598px 0;
+}
+
+.Paste
+{
+	background-position: -1598px 0;
+}
+
+.PasteAsHtml
+{
+	background-position: -1619px 0;
+}
+
+.PasteFromWord
+{
+	background-position: -1641px 0;
+}
+
+.PasteFromWordNoFontsNoSizes
+{
+	background-position: -1663px 0;
+}
+
+.PasteHtml
+{
+	background-position: -1680px 0;
+}
+
+.PastePlainText
+{
+	background-position: -1699px 0;
+}
+
+.Print
+{
+	background-position: -1717px -18px;
+}
+
+.rade_toolbar.EMS .Redo
+{
+	background-position: -1737px 0;
+}
+
+.RepeatLastCommand
+{
+	background-position: -1759px 0;
+}
+
+.Save
+{
+	background-position: -1777px 0;
+}
+
+.SaveLocal
+{
+	background-position: -1797px 0;
+}
+
+.SelectAll
+{
+	background-position: -1817px -16px;
+}
+
+.SendToBack
+{
+	background-position: -1838px 0;
+}
+
+.SetCellProperties
+{
+	background-position: -1858px 0;
+}
+
+.SetImageProperties
+{
+	background-position: -1878px 0;
+}
+
+.SetLinkProperties
+{
+	background-position: -1898px 0;
+}
+
+.SetTableProperties
+{
+	background-position: -1918px 0;
+}
+
+.TableWizard
+{
+	background-position: -1278px 0;
+}
+
+.rade_dropDownBody.rade_InsertTable .rade_tool_text .TableWizard
+{
+    height: 23px; width: 23px; line-height: 23px;
+    background-image: url('Editor/CommandSprites.gif') !important;
+    background-position: -1278px 0 !important;
+}
+
+.rade_dropDownBody.rade_InsertTable .rade_tool_text .rade_button_text,
+.rade_dropDownBody.rade_InsertTable .rade_tool_text:hover .rade_button_text
+{
+    color: black !important;
+}
+
+.ShowHideBorder
+{
+	background-position: -1938px 0;
+}
+
+.SpellCheck
+{
+	background-position: -1958px 0;
+}
+
+.SplitCell
+{
+	background-position: -1977px 0;
+}
+
+.rade_toolbar.EMS .StrikeThrough
+{
+	background-position: -1997px 1px;
+}
+
+.StripAll
+{
+	background-position: -2018px -20px;
+}
+
+.StripCss
+{
+	background-position: -2038px 0;
+}
+
+.StripFont
+{
+	background-position: -2058px 0;
+}
+
+.StripSpan
+{
+	background-position: -2078px -20px;
+}
+
+.StripWord
+{
+	background-position: -2098px 0;
+}
+
+.Subscript
+{
+	background-position: -2118px 2px;
+}
+
+.Superscript
+{
+	background-position: -2138px -20px;
+}
+
+.Sweeper
+{
+	background-position: -2158px 0;
+}
+
+.TemplateManager
+{
+	background-position: -2178px -18px;
+}
+
+.ToggleBorders
+{
+	background-position: -2198px 0;
+}
+
+.ToggleDocking
+{
+	background-position: -2218px 0;
+}
+
+.rade_toolbar.EMS .ToggleScreenMode
+{
+	background-position: -2238px 0;
+}
+
+.ToggleTableBorder
+{
+	background-position: -2258px 0;
+}
+
+.Underline
+{
+	background-position: -2277px 0;
+}
+
+.rade_toolbar.EMS .Undo
+{
+	background-position: -2296px 0;
+}
+
+.Unlink
+{
+	background-position: -2319px 0;
+}
+
+.x
+{
+	background-position: -2339px 0;
+}
+
+.ToggleFloatingToolbar
+{
+    background-position: -2937px -22px;
+}
+
+/* Dec 14, 2006 */
+.XhtmlValidator
+{
+	background-position: -2776px 0;
+}
+
+.TrackChangesDialog
+{
+	background-position: -2800px 0;
+}
+
+.ImageEditor
+{
+	background-position: -2839px 0;
+}
+
+.StyleBuilder
+{
+    background-position: -2869px 0;
+}
+/* -- COMMANDS END -- */
+
+.RadEXhtmlButton
+    {
+        border: solid 1px #c7dbe6;
+        background: #f0f2f4;
+        color: black;
+        font: normal 11px Verdana, Arial, Sans-serif;
+    }
+    
+.EMS.rade_dropDownBody.rade_InsertTable
+{
+    _width: 150px !important;
+}
+
+/* VERTICAL TOOLBAR */
+td.rade_tlbVertical .rade_toolbar.EMS
+{
+    width: 26px !important;
+    background: white url('Editor/ToolBarVerticalSprites.gif') repeat-y !important;
+    height: auto !important;
+}
+
+td.rade_tlbVertical .rade_toolbar.EMS .rade_grip
+{
+    background: white url('Editor/ToolBarVerticalSprites.gif') !important;
+    width: 26px !important;
+    height: 2px !important;
+    line-height: 2px !important;
+    font-size: 1px !important;
+}
+
+td.rade_tlbVertical .rade_toolbar.EMS .rade_grip.grip_first
+{
+    background-position: -26px 0 !important;
+}
+
+td.rade_tlbVertical .rade_toolbar.EMS .rade_grip.grip_last
+{
+    background-position: -26px -2px !important;
+}
+
+td.rade_tlbVertical .rade_toolbar.EMS .split_arrow
+{
+    display: none;
+}
+
+td.rade_tlbVertical .rade_toolbar.EMS .rade_separator
+{
+    border-bottom: solid 1px #eaf2fc !important;
+    background: #bed4ed !important;
+    height: 1px !important;
+    line-height: 1px !important;
+    width: 19px !important;
+    margin: 0 0 0 3px !important;
+}
+
+td.rade_tlbVertical .rade_toolbar.EMS .rade_tool.rad_splitbutton,
+td.rade_tlbVertical .rade_toolbar.EMS .rade_tool,
+td.rade_tlbVertical .rade_toolbar.EMS .rade_tool.rade_tool_selected
+{
+	width: 25px !important;
+}
+
+td.rade_tlbVertical .rade_toolbar.EMS .rade_tool:hover,
+td.rade_tlbVertical .rade_toolbar.EMS .rade_tool.rad_splitbutton:hover
+{
+	padding: 2px 0 0 0;
+	background: url('Editor/ToolBarSprites.gif') repeat-x 0 -217px !important;
+	margin: 0 !important;
+}
+
+td.rade_tlbVertical .rade_toolbar.EMS .rade_dropdown
+{
+    margin-left: 2px !important;
+}
+/* END OF VERTICAL TOOLBAR */

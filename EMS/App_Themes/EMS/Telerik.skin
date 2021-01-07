@@ -1,0 +1,44 @@
+﻿<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
+
+
+<%-- Calendar--%>
+
+<telerik:RadDatePicker  runat="server" EnableEmbeddedSkins="false" Skin="EMS"  Width="120px"  Calendar-ImagesPath="~/Skins/RadControls/Calendar/">
+<DatePopupButton ImageUrl="/Skins/Images/Trans.gif" HoverImageUrl="/Skins/Images/Trans.gif" CssClass="Calendar" /> 
+<%--<Calendar Skin="EMS"></Calendar>--%>
+ </telerik:RadDatePicker>
+             
+<%-- END Calendar--%>
+
+<%-- Calendar--%>
+
+<telerik:RadDateTimePicker runat="server"  EnableEmbeddedSkins="false" Skin="EMS" Width="163px" ImagesPath="~/Skins/RadControls/Calendar/" >
+<DatePopupButton ImageUrl="/Skins/Images/Trans.gif" CssClass="Calendar" HoverImageUrl="/Skins/Images/Trans.gif" /> 
+<TimePopupButton ImageUrl="/Skins/Images/Trans.gif" CssClass="Time" HoverImageUrl="/Skins/Images/Trans.gif" />
+<%--<Calendar Skin="EMS"></Calendar>--%>
+<%--<TimeView Skin="EMS"></TimeView>--%>
+</telerik:RadDateTimePicker>
+
+<%-- END Calendar--%>
+
+<%-- RadComboBox--%>
+
+ <telerik:RadComboBox  runat="server" Skin="EMS" CssClass="RadComboBox" EnableEmbeddedSkins="false">
+</telerik:RadComboBox>
+
+<%-- END RadComboBox--%>
+
+<%-- RadSlider--%>
+
+<telerik:RadSlider runat="server"  EnableEmbeddedSkins="false" Skin="EMS" />
+
+<%-- END RadSlider--%>
+
+<%-- RadTreeView--%>
+
+
+
+<%-- END RadTreeView--%>
+
+<telerik:RadContextMenu Skin="EMS" EnableEmbeddedSkins="false" runat="server" CollapseDelay="0" ExpandDelay="0">
+</telerik:RadContextMenu>

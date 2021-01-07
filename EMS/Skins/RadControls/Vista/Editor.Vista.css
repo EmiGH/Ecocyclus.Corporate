@@ -1,0 +1,924 @@
+.rade_toolbar.Vista li .rade_tool_text span
+{
+	background-image: url('Editor/CommandSprites.gif');
+	background-repeat: no-repeat;
+	width: 25px; height: 21px;
+	line-height: 21px; 
+}
+
+.rade_toolbar.Vista li .rade_tool_text
+{
+	height: 21px;
+	margin: 1px 1px 1px 1px;
+	color: white;
+	font: normal 11px Arial, Verdana, Sans-serif;
+}
+
+.rade_toolbar.Vista li .rade_tool_text:hover,
+.rade_toolbar.Vista li .rade_tool_text.rade_tool_selected
+{
+	border: solid 1px #7697c0;
+	margin: 0;
+	background-color: #c4e3f0;
+    _background-color: transparent;
+}
+
+.rade_toolbar.Inox li .rade_tool.rade_tool_selected
+{
+    _margin: 0;
+    _height: 20px;
+    _overflow: hidden;
+}
+
+.rade_toolbar.Vista li .rade_tool_text:hover,
+.rade_toolbar.Vista li .rade_tool_text.rade_tool_selected
+{
+	_border: 0;
+}
+
+.rade_toolbar.Vista li .rade_tool_text .rade_button_text
+{
+	padding-right: 4px;
+	color: black;
+}
+
+.Vista.rade_toolbarWrapper
+{
+	background: #effbfe !important;
+	height:auto;
+}
+
+.Vista.rade_toolZone .rade_toolbarWrapper
+{
+	background:transparent;
+	float:none;
+	clear:both;
+}
+
+.radeditor.Vista.rade_wrapper
+{
+	border: solid 1px #a7bac5;
+	font: normal 11px Arial, Verdana, Sans-serif;
+	background: #effbfe !important;
+}
+
+.rade_tlbVertical
+{
+	width: 2px; font-size:1px;
+}
+
+.radeditor.Vista.rade_wrapper table td.rade_contentCell
+{
+	border: solid 1px #9db6c5;
+	background: white;
+}
+
+.Vista.rade_SpinBox li
+{
+	float: none; clear: both;
+	line-height: 11px;
+	margin: 0 0 1px 1px;
+}
+
+.Vista.rade_SpinBox input
+{	
+	border: solid 1px #fff;
+	height: 19px; line-height: 19px;
+	background: white;
+}
+
+.Vista.rade_SpinBox label
+{
+	width: 100px;
+	line-height: 24px;
+}
+
+.Vista.rade_SpinBox a
+{
+	border: solid 1px #ccc;
+	text-align: center;
+	font: bold 10px Arial, Verdana, Sans-serif;
+	color: #ccc;
+	text-decoration: none;
+}
+
+.Vista.rade_SpinBox a:hover
+{
+	background: #e3e3e3;
+	border: solid 1px #e3e3e3;
+	color: #333;
+}
+
+.Vista.rade_SpinBox a span
+{
+	width: 9px; height: 9px; line-height: 9px;
+}
+
+.Vista.rade_AlignmentSelector
+{
+	border: solid 1px #777;
+	background: white;	
+}
+
+.Vista.rade_AlignmentSelector div
+{
+	width: 18px;
+	height: 18px;
+	margin: 1px auto;
+	background-image: url('Editor/CommandSprites.gif');
+	background-repeat: no-repeat;
+}
+
+.radeditor.Vista.rade_wrapper
+{
+	height:480px;
+	width:640px;
+	border: 1px solid #a7bac5;
+}
+
+.radeditor.Vista .rade_wrapper_corner
+{
+    width: 4px; height: 4px; line-height: 4px; font-size:1px;
+}
+
+.radeditor.Vista .rade_wrapper_center
+{		
+	height: 4px; line-height: 4px; font-size:1px;
+}
+
+.rade_center_top,
+.rade_leftVerticalSide,
+.rade_rightVerticalSide,
+.rade_toolZone,
+.rade_center_bottom
+{
+	background-color: #effbfe !important;
+}
+
+.rade_editorModesCell
+{
+	width: 100px;
+}
+
+.rade_module
+{
+	color: #333;
+	font: normal 11px Tahoma, sans-serif;
+	line-height:normal;
+	padding: 1px 5px;
+	text-align: left;
+	background:#fafafa;
+	border:1px solid #9db6c5;
+}
+
+.rade_module_visible_icon,
+.rade_module_hidden_icon
+{
+	width: 16px;
+	height: 16px;
+	background: transparent url('Editor/CommandSprites.gif') no-repeat;
+	margin: -2px 4px 0;
+}
+
+.rade_module_visible_icon
+{
+	background-position: -2368px -2px;
+}
+
+.rade_module_hidden_icon
+{
+	background-position: -2368px -24px;
+}
+
+a.rade_module_domlink
+{
+	color:#333;
+	font: normal 11px Tahoma;
+	padding: 3px 6px 1px;
+	text-decoration: underline;
+}	
+
+a.rade_module_domlink_selected
+{
+	color:#06c;
+	font: normal 11px Tahoma;
+	text-decoration: none;
+	background-color:#eee;
+	border:1px solid #d6edf7;
+	padding:0 5px;
+}
+
+.radeditor.Vista .rade_resizeCell div
+{
+    width:20px;
+    height:20px;
+    float:right;
+    background:url('Editor/CornersSprites.gif') center -74px no-repeat; 
+}
+
+.rade_loading
+{
+    width:30px;
+    background:url('Editor/LoadingSpell.gif') center center no-repeat;
+    float:left;
+}
+
+.rade_ajaxspell_wrapper
+{
+    border: 1px solid #515151 !important;    
+}
+
+.rade_ajaxspell_wrapper td
+{
+    line-height:20px;
+}
+
+.radeditor.Vista div.rade_editorModes
+{
+	width: 100%;
+    position: relative; top: -1px;
+}
+
+.radeditor.Vista div.rade_editorModes a
+{
+	width: 27px; height: 21px;
+	margin: 1px;
+	margin-top: 0;
+}
+
+.radeditor.Vista div.rade_editorModes .rade_mode_selected
+{
+	background-color: white;
+	border: solid 1px #9db6c5;
+	border-top: 0;
+	margin: 0;
+}
+
+.radeditor.Vista div.rade_editorModes a span
+{
+	background-image: url('Editor/ModesSprites.gif');
+	background-repeat: no-repeat;
+	background-color: transparent;
+	height: 16px;
+	width: 16px;
+	margin: 2px 0 0 6px;
+}
+
+.radeditor.Vista div.rade_editorModes .rade_mode_design span,
+.radeditor.Vista div.rade_editorModes .rade_mode_selected.rade_mode_design span
+{
+	background-position: 0 0;
+}
+
+.radeditor.Vista div.rade_editorModes .rade_mode_html span,
+.radeditor.Vista div.rade_editorModes .rade_mode_selected.rade_mode_html span
+{
+	background-position: -16px 0;
+}
+
+.radeditor.Vista div.rade_editorModes .rade_mode_preview span,
+.radeditor.Vista div.rade_editorModes .rade_mode_selected.rade_mode_preview span
+{
+	background-position: -32px 0;
+}
+
+.Vista.rade_dropDownBody
+{
+	background-color: #fafafa !important;
+	background-image: none !important;
+	border: solid 1px #868686;
+	padding: 0 4px 0 0;
+	-moz-border-radius: 0.3em;
+	border-radius: 0.3em; 
+	-webkit-border-radius: 0.3;
+}
+
+.Vista.rade_dropDownBody,
+.Vista.rade_dropDownBody table
+{
+	font: normal 13px SegoeUI, Arial, Verdana, Sans-serif;
+}
+
+.Vista.rade_dropDownBody .rade_toolbar.Vista
+{
+    height: auto; background:white;
+}
+
+.Vista.rade_dropDownBody a
+{
+    background-image: none !important;
+    background-color: white;
+    border-bottom: solid 1px #aaa;
+    margin: 0;
+    width: 100% !important;
+}
+
+.Vista.rade_dropDownBody a:hover
+{
+    background-image: none !important;
+    background-color: #effbfe !important;
+    border-bottom: solid 1px #aaaaaa;
+    background-repeat: no-repeat !important
+}
+
+.Vista.rade_dropDownBody table td
+{
+	text-align:left;
+	padding: 0 0 0 2px; margin: 0;
+	border: solid 1px #fafafa;
+	color: black;
+	margin-bottom:2px;
+	padding:2px;
+}
+
+.Vista.rade_ColorPicker
+{
+	border: solid 1px #8f8f8f;
+	position: absolute;
+	padding: 4px;
+	-moz-border-radius: 3px;
+	background: #fafafa;
+}
+
+.Vista.rade_ColorPicker table div
+{
+	width: 11px; height: 11px; line-height: 11px; font-size: 1px;
+	border: solid 1px #808080;
+}
+
+.Vista.rade_ColorPicker table td.rade_itemOver div
+{
+	border-color:#000;
+}
+
+.Vista.rade_ColorPicker table td
+{
+	padding: 2px;
+	padding-bottom: 0;
+	padding-top: 0;
+}
+
+.Vista.rade_dropDownBody.rade_ColorPicker table td.rade_itemOver
+{
+	border: 0 !important;
+	background: transparent !important;
+}
+
+.Vista.rade_ColorPicker .rade_ColorPickerFooter
+{
+	margin:0 auto;
+	font: normal 11px Verdana, Arial, Sans-serif;
+	height: 22px;
+	line-height: 18px;
+	width: 166px;
+	padding:4px 0;
+}
+
+.Vista.rade_ColorPicker span
+{
+	width: 82px;
+	height: 20px;
+	line-height: 18px;
+	border: solid 1px #c5c5c5;
+}
+
+.rade_ColorPicker .rade_ColorPickerFooter .rade_DarkColor
+{
+	background: black;
+	color: white;
+	border-right:0;
+}
+
+.rade_ColorPicker .rade_ColorPickerFooter .rade_LightColor
+{
+	background: white;
+	color: black;
+	border-left:0;
+}
+
+.rade_InsertSymbol
+{
+	border: solid 1px #8f8f8f;
+	background: white;
+	width: auto !important;
+}
+
+.Vista.rade_InsertSymbol table
+{
+	width: auto !important;
+}
+
+.Vista.rade_InsertSymbol table td
+{
+	font: bold 11px Tahoma,"Lucida Grande",Verdana,Arial,Helvetica,sans-serif;
+	color: #333;
+	width: 18px !important;
+	height: 22px !important;
+	overflow: hidden;
+	padding: 2px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Vista.rade_InsertSymbol table td.rade_itemOver
+{
+	color: #000;
+}
+
+.rade_InsertTable table
+{
+	float: left;
+	background-color:#f9f9f9;
+	cursor:default;	
+	width: 142px;
+}
+
+.rade_InsertTable td 
+{
+	padding:0 !important;
+	border-color: #777 !important;
+}
+
+.rade_InsertTable td.rade_itemOver
+{
+	border-color: #ddd !important;
+}
+
+.rade_InsertTable td div
+{	
+	font-size:1px;
+	width:10px;
+	height: 10px;
+	margin:1px !important;
+	padding:0 !important;
+}
+
+.rade_InsertTable .rade_tlbVertical li
+{
+	float: left !important;
+	width: 23px;
+	margin: 0;
+}
+
+.rade_InsertTable .rade_tlbVertical li a,
+.Vista.rade_InsertTable .rade_tlbVertical .Vista.rade_toolbar a.rade_tool_disabled
+{
+    background: none !important;
+    margin: 0 !important;
+    padding: 1px !important;
+    border: 0 !important;
+}
+
+.rade_InsertTable .rade_tlbVertical li a:hover
+{
+	border: 1px solid #ccc !important;
+	padding: 0 !important;
+}
+
+.Vista.rade_InsertTable .rade_tlbVertical li a .rade_button_text
+{
+	width: auto !important;
+	padding-left: 4px;
+	color: black;
+}
+
+.Vista.rade_InsertTable .rade_tlbVertical li a .rade_button_text:hover
+{
+	color: black;
+}
+
+.rade_UndoRedo
+{
+	border: solid 1px #8f8f8f;
+	background-color: white;
+	padding: 0;
+}
+
+.Vista.rade_UndoRedo table td,
+.Vista.rade_UndoRedo table td.rade_itemOver
+{
+	border: 0 !important;
+	margin: 0 !important;
+}
+
+.rade_ApplyClass span
+{
+	width: 12px; height: 13px; line-height: 13px;
+	background-image: url('Editor/ApplyClassSprites.gif');
+	background-repeat: no-repeat;	
+}
+
+.rade_ApplyClass .rade_class_all
+{
+	background-position: 0 -52px;
+}
+
+.rade_ApplyClass .rade_class_img
+{
+	background-position: 0 -13px;
+}
+
+.rade_ApplyClass .rade_class_a
+{
+	background-position: 0 -26px;
+}
+
+.rade_ApplyClass .rade_class_table
+{
+	background-position: 0 -39px;
+}
+
+.rade_ApplyClass .rade_class_unknown
+{	
+	background-position: 0 0;
+}
+
+.Vista.rade_dropDownBody.rade_ApplyClass table td
+{
+	border: solid 1px #d6edf7;
+}
+
+.Vista.rade_dropDownBody.rade_ApplyClass .rade_itemOver
+{
+	border: solid 1px #6af !important;
+}
+
+ ul.rade_CustomLinks,
+ ul.rade_CustomLinks ul
+{
+	font: normal 11px Verdana, Arial, Sans-serif;
+	color: black;
+	background: none;			
+}
+
+.Vista.rade_CustomLinks ul
+{
+	margin-left: 12px;
+}
+
+.Vista.rade_CustomLinks li
+{
+	padding: 1px 0;
+}
+
+.Vista.rade_CustomLinks a
+{
+	color: black;
+	border:0 !important;
+	width:auto !important;
+}
+
+.Vista.rade_CustomLinks a:hover
+{
+	text-decoration: underline;
+	color: #666;
+	border-bottom:0 !important;
+}
+
+.Vista.rade_CustomLinks span,
+.Vista.rade_CustomLinks a
+{
+	cursor: hand; cursor: pointer;
+}
+
+ul.rade_CustomLinks .rade_CustomLinksIcon
+{
+	width: 9px; height: 9px;
+	background-image: url('Editor/CustomLinksSprites.gif');
+	background-repeat: no-repeat;
+	margin: 2px 4px 0 0;
+}
+
+ul.rade_CustomLinks .rade_CustomLinksIcon.rade_icon_plus
+{
+	background-position: 0 0;
+}
+
+ ul.rade_CustomLinks .rade_CustomLinksIcon.rade_icon_minus
+{
+	background-position: -9px 0;
+}
+
+ ul.rade_CustomLinks .rade_CustomLinksIcon.rade_icon_empty
+{
+	background: none;
+}
+
+.Vista.rade_toolbar
+{
+	background: url(Editor/ToolBarSprites.gif) repeat-x 0 -242px;
+	height: 22px;
+	margin: 1px 0;
+}
+
+.rade_toolbar.Vista .rade_tool
+{
+	width: 26px; height: 22px;
+	background-color: transparent;
+	margin: 0;
+}
+
+.rade_toolbar.Vista .rade_tool:hover
+{
+	background: url(Editor/ToolBarSprites.gif) repeat-x 0 -217px;
+}
+
+.rade_toolbar.Vista .rade_tool:active,
+.rade_toolbar.Vista .rade_tool:focus,
+.rade_toolbar.Vista .rade_tool_selected,
+.rade_toolbar.Vista .rade_tool_selected:hover,
+.rade_toolbar.Vista .rade_tool_selected:active,
+.rade_toolbar.Vista .rade_tool_selected:focus
+{
+	background: url(Editor/ToolBarSprites.gif) repeat-x 0 -192px;
+}
+
+.rade_toolbar.Vista .rade_tool:active,
+.rade_toolbar.Vista .rade_tool:focus,
+.rade_toolbar.Vista .rade_tool_selected,
+.rade_toolbar.Vista .rade_tool_selected:hover,
+.rade_toolbar.Vista .rade_tool_selected:active,
+.rade_toolbar.Vista .rade_tool_selected:focus
+{
+	_background: url(Editor/ToolBarSprites.gif) repeat-x 0 -192px !important;
+}
+
+.rade_tool_disabled,
+.rade_tool_disabled:hover,
+.rade_tool_disabled:active,
+.rade_tool_disabled:focus
+{
+	border: 0;
+	background: none !important;
+}
+
+.rade_dropDownBody .rade_tlbVertical .Vista.rade_toolbar .rade_tool_text
+{
+	background-image: none !important;
+	border: 0;
+	padding: 3px 1px 3px 3px;
+	margin: 0;
+}
+
+.rade_dropDownBody .rade_tlbVertical .Vista.rade_toolbar .rade_tool_text
+{
+    _display: block;
+}
+
+.rade_dropDownBody .rade_tlbVertical .Vista.rade_toolbar .rade_tool_text:hover,
+.rade_dropDownBody .rade_tlbVertical .Vista.rade_toolbar .rade_tool_selected
+{
+	border: 1px solid #8f8f8f;
+	padding: 2px 0 2px 2px;
+	background: #eaeaea;
+	color: #fff;
+}
+
+.Vista.rade_dropDownBody .rade_tlbVertical .Vista.rade_toolbar .rade_tool_disabled
+{
+	background-image: none !important;
+	border: 0;
+	padding: 1px;
+	color: #000;
+}
+
+.Vista.rade_dropDownBody .rade_tlbVertical .Vista.rade_toolbar .rade_tool_text span.rade_button_text
+{
+	padding-left: 13px;
+}
+
+.Vista.rade_dropDownBody .rade_tlbVertical .Vista.rade_toolbar .rade_tool_disabled span
+{
+	opacity: 0.4;
+	-moz-opacity: 0.4;
+	filter: alpha(opacity=40);
+}
+
+.rade_toolbar.Vista .rade_tool span
+{
+	background-image: url('Editor/CommandSprites.gif');
+	background-repeat: no-repeat;
+	background-color: transparent;
+	height: 20px;
+}
+
+.rade_toolbar.Vista .rade_dropdown,
+.rade_toolbar.Vista .rade_tool_disabled.rade_dropdown:hover
+{
+	height: 16px;
+	border: solid 1px #abc1de;
+	margin: 1px 0 2px 0;
+	padding: 2px 14px 0 2px;
+	font: normal 11px SegoeUI, Verdana, Arial, Sans-serif;
+	color: black;
+	background: #eaf2fb url(Editor/ToolBarSprites.gif) no-repeat right -92px;
+}
+
+.rade_toolbar.Vista .rade_dropdown:hover,
+.rade_toolbar.Vista .rade_dropdown:active,
+.rade_toolbar.Vista .rade_dropdown:focus
+{
+    background-color: white;
+}
+
+* html .rade_dropDownBody .rade_toolbar.Vista .rade_tool_disabled:hover,
+* html .rade_dropDownBody .rade_toolbar.Vista .rade_tool_disabled:active,
+* html .rade_dropDownBody .rade_toolbar.Vista .rade_tool_disabled:focus
+{
+    border:0 !important;
+    background: transparent url('Editor/ToolBarVerticalSprites.gif') repeat-y -40px 0 !important;
+    padding:1px !important;
+}
+
+.rade_tlbVertical .rade_dropdown
+{
+	width: 4px;
+}
+
+.rade_toolbar.Vista .rade_grip
+{
+	background-image: url('Editor/ToolBarSprites.gif');
+	background-repeat: no-repeat;
+	width: 3px; height: 22px;
+}
+
+.rade_toolbar.Vista .grip_first
+{
+	background-position: 0 -271px;
+}
+
+.rade_toolbar.Vista .grip_last
+{
+	background-position: -38px -271px;
+}
+
+.rade_tlbVertical .rade_grip
+{
+	background-image: url('Editor/ToolBarSprites.gif');
+	width: 23px;
+	height: 9px !important; line-height: 9px;
+}
+
+.rade_tlbVertical .grip_first
+{
+	background-position: right 0;
+}
+
+.rade_tlbVertical .grip_last
+{
+	background-position: right -9px;
+}
+
+.rade_toolbar.Vista .rad_splitbutton
+{
+	width: 37px !important;
+}
+
+.rade_toolbar.Vista .rad_splitbutton:hover
+{
+    background: transparent url(Editor/ToolBarSprites.gif) no-repeat 0 -167px !important;
+}
+
+.rade_toolbar.Vista .rad_splitbutton.rade_tool_disabled:hover
+{
+	background:transparent !important;
+}
+
+.rade_toolbar.Vista .rad_splitbutton span
+{
+	width: 25px;
+}
+
+.rade_toolbar.Vista .split_arrow
+{
+	background: transparent url(Editor/ToolBarSprites.gif) no-repeat 0 -108px !important;
+	width: 5px !important;
+	height: 22px;
+	padding: 0 3px 0 0;
+}
+
+.rade_toolbar.Vista li.rade_separator
+{
+	border-left: solid 1px #bed4ed;
+	background: #eaf2fc;
+	height: 20px; width: 1px;
+	margin: 1px 2px 0 2px;
+}
+
+.rade_tlbVertical .rade_toolbar.Vista li.rade_separator
+{
+	border-top: solid 1px #dcdcdc;
+	background: white;
+	height: 1px; width: 18px; line-height: 1px;
+	margin: 2px 0 2px 3px;
+}
+
+.RadEXhtmlButton
+    {
+        border: solid 1px #c7dbe6;
+        background: #f0f2f4;
+        color: black;
+        font: normal 11px Verdana, Arial, Sans-serif;
+    }
+    
+.Vista.rade_dropDownBody.rade_InsertTable
+{
+    _width: 150px !important;
+}
+
+td.rade_tlbVertical .rade_toolbar.Vista
+{
+    width: 22px !important;
+    background: url('Editor/ToolBarVerticalSprites.gif') repeat-y -22px 0;
+    height: auto !important;
+}
+
+td.rade_tlbVertical .rade_toolbar.Vista .rade_grip
+{
+    background: url('Editor/ToolBarVerticalSprites.gif') !important;
+    width: 22px !important;
+    height: 2px !important;
+    line-height: 2px !important;
+    font-size: 1px !important;
+}
+
+td.rade_tlbVertical .rade_toolbar.Vista .rade_grip.grip_first
+{
+    background-position: 0 0 !important;
+}
+
+td.rade_tlbVertical .rade_toolbar.Vista .rade_grip.grip_last
+{
+    background-position: 0 -2px !important;
+}
+
+td.rade_tlbVertical .rade_toolbar.Vista .split_arrow
+{
+    display: none;
+}
+
+td.rade_tlbVertical .rade_toolbar.Vista .rade_separator
+{
+    border-bottom: solid 1px #fff !important;
+    background: #bed4ed !important;
+    height: 1px !important;
+    line-height: 1px !important;
+    width: 20px !important;
+    margin: 0 !important;
+}
+
+td.rade_tlbVertical .rade_toolbar.Vista .rade_tool.rad_splitbutton,
+td.rade_tlbVertical .rade_toolbar.Vista .rade_tool,
+td.rade_tlbVertical .rade_toolbar.Vista .rade_tool.rade_tool_selected
+{
+	width: 21px !important;
+	height: 21px !important;
+	padding: 2px 0 0 0 !important;
+}
+
+td.rade_tlbVertical .rade_toolbar.Vista .rade_tool:hover
+{
+	background: url('Editor/ToolBarVerticalSprites.gif') no-repeat -44px 0 !important;
+}
+
+td.rade_tlbVertical .rade_toolbar.Vista .rade_tool.rade_tool_selected
+{
+    background: url('Editor/ToolBarVerticalSprites.gif') no-repeat -65px 0 !important;
+}
+
+.rade_dropDownBody.rade_InsertTable .rade_tool_text .TableWizard
+{
+    height: 23px;
+    width: 23px; 
+    line-height: 23px;
+    background-image: url('Editor/CommandSprites.gif') !important;
+    background-position: -3006px center;
+}
+
+.rade_dropDownBody.rade_InsertTable .rade_tool_text .rade_button_text,
+.rade_dropDownBody.rade_InsertTable .rade_tool_text:hover .rade_button_text
+{
+    color: black !important;
+}
+
+.Vista.rade_dropDownBody .rade_itemOver
+{
+	border: solid 1px #3b5a82 !important;
+	background: #cddcee !important;
+	color: #3b5a82 !important;
+}
+
+/* show on focus fix */
+.radwindow .rade_dropdown
+{
+ position: relative;
+ top: 1px;
+ padding-top: 0 !important;
+  
+}
+    
+.radwindow .rade_dropdown span
+{
+ padding-top: 0 !important;
+  line-height: 16px !important;
+}

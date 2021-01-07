@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Busniess", "Busniess", "{070DA80B-D2DE-4C10-A546-A716E403050C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebUI", "WebUI", "{1E9CB72D-D5C8-4F60-8661-84F082A39663}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMS2010", "EMS\EMS2010.csproj", "{5CCAE831-D0BC-4B25-8523-2D2791FDEFD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMS.DataAccess", "Business\EMS.DataAccess\EMS.DataAccess.csproj", "{DCC3A44C-E110-4067-AADA-23D2C64BB04E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMS.Business", "Business\EMS.Business\EMS.Business.csproj", "{A7350932-3711-4450-9EBB-B807F49993DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBusiness", "Business\TestBusiness\TestBusiness.csproj", "{CCC05FCA-6F5E-42D9-8F1E-3945716D0706}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CCAE831-D0BC-4B25-8523-2D2791FDEFD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CCAE831-D0BC-4B25-8523-2D2791FDEFD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CCAE831-D0BC-4B25-8523-2D2791FDEFD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CCAE831-D0BC-4B25-8523-2D2791FDEFD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCC3A44C-E110-4067-AADA-23D2C64BB04E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCC3A44C-E110-4067-AADA-23D2C64BB04E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCC3A44C-E110-4067-AADA-23D2C64BB04E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCC3A44C-E110-4067-AADA-23D2C64BB04E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7350932-3711-4450-9EBB-B807F49993DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7350932-3711-4450-9EBB-B807F49993DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7350932-3711-4450-9EBB-B807F49993DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7350932-3711-4450-9EBB-B807F49993DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCC05FCA-6F5E-42D9-8F1E-3945716D0706}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCC05FCA-6F5E-42D9-8F1E-3945716D0706}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DCC3A44C-E110-4067-AADA-23D2C64BB04E} = {070DA80B-D2DE-4C10-A546-A716E403050C}
+		{A7350932-3711-4450-9EBB-B807F49993DE} = {070DA80B-D2DE-4C10-A546-A716E403050C}
+		{CCC05FCA-6F5E-42D9-8F1E-3945716D0706} = {070DA80B-D2DE-4C10-A546-A716E403050C}
+		{5CCAE831-D0BC-4B25-8523-2D2791FDEFD5} = {1E9CB72D-D5C8-4F60-8661-84F082A39663}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Condesus.EMS.Business.DS.Entities.User">
+    <Position X="4.75" Y="13.75" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>QIgYAAABgQACFEhSEWJQIAACAEAAAAIiAA4EABIAIAI=</HashCode>
+      <FileName>DS - Directory Service\Code\Entities\User.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Person" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Condesus.EMS.Business.DS.Entities.Person">
+    <Position X="11" Y="10.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>CBRQZEgAACEBQqKKoUuINmAChAAYBQECAcIgAAIEJAw=</HashCode>
+      <FileName>DS - Directory Service\Code\Entities\Persons\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.DS.Entities.PersonwithoutUser">
+    <Position X="12.25" Y="15.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DS - Directory Service\Code\Entities\Persons\PersonwithoutUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.DS.Entities.PersonwithUser">
+    <Position X="9" Y="15.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="Posts" Type="Condesus.EMS.Business.DS.Entities.Post">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.076" Y="2.566" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAABAAAJAAACAAAAAAAAAQAAAAABAA=</HashCode>
+      <FileName>DS - Directory Service\Code\Entities\Persons\PersonwithUser.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="User" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Posts" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Condesus.EMS.Business.DS.Entities.Organization">
+    <Position X="0.75" Y="11.25" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>ENcZ6SiQBKWFYoBgJEUoNHQYDpgCdUg0UAhkoAIMAiI=</HashCode>
+      <FileName>DS - Directory Service\Code\Entities\Organization.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Users" />
+      <Property Name="People" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Condesus.EMS.Business.DS.Entities.Post">
+    <Position X="9.75" Y="20" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AIAAIAAABAAiAQCAAEAApAAiAAAAIgAhAAAgQFIYIAA=</HashCode>
+      <FileName>DS - Directory Service\Code\Entities\Post.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="JobTitle" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Condesus.EMS.Business.DS.Entities.JobTitle">
+    <Position X="13.25" Y="20" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AEMAAAABBAAAASAopWiApAQACAAgAgAAAQjwAAIQJAY=</HashCode>
+      <FileName>DS - Directory Service\Code\Entities\JobTitle\JobTitle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

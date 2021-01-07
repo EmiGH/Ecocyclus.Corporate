@@ -1,0 +1,253 @@
+﻿/* Common CSS */
+.RadMenu_FrameworkAccionMenu
+{
+	white-space:nowrap;
+	position:relative;
+	background-color: #ccc;
+	border: 0px solid #000;
+	right: 26px;
+}
+
+.RadMenu_FrameworkAccionMenu .rmRootGroup
+{
+	margin:0;
+	padding:0;
+	position:absolute;
+	left:0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-left: 20px solid #ccc;	
+	background-color:#fff;
+}
+
+* html .RadMenu_FrameworkAccionMenu .rmRootGroup { float: left; }
+
+.RadMenu_FrameworkAccionMenu:after,
+.RadMenu_FrameworkAccionMenu .rmRootGroup:after
+{
+    content:""; 
+    display:block;
+    height:0;
+    overflow: hidden;
+    line-height:0;
+    font-size:0;
+    clear:both;
+    visibility:hidden;
+}
+
+.RadMenu_FrameworkAccionMenu ul.rmVertical,
+.rmRootGroup ul.rmHorizontal,
+.RadMenu_FrameworkAccionMenu_Context ul.rmHorizontal
+{
+	margin:0;
+	padding:0;
+	display:none;
+	position:relative;
+	left:0;
+	float:left;
+}
+
+.rmSized ul.rmVertical
+{
+	width: 100%;
+}
+
+.rmSized .rmRootGroup .rmVertical
+{
+	width: auto;
+}
+
+.RadMenu_FrameworkAccionMenu .rmItem
+{
+	float:left;
+	position:relative;
+	list-style-image: none;
+	list-style-position:outside;
+	list-style:none;
+	margin: 1px;	
+}
+
+* html .RadMenu_FrameworkAccionMenu .rmItem
+{
+	display:inline;
+	
+}
+
+.RadMenu_FrameworkAccionMenu .rmHorizontal .rmItem
+{
+	clear:none;
+}
+
+.RadMenu_FrameworkAccionMenu .rmVertical .rmItem
+{
+	clear:both;
+}
+
+.rmSized .rmVertical .rmItem
+{
+	width: 100%;
+
+}
+
+.rmSized .rmRootGroup .rmVertical .rmItem
+{
+	width: 100%;
+
+}
+
+.RadMenu_FrameworkAccionMenu ul.rmActive,
+.RadMenu_FrameworkAccionMenu ul.rmRootGroup
+{
+	display:block;
+}
+
+.RadMenu_FrameworkAccionMenu .rmSlide, 
+.RadMenu_FrameworkAccionMenu_Context
+{
+	position:absolute;
+	overflow:hidden;
+	display:none;
+	float:left;
+}
+
+* html .RadMenu_FrameworkAccionMenu .rmSlide, 
+* html .RadMenu_FrameworkAccionMenu_Context
+{
+	height:1px;
+}
+
+.RadMenu_FrameworkAccionMenu_Context
+{
+	z-index:1000;
+	overflow:visible;
+}
+
+.RadMenu_FrameworkAccionMenu .rmText
+{
+	display:block;
+}
+
+.RadMenu_FrameworkAccionMenu div.rmText /*templates*/
+{
+	white-space:normal;
+}
+
+.RadMenu_FrameworkAccionMenu a.rmLink
+{
+	border: 1px solid #fff;
+	cursor:default;
+	display:block;
+	padding: 5px 10px;
+	width: 60px;
+	text-decoration: none;
+	color: #666;
+}
+.RadMenu_FrameworkAccionMenu a.rmLink:hover
+{
+	border: 1px solid #FF9933;
+	background: #FFD671;
+	cursor: pointer;
+	color: #333;
+}
+
+.rmScrollWrap
+{
+	position:absolute;
+	float:left;
+	overflow:hidden;
+	left:0;
+}
+
+.RadMenu_FrameworkAccionMenu .rmLeftArrow,
+.RadMenu_FrameworkAccionMenu .rmTopArrow,
+.RadMenu_FrameworkAccionMenu .rmBottomArrow,
+.RadMenu_FrameworkAccionMenu .rmRightArrow
+{
+	position:absolute;
+	z-index:2000;
+	text-indent:-1000em;
+	font-size: 0;
+	line-height: 0;
+	overflow: hidden;
+}
+
+.RadMenu_FrameworkAccionMenu .rmLeftArrowDisabled,
+.RadMenu_FrameworkAccionMenu .rmTopArrowDisabled,
+.RadMenu_FrameworkAccionMenu .rmBottomArrowDisabled,
+.RadMenu_FrameworkAccionMenu .rmRightArrowDisabled
+{
+	display:none;
+	text-indent:-1000em;
+	font-size: 0;
+	line-height: 0;
+}
+
+.RadMenu_FrameworkAccionMenu .rmBottomArrow,
+.RadMenu_FrameworkAccionMenu .rmBottomArrowDisabled
+{
+	margin-bottom: -1px;
+}
+
+.RadMenu_FrameworkAccionMenu .rmLeftImage
+{
+	border:0;
+	float:left;
+}
+
+.RadMenu_FrameworkAccionMenu_rtl
+{
+	float:right;
+	text-align: right;
+}
+
+.RadMenu_FrameworkAccionMenu_rtl ul.rmHorizontal,
+.RadMenu_FrameworkAccionMenu_rtl ul.rmVertical
+{
+	float:right;
+}
+
+.RadMenu_FrameworkAccionMenu_rtl .rmItem
+{
+	float:right;	
+}
+
+.RadMenu_FrameworkAccionMenu_rtl .rmLeftImage,
+.RadMenu_FrameworkAccionMenu_rtlContext .rmLeftImage
+{
+	border:0;
+	float:right;
+}
+
+.RadMenu_FrameworkAccionMenu_rtl .rmLeftArrow,
+.RadMenu_FrameworkAccionMenu_rtl .rmTopArrow,
+.RadMenu_FrameworkAccionMenu_rtl .rmBottomArrow,
+.RadMenu_FrameworkAccionMenu_rtl .rmRightArrow,
+.RadMenu_FrameworkAccionMenu_rtl .rmLeftArrowDisabled,
+.RadMenu_FrameworkAccionMenu_rtl .rmTopArrowDisabled,
+.RadMenu_FrameworkAccionMenu_rtl .rmBottomArrowDisabled,
+.RadMenu_FrameworkAccionMenu_rtl .rmRightArrowDisabled
+{
+	text-indent:1000em !important;
+}
+
+.RadMenu_FrameworkAccionMenu .rmLink
+{
+	width:auto;
+}
+
+.RadMenu_FrameworkAccionMenu .rmSeparator,
+.RadMenu_FrameworkAccionMenu .rmSeparator:after
+{
+    line-height: 0;
+    font-size: 0;
+    overflow: hidden;
+}
+
+.RadMenu_FrameworkAccionMenu div.rmRootGroup
+{
+    position: relative;
+    background-color: #ccc;
+}
+
+
+

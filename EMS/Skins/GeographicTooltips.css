@@ -1,0 +1,1217 @@
+﻿body
+{
+	background-color: Transparent;
+	font-size: 55%;
+}
+.Loading
+{
+	background-repeat: no-repeat;
+	background-position: center center;
+	-ms-background-position-x: center;
+	-ms-background-position-y: center;
+	background-color: #FFFFFF;
+	height: 100%;
+	width: 100%;
+	filter: alpha(opacity=70);
+	-ms-filter: alpha(opacity=70);
+	-moz-opacity: .70;
+	opacity: .70;
+	position: fixed;
+	visibility: visible;
+	z-index: 999999;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	margin: 0px;
+	overflow: visible;
+}
+
+.lblTitleTooltips
+{
+		font-size: 150%;
+
+	font-weight: 700;
+	display: block;
+	padding: 0 0 0 0;
+	color: #2e2e71;
+	padding-left: 40px;
+}
+.lblTitleFacilityTooltips
+{
+
+	
+	font-weight: 700;
+	display: block;
+	padding: 0 0 0 0;
+	color: #336600;
+	padding-left: 40px;
+}
+.lblSubTitleTooltips
+{
+	font-size: 150%;
+	font-weight: 700;
+	display: block;
+	padding: 0 0 10px 0;
+	color: #333;
+	padding-left: 40px;
+}
+.divContentMainData
+{
+	position: absolute;
+	width: 445px;
+	height: 248px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	padding-right: 20px;
+}
+.imgShowSlide
+{
+	height: 100px;
+	width: 100px;
+}
+
+/* Icons */
+.pnlIconProcess
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/Process.png');
+}
+
+.pnlIconProcessOrganizacional
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/ProcessOrganizacional.png');
+}
+.pnlIconProcessOrganizacionalChild
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/ProcessOrganizacionalChild.png');
+}
+.pnlIconProcessPersonal
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/ProcessPersonal.png');
+}
+.pnlIconProcessPersonalChild
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/ProcessPersonalChild.png');
+}
+
+.pnlIconProcessProductive
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/ProcessProductive.png');
+}
+.pnlIconProcessProductiveChild
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/ProcessProductiveChild.png');
+}
+.pnlIconProcessSectorial
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/ProcessSectorial.png');
+}
+.pnlIconProcessSectorialChild
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/ProcessSectorialChild.png');
+}
+
+.pnlIconProcessTerritorial
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/ProcessTerritorial.png');
+}
+.pnlIconProcessTerritorialChild
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/ProcessTerritorialChild.png');
+}
+
+
+/**/
+.pnlIconBuildingStructures
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/BuildingStructures.png');
+}
+.pnlIconBuildingStructuresRed
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/BuildingStructuresRed.png');
+}
+.pnlIconBuildingStructuresBlue
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/BuildingStructuresBlue.png');
+}
+.pnlIconBusFleet
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/BusFleet.png');
+}
+.pnlIconBusFleetRed
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/BusFleetRed.png');
+}
+.pnlIconBusFleetBlue
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/BusFleetBlue.png');
+}
+.pnlIconCarFleet
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/CarFleet.png');
+}
+.pnlIconCarFleetRed
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/CarFleetRed.png');
+}
+.pnlIconCarFleetBlue
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/CarFleetBlue.png');
+}
+.pnlIconHospital
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/Hospital.png');
+}
+.pnlIconHospitalRed
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/HospitalRed.png');
+}
+.pnlIconHospitalBlue
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/HospitalBlue.png');
+}
+.pnlIconIndustrialSector
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/IndustrialSector.png');
+}
+.pnlIconIndustrialSectorRed
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/IndustrialSectorRed.png');
+}
+.pnlIconIndustrialSectorBlue
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/IndustrialSectorBlue.png');
+}
+.pnlIconPublicSpaces
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/PublicSpaces.png');
+}
+.pnlIconPublicSpacesRed
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/PublicSpacesRed.png');
+}
+.pnlIconPublicSpacesBlue
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/PublicSpacesBlue.png');
+}
+.pnlIconRailway
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/Railway.png');
+}
+.pnlIconRailwayRed
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/RailwayRed.png');
+}
+.pnlIconRailwayBlue
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/RailwayBlue.png');
+}
+.pnlIconResidentialSector
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/ResidentialSector.png');
+}
+
+.pnlIconResidentialSectorRed
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/ResidentialSectorRed.png');
+}
+.pnlIconResidentialSectorBlue
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/ResidentialSectorBlue.png');
+}
+.pnlIconSubway
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/Subway.png');
+}
+.pnlIconSubwayRed
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/SubwayRed.png');
+}
+.pnlIconSubwayBlue
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/SubwayBlue.png');
+}
+.pnlIconTransport
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/Transport.png');
+}
+.pnlIconTransportRed
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/TransportRed.png');
+}
+.pnlIconTransportBlue
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/TransportBlue.png');
+}
+.pnlIconCommercialSector
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/CommercialSector.png');
+}
+.pnlIconCommercialSectorRed
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/CommercialSectorRed.png');
+}
+.pnlIconCommercialSectorBlue
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/CommercialSectorBlue.png');
+}
+.pnlIconFarms
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/Farms.png');
+}
+.pnlIconFarmsRed
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/FarmsRed.png');
+}
+.pnlIconFarmsBlue
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/FarmsBlue.png');
+}
+.pnlIconHomes
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/Homes.png');
+}
+.pnlIconHomesRed
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/HomesRed.png');
+}
+.pnlIconHomesBlue
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/HomesBlue.png');
+}
+.pnlIconEducational
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/Educational.png');
+}
+.pnlIconEducationalRed
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/EducationalRed.png');
+}
+.pnlIconEducationalBlue
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/EducationalBlue.png');
+}
+.pnlIconIndustries
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/Industries.png');
+}
+.pnlIconIndustriesRed
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/IndustriesRed.png');
+}
+.pnlIconIndustriesBlue
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/IndustriesBlue.png');
+}
+.pnlIconPowerPlant
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/PowerPlant.png');
+}
+.pnlIconPowerPlantRed
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/PowerPlantRed.png');
+}
+.pnlIconPowerPlantBlue
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/PowerPlantBlue.png');
+}
+.pnlIconRefineries
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/Refineries.png');
+}
+.pnlIconRefineriesRed
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/RefineriesRed.png');
+}
+.pnlIconRefineriesBlue
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/RefineriesBlue.png');
+}
+.pnlIconServiceStations 
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/ServiceStations.png');
+}
+.pnlIconServiceStationsRed
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/ServiceStationsRed.png');
+}
+.pnlIconServiceStationsBlue
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/ServiceStationsBlue.png');
+}
+.pnlIconShopsandServices
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/ShopsandServices.png');
+}
+.pnlIconShopsandServicesRed
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/ShopsandServicesRed.png');
+}
+.pnlIconShopsandServicesBlue
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/ShopsandServicesBlue.png');
+}
+.pnlIconWaterTreatmentPlants 
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/WaterTreatmentPlants.png');
+}
+.pnlIconWaterTreatmentPlantsRed 
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/WaterTreatmentPlantsRed.png');
+}
+.pnlIconWaterTreatmentPlantsBlue
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/WaterTreatmentPlantsBlue.png');
+}
+.pnlIconWasteTreatmentPlants 
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/WasteTreatmentPlants.png');
+}
+.pnlIconWasteTreatmentPlantsRed 
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/WasteTreatmentPlantsRed.png');
+}
+.pnlIconWasteTreatmentPlantsBlue
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/WasteTreatmentPlantsBlue.png');
+}
+.pnlIconLandfill 
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/Landfill.png');
+}
+.pnlIconLandfillRed 
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/LandfillRed.png');
+}
+.pnlIconLandfillBlue
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/LandfillBlue.png');
+}
+.pnlIconLand 
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/Land.png');
+}
+.pnlIconLandRed 
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/LandRed.png');
+}
+.pnlIconLandBlue
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/LandBlue.png');
+}
+.pnlIconOffice
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/Office.png');
+}
+.pnlIconOfficeRed
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/OfficeRed.png');
+}
+.pnlIconOfficeBlue
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/OfficeBlue.png');
+}
+.pnlIconUnspecified
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/Unspecified.png');
+}
+.pnlIconUnspecifiedRed
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/UnspecifiedRed.png');
+}
+.pnlIconUnspecifiedBlue
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/UnspecifiedBlue.png');
+}
+.pnlIconOilPipeline
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/OilPipeline.png');
+}
+.pnlIconOilPipelineRed
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/OilPipelineRed.png');
+}
+.pnlIconOilPipelineBlue
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/OilPipelineBlue.png');
+}
+.pnlIconGasPipeline
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/GasPipeline.png');
+}
+.pnlIconGasPipelineRed
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/GasPipelineRed.png');
+}
+.pnlIconGasPipelineBlue
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/GasPipelineBlue.png');
+}
+.pnlIconBatteries
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/Batteries.png');
+}
+.pnlIconBatteriesRed
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/BatteriesRed.png');
+}
+.pnlIconBatteriesBlue
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/BatteriesBlue.png');
+}
+.pnlIconMotorCompressorStation
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/MotorCompressorStation.png');
+}
+.pnlIconMotorCompressorStationRed
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/MotorCompressorStationRed.png');
+}
+.pnlIconMotorCompressorStationBlue
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/MotorCompressorStationBlue.png');
+}
+.pnlIconOilTreatmentPlant
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/OilTreatmentPlant.png');
+}
+.pnlIconOilTreatmentPlantRed
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/OilTreatmentPlantRed.png');
+}
+.pnlIconOilTreatmentPlantBlue
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/OilTreatmentPlantBlue.png');
+}
+.pnlIconConditioningPlantDewpoint
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/ConditioningPlantDewpoint.png');
+}
+.pnlIconConditioningPlantDewpointRed
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/ConditioningPlantDewpointRed.png');
+}
+.pnlIconConditioningPlantDewpointBlue
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/ConditioningPlantDewpointBlue.png');
+}
+.pnlIconSeparationPlantOfLiquefiedGases
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/SeparationPlantOfLiquefiedGases.png');
+}
+.pnlIconSeparationPlantOfLiquefiedGasesRed
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/SeparationPlantOfLiquefiedGasesRed.png');
+}
+.pnlIconSeparationPlantOfLiquefiedGasesBlue
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/SeparationPlantOfLiquefiedGasesBlue.png');
+}
+.pnlIconSaltWaterInjectionPlant
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/SaltWaterInjectionPlant.png');
+}
+.pnlIconFreshWaterInjectionPlantRed
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/FreshWaterInjectionPlantRed.png');
+}
+.pnlIconFreshWaterInjectionPlantBlue
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/FreshWaterInjectionPlantBlue.png');
+}
+.pnlIconFreshWaterTransferPlant
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/FreshWaterTransferPlant.png');
+}
+.pnlIconFreshWaterTransferPlantRed
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/FreshWaterTransferPlantRed.png');
+}
+.pnlIconFreshWaterTransferPlantBlue
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/FreshWaterTransferPlantBlue.png');
+}
+.pnlIconThermalPowerPlant
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/ThermalPowerPlant.png');
+}
+.pnlIconThermalPowerPlantRed
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/ThermalPowerPlantRed.png');
+}
+.pnlIconThermalPowerPlantBlue
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/ThermalPowerPlantBlue.png');
+}
+.pnlIconOilWell
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/OilWell.png');
+}
+.pnlIconOilWellRed
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/OilWellRed.png');
+}
+.pnlIconOilWellBlue
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/OilWellBlue.png');
+}
+.pnlIconFleetVehicles
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/FleetVehicles.png');
+}
+.pnlIconFleetVehiclesRed
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/FleetVehiclesRed.png');
+}
+.pnlIconFleetVehiclesBlue
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/FleetVehiclesBlue.png');
+}
+.pnlIconBatteriesOil
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/MapBatteriesOil.png');
+}
+.pnlIconBatteriesOilRed
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/MapBatteriesOilRed.png');
+}
+.pnlIconBatteriesOilBlue
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/MapBatteriesOilBlue.png');
+}
+.pnlIconGlobal
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/Global.png');
+}
+.pnlIconGlobal
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/Global.png');
+}
+.pnlIconGlobalRed
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/GlobalRed.png');
+}
+.pnlIconGlobalBlue
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/GlobalBlue.png');
+}
+.pnlIconMining
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/Mining.png');
+}
+.pnlIconMiningRed
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/MiningRed.png');
+}
+.pnlIconMiningBlue
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/MiningBlue.png');
+}
+.pnlIconServices
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/Services.png');
+}
+.pnlIconServicesRed
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/ServicesRed.png');
+}
+.pnlIconServicesBlue
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/ServicesBlue.png');
+}
+/*Nuevos Types*/
+.pnlIconRestaurant
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/Restaurant.png');
+}
+.pnlIconRestaurantRed
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/RestaurantRed.png');
+}
+.pnlIconRestaurantBlue
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/RestaurantBlue.png');
+}
+.pnlIconFastfood
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/Fastfood.png');
+}
+.pnlIconFastfoodRed
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/FastfoodRed.png');
+}
+.pnlIconFastfoodBlue
+{
+	float: left;
+	width: 27px;
+	height: 25px;
+	background-image:url('../Skins/Images/Map/FastfoodBlue.png');
+}
+
+/* MainData */
+
+.pnlMainData
+{	
+	margin:15px 10px 10px 10px;
+	float:left;
+	width: 250px;
+	
+}
+
+.pnlMainData .lblProcessGroupProcess,
+.pnlMainData .lblFacility
+{
+	display: block;
+	font-weight:700;
+	padding-bottom: 15px;
+	color: #333;
+	text-decoration: underline;
+}
+.pnlMainData .lblProcessGroupProcess:hover,
+.pnlMainData .lblFacility:hover
+{
+	text-decoration: underline;
+}
+.pnlMainData .lblDescription
+{
+	display: block;
+	padding-bottom: 15px;
+}
+.pnlMainData .lblPurpose
+{
+	display: block;
+}
+.pnlMainData .lblCurrentCampaignStartDate,
+.pnlMainData .lblAddresses,
+.pnlMainData .lblOrganization,
+.pnlMainData .lblFacilityType
+{
+	display: block;
+	padding-bottom:2px;
+}
+.pnlMainData .lblToShortDateString,
+.pnlMainData .lblValueAddresses,
+.pnlMainData .subTitle
+{
+	display: block;
+	font-weight:700;
+	padding-bottom: 15px;
+	color: #333;
+}
+.pnlMainData .lblValueOrganization
+{
+	display: block;
+	font-weight:700;
+	padding-bottom: 15px;
+	color: #333;
+	text-decoration: underline;
+}
+.pnlMainData .lblFacilitiesByProcess
+{
+	display: block;
+	padding-top: 10px;
+	color: #333;
+	text-decoration: underline;
+	font-weight:700;
+}
+.pnlMainData .lblFacilitiesByProcess:hover
+{
+	text-decoration: underline;
+}
+.imgMainPhoto
+{
+	float:right;
+	max-height: 150px;
+	max-width: 200px;
+	margin: 15px 10px 10px 10px;
+}
+
+/* Image */
+
+.pnlPhotoGallery
+{
+	margin: 15px 10px 10px 10px;
+	text-align: center;
+}
+.pnlPhotoGallery img
+{
+	max-height: 160px;
+	max-width: 420px;
+
+}
+.pnlPhotoGallery .Back
+{
+	background-position: 0px -368px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-368px;
+	width: 20px;
+	height: 20px;
+	margin: 2px 0 2px 0;
+}
+.pnlPhotoGallery .Back:hover
+{
+	background-position: 0px -408px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-408px;
+	width: 20px;
+	height: 20px;
+	margin: 2px 0 2px 0;
+}
+.pnlPhotoGallery .Next
+{
+	background-position: 0px -388px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-388px;
+	width: 20px;
+	height: 20px;
+	margin: 2px 0 2px 0;
+}
+.pnlPhotoGallery .Next:hover
+{
+	background-position: 0px -428px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-428px;
+	width: 20px;
+	height: 20px;
+	margin: 2px 0 2px 0;
+}
+
+/* ExtendedInfo */
+
+.pnlExtendedInfo
+{
+	margin: 15px 0px 0px 0px;
+}
+.divPatchHeaderTableScroll
+{
+	height:28px;
+	width:17px;
+	background-color:#669900;
+	position:absolute;
+	z-index:1000;
+	top: 75px;
+	left: 483px;	
+}
+
+/* RadGrid Facility */
+

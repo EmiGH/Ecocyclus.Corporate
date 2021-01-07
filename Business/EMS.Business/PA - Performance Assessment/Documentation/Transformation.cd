@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Condesus.EMS.Business.PA.Entities.Indicator">
+    <Position X="4" Y="0.5" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EAIoYFiAEAWAEEABAMUAHBCACQAAAAIUUAAQoAMAABA=</HashCode>
+      <FileName>PA - Performance Assessment\Code\Entities\Indicator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Condesus.EMS.Business.PA.Entities.Measurement">
+    <Position X="4.25" Y="7" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Condesus.EMS.Business.PA.Entities.Measurement.AggregateType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>PA - Performance Assessment\Code\Entities\Measurement.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="Condesus.EMS.Business.PA.Entities.Measurement.GroupingType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>PA - Performance Assessment\Code\Entities\Measurement.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>EAMIIAAAJCGgkkB1QGGEIAACAMBAAEAAABAAoAqCAAE=</HashCode>
+      <FileName>PA - Performance Assessment\Code\Entities\Measurement.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Indicator" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Condesus.EMS.Business.PA.Entities.CalculationOfTransformation">
+    <Position X="13.75" Y="12.75" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="Indicator" Type="Condesus.EMS.Business.PA.Entities.Indicator" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="14.5" Y="12.75" />
+        <Point X="14.5" Y="2.561" />
+        <Point X="6.75" Y="2.561" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="MeasurementUnit" Type="Condesus.EMS.Business.PA.Entities.MeasurementUnit" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="15.438" Y="12.75" />
+        <Point X="15.438" Y="10.176" />
+        <Point X="18.75" Y="10.176" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>EAAIYQACAAGCEARxAGGIlUAAAABQgAgAAJAQoAIAAAA=</HashCode>
+      <FileName>PA - Performance Assessment\Code\Entities\CalculationOfTransformation.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="LanguageOption" />
+      <Property Name="Indicator" />
+      <Property Name="MeasurementUnit" />
+      <Property Name="TransformationFunction" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Parameters" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Condesus.EMS.Business.PA.Entities.CalculationOfTransformation_LG">
+    <Position X="18.25" Y="12.75" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAgAAACAAAAIAQAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>PA - Performance Assessment\Code\Entities\CalculationOfTransformation_LG.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.PA.Entities.CalculationOfTransformationParameter">
+    <Position X="18.25" Y="15.5" Width="3" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>CAAAAAAQAACAAAAAAEEAIAQBAABAgAIAAAAAAgEAAAA=</HashCode>
+      <FileName>PA - Performance Assessment\Code\Entities\CalculationOfTransformationParameter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.PA.Entities.TransformationFunction">
+    <Position X="18.5" Y="18.75" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAmAEAAAAAQAAAAMIAAAAAEAIAAAAIAAAA=</HashCode>
+      <FileName>PA - Performance Assessment\Code\Entities\TransformationFunction.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Parameters" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Condesus.EMS.Business.PA.Entities.TransformationFunctionParameter">
+    <Position X="22.75" Y="19" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAIAQAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>PA - Performance Assessment\Code\Entities\TransformationFunctionParameter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.PA.Entities.MeasurementUnit">
+    <Position X="18.75" Y="8.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EAAIAEABEAkAEAAhAEAAAAAAAAQQEQgAMAAAgAEAAAA=</HashCode>
+      <FileName>PA - Performance Assessment\Code\Entities\MeasurementUnit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.PA.Entities.Constant">
+    <Position X="4.25" Y="19.25" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EgIIIAAgAAGAABCwAGGIBEAAAAAAAAgAAAAggAIACAA=</HashCode>
+      <FileName>PA - Performance Assessment\Code\Entities\Constant.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Condesus.EMS.Business.PA.Entities.MeasurementExtensive">
+    <Position X="6" Y="15" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAQAAAAAAAAQAAAABAAAAAAEAAAAACAAAAAAAAA=</HashCode>
+      <FileName>PA - Performance Assessment\Code\Entities\MeasurementExtensive.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="CalculationOfTransformations" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Condesus.EMS.Business.PA.Entities.MeasurementIntensive">
+    <Position X="2.5" Y="15" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PA - Performance Assessment\Code\Entities\MeasurementIntensive.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.PA.Entities.TransformationEquation">
+    <Position X="22.75" Y="21.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAQIAAAAAAQACAAAAAAAAQAgAEAAAAAAAACAAAA=</HashCode>
+      <FileName>PA - Performance Assessment\Code\Entities\TransformationEquation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

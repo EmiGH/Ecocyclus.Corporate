@@ -1,0 +1,709 @@
+﻿
+/*ListReportViewer*/
+
+.contentListViewReportTable
+{
+	width: 100%;
+	border: 0px;
+	border-spacing: 0px;
+	border-width: 0px;
+	border-collapse: collapse;
+	
+}
+.contentListViewReportTable .Toolbar
+{
+	width: 30px; 
+	background-color: #dad8d8; 
+	border: solid 1px #CCC;
+	border-right: solid 0px #CCC;  
+	margin-right: 3px; 
+	padding-top: 4px;
+	vertical-align: top;
+	text-align: center;
+}
+/*----- Iconos Menu Vertical */
+.contentListViewReportImages
+{
+	background-position: 0px -1180px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-1180px;
+}
+.contentListViewReportImages:hover
+{
+	background-position: 0px -120Opx;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-1200px;
+}
+.contentListViewReportImagesOpen
+{
+	background-position: 0px -1220px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-1220px;
+}
+.contentListViewReportMap
+{
+	background-position: 0px -1240px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-1240px;
+}
+.contentListViewReportMap:hover
+{
+	background-position: 0px -1260px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-1260px;
+}
+.contentListViewReportMapOpen
+{
+	background-position: 0px -1280px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-1280px;
+}
+.contentListViewReportChart
+{
+	background-position: 0px -1300px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-1300px;
+}
+.contentListViewReportChart:hover
+{
+	background-position: 0px -1320px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-1320px;
+}
+.contentListViewReportChartOpen
+{
+	background-position: 0px -1340px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-1340px;
+}
+.contentListViewMainData
+{
+	background-position: 0px -460px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-460px;
+}
+.contentListViewMainData:hover
+{
+	background-position: -0px -480px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-480px;
+}
+.contentListViewMainDataOpen
+{
+	background-position: 0px -500px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-500px;
+}
+.contentListViewExtendedInformation
+{
+	background-position: 0px -1360px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-1360px;
+}
+.contentListViewExtendedInformation:hover
+{
+	background-position: -0px -1380px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-1380px;
+}
+.contentListViewExtendedInformationOpen
+{
+	background-position: 0px -1400px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-1400px;
+}
+.contentListViewForum
+{
+	background-position: 0px -580px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-580px;
+}
+.contentListViewForum:hover
+{
+	background-position: -0px -600px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-600px;
+}
+.contentListViewForumOpen
+{
+	background-position: 0px -620px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-620px;
+}
+.contentListViewStatistics
+{
+	background-position: 0px -1600px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-1600px;
+}
+.contentListViewStatistics:hover
+{
+	background-position: -0px -1620px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-1620px;
+}
+.contentListViewStatisticsOpen
+{
+	background-position: 0px -1640px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-1640px;
+}
+
+/* Fin Iconos*/
+
+.contentListViewReportTable .Space
+{
+	width: 3px;
+}
+
+/* Control de Imagenes */
+
+.contentListViewReportTable .Picture
+{
+	vertical-align: middle;
+	text-align: center;
+	border: solid 1px #CCC;
+	background-color: #fff;
+	padding: 5px;
+	width: 260px;
+}
+.contentListViewReportTable .Picture div
+{
+	/*width: 260px;*/
+}
+.contentListViewReportTable .Picture .imgShowSlide
+{
+	max-height: 240px;
+	max-width: 240px;
+	margin: 10px;
+}
+.contentListViewReportTable .Picture .Back
+{
+	background-position: 0px -368px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-368px;
+	width: 20px;
+	height: 20px;
+	margin: 2px 0 2px 0;
+	vertical-align:bottom;
+}
+.contentListViewReportTable .Picture .Back:hover
+{
+	background-position: 0px -408px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-408px;
+	width: 20px;
+	height: 20px;
+	margin: 2px 0 2px 0;
+}
+.contentListViewReportTable .Picture .Next
+{
+	background-position: 0px -388px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-388px;
+	width: 20px;
+	height: 20px;
+	margin: 2px 0 2px 0;
+	vertical-align:bottom;
+}
+.contentListViewReportTable .Picture .Next:hover
+{
+	background-position: 0px -428px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-428px;
+	width: 20px;
+	height: 20px;
+	margin: 2px 0 2px 0;
+}
+
+/* Fin Control de Imagenes*/
+
+
+
+/* Control de Imagenes Pequeñas */
+
+.contentListViewReportTable .PictureSmall
+{
+	vertical-align: top;
+	text-align: center;
+	background-color: #fff;
+	padding: 10px 0px;
+	border: solid 1px #CCC;
+	width: 150px;
+}
+.contentListViewReportTable .PictureSmall div
+{
+	width: 150px;
+	text-align:center;
+}
+.contentListViewReportTable .PictureSmall .imgShowSlide
+{
+	max-height: 150px;
+	max-width: 150px;
+	display:block;
+	text-align:center;
+}
+.contentListViewReportTable .PictureSmall .Back
+{
+	background-position: 0px -368px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-368px;
+	width: 20px;
+	height: 20px;
+	margin: 2px 0 2px 0;
+	vertical-align:bottom;
+}
+.contentListViewReportTable .PictureSmall .Back:hover
+{
+	background-position: 0px -408px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-408px;
+	width: 20px;
+	height: 20px;
+	margin: 2px 0 2px 0;
+}
+.contentListViewReportTable .PictureSmall .Next
+{
+	background-position: 0px -388px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-388px;
+	width: 20px;
+	height: 20px;
+	margin: 2px 0 2px 0;
+	vertical-align:bottom;
+}
+.contentListViewReportTable .PictureSmall .Next:hover
+{
+	background-position: 0px -428px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-428px;
+	width: 20px;
+	height: 20px;
+	margin: 2px 0 2px 0;
+}
+
+/* Fin Control de Imagenes*/
+
+
+.contentListViewReportTable .Space2
+{
+	width: 10px;
+}
+.contentListViewReportTable .SubLabel
+{
+	font-weight:700;
+	font-size: 11px;
+	padding: 15px 0 5px 0;
+	display: block;
+	color: #4a5d81;
+}
+.contentListViewReportTable .Label
+{
+	font-weight:700;
+	padding: 0 0 6px 0;
+	display: block;
+	color: #4a5d81;
+	font-size: 10px;
+}
+
+.contentListViewReportTable .Toolbar a
+{
+		margin: 1px 0 1px 0;
+		display:block;
+}
+
+
+.contentListViewReportTable .MainData
+{
+	vertical-align: top;
+}
+
+/*ListViewerAndRelated*/
+
+.lblTitleMainData
+{
+	/*font-weight: 700;
+	margin: 0 0 10px 0;
+	display: block;
+	color: #4a5d81;
+	font-size: 11px;*/
+	font-weight: 700;
+	margin: 1px 0 0 0;
+	display: block;
+	color: #4a5d81;
+	font-size: 10px;
+	background-color: #e7e5e5;
+	border-left: solid 1px #ccc;
+	border-right: solid 1px #ccc;
+	border-top: solid 1px #ccc;
+	padding: 8px 0 8px 10px;
+}
+.divContentTabStrip
+{
+	border: solid 1px #ccc;
+	border-bottom: solid 0px #ccc;
+	background-color: #e7e5e5;
+	margin: 10px 0 0 0;
+	padding: 4px 2px 4px 0;
+	height: 20px;
+}
+.divContentTabStrip .lblSubTitle
+{
+	font-weight: 700;
+	font-size: 10px;
+	color: #4a5d81;
+	float: left;
+	display: block;
+	padding: 4px 0 0 10px;
+}
+.divContentTabStrip .pnlTabStrip
+{
+	float: right;
+	display: block;
+	margin-right:1px;
+}
+.divContentTabStrip .pnlTabStrip li
+{
+	margin-right: 2px;
+}
+
+
+
+
+
+
+/* Iconos Menu Horizontal */
+
+
+/* Buttons Extended Information */
+
+.contentListViewClassifications
+{
+	background-position: 0px -1420px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-1420px;
+}
+.contentListViewClassifications:hover
+{
+	background-position: 0px -1440px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-1440px;
+}
+.contentListViewClassificationsOpen
+{
+	background-position: 0px -1460px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-1460px;
+}
+.contentListViewProcessExtendedProperties
+{
+	background-position: 0px -1480px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-1480px;
+}
+.contentListViewProcessExtendedProperties:hover
+{
+	background-position: 0px -1500px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-1500px;
+}
+.contentListViewProcessExtendedPropertiesOpen
+{
+	background-position: 0px -1520px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-1520px;
+}
+.contentListViewProcessParticipations
+{
+	background-position: 0px -1540px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-1540px;
+}
+.contentListViewProcessParticipations:hover
+{
+	background-position: 0px -1560px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-1560px;
+}
+.contentListViewProcessParticipationsOpen
+{
+	background-position: 0px -1580px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-1580px;
+}
+.contentListViewKeyIndicators
+{
+	background-position: 0px -1600px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-1600px;
+}
+.contentListViewKeyIndicators:hover
+{
+	background-position: 0px -1620px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-1620px;
+}
+.contentListViewKeyIndicatorsOpen
+{
+	background-position: 0px -1640px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-1640px;
+}
+.contentListViewCalculations
+{
+	background-position: 0px -1660px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-1660px;
+}
+.contentListViewCalculations:hover
+{
+	background-position: 0px -1680px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-1680px;
+}
+.contentListViewCalculationsOpen
+{
+	background-position: 0px -1700px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-1700px;
+}
+.contentListViewProcessResources
+{
+	background-position: 0px -1840px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-1840px;
+}
+.contentListViewProcessResources:hover
+{ 
+	background-position: 0px -1860px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-1860px;
+}
+.contentListViewProcessResourcesOpen
+{
+	background-position: 0px -1880px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-1880px;
+}
+.contentListViewUsers
+{
+	background-position: 0px -1780px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-1780px;
+}
+.contentListViewUsers:hover
+{
+	background-position: 0px -1800px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-1800px;
+}
+.contentListViewUsersOpen
+{
+	background-position: 0px -1820px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-1820px;
+}
+.contentListViewPosts
+{
+	background-position: 0px -1720px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-1720px;
+}
+.contentListViewPosts:hover
+{
+	background-position: 0px -1740px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-1740px;
+}
+.contentListViewPostsOpen
+{
+	background-position: 0px -1760px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-1760px;
+}
+
+.contentListViewAddress
+{
+	background-position: 0px -2080px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-2080px;
+}
+.contentListViewAddress:hover
+{
+	background-position: 0px -2100px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-2100px;
+}
+.contentListViewAddressOpen
+{
+	background-position: 0px -2120px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-2120px;
+}
+.contentListViewTelephone
+{
+	background-position: 0px -2140px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-2140px;
+}
+.contentListViewTelephone:hover
+{
+	background-position: 0px -2160px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-2160px;
+}
+.contentListViewTelephoneOpen
+{
+	background-position: 0px -2180px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-2180px;
+}
+.contentListViewEmail
+{
+	background-position: 0px -2200px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-2200px;
+}
+.contentListViewEmail:hover
+{
+	background-position: 0px -2220px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-2220px;
+}
+.contentListViewEmailOpen
+{
+	background-position: 0px -2240px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-2240px;
+}
+.contentListViewURL
+{
+	background-position: 0px -2260px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-2260px;
+}
+.contentListViewURL:hover
+{
+	background-position: 0px -2280px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-2280px;
+}
+.contentListViewURLOpen
+{
+	background-position: 0px -2300px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-2300px;
+}
+.contentListViewMSN
+{
+	background-position: 0px -580px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-580px;
+}
+.contentListViewMSN:hover
+{
+	background-position: 0px -600px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-600px;
+}
+.contentListViewMSNOpen
+{
+	background-position: 0px -620px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-620px;
+}
+.contentListViewFacility
+{
+	background-position: 0px -2320px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-2320px;
+}
+.contentListViewFacility:hover
+{
+	background-position: 0px -2340px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-2340px;
+}
+.contentListViewFacilityOpen
+{
+	background-position: 0px -2360px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-2360px;
+}
+.contentListViewStats
+{
+	background-position: 0px -2380px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-2380px;
+}
+.contentListViewStats:hover
+{
+	background-position: 0px -2400px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-2400px;
+}
+.contentListViewStatsOpen
+{
+	background-position: 0px -2420px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-2420px;
+}	
+
+
+.contentListViewExceptions
+{
+	background-position: 0px -2440px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-2440px;
+}
+.contentListViewExceptions:hover
+{
+	background-position: 0px -2460px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-2460px;
+}
+.contentListViewExceptionsOpen
+{
+	background-position: 0px -2480px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-2480px;
+}	
+
+
+.contentListViewDataSeries
+{
+	background-position: 0px -2500px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-2500px;
+}
+.contentListViewDataSeries:hover
+{
+	background-position: 0px -2520px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-2520px;
+}
+.contentListViewDataSeriesOpen
+{
+	background-position: 0px -2540px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-2540px;
+}	
+
+.contentListViewExecutions
+{
+	background-position: 0px -2560px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-2560px;
+}
+.contentListViewExecutions:hover
+{
+	background-position: 0px -2580px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-2580px;
+}
+.contentListViewExecutionsOpen
+{
+	background-position: 0px -2600px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-2600px;
+}	

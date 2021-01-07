@@ -1,0 +1,48 @@
+﻿
+<%-- Header --%>
+
+<asp:Image runat="server" SkinId="LogoCompany" CssClass="LogoCompany" ImageUrl="/Skins/Images/Trans.gif" />
+
+<%-- END Header--%>
+
+<%-- Global Toolbar--%>
+
+<asp:ImageButton runat="server" SkinID="GlobalToolbarDashBoard"  CssClass="breadCrumbNavigateButtonBack" ImageUrl="/Skins/Images/Trans.gif" />
+<asp:ImageButton runat="server" SkinID="GlobalToolbarGlobalNavigator" CssClass="breadCrumbNavigateButtonBack"  ImageUrl="/Skins/Images/Trans.gif" />
+<asp:ImageButton runat="server" SkinID="GlobalToolbarSearch" CssClass="breadCrumbNavigateButtonBack" ImageUrl="/Skins/Images/Trans.gif" />
+<asp:ImageButton runat="server" SkinID="DocumentGrid" CssClass="DocumentGrid" ImageUrl="/Skins/Images/Trans.gif" />
+
+<%-- END Global Toolbar --%>
+
+<%-- LogOff --%>
+
+<asp:ImageButton runat="server" SkinID="LogOff" CssClass="LogOff" ImageUrl="/Skins/Images/Trans.gif"/>
+
+<%-- END LogOff--%>
+
+<%--  --%>
+
+<asp:ImageButton runat="server" SkinID="BreadCrumbBack"  ImageUrl="/Skins/Images/Trans.gif" CssClass="breadCrumbNavigateButtonBack" />
+<asp:ImageButton runat="server" SkinID="BreadCrumbNext" ImageUrl="/Skins/Images/Trans.gif" CssClass="breadCrumbNavigateButtonNext" />
+<asp:ImageButton runat="server" SkinID="BreadCrumbHistory" ImageUrl="/Skins/Images/Trans.gif" CssClass="breadCrumbNavigateButtonHistory" />
+<asp:ImageButton runat="server" SkinID="BreadCrumbSet" ImageUrl="/Skins/Images/Trans.gif" CssClass="breadCrumbNavigateButtonSet" />
+
+
+<%-- END BreadCumb--%>
+
+<%-- END Validator--%>
+
+<asp:RequiredFieldValidator runat="server"  CssClass="Validator" SkinID="EMS"></asp:RequiredFieldValidator>
+<%--<asp:RequiredFieldValidator runat="server"  CssClass="Validator" SkinID="Validator"></asp:RequiredFieldValidator>--%>
+<asp:RequiredFieldValidator runat="server"  CssClass="Validator" SkinID="Validator"></asp:RequiredFieldValidator>
+
+<asp:CompareValidator  runat="server"  CssClass="Validator" SkinID="EMS" ></asp:CompareValidator>
+<asp:RegularExpressionValidator SkinID="EMS" runat="server" CssClass="Validator"></asp:RegularExpressionValidator>
+<asp:CustomValidator runat="server"  SkinID="EMS" CssClass="Validator" ></asp:CustomValidator>
+<asp:RangeValidator runat="server"  SkinID="EMS" CssClass="Validator"></asp:RangeValidator>
+
+<%-- END BreadCumb--%>
+
+
+<asp:FileUpload runat="server"  Height="19"></asp:FileUpload>
+<asp:LinkButton runat="server" SkinID="Form"  Height="11" wight="11" CssClass="FormLink" />

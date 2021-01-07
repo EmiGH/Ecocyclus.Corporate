@@ -1,0 +1,2460 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Alpha" xml:space="preserve">
+    <value>Alpha Code</value>
+  </data>
+  <data name="Applicability" xml:space="preserve">
+    <value>Applicability</value>
+  </data>
+  <data name="Classification" xml:space="preserve">
+    <value>Classification</value>
+  </data>
+  <data name="CorporateName" xml:space="preserve">
+    <value>Corporate Name</value>
+  </data>
+  <data name="CurrentCampaignStartDate" xml:space="preserve">
+    <value>Current Campaign Start Date</value>
+  </data>
+  <data name="Denominator" xml:space="preserve">
+    <value>Denominator</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="Exponent" xml:space="preserve">
+    <value>Exponent</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="FiscalIdentification" xml:space="preserve">
+    <value>Fiscal Identification</value>
+  </data>
+  <data name="IdApplicability" xml:space="preserve">
+    <value>Applicability Id</value>
+  </data>
+  <data name="IdClassification" xml:space="preserve">
+    <value>Classification Id</value>
+  </data>
+  <data name="IdContactType" xml:space="preserve">
+    <value>Contact Type Id</value>
+  </data>
+  <data name="IdCountry" xml:space="preserve">
+    <value>Country Id</value>
+  </data>
+  <data name="Identification" xml:space="preserve">
+    <value>Identification</value>
+  </data>
+  <data name="IdExtendedProperty" xml:space="preserve">
+    <value>Extended Property Id</value>
+  </data>
+  <data name="IdExtendedPropertyClassification" xml:space="preserve">
+    <value>Extended Property Classification Id</value>
+  </data>
+  <data name="IdFormula" xml:space="preserve">
+    <value>Formula Id</value>
+  </data>
+  <data name="IdIndicatorClassification" xml:space="preserve">
+    <value>Indicator Classification Id</value>
+  </data>
+  <data name="IdLanguage" xml:space="preserve">
+    <value>Language Id</value>
+  </data>
+  <data name="IdOrganization" xml:space="preserve">
+    <value>Organization Id</value>
+  </data>
+  <data name="IdOrganizationRelationshipType" xml:space="preserve">
+    <value>Organization Relationship Type Id</value>
+  </data>
+  <data name="IdParticipationType" xml:space="preserve">
+    <value>Participation Type Id</value>
+  </data>
+  <data name="IdPerson" xml:space="preserve">
+    <value>Person Id</value>
+  </data>
+  <data name="IdPosition" xml:space="preserve">
+    <value>Position Id</value>
+  </data>
+  <data name="IdProcess" xml:space="preserve">
+    <value>Process Id</value>
+  </data>
+  <data name="IdProcessClassification" xml:space="preserve">
+    <value>Process Classification Id</value>
+  </data>
+  <data name="IdProjectClassification" xml:space="preserve">
+    <value>Project Classification Id</value>
+  </data>
+  <data name="IdResourceClassification" xml:space="preserve">
+    <value>Resource Classification Id</value>
+  </data>
+  <data name="IdResourceFileState" xml:space="preserve">
+    <value>Resource File State Id</value>
+  </data>
+  <data name="IdResourceType" xml:space="preserve">
+    <value>Resource Type Id</value>
+  </data>
+  <data name="IdRiskClassification" xml:space="preserve">
+    <value>Risk Classification Id</value>
+  </data>
+  <data name="IdRoleType" xml:space="preserve">
+    <value>Role Type Id</value>
+  </data>
+  <data name="IdSalutationType" xml:space="preserve">
+    <value>Salutation Type Id</value>
+  </data>
+  <data name="IdScenarioType" xml:space="preserve">
+    <value>Scenario Type Id</value>
+  </data>
+  <data name="IdTimeUnit" xml:space="preserve">
+    <value>Time Unit Id</value>
+  </data>
+  <data name="InternationalCode" xml:space="preserve">
+    <value>International Code</value>
+  </data>
+  <data name="IsDefault" xml:space="preserve">
+    <value>Is Default?</value>
+  </data>
+  <data name="IsPattern" xml:space="preserve">
+    <value>Is Pattern?</value>
+  </data>
+  <data name="LanguageName" xml:space="preserve">
+    <value>Culture</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="LiteralFormula" xml:space="preserve">
+    <value>Literal Formula</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="NickName" xml:space="preserve">
+    <value>Nick Name</value>
+  </data>
+  <data name="Numerator" xml:space="preserve">
+    <value>Numerator</value>
+  </data>
+  <data name="OrderNumber" xml:space="preserve">
+    <value>Order Number</value>
+  </data>
+  <data name="Organization" xml:space="preserve">
+    <value>Organization</value>
+  </data>
+  <data name="PosName" xml:space="preserve">
+    <value>Pos Name</value>
+  </data>
+  <data name="Provider" xml:space="preserve">
+    <value>Provider</value>
+  </data>
+  <data name="Purpose" xml:space="preserve">
+    <value>Purpose</value>
+  </data>
+  <data name="SalutationType" xml:space="preserve">
+    <value>Salutation Type</value>
+  </data>
+  <data name="Threshold" xml:space="preserve">
+    <value>Threshold</value>
+  </data>
+  <data name="Weight" xml:space="preserve">
+    <value>Weight</value>
+  </data>
+  <data name="Brand" xml:space="preserve">
+    <value>Brand</value>
+  </data>
+  <data name="CalibrationPeriodicity" xml:space="preserve">
+    <value>Calibration Periodicity</value>
+  </data>
+  <data name="DeviceType" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="IdIndicator" xml:space="preserve">
+    <value>Indicator Id</value>
+  </data>
+  <data name="IdMagnitud" xml:space="preserve">
+    <value>Magnitude Id</value>
+  </data>
+  <data name="IdMeasurement" xml:space="preserve">
+    <value>Measurement Id</value>
+  </data>
+  <data name="IdMeasurementDevice" xml:space="preserve">
+    <value>Measurement Device Id</value>
+  </data>
+  <data name="IdMeasurementDeviceType" xml:space="preserve">
+    <value>Measurement Device Type Id</value>
+  </data>
+  <data name="IdMeasurementUnit" xml:space="preserve">
+    <value>Measurement Unit Id</value>
+  </data>
+  <data name="IdParameter" xml:space="preserve">
+    <value>Parameter Id</value>
+  </data>
+  <data name="IdParameterGroup" xml:space="preserve">
+    <value>Condition Id</value>
+  </data>
+  <data name="InstallationDate" xml:space="preserve">
+    <value>Installation Date</value>
+  </data>
+  <data name="Maintenance" xml:space="preserve">
+    <value>Maintenance</value>
+  </data>
+  <data name="Model" xml:space="preserve">
+    <value>Model</value>
+  </data>
+  <data name="Reference" xml:space="preserve">
+    <value>Reference</value>
+  </data>
+  <data name="SerialNumber" xml:space="preserve">
+    <value>Serial Number</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="Apartment" xml:space="preserve">
+    <value>Apartment</value>
+  </data>
+  <data name="Application" xml:space="preserve">
+    <value>Application</value>
+  </data>
+  <data name="AreaCode" xml:space="preserve">
+    <value>Area Code</value>
+  </data>
+  <data name="CatalogDoc" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="CatalogType" xml:space="preserve">
+    <value>Resource Type</value>
+  </data>
+  <data name="CatalogUrl" xml:space="preserve">
+    <value>Url</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="Comment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="ContactType" xml:space="preserve">
+    <value>Contact Type</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="Data" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="DocSize" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="DocType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>End Date</value>
+  </data>
+  <data name="Extension" xml:space="preserve">
+    <value>Extension</value>
+  </data>
+  <data name="FileName" xml:space="preserve">
+    <value>File Name</value>
+  </data>
+  <data name="Floor" xml:space="preserve">
+    <value>Floor</value>
+  </data>
+  <data name="IdContactAddress" xml:space="preserve">
+    <value>Contact Address Id</value>
+  </data>
+  <data name="IdContactEmail" xml:space="preserve">
+    <value>Contact Email Id</value>
+  </data>
+  <data name="IdContactMessenger" xml:space="preserve">
+    <value>Contact Messenger Id</value>
+  </data>
+  <data name="IdContactTelephone" xml:space="preserve">
+    <value>Contact Telephone Id</value>
+  </data>
+  <data name="IdContactUrl" xml:space="preserve">
+    <value>Contact Url Id</value>
+  </data>
+  <data name="IdFacility" xml:space="preserve">
+    <value>Facility Id</value>
+  </data>
+  <data name="IdFunctionalArea" xml:space="preserve">
+    <value>Functional Area Id</value>
+  </data>
+  <data name="IdFunctionalAreaResponsibility" xml:space="preserve">
+    <value>Functional Area Responsibility Id</value>
+  </data>
+  <data name="IdGeographicArea" xml:space="preserve">
+    <value>Geographic Area Id</value>
+  </data>
+  <data name="IdGeographicAreaResponsibility" xml:space="preserve">
+    <value>Geographic Area Responsibility Id</value>
+  </data>
+  <data name="IdResource" xml:space="preserve">
+    <value>Resource Id</value>
+  </data>
+  <data name="IdResourceFile" xml:space="preserve">
+    <value>Resource File Id</value>
+  </data>
+  <data name="JobTitle" xml:space="preserve">
+    <value>Job Title</value>
+  </data>
+  <data name="Mnemo" xml:space="preserve">
+    <value>Mnemotecnic</value>
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="OrganizationRelationshipType" xml:space="preserve">
+    <value>Organization Relationship Type</value>
+  </data>
+  <data name="ParticipationType" xml:space="preserve">
+    <value>Participation Type</value>
+  </data>
+  <data name="Person" xml:space="preserve">
+    <value>Person</value>
+  </data>
+  <data name="Presence" xml:space="preserve">
+    <value>Presence</value>
+  </data>
+  <data name="Project" xml:space="preserve">
+    <value>Project</value>
+  </data>
+  <data name="ResourceCatalog" xml:space="preserve">
+    <value>Resource Catalogues</value>
+  </data>
+  <data name="ResourceVersion" xml:space="preserve">
+    <value>Resource Files</value>
+  </data>
+  <data name="ResourceType" xml:space="preserve">
+    <value>Resource Type</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="Street" xml:space="preserve">
+    <value>Street</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="URL" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="ValidFrom" xml:space="preserve">
+    <value>Valid From</value>
+  </data>
+  <data name="ValidThrough" xml:space="preserve">
+    <value>Valid Through</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="CreationDate" xml:space="preserve">
+    <value>Creation Date</value>
+  </data>
+  <data name="Device" xml:space="preserve">
+    <value>Device</value>
+  </data>
+  <data name="Formula" xml:space="preserve">
+    <value>Formula</value>
+  </data>
+  <data name="Frequency" xml:space="preserve">
+    <value>Frequency</value>
+  </data>
+  <data name="IdCalculation" xml:space="preserve">
+    <value>Calculation Id</value>
+  </data>
+  <data name="MeasurementUnit" xml:space="preserve">
+    <value>Measurement Unit</value>
+  </data>
+  <data name="ParameterGroup" xml:space="preserve">
+    <value>Condition</value>
+  </data>
+  <data name="TimeUnitFrequency" xml:space="preserve">
+    <value>Time Unit Frequency</value>
+  </data>
+  <data name="IdPermission" xml:space="preserve">
+    <value>Permission Id</value>
+  </data>
+  <data name="IdOwnerObject" xml:space="preserve">
+    <value>Object Owner Id</value>
+  </data>
+  <data name="OwnerClassName" xml:space="preserve">
+    <value>Class Name</value>
+  </data>
+  <data name="OwnerPermission" xml:space="preserve">
+    <value>Owner Permissions</value>
+  </data>
+  <data name="Permission" xml:space="preserve">
+    <value>Permission</value>
+  </data>
+  <data name="Addresses" xml:space="preserve">
+    <value>Addresses</value>
+  </data>
+  <data name="Contacts" xml:space="preserve">
+    <value>Contacts</value>
+  </data>
+  <data name="Emails" xml:space="preserve">
+    <value>E-mails</value>
+  </data>
+  <data name="Messengers" xml:space="preserve">
+    <value>Messengers</value>
+  </data>
+  <data name="OrganizationRelationships" xml:space="preserve">
+    <value>Organization Relationships</value>
+  </data>
+  <data name="Process" xml:space="preserve">
+    <value>Process</value>
+  </data>
+  <data name="ProcessParticipation" xml:space="preserve">
+    <value>Organizations Participation</value>
+  </data>
+  <data name="Telephones" xml:space="preserve">
+    <value>Telephones</value>
+  </data>
+  <data name="URLs" xml:space="preserve">
+    <value>URLs</value>
+  </data>
+  <data name="FunctionalArea" xml:space="preserve">
+    <value>Functional Area</value>
+  </data>
+  <data name="FunctionalPosition" xml:space="preserve">
+    <value>Functional Position</value>
+  </data>
+  <data name="GeographicArea" xml:space="preserve">
+    <value>Geographic Area</value>
+  </data>
+  <data name="GeographicFunctionalArea" xml:space="preserve">
+    <value>Geographic-Functional Area</value>
+  </data>
+  <data name="IndicatorClassification" xml:space="preserve">
+    <value>Indicator's Classification</value>
+  </data>
+  <data name="Indicator" xml:space="preserve">
+    <value>Indicator</value>
+  </data>
+  <data name="SubordinateClassification" xml:space="preserve">
+    <value>Subordinate Classification</value>
+  </data>
+  <data name="ProjectClassification" xml:space="preserve">
+    <value>Project Classification</value>
+  </data>
+  <data name="ResourceClassification" xml:space="preserve">
+    <value>Resource Classification</value>
+  </data>
+  <data name="RiskClassification" xml:space="preserve">
+    <value>Risk Classification</value>
+  </data>
+  <data name="ProcessClassification" xml:space="preserve">
+    <value>Process Classification</value>
+  </data>
+  <data name="Parameter" xml:space="preserve">
+    <value>Parameter</value>
+  </data>
+  <data name="ParameterRange" xml:space="preserve">
+    <value>Parameter Range</value>
+  </data>
+  <data name="CalculationScenarioType" xml:space="preserve">
+    <value>Calculation Scenario Type</value>
+  </data>
+  <data name="HighValue" xml:space="preserve">
+    <value>High</value>
+  </data>
+  <data name="IdParameterRange" xml:space="preserve">
+    <value>Parameter Range Id</value>
+  </data>
+  <data name="LowValue" xml:space="preserve">
+    <value>Low</value>
+  </data>
+  <data name="CannotChangePassword" xml:space="preserve">
+    <value>Cannot change password.</value>
+  </data>
+  <data name="ChangePasswordOnNextLogin" xml:space="preserve">
+    <value>Change Password On Next Login</value>
+  </data>
+  <data name="LastIP" xml:space="preserve">
+    <value>Last IP</value>
+  </data>
+  <data name="LastLogin" xml:space="preserve">
+    <value>Last Login</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="PasswordNeverExpires" xml:space="preserve">
+    <value>Password Never Expires</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="Responsibility" xml:space="preserve">
+    <value>Responsibility</value>
+  </data>
+  <data name="Post" xml:space="preserve">
+    <value>Post</value>
+  </data>
+  <data name="ParameterGroups" xml:space="preserve">
+    <value>Conditions</value>
+  </data>
+  <data name="ParameterRanges" xml:space="preserve">
+    <value>Parameter Ranges</value>
+  </data>
+  <data name="Parameters" xml:space="preserve">
+    <value>Parameters</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>Users</value>
+  </data>
+  <data name="Posts" xml:space="preserve">
+    <value>Posts</value>
+  </data>
+  <data name="MeasurementDevice" xml:space="preserve">
+    <value>Measurement Device</value>
+  </data>
+  <data name="Calculations" xml:space="preserve">
+    <value>Calculations</value>
+  </data>
+  <data name="Executions" xml:space="preserve">
+    <value>Executions</value>
+  </data>
+  <data name="ExtendedProperties" xml:space="preserve">
+    <value>Extended Properties</value>
+  </data>
+  <data name="ProcessTaskCalibration" xml:space="preserve">
+    <value>Calibration Task</value>
+  </data>
+  <data name="ProcessTaskMeasurement" xml:space="preserve">
+    <value>Measurement Task </value>
+  </data>
+  <data name="ProcessTaskOperation" xml:space="preserve">
+    <value>Operative Task</value>
+  </data>
+  <data name="Resources" xml:space="preserve">
+    <value>Resources</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="DateLastResult" xml:space="preserve">
+    <value>Last Result Date</value>
+  </data>
+  <data name="IdExecution" xml:space="preserve">
+    <value>Execution Id</value>
+  </data>
+  <data name="IdTask" xml:space="preserve">
+    <value>Task Id</value>
+  </data>
+  <data name="Result" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="Country_LG" xml:space="preserve">
+    <value>Country Languages</value>
+  </data>
+  <data name="lblSubtitle" xml:space="preserve">
+    <value>[List]</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="IdParentProcess" xml:space="preserve">
+    <value>Parent Process Id</value>
+  </data>
+  <data name="Completed" xml:space="preserve">
+    <value>% Completed</value>
+  </data>
+  <data name="Duration" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="Interval" xml:space="preserve">
+    <value>Interval</value>
+  </data>
+  <data name="MaxNumberExecution" xml:space="preserve">
+    <value>Max Number of Executions</value>
+  </data>
+  <data name="TimeUnitDuration" xml:space="preserve">
+    <value>Time Unit Duration</value>
+  </data>
+  <data name="TimeUnitInterval" xml:space="preserve">
+    <value>Time Unit Interval</value>
+  </data>
+  <data name="TypeExecution" xml:space="preserve">
+    <value>Type Execution</value>
+  </data>
+  <data name="ContactMessengerProvider" xml:space="preserve">
+    <value>Contact Messengers Provider</value>
+  </data>
+  <data name="TaskType" xml:space="preserve">
+    <value>Task Type</value>
+  </data>
+  <data name="ExtendedProperty" xml:space="preserve">
+    <value>Extended Property</value>
+  </data>
+  <data name="ExtendedPropertyClassification" xml:space="preserve">
+    <value>Extended Property Classification</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="Magnitud" xml:space="preserve">
+    <value>Magnitude</value>
+  </data>
+  <data name="MeasurementDeviceType" xml:space="preserve">
+    <value>Measurement Device Type</value>
+  </data>
+  <data name="ProcessGroupProcess" xml:space="preserve">
+    <value>Observatory</value>
+  </data>
+  <data name="RoleType" xml:space="preserve">
+    <value>Role Type</value>
+  </data>
+  <data name="OrganizationClassification" xml:space="preserve">
+    <value>Organization Classification</value>
+  </data>
+  <data name="OrganizationClassification_LG" xml:space="preserve">
+    <value>Organization Classification Language</value>
+  </data>
+  <data name="Measurement" xml:space="preserve">
+    <value>Measurement</value>
+  </data>
+  <data name="Indicator_LG" xml:space="preserve">
+    <value>Indicator's Languages</value>
+  </data>
+  <data name="Process_LG" xml:space="preserve">
+    <value>Process Languages</value>
+  </data>
+  <data name="OrganizationalChart" xml:space="preserve">
+    <value>Organizational Chart</value>
+  </data>
+  <data name="OrganizationalChart_LG" xml:space="preserve">
+    <value>Organizational Chart Languages</value>
+  </data>
+  <data name="IdOrganizationalChart" xml:space="preserve">
+    <value>Organizational Chart Id</value>
+  </data>
+  <data name="ProcessGroupNode" xml:space="preserve">
+    <value>Process Nodes</value>
+  </data>
+  <data name="ProcessTasks" xml:space="preserve">
+    <value>Process Tasks</value>
+  </data>
+  <data name="ProcessTaskExecutionCalibration" xml:space="preserve">
+    <value>Calibration Task Execution</value>
+  </data>
+  <data name="ProcessTaskExecutionMeasurement" xml:space="preserve">
+    <value>Measurement Task Execution </value>
+  </data>
+  <data name="ProcessTaskExecutionOperation" xml:space="preserve">
+    <value>Operative Task Execution </value>
+  </data>
+  <data name="ActiveTasks" xml:space="preserve">
+    <value>Active Tasks</value>
+  </data>
+  <data name="FinishedTasks" xml:space="preserve">
+    <value>Finished Tasks</value>
+  </data>
+  <data name="OverDueTasks" xml:space="preserve">
+    <value>OverDue Tasks</value>
+  </data>
+  <data name="PlannedTasks" xml:space="preserve">
+    <value>Planned Tasks</value>
+  </data>
+  <data name="IdException" xml:space="preserve">
+    <value>Exception Id</value>
+  </data>
+  <data name="Source" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="ClosedExceptions" xml:space="preserve">
+    <value>Closed Exceptions</value>
+  </data>
+  <data name="OpenedExceptions" xml:space="preserve">
+    <value>Opened Exceptions</value>
+  </data>
+  <data name="WorkingExceptions" xml:space="preserve">
+    <value>Working Exceptions</value>
+  </data>
+  <data name="IdOrganizationClassification" xml:space="preserve">
+    <value>Organization Classification Id</value>
+  </data>
+  <data name="IdParentFunctionalArea" xml:space="preserve">
+    <value>Parent Functional Area Id</value>
+  </data>
+  <data name="IdParentGeographicArea" xml:space="preserve">
+    <value>Parent Geographic Area Id</value>
+  </data>
+  <data name="IdParentIndicatorClassification" xml:space="preserve">
+    <value>Parent Indicator Classification Id</value>
+  </data>
+  <data name="IdParentOrganizationClassification" xml:space="preserve">
+    <value>Parent Organization Classification Id</value>
+  </data>
+  <data name="IdParentPosition" xml:space="preserve">
+    <value>Parent Position Id</value>
+  </data>
+  <data name="IdParentProcessClassification" xml:space="preserve">
+    <value>Parent Process Classification Id</value>
+  </data>
+  <data name="IdParentProjectClassification" xml:space="preserve">
+    <value>Parent Project Classification Id</value>
+  </data>
+  <data name="IdParentResourceClassification" xml:space="preserve">
+    <value>Parent Resource Classification Id</value>
+  </data>
+  <data name="IdParentResourceType" xml:space="preserve">
+    <value>Parent Resource Type Id</value>
+  </data>
+  <data name="IdParentRiskClassification" xml:space="preserve">
+    <value>Parent Risk Classification Id</value>
+  </data>
+  <data name="IdResourceCatalog" xml:space="preserve">
+    <value>Resource Catalog Id</value>
+  </data>
+  <data name="IdSubordinateClassification" xml:space="preserve">
+    <value>Subordinate Classification Id</value>
+  </data>
+  <data name="IndicatorClassification_LG" xml:space="preserve">
+    <value>Indicator's Classification Languages</value>
+  </data>
+  <data name="ResourceHistoryState" xml:space="preserve">
+    <value>Resource File History</value>
+  </data>
+  <data name="CalculationScenarioType_LG" xml:space="preserve">
+    <value>Calculation Scenario Type Languages</value>
+  </data>
+  <data name="ContactType_LG" xml:space="preserve">
+    <value>Contact Type Languages</value>
+  </data>
+  <data name="ExtendedPropertyClassification_LG" xml:space="preserve">
+    <value>Extended Property Classification Languages</value>
+  </data>
+  <data name="FunctionalArea_LG" xml:space="preserve">
+    <value>Functional Area Languages</value>
+  </data>
+  <data name="GeographicArea_LG" xml:space="preserve">
+    <value>Geographic Area Languages</value>
+  </data>
+  <data name="ParticipationType_LG" xml:space="preserve">
+    <value>Participation Type Languages</value>
+  </data>
+  <data name="Position_LG" xml:space="preserve">
+    <value>Position Languages</value>
+  </data>
+  <data name="ProcessClassification_LG" xml:space="preserve">
+    <value>Process Classification Languages</value>
+  </data>
+  <data name="RoleType_LG" xml:space="preserve">
+    <value>Role Type Languages</value>
+  </data>
+  <data name="SalutationType_LG" xml:space="preserve">
+    <value>Salutation Type Languages</value>
+  </data>
+  <data name="Formula_LG" xml:space="preserve">
+    <value>Formula Languages</value>
+  </data>
+  <data name="MeasurementDeviceType_LG" xml:space="preserve">
+    <value>Measurement Device Type Languages</value>
+  </data>
+  <data name="MeasurementUnit_LG" xml:space="preserve">
+    <value>Measurement Unit Languages</value>
+  </data>
+  <data name="ResourceClassification_LG" xml:space="preserve">
+    <value>Resource Classification Languages</value>
+  </data>
+  <data name="RiskClassification_LG" xml:space="preserve">
+    <value>Risk Classification Languages</value>
+  </data>
+  <data name="Magnitud_LG" xml:space="preserve">
+    <value>Magnitude Languages</value>
+  </data>
+  <data name="OrganizationRelationshipType_LG" xml:space="preserve">
+    <value>Organization Relationship Type Languages</value>
+  </data>
+  <data name="ProcessGroupProcess_LG" xml:space="preserve">
+    <value>Observatory Languages</value>
+  </data>
+  <data name="ResourceHistoryState_LG" xml:space="preserve">
+    <value>Resource File History Languages</value>
+  </data>
+  <data name="KCResource" xml:space="preserve">
+    <value>Resource</value>
+  </data>
+  <data name="KCResources" xml:space="preserve">
+    <value>Resources</value>
+  </data>
+  <data name="ResourceCatalogType" xml:space="preserve">
+    <value>Resource Catalog Type</value>
+  </data>
+  <data name="Resource" xml:space="preserve">
+    <value>Resource</value>
+  </data>
+  <data name="Classifications" xml:space="preserve">
+    <value>Classifications</value>
+  </data>
+  <data name="Indicators" xml:space="preserve">
+    <value>Indicators</value>
+  </data>
+  <data name="MeasurementDevices" xml:space="preserve">
+    <value>Measurement Devices</value>
+  </data>
+  <data name="Measurements" xml:space="preserve">
+    <value>Measurements</value>
+  </data>
+  <data name="Organizations" xml:space="preserve">
+    <value>Organizations</value>
+  </data>
+  <data name="Processes" xml:space="preserve">
+    <value>Processes</value>
+  </data>
+  <data name="ParentEntity" xml:space="preserve">
+    <value>Parent Entity</value>
+  </data>
+  <data name="IdOrganizationJT" xml:space="preserve">
+    <value>Organization Job Title Id</value>
+  </data>
+  <data name="IdOrganizationOrg" xml:space="preserve">
+    <value>Organization Id</value>
+  </data>
+  <data name="Calculation" xml:space="preserve">
+    <value>Calculation</value>
+  </data>
+  <data name="CalculationCertificated" xml:space="preserve">
+    <value>Certificated</value>
+  </data>
+  <data name="CalculationEstimatedForecasted" xml:space="preserve">
+    <value>Forecasted</value>
+  </data>
+  <data name="CalculateName" xml:space="preserve">
+    <value>Calculation Name</value>
+  </data>
+  <data name="IdEstimated" xml:space="preserve">
+    <value>Estimation Id</value>
+  </data>
+  <data name="ScenarioTypeName" xml:space="preserve">
+    <value>Scenario Type Name</value>
+  </data>
+  <data name="IdOrganizationDOE" xml:space="preserve">
+    <value>DOE Id</value>
+  </data>
+  <data name="OrganizationNameDOE" xml:space="preserve">
+    <value>Organization DOE</value>
+  </data>
+  <data name="IdCertificated" xml:space="preserve">
+    <value>Certificated Id</value>
+  </data>
+  <data name="ContactUrl_LG" xml:space="preserve">
+    <value>Contact Url Languages</value>
+  </data>
+  <data name="ExtendedProperty_LG" xml:space="preserve">
+    <value>Extended Property Languages</value>
+  </data>
+  <data name="ContactAddress" xml:space="preserve">
+    <value>Contact Address</value>
+  </data>
+  <data name="FunctionalAreas" xml:space="preserve">
+    <value>Functional Areas</value>
+  </data>
+  <data name="FunctionalPositions" xml:space="preserve">
+    <value>Functional Positions</value>
+  </data>
+  <data name="GeographicAreas" xml:space="preserve">
+    <value>Geographic Areas</value>
+  </data>
+  <data name="GeographicFunctionalAreas" xml:space="preserve">
+    <value>Geographic-Functional Areas</value>
+  </data>
+  <data name="JobTitles" xml:space="preserve">
+    <value>Job Titles</value>
+  </data>
+  <data name="OrganizationalCharts" xml:space="preserve">
+    <value>Organizational Charts</value>
+  </data>
+  <data name="People" xml:space="preserve">
+    <value>People</value>
+  </data>
+  <data name="Positions" xml:space="preserve">
+    <value>Positions</value>
+  </data>
+  <data name="PermissionType" xml:space="preserve">
+    <value>Permission Type</value>
+  </data>
+  <data name="Applicabilities" xml:space="preserve">
+    <value>Applicabilities</value>
+  </data>
+  <data name="Applicability_LG" xml:space="preserve">
+    <value>Applicability Languages</value>
+  </data>
+  <data name="ContactMessenger" xml:space="preserve">
+    <value>Contact Messenger</value>
+  </data>
+  <data name="RightJobTitleConfigurationDS" xml:space="preserve">
+    <value>Directory Service Configuration Job Titles Rights</value>
+  </data>
+  <data name="RightJobTitleConfigurationIA" xml:space="preserve">
+    <value>Improvement Actions Configuration Job Titles Rights</value>
+  </data>
+  <data name="RightJobTitleConfigurationKC" xml:space="preserve">
+    <value>Knowledge and Collaboration Configuration Job Titles Rights</value>
+  </data>
+  <data name="RightJobTitleConfigurationPA" xml:space="preserve">
+    <value>Performance Assessment Configuration Job Titles Rights</value>
+  </data>
+  <data name="RightJobTitleConfigurationPF" xml:space="preserve">
+    <value>Processes Framework Configuration Job Titles Rights</value>
+  </data>
+  <data name="RightJobTitleConfigurationRM" xml:space="preserve">
+    <value>Risks and Potentials Configuration Job Titles Rights</value>
+  </data>
+  <data name="RightJobTitleMapDS" xml:space="preserve">
+    <value>Directory Service Map Job Titles Rights</value>
+  </data>
+  <data name="RightJobTitleMapIA" xml:space="preserve">
+    <value>Improvement Actions Map Job Titles Rights</value>
+  </data>
+  <data name="RightJobTitleMapKC" xml:space="preserve">
+    <value>Knowledge and Collaboration Map Job Titles Rights</value>
+  </data>
+  <data name="RightJobTitleMapPA" xml:space="preserve">
+    <value>Performance Assessment Map Job Titles Rights</value>
+  </data>
+  <data name="RightJobTitleMapPF" xml:space="preserve">
+    <value>Processes Framework Map Job Titles Rights</value>
+  </data>
+  <data name="RightJobTitleMapRM" xml:space="preserve">
+    <value>Risks and Potentials Map Job Titles Rights</value>
+  </data>
+  <data name="RightPersonConfigurationDS" xml:space="preserve">
+    <value>Directory Service Configuration Person Rights</value>
+  </data>
+  <data name="RightPersonConfigurationIA" xml:space="preserve">
+    <value>Improvement Actions Configuration Person Rights</value>
+  </data>
+  <data name="RightPersonConfigurationKC" xml:space="preserve">
+    <value>Knowledge and Collaboration Configuration Person Rights</value>
+  </data>
+  <data name="RightPersonConfigurationPA" xml:space="preserve">
+    <value>Performance Assessment Configuration Person Rights</value>
+  </data>
+  <data name="RightPersonConfigurationPF" xml:space="preserve">
+    <value>Processes Framework Configuration Person Rights</value>
+  </data>
+  <data name="RightPersonConfigurationRM" xml:space="preserve">
+    <value>Risks and Potentials Configuration Person Rights</value>
+  </data>
+  <data name="RightPersonMapDS" xml:space="preserve">
+    <value>Directory Service Map Person Rights</value>
+  </data>
+  <data name="RightPersonMapIA" xml:space="preserve">
+    <value>Improvement Actions Map Person Rights</value>
+  </data>
+  <data name="RightPersonMapKC" xml:space="preserve">
+    <value>Knowledge and Collaboration Map Person Rights</value>
+  </data>
+  <data name="RightPersonMapPA" xml:space="preserve">
+    <value>Performance Assessment Map Person Rights</value>
+  </data>
+  <data name="RightPersonMapPF" xml:space="preserve">
+    <value>Processes Framework Map Person Rights</value>
+  </data>
+  <data name="RightPersonMapRM" xml:space="preserve">
+    <value>Risks and Potentials Map Person Rights</value>
+  </data>
+  <data name="ContactEmail" xml:space="preserve">
+    <value>Contact Email</value>
+  </data>
+  <data name="ContactTelephone" xml:space="preserve">
+    <value>Contact Telephone</value>
+  </data>
+  <data name="ContactUrl" xml:space="preserve">
+    <value>Contact Url</value>
+  </data>
+  <data name="TimeUnit" xml:space="preserve">
+    <value>Time Unit</value>
+  </data>
+  <data name="ProcessExtendedProperty" xml:space="preserve">
+    <value>Process Extended Property</value>
+  </data>
+  <data name="ProcessResource" xml:space="preserve">
+    <value>Process Resource</value>
+  </data>
+  <data name="Categories" xml:space="preserve">
+    <value>Categories</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="Forum" xml:space="preserve">
+    <value>Forum</value>
+  </data>
+  <data name="ForumPosts" xml:space="preserve">
+    <value>Posts</value>
+  </data>
+  <data name="Forums" xml:space="preserve">
+    <value>Forums</value>
+  </data>
+  <data name="IdCategory" xml:space="preserve">
+    <value>Category Id</value>
+  </data>
+  <data name="IdForum" xml:space="preserve">
+    <value>Forum Id</value>
+  </data>
+  <data name="IdMessage" xml:space="preserve">
+    <value>Message Id</value>
+  </data>
+  <data name="IdTopic" xml:space="preserve">
+    <value>Topic Id</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="MessageState" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="MessageType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Replies" xml:space="preserve">
+    <value>Replies</value>
+  </data>
+  <data name="Topic" xml:space="preserve">
+    <value>Topic</value>
+  </data>
+  <data name="Topics" xml:space="preserve">
+    <value>Topics</value>
+  </data>
+  <data name="Views" xml:space="preserve">
+    <value>Views</value>
+  </data>
+  <data name="RightJobTitle" xml:space="preserve">
+    <value>Job Title Right</value>
+  </data>
+  <data name="RightPerson" xml:space="preserve">
+    <value>Person Rights</value>
+  </data>
+  <data name="OpenFile" xml:space="preserve">
+    <value>Open File</value>
+  </data>
+  <data name="Messages" xml:space="preserve">
+    <value>Messages</value>
+  </data>
+  <data name="Cummulative" xml:space="preserve">
+    <value>Cummulative</value>
+  </data>
+  <data name="KeyParameters" xml:space="preserve">
+    <value>Key Parameters</value>
+  </data>
+  <data name="NonCummulative" xml:space="preserve">
+    <value>Non Cummulative</value>
+  </data>
+  <data name="Period" xml:space="preserve">
+    <value>Period</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="OpenChart" xml:space="preserve">
+    <value>Open Chart</value>
+  </data>
+  <data name="OpenSeries" xml:space="preserve">
+    <value>Open Series</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Facility" xml:space="preserve">
+    <value>Facility</value>
+  </data>
+  <data name="CalibrationState" xml:space="preserve">
+    <value>Calibration State</value>
+  </data>
+  <data name="MeasurementPlan" xml:space="preserve">
+    <value>Measurement Plan</value>
+  </data>
+  <data name="PerceptionsIndex" xml:space="preserve">
+    <value>Perception Indexes</value>
+  </data>
+  <data name="ExecutionState" xml:space="preserve">
+    <value>Execution State</value>
+  </data>
+  <data name="StatAvgValue" xml:space="preserve">
+    <value>Average</value>
+  </data>
+  <data name="StatCountValue" xml:space="preserve">
+    <value>Count</value>
+  </data>
+  <data name="StatFirstValue" xml:space="preserve">
+    <value>First</value>
+  </data>
+  <data name="StatLastValue" xml:space="preserve">
+    <value>Last</value>
+  </data>
+  <data name="StatMaxValue" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="StatMinValue" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="StatStdDevPValue" xml:space="preserve">
+    <value>Std Dev P</value>
+  </data>
+  <data name="StatStdDevValue" xml:space="preserve">
+    <value>Std Dev</value>
+  </data>
+  <data name="StatSumValue" xml:space="preserve">
+    <value>Sum</value>
+  </data>
+  <data name="StatVarPValue" xml:space="preserve">
+    <value>Var P</value>
+  </data>
+  <data name="StatVarValue" xml:space="preserve">
+    <value>Var</value>
+  </data>
+  <data name="CategoriesCount" xml:space="preserve">
+    <value>Number of Categories</value>
+  </data>
+  <data name="ForumPostsCount" xml:space="preserve">
+    <value>Number of Posts</value>
+  </data>
+  <data name="TopicsCount" xml:space="preserve">
+    <value>Number of Topics</value>
+  </data>
+  <data name="AllTopics" xml:space="preserve">
+    <value>All Topics</value>
+  </data>
+  <data name="MessageForum" xml:space="preserve">
+    <value>Message Forum</value>
+  </data>
+  <data name="Devices" xml:space="preserve">
+    <value>Devices</value>
+  </data>
+  <data name="Facilities" xml:space="preserve">
+    <value>Facilities</value>
+  </data>
+  <data name="AllMyExecutions" xml:space="preserve">
+    <value>Available Tasks</value>
+  </data>
+  <data name="CalculationScenarioTypes" xml:space="preserve">
+    <value>Calculation Scenario Types</value>
+  </data>
+  <data name="ContactMessengerProviders" xml:space="preserve">
+    <value>Contact Messenger Providers</value>
+  </data>
+  <data name="ContactTypes" xml:space="preserve">
+    <value>Contact Types</value>
+  </data>
+  <data name="Countries" xml:space="preserve">
+    <value>Countries</value>
+  </data>
+  <data name="ExtendedPropertyClassifications" xml:space="preserve">
+    <value>Extended Property Classifications</value>
+  </data>
+  <data name="Formulas" xml:space="preserve">
+    <value>Formulas</value>
+  </data>
+  <data name="Languages" xml:space="preserve">
+    <value>Languages</value>
+  </data>
+  <data name="Magnitudes" xml:space="preserve">
+    <value>Magnitudes</value>
+  </data>
+  <data name="MeasurementDeviceTypes" xml:space="preserve">
+    <value>Measurement Device Types</value>
+  </data>
+  <data name="MeasurementUnits" xml:space="preserve">
+    <value>Measurement Units</value>
+  </data>
+  <data name="OrganizationRelationshipTypes" xml:space="preserve">
+    <value>Organization Relationship Types</value>
+  </data>
+  <data name="ParticipationTypes" xml:space="preserve">
+    <value>Participation Types</value>
+  </data>
+  <data name="ProcessTask" xml:space="preserve">
+    <value>Process Task</value>
+  </data>
+  <data name="ResourceFileStates" xml:space="preserve">
+    <value>Resource File States</value>
+  </data>
+  <data name="ResourceTypes" xml:space="preserve">
+    <value>Resource Types</value>
+  </data>
+  <data name="RoleTypes" xml:space="preserve">
+    <value>Role Types</value>
+  </data>
+  <data name="SalutationTypes" xml:space="preserve">
+    <value>Salutation Types</value>
+  </data>
+  <data name="comboboxselectitemapplicabilities" xml:space="preserve">
+    <value>Select an Applicability</value>
+  </data>
+  <data name="comboboxselectitemapplications" xml:space="preserve">
+    <value>Select an Application</value>
+  </data>
+  <data name="comboboxselectitemcontacttypes" xml:space="preserve">
+    <value>Select a Contact Type</value>
+  </data>
+  <data name="comboboxselectitemcountries" xml:space="preserve">
+    <value>Select a Country</value>
+  </data>
+  <data name="comboboxselectitemfunctionalareas" xml:space="preserve">
+    <value>Select a Functional Area</value>
+  </data>
+  <data name="comboboxselectitemfunctionalpositions" xml:space="preserve">
+    <value>Select a Functional Position</value>
+  </data>
+  <data name="comboboxselectitemgeographicareas" xml:space="preserve">
+    <value>Select a Geographic Area</value>
+  </data>
+  <data name="comboboxselectitemgeographicfunctionalareas" xml:space="preserve">
+    <value>Select a Geographic-Functional Area</value>
+  </data>
+  <data name="comboboxselectitemindicatorclassifications" xml:space="preserve">
+    <value>Select an Indicator Classification</value>
+  </data>
+  <data name="comboboxselectitemjobtitles" xml:space="preserve">
+    <value>Select a Job Title</value>
+  </data>
+  <data name="comboboxselectitemmagnitudes" xml:space="preserve">
+    <value>Select a Magnitude</value>
+  </data>
+  <data name="comboboxselectitemmeasurementdevices" xml:space="preserve">
+    <value>Select a Measurement Device</value>
+  </data>
+  <data name="comboboxselectitemmeasurementdevicetypes" xml:space="preserve">
+    <value>Select a Measurement Device Type</value>
+  </data>
+  <data name="comboboxselectitemmeasurementunits" xml:space="preserve">
+    <value>Select a Measurement Unit</value>
+  </data>
+  <data name="comboboxselectitemorganizationalcharts" xml:space="preserve">
+    <value>Select an Organizational Chart</value>
+  </data>
+  <data name="comboboxselectitemorganizationClassifications" xml:space="preserve">
+    <value>Select an Organization Classification</value>
+  </data>
+  <data name="comboboxselectitemorganizations" xml:space="preserve">
+    <value>Select an Organization</value>
+  </data>
+  <data name="comboboxselectitemparametergroups" xml:space="preserve">
+    <value>Select a Condition</value>
+  </data>
+  <data name="comboboxselectitemparticipationtypes" xml:space="preserve">
+    <value>Select a Participation Type</value>
+  </data>
+  <data name="comboboxselectitempeople" xml:space="preserve">
+    <value>Select a Person</value>
+  </data>
+  <data name="comboboxselectitempositions" xml:space="preserve">
+    <value>Select a Position</value>
+  </data>
+  <data name="comboboxselectitemproviders" xml:space="preserve">
+    <value>Select a Provider</value>
+  </data>
+  <data name="comboboxselectitemrelationshiptypes" xml:space="preserve">
+    <value>Select a Relationship Type</value>
+  </data>
+  <data name="comboboxselectitemsalutationtype" xml:space="preserve">
+    <value>Select a Salutation Type</value>
+  </data>
+  <data name="comboboxselectitemtimeunits" xml:space="preserve">
+    <value>Select a Time Unit</value>
+  </data>
+  <data name="SPSCHEMA_SelectUnit" xml:space="preserve">
+    <value>Select an algorithm</value>
+  </data>
+  <data name="comboboxselectitemextendedpropertiesclassifications" xml:space="preserve">
+    <value>Select an Extended Property Classification</value>
+  </data>
+  <data name="comboboxselectitemindicators" xml:space="preserve">
+    <value>Select an Indicator</value>
+  </data>
+  <data name="comboboxselectitemprocessclassifications" xml:space="preserve">
+    <value>Select a Process Classification</value>
+  </data>
+  <data name="ZipCode" xml:space="preserve">
+    <value>Zip Code</value>
+  </data>
+  <data name="Applicability_LG_Title" xml:space="preserve">
+    <value>Applicability Language Information</value>
+  </data>
+  <data name="ContactMessengerApplication" xml:space="preserve">
+    <value>Contact Messenger Application</value>
+  </data>
+  <data name="ContactType_LG_Title" xml:space="preserve">
+    <value>Contact Type Language Information</value>
+  </data>
+  <data name="Country_LG_Title" xml:space="preserve">
+    <value>Country Language Information</value>
+  </data>
+  <data name="FunctionalArea_LG_Title" xml:space="preserve">
+    <value>Functional Area Language Information</value>
+  </data>
+  <data name="Parent" xml:space="preserve">
+    <value>Parent</value>
+  </data>
+  <data name="AllowFacility" xml:space="preserve">
+    <value>Is Facility?</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>Confirm Password</value>
+  </data>
+  <data name="ContactUrl_LG_Title" xml:space="preserve">
+    <value>Contact Url Language Information</value>
+  </data>
+  <data name="Default" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="GeographicArea_LG_Title" xml:space="preserve">
+    <value>Geographic Area Language Information</value>
+  </data>
+  <data name="LastAccess" xml:space="preserve">
+    <value>Last Access</value>
+  </data>
+  <data name="OrganizationalChart_LG_Title" xml:space="preserve">
+    <value>Organizational Chart Language Information</value>
+  </data>
+  <data name="OrganizationClassification_LG_Title" xml:space="preserve">
+    <value>Organization Classification Language Information</value>
+  </data>
+  <data name="OrganizationRelationShipType_LG_Title" xml:space="preserve">
+    <value>Organization Relationship Type Language Information</value>
+  </data>
+  <data name="Picture" xml:space="preserve">
+    <value>Picture</value>
+  </data>
+  <data name="Position_LG_Title" xml:space="preserve">
+    <value>Position Language Information</value>
+  </data>
+  <data name="SalutationType_LG_Title" xml:space="preserve">
+    <value>Salutation Type Language Information</value>
+  </data>
+  <data name="CalculationScenarioType_LG_Title" xml:space="preserve">
+    <value>Calculation Scenario Type Language Information</value>
+  </data>
+  <data name="Calculation_LG" xml:space="preserve">
+    <value>Calculation Languages</value>
+  </data>
+  <data name="Calculation_LG_Title" xml:space="preserve">
+    <value>Calculation Language Information</value>
+  </data>
+  <data name="Catalog" xml:space="preserve">
+    <value>Catalog</value>
+  </data>
+  <data name="Constant" xml:space="preserve">
+    <value>Constant</value>
+  </data>
+  <data name="Current" xml:space="preserve">
+    <value>Current</value>
+  </data>
+  <data name="CurrentFileName" xml:space="preserve">
+    <value>Current File Name</value>
+  </data>
+  <data name="DOE" xml:space="preserve">
+    <value>DOE</value>
+  </data>
+  <data name="FileSize" xml:space="preserve">
+    <value>File Size</value>
+  </data>
+  <data name="FileUpload" xml:space="preserve">
+    <value>File Upload</value>
+  </data>
+  <data name="Formula_LG_Title" xml:space="preserve">
+    <value>Formula Language Information</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="IndicatorClassification_LG_Title" xml:space="preserve">
+    <value>Indicator's Classification Language Information</value>
+  </data>
+  <data name="Indicator_LG_Title" xml:space="preserve">
+    <value>Indicator's Language Information</value>
+  </data>
+  <data name="Magnitud_LG_Title" xml:space="preserve">
+    <value>Magnitude Language Information</value>
+  </data>
+  <data name="MeasurementDeviceType_LG_Title" xml:space="preserve">
+    <value>Measurement Device Type Language Information</value>
+  </data>
+  <data name="MeasurementUnit_LG_Title" xml:space="preserve">
+    <value>Measurement Unit Language Information</value>
+  </data>
+  <data name="Measurement_LG" xml:space="preserve">
+    <value>Measurement Languages</value>
+  </data>
+  <data name="Measurement_LG_Title" xml:space="preserve">
+    <value>Measurement Language Information</value>
+  </data>
+  <data name="Negative" xml:space="preserve">
+    <value>Negative</value>
+  </data>
+  <data name="Neutral" xml:space="preserve">
+    <value>Neutral</value>
+  </data>
+  <data name="ParameterGroup_LG" xml:space="preserve">
+    <value>Condition Languages</value>
+  </data>
+  <data name="ParameterGroup_LG_Title" xml:space="preserve">
+    <value>Condition Language Information</value>
+  </data>
+  <data name="Parameter_LG" xml:space="preserve">
+    <value>Parameter Languages</value>
+  </data>
+  <data name="Parameter_LG_Title" xml:space="preserve">
+    <value>Parameter Languages Information</value>
+  </data>
+  <data name="Positive" xml:space="preserve">
+    <value>Positive</value>
+  </data>
+  <data name="ProjectClassification_LG" xml:space="preserve">
+    <value>Project Classification Languages</value>
+  </data>
+  <data name="ProjectClassification_LG_Title" xml:space="preserve">
+    <value>Project Classification Language Information</value>
+  </data>
+  <data name="RaiseException" xml:space="preserve">
+    <value>Raise Exception</value>
+  </data>
+  <data name="ResourceCatalogFile" xml:space="preserve">
+    <value>Resource Catalog File</value>
+  </data>
+  <data name="ResourceClassification_LG_Title" xml:space="preserve">
+    <value>Resource Classification Language Information</value>
+  </data>
+  <data name="ResourceFileState_LG_Title" xml:space="preserve">
+    <value>Resource File States Language Information</value>
+  </data>
+  <data name="ResourceType_LG" xml:space="preserve">
+    <value>Resource Type Language</value>
+  </data>
+  <data name="ResourceType_LG_Title" xml:space="preserve">
+    <value>Resource Type Language Information</value>
+  </data>
+  <data name="RiskClassification_LG_Title" xml:space="preserve">
+    <value>Risk Classification Language Information</value>
+  </data>
+  <data name="ScenarioType" xml:space="preserve">
+    <value>Scenario Type</value>
+  </data>
+  <data name="SelectedResource" xml:space="preserve">
+    <value>Selected Resource</value>
+  </data>
+  <data name="Sign" xml:space="preserve">
+    <value>Sign</value>
+  </data>
+  <data name="SPSchema" xml:space="preserve">
+    <value>Available Formulae</value>
+  </data>
+  <data name="Through" xml:space="preserve">
+    <value>Through</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="ValueCertificated" xml:space="preserve">
+    <value>Certificated Value</value>
+  </data>
+  <data name="ValueEstimated" xml:space="preserve">
+    <value>Forecasted Value</value>
+  </data>
+  <data name="Versionable" xml:space="preserve">
+    <value>Versionable</value>
+  </data>
+  <data name="CampaignStartDate" xml:space="preserve">
+    <value>Campaign Start Date</value>
+  </data>
+  <data name="ExtendedPropertyClassification_LG_Title" xml:space="preserve">
+    <value>Extended Property Classification Language Information</value>
+  </data>
+  <data name="ExtendedProperty_LG_Title" xml:space="preserve">
+    <value>Extended Property Language Information</value>
+  </data>
+  <data name="ParticipationType_LG_Title" xml:space="preserve">
+    <value>Participation Type Language Information</value>
+  </data>
+  <data name="ProcessClassification_LG_Title" xml:space="preserve">
+    <value>Process Classification Language Information</value>
+  </data>
+  <data name="Process_LG_Title" xml:space="preserve">
+    <value>Process Language Information</value>
+  </data>
+  <data name="RoleType_LG_Title" xml:space="preserve">
+    <value>Role Type Language Information</value>
+  </data>
+  <data name="TimeUnit_LG_Title" xml:space="preserve">
+    <value>Time Unit Language Information</value>
+  </data>
+  <data name="SecuritybyJobTitles" xml:space="preserve">
+    <value>Job Titles Security</value>
+  </data>
+  <data name="SecurityByPosts" xml:space="preserve">
+    <value>Posts Security</value>
+  </data>
+  <data name="Aggregate" xml:space="preserve">
+    <value>Aggregation Options</value>
+  </data>
+  <data name="Average" xml:space="preserve">
+    <value>Average</value>
+  </data>
+  <data name="CalculationChartDetails" xml:space="preserve">
+    <value>Calculation Chart Details</value>
+  </data>
+  <data name="CalculationChartSubTitle" xml:space="preserve">
+    <value>[Chart]</value>
+  </data>
+  <data name="CalculationChartTitle" xml:space="preserve">
+    <value>Calculation Chart</value>
+  </data>
+  <data name="Calibration" xml:space="preserve">
+    <value>Calibration</value>
+  </data>
+  <data name="Count" xml:space="preserve">
+    <value>Count</value>
+  </data>
+  <data name="FileUploadCalibration" xml:space="preserve">
+    <value>Upload Calibration File</value>
+  </data>
+  <data name="FileUploadMeasurements" xml:space="preserve">
+    <value>Upload Measurement File</value>
+  </data>
+  <data name="FileViewer" xml:space="preserve">
+    <value>File Viewer</value>
+  </data>
+  <data name="FirstDate" xml:space="preserve">
+    <value>First Date</value>
+  </data>
+  <data name="FirstValue" xml:space="preserve">
+    <value>First Value</value>
+  </data>
+  <data name="Grouping" xml:space="preserve">
+    <value>Grouping Options</value>
+  </data>
+  <data name="IndicatorSeries" xml:space="preserve">
+    <value>Indicator's Series</value>
+  </data>
+  <data name="IndicatorSeriesSubTitle" xml:space="preserve">
+    <value>Selected indicator's data series</value>
+  </data>
+  <data name="IsCumulative" xml:space="preserve">
+    <value>Is Cumulative?</value>
+  </data>
+  <data name="IsRegressive" xml:space="preserve">
+    <value>Is Regressive?</value>
+  </data>
+  <data name="IsRelevant" xml:space="preserve">
+    <value>Is Relevant?</value>
+  </data>
+  <data name="LastDate" xml:space="preserve">
+    <value>Last Date</value>
+  </data>
+  <data name="LastMeasurementDate" xml:space="preserve">
+    <value>Last Measurement Date</value>
+  </data>
+  <data name="LastMeasurementValue" xml:space="preserve">
+    <value>Last Measurement Value</value>
+  </data>
+  <data name="LastValue" xml:space="preserve">
+    <value>Last Value</value>
+  </data>
+  <data name="MainData" xml:space="preserve">
+    <value>Main Data</value>
+  </data>
+  <data name="MaxValue" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="MeasurementChart" xml:space="preserve">
+    <value>Measurement Chart</value>
+  </data>
+  <data name="MeasurementChartSubTitle" xml:space="preserve">
+    <value>Indicator's chart information</value>
+  </data>
+  <data name="MeasurementDate" xml:space="preserve">
+    <value>Measurement Date</value>
+  </data>
+  <data name="MeasurementValue" xml:space="preserve">
+    <value>Measurement Value</value>
+  </data>
+  <data name="MinValue" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="Participation" xml:space="preserve">
+    <value>Participation</value>
+  </data>
+  <data name="Recurrent" xml:space="preserve">
+    <value>Recurrent</value>
+  </data>
+  <data name="RefreshChart" xml:space="preserve">
+    <value>Refresh Chart</value>
+  </data>
+  <data name="ResetChart" xml:space="preserve">
+    <value>Reset Chart</value>
+  </data>
+  <data name="Scheduled" xml:space="preserve">
+    <value>Scheduled</value>
+  </data>
+  <data name="Scheduler" xml:space="preserve">
+    <value>Scheduler</value>
+  </data>
+  <data name="ShowAverage" xml:space="preserve">
+    <value>Show Average</value>
+  </data>
+  <data name="ShowBands" xml:space="preserve">
+    <value>Show Bands</value>
+  </data>
+  <data name="ShowFirstLast" xml:space="preserve">
+    <value>Show First/Last</value>
+  </data>
+  <data name="ShowMaxMin" xml:space="preserve">
+    <value>Show Max/Min</value>
+  </data>
+  <data name="SkipDateValidation" xml:space="preserve">
+    <value>Skip Date Validation</value>
+  </data>
+  <data name="Spontaneous" xml:space="preserve">
+    <value>Spontaneous</value>
+  </data>
+  <data name="StdDevPValue" xml:space="preserve">
+    <value>Std Dev P</value>
+  </data>
+  <data name="StdDevValue" xml:space="preserve">
+    <value>Std Dev</value>
+  </data>
+  <data name="Sum" xml:space="preserve">
+    <value>Sum</value>
+  </data>
+  <data name="TaskOperators" xml:space="preserve">
+    <value>Task Operators</value>
+  </data>
+  <data name="TimeStamp" xml:space="preserve">
+    <value>Time Stamp</value>
+  </data>
+  <data name="Unit" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="ValidationEnd" xml:space="preserve">
+    <value>Validation End</value>
+  </data>
+  <data name="ValidationStart" xml:space="preserve">
+    <value>Validation Start</value>
+  </data>
+  <data name="VarPValue" xml:space="preserve">
+    <value>Var P</value>
+  </data>
+  <data name="VarValue" xml:space="preserve">
+    <value>Var</value>
+  </data>
+  <data name="Manual" xml:space="preserve">
+    <value>Manual</value>
+  </data>
+  <data name="RightJobTitleOrganization" xml:space="preserve">
+    <value>Organization Job Titles Rights</value>
+  </data>
+  <data name="RightJobTitleOrganizations" xml:space="preserve">
+    <value>Organizations Job Titles Rights</value>
+  </data>
+  <data name="Exception" xml:space="preserve">
+    <value>Exception</value>
+  </data>
+  <data name="Exceptions" xml:space="preserve">
+    <value>Exceptions</value>
+  </data>
+  <data name="RightJobTitleProcess" xml:space="preserve">
+    <value>Process Job Titles Rights</value>
+  </data>
+  <data name="RightJobTitleProcesses" xml:space="preserve">
+    <value>Processes Job Titles Rights</value>
+  </data>
+  <data name="RightPersonIndicators" xml:space="preserve">
+    <value>Indicators Person Right</value>
+  </data>
+  <data name="RightPersonOrganization" xml:space="preserve">
+    <value>Organization Person Rights</value>
+  </data>
+  <data name="RightPersonOrganizationClassification" xml:space="preserve">
+    <value>Organization Classification Person Rights</value>
+  </data>
+  <data name="RightPersonOrganizationClassifications" xml:space="preserve">
+    <value>Organization Classifications Person Rights</value>
+  </data>
+  <data name="RightPersonOrganizations" xml:space="preserve">
+    <value>Organizations Person Rights</value>
+  </data>
+  <data name="RightPersonProcess" xml:space="preserve">
+    <value>Process Person Rights</value>
+  </data>
+  <data name="RightPersonProcessClassification" xml:space="preserve">
+    <value>Process Classification Person Rights</value>
+  </data>
+  <data name="RightPersonProcessClassifications" xml:space="preserve">
+    <value>Process Classifications Person Rights</value>
+  </data>
+  <data name="RightPersonProcesses" xml:space="preserve">
+    <value>Processes Person Rights</value>
+  </data>
+  <data name="ProcessTaskExecution" xml:space="preserve">
+    <value>Task Execution</value>
+  </data>
+  <data name="VersionFile" xml:space="preserve">
+    <value>Version File</value>
+  </data>
+  <data name="CalculationCertificate" xml:space="preserve">
+    <value>Certificate</value>
+  </data>
+  <data name="CalculationEstimate" xml:space="preserve">
+    <value>Forecasted</value>
+  </data>
+  <data name="ExceptionDate" xml:space="preserve">
+    <value>Exception Date</value>
+  </data>
+  <data name="Task" xml:space="preserve">
+    <value>Task</value>
+  </data>
+  <data name="TaskExecutionDate" xml:space="preserve">
+    <value>Task Execution Date</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>Statistics</value>
+  </data>
+  <data name="ExecutedBy" xml:space="preserve">
+    <value>Performed by</value>
+  </data>
+  <data name="ExceptionStateBuilding" xml:space="preserve">
+    <value>Building</value>
+  </data>
+  <data name="ExceptionTypeManual" xml:space="preserve">
+    <value>Manual Exception</value>
+  </data>
+  <data name="CalculationExtendedProperty" xml:space="preserve">
+    <value>Calculation Extended Property</value>
+  </data>
+  <data name="FormulaExtendedProperty" xml:space="preserve">
+    <value>Formula Extended Property</value>
+  </data>
+  <data name="IndicatorExtendedProperty" xml:space="preserve">
+    <value>Indicator's Extended Property</value>
+  </data>
+  <data name="OrganizationExtendedProperty" xml:space="preserve">
+    <value>Organization Extended Property</value>
+  </data>
+  <data name="ParameterGroupExtendedProperty" xml:space="preserve">
+    <value>Condition Extended Property</value>
+  </data>
+  <data name="ResourceExtendedProperty" xml:space="preserve">
+    <value>Resource Extended Property</value>
+  </data>
+  <data name="IdSector" xml:space="preserve">
+    <value>Id Sector</value>
+  </data>
+  <data name="Sectors" xml:space="preserve">
+    <value>Sectors</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="Facility_LG" xml:space="preserve">
+    <value>Facility Languages</value>
+  </data>
+  <data name="Facility_LG_Title" xml:space="preserve">
+    <value>Facility Language Information</value>
+  </data>
+  <data name="IdAddress" xml:space="preserve">
+    <value>Id Address</value>
+  </data>
+  <data name="IdParentSector" xml:space="preserve">
+    <value>Id Parent Sector</value>
+  </data>
+  <data name="IdTelephone" xml:space="preserve">
+    <value>Id Telephone</value>
+  </data>
+  <data name="Reason" xml:space="preserve">
+    <value>Reason</value>
+  </data>
+  <data name="Sector" xml:space="preserve">
+    <value>Sector</value>
+  </data>
+  <data name="Sector_LG" xml:space="preserve">
+    <value>Sector Languages</value>
+  </data>
+  <data name="Sector_LG_Title" xml:space="preserve">
+    <value>Sector Language Information</value>
+  </data>
+  <data name="Telephone" xml:space="preserve">
+    <value>Telephone</value>
+  </data>
+  <data name="ClearMap" xml:space="preserve">
+    <value>Clear Map</value>
+  </data>
+  <data name="DeleteLastPoint" xml:space="preserve">
+    <value>Delete Last Point</value>
+  </data>
+  <data name="DrawModeType" xml:space="preserve">
+    <value>Draw Mode:</value>
+  </data>
+  <data name="PickUpCoordsTitle" xml:space="preserve">
+    <value>Pick Up Coordinates</value>
+  </data>
+  <data name="Point" xml:space="preserve">
+    <value>Point</value>
+  </data>
+  <data name="Polygon" xml:space="preserve">
+    <value>Polygon</value>
+  </data>
+  <data name="Polyline" xml:space="preserve">
+    <value>Polyline</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="SearchLocationTitle" xml:space="preserve">
+    <value>Search for location (by city, state, country)</value>
+  </data>
+  <data name="Coordenates" xml:space="preserve">
+    <value>Coordenates</value>
+  </data>
+  <data name="Site" xml:space="preserve">
+    <value>Sites (Facility or Sector)</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="ConstantClassification" xml:space="preserve">
+    <value>Constant Classification</value>
+  </data>
+  <data name="IdConstant" xml:space="preserve">
+    <value>Id Constant</value>
+  </data>
+  <data name="IdConstantClassification" xml:space="preserve">
+    <value>Id Constant Classification</value>
+  </data>
+  <data name="IdParentConstantClassification" xml:space="preserve">
+    <value>Id Parent Constant Classification</value>
+  </data>
+  <data name="Symbol" xml:space="preserve">
+    <value>Symbol</value>
+  </data>
+  <data name="AccountingActivity" xml:space="preserve">
+    <value>Accounting Activity</value>
+  </data>
+  <data name="IdActivity" xml:space="preserve">
+    <value>Id Actividad</value>
+  </data>
+  <data name="IdParentActivity" xml:space="preserve">
+    <value>Id Actividad Superior</value>
+  </data>
+  <data name="AccountingScenario" xml:space="preserve">
+    <value>Accounting Scenario</value>
+  </data>
+  <data name="AccountingScope" xml:space="preserve">
+    <value>Accounting Scope</value>
+  </data>
+  <data name="AccountingSector" xml:space="preserve">
+    <value>Accounting Sector</value>
+  </data>
+  <data name="IdScenario" xml:space="preserve">
+    <value>Id Scenario</value>
+  </data>
+  <data name="IdScope" xml:space="preserve">
+    <value>Id Scope</value>
+  </data>
+  <data name="AccountingActivity_LG" xml:space="preserve">
+    <value>Accounting Activity Languages</value>
+  </data>
+  <data name="AccountingActivity_LG_Title" xml:space="preserve">
+    <value>Accounting Activity Language Information</value>
+  </data>
+  <data name="AccountingScenario_LG" xml:space="preserve">
+    <value>Accounting Scenario Languages</value>
+  </data>
+  <data name="AccountingScenario_LG_Title" xml:space="preserve">
+    <value>Accounting Scenario Language Information</value>
+  </data>
+  <data name="AccountingScope_LG" xml:space="preserve">
+    <value>Accounting Scope Languages</value>
+  </data>
+  <data name="AccountingScope_LG_Title" xml:space="preserve">
+    <value>Accounting Scope Language Information</value>
+  </data>
+  <data name="AccountingSector_LG" xml:space="preserve">
+    <value>Accounting Sector Languages</value>
+  </data>
+  <data name="AccountingSector_LG_Title" xml:space="preserve">
+    <value>Accounting Sector Language Information</value>
+  </data>
+  <data name="ConstantClassification_LG" xml:space="preserve">
+    <value>Constant Classification Languages</value>
+  </data>
+  <data name="ConstantClassification_LG_Title" xml:space="preserve">
+    <value>Constant Classification Language Information</value>
+  </data>
+  <data name="Constant_LG" xml:space="preserve">
+    <value>Constant Languages</value>
+  </data>
+  <data name="Constant_LG_Title" xml:space="preserve">
+    <value>Constant Language Information</value>
+  </data>
+  <data name="comboboxselectitemconstantclassifications" xml:space="preserve">
+    <value>Select an Constant Classification</value>
+  </data>
+  <data name="Definition" xml:space="preserve">
+    <value>Definition</value>
+  </data>
+  <data name="Limitation" xml:space="preserve">
+    <value>Limitation</value>
+  </data>
+  <data name="Scope" xml:space="preserve">
+    <value>Scope</value>
+  </data>
+  <data name="GWP" xml:space="preserve">
+    <value>Global Warming Potencial (GWP)</value>
+  </data>
+  <data name="IndicatorGHG" xml:space="preserve">
+    <value>Indicator GHG</value>
+  </data>
+  <data name="IndicatorGHGSubstance" xml:space="preserve">
+    <value>Indicator GHG Substance</value>
+  </data>
+  <data name="IndicatorStd" xml:space="preserve">
+    <value>Indicator Standard</value>
+  </data>
+  <data name="LowerLimit" xml:space="preserve">
+    <value>Lower Limit</value>
+  </data>
+  <data name="Uncertainty" xml:space="preserve">
+    <value>Uncertainty</value>
+  </data>
+  <data name="UpperLimit" xml:space="preserve">
+    <value>Upper Limit</value>
+  </data>
+  <data name="FacilityType" xml:space="preserve">
+    <value>Facility Type</value>
+  </data>
+  <data name="FacilityType_LG" xml:space="preserve">
+    <value>Facility Type Languages</value>
+  </data>
+  <data name="FacilityType_LG_Title" xml:space="preserve">
+    <value>Facility Type Language Information</value>
+  </data>
+  <data name="IdFacilityType" xml:space="preserve">
+    <value>Id Facility Type</value>
+  </data>
+  <data name="IdMethodology" xml:space="preserve">
+    <value>Id Methodology</value>
+  </data>
+  <data name="IdQuality" xml:space="preserve">
+    <value>Id Quality</value>
+  </data>
+  <data name="Methodologies" xml:space="preserve">
+    <value>Methodologies</value>
+  </data>
+  <data name="Methodology" xml:space="preserve">
+    <value>Methodology</value>
+  </data>
+  <data name="Methodology_LG" xml:space="preserve">
+    <value>Methodology Languages</value>
+  </data>
+  <data name="Methodology_LG_Title" xml:space="preserve">
+    <value>Methodology Language Information</value>
+  </data>
+  <data name="Qualities" xml:space="preserve">
+    <value>Qualities</value>
+  </data>
+  <data name="Quality" xml:space="preserve">
+    <value>Quality</value>
+  </data>
+  <data name="Quality_LG" xml:space="preserve">
+    <value>Quality Languages</value>
+  </data>
+  <data name="Quality_LG_Title" xml:space="preserve">
+    <value>Quality Language Information</value>
+  </data>
+  <data name="MethodType" xml:space="preserve">
+    <value>Method Type</value>
+  </data>
+  <data name="MeasurementFrequencyAtSource" xml:space="preserve">
+    <value>Frequency at source</value>
+  </data>
+  <data name="MeasurementSource" xml:space="preserve">
+    <value>Source of measurement data</value>
+  </data>
+  <data name="Operand" xml:space="preserve">
+    <value>Operand</value>
+  </data>
+  <data name="Operands" xml:space="preserve">
+    <value>Operands</value>
+  </data>
+  <data name="SelectSourceType" xml:space="preserve">
+    <value>Select Source Type</value>
+  </data>
+  <data name="Transformation" xml:space="preserve">
+    <value>Transformation</value>
+  </data>
+  <data name="Variable" xml:space="preserve">
+    <value>Variable</value>
+  </data>
+  <data name="Transformations" xml:space="preserve">
+    <value>Transformations</value>
+  </data>
+  <data name="IdTransformation" xml:space="preserve">
+    <value>Id Transformation</value>
+  </data>
+  <data name="IdLetter" xml:space="preserve">
+    <value>Id Letter</value>
+  </data>
+  <data name="Letter" xml:space="preserve">
+    <value>Letter</value>
+  </data>
+  <data name="Base" xml:space="preserve">
+    <value>Base</value>
+  </data>
+  <data name="FormulaExample" xml:space="preserve">
+    <value>Formula Example</value>
+  </data>
+  <data name="Transformation_LG" xml:space="preserve">
+    <value>Transformation Languages</value>
+  </data>
+  <data name="Transformation_LG_Title" xml:space="preserve">
+    <value>Transformation Language Information</value>
+  </data>
+  <data name="TransformationByTransformation" xml:space="preserve">
+    <value>Transformation</value>
+  </data>
+  <data name="TransformationByTransformation_LG" xml:space="preserve">
+    <value>Transformation Languages</value>
+  </data>
+  <data name="TransformationByTransformation_LG_Title" xml:space="preserve">
+    <value>Transformation Language Information</value>
+  </data>
+  <data name="Report" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="Reports" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="NotificationRecipients" xml:space="preserve">
+    <value>Notification Recipients</value>
+  </data>
+  <data name="SelectEmailsPersontoNotify" xml:space="preserve">
+    <value>Select the e-mails person to notify:</value>
+  </data>
+  <data name="UndeclaredEmail" xml:space="preserve">
+    <value>Or undeclared Emails:</value>
+  </data>
+  <data name="ResourceFiles" xml:space="preserve">
+    <value>Resource Files</value>
+  </data>
+  <data name="Forum_LG" xml:space="preserve">
+    <value>Forum Languages</value>
+  </data>
+  <data name="Forum_LG_Title" xml:space="preserve">
+    <value>Forum Language Information</value>
+  </data>
+  <data name="TotalActivityChartbyGas" xml:space="preserve">
+    <value>Total Activity Chart by Gas</value>
+  </data>
+  <data name="TotalGasChart" xml:space="preserve">
+    <value>Total Gas Chart</value>
+  </data>
+  <data name="TotalGasChartbyActivity" xml:space="preserve">
+    <value>Total Gas Chart by Activity</value>
+  </data>
+  <data name="TotaltnCO2ChartbyActivity" xml:space="preserve">
+    <value>Total tnCO2 Chart by Activity</value>
+  </data>
+  <data name="KeyIndicator" xml:space="preserve">
+    <value>Measurement</value>
+  </data>
+  <data name="FacilitiesByProcess" xml:space="preserve">
+    <value>Facilities By Process</value>
+  </data>
+  <data name="Observatory" xml:space="preserve">
+    <value>Observatory</value>
+  </data>
+  <data name="TaskWithoutFacility" xml:space="preserve">
+    <value>Task Without Facilities</value>
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="FilterTitlePopUp" xml:space="preserve">
+    <value>Filter for Facility Type</value>
+  </data>
+  <data name="StartDateRescheduled" xml:space="preserve">
+    <value>Start Date Rescheduled</value>
+  </data>
+  <data name="comboboxselectitemaccountingactivities" xml:space="preserve">
+    <value>Select a Accounting Activity</value>
+  </data>
+  <data name="comboboxselectitemFacilityTypes" xml:space="preserve">
+    <value>Select a Facility Types</value>
+  </data>
+  <data name="comboboxselectitemMethodologies" xml:space="preserve">
+    <value>Select a Methodology</value>
+  </data>
+  <data name="OrganizationRelationship" xml:space="preserve">
+    <value>Organization Relationship</value>
+  </data>
+  <data name="ProcessTaskExecutionExecuted" xml:space="preserve">
+    <value>Tasks Executed</value>
+  </data>
+  <data name="TransformationSeries" xml:space="preserve">
+    <value>Transformation's Series</value>
+  </data>
+  <data name="TransformationSeriesSubTitle" xml:space="preserve">
+    <value>Selected transformation's data series</value>
+  </data>
+  <data name="TotalScopeByIndicator" xml:space="preserve">
+    <value>Total tCO2e by Scope</value>
+  </data>
+  <data name="FilterDate" xml:space="preserve">
+    <value>Filter Date</value>
+  </data>
+  <data name="ChartBarGasesActivityByScope" xml:space="preserve">
+    <value>Gases by Accounting Activity for Scope:</value>
+  </data>
+  <data name="ChartBarGasesFacilityTypeByScope" xml:space="preserve">
+    <value>Gases by Facility Type for Scope:</value>
+  </data>
+  <data name="ChartBarGasesStateByScope" xml:space="preserve">
+    <value>Gases by State for Scope:</value>
+  </data>
+  <data name="TotalScopeByFacility" xml:space="preserve">
+    <value>Total tCO2e by Scope by Facility</value>
+  </data>
+  <data name="ScriptEngine" xml:space="preserve">
+    <value>Script Engine</value>
+  </data>
+  <data name="DataSeriesOf" xml:space="preserve">
+    <value>Data Series of:</value>
+  </data>
+  <data name="NoActivity" xml:space="preserve">
+    <value>No Activity</value>
+  </data>
+  <data name="Operative" xml:space="preserve">
+    <value>Operative</value>
+  </data>
+  <data name="CollectionFrequency" xml:space="preserve">
+    <value>Collection Frequency</value>
+  </data>
+  <data name="DataFrequency" xml:space="preserve">
+    <value>Data Frequency</value>
+  </data>
+  <data name="AccountingActivities" xml:space="preserve">
+    <value>Accounting Activities</value>
+  </data>
+  <data name="AccountingScenarios" xml:space="preserve">
+    <value>Accounting Scenarios</value>
+  </data>
+  <data name="AccountingScopes" xml:space="preserve">
+    <value>Accounting Scopes</value>
+  </data>
+  <data name="ConstantClassifications" xml:space="preserve">
+    <value>Constant Classifications</value>
+  </data>
+  <data name="Constants" xml:space="preserve">
+    <value>Constants</value>
+  </data>
+  <data name="FacilityTypes" xml:space="preserve">
+    <value>Facility Types</value>
+  </data>
+  <data name="TimeUnits" xml:space="preserve">
+    <value>Time Units</value>
+  </data>
+  <data name="ContactMessengerApplications" xml:space="preserve">
+    <value>Contact Messenger Applications</value>
+  </data>
+  <data name="comboboxselectitemresourceclassifications" xml:space="preserve">
+    <value>Select a Resource</value>
+  </data>
+  <data name="IconName" xml:space="preserve">
+    <value>Icon Name</value>
+  </data>
+  <data name="Municipality" xml:space="preserve">
+    <value>Municipality</value>
+  </data>
+  <data name="Province" xml:space="preserve">
+    <value>Province</value>
+  </data>
+  <data name="ConfigurationExcelFile" xml:space="preserve">
+    <value>Configuration Excel File</value>
+  </data>
+  <data name="ConfigurationExcelFiles" xml:space="preserve">
+    <value>Configuration Excel Files</value>
+  </data>
+  <data name="DatesIndexStart" xml:space="preserve">
+    <value>Where is the start date (column or row)</value>
+  </data>
+  <data name="IsDataRows" xml:space="preserve">
+    <value>Value in Row</value>
+  </data>
+  <data name="StartIndexOfDataCols" xml:space="preserve">
+    <value>Initial column</value>
+  </data>
+  <data name="StartIndexOfDataRows" xml:space="preserve">
+    <value>Starting Row</value>
+  </data>
+  <data name="IndexMeasurement" xml:space="preserve">
+    <value>Where is the measurement?</value>
+  </data>
+  <data name="IdExcelFile" xml:space="preserve">
+    <value>Id Excel File</value>
+  </data>
+  <data name="ScriptDiesel" xml:space="preserve">
+    <value>Script Diesel</value>
+  </data>
+  <data name="ScriptElectricity" xml:space="preserve">
+    <value>Script Electricity</value>
+  </data>
+  <data name="ScriptFuelOil" xml:space="preserve">
+    <value>Script Fuel Oil</value>
+  </data>
+  <data name="ScriptGasoline" xml:space="preserve">
+    <value>Script Gasoline</value>
+  </data>
+  <data name="ScriptKerosene" xml:space="preserve">
+    <value>Script Kerosene</value>
+  </data>
+  <data name="ScriptNaturalGas" xml:space="preserve">
+    <value>Script Natural Gas</value>
+  </data>
+  <data name="FilterTitlePopUpProcess" xml:space="preserve">
+    <value>Filter for Process Type</value>
+  </data>
+  <data name="ProcessTypeOrganizational" xml:space="preserve">
+    <value>Organizational</value>
+  </data>
+  <data name="ProcessTypePersonnel" xml:space="preserve">
+    <value>Personnel</value>
+  </data>
+  <data name="ProcessTypeProductive" xml:space="preserve">
+    <value>Productive</value>
+  </data>
+  <data name="ProcessTypeSectorial" xml:space="preserve">
+    <value>Sectorial</value>
+  </data>
+  <data name="ProcessTypeTerritorial" xml:space="preserve">
+    <value>Territorial</value>
+  </data>
+  <data name="CommunityByMunicipalities" xml:space="preserve">
+    <value>Community by Municipalities</value>
+  </data>
+  <data name="CommunityByProvincials" xml:space="preserve">
+    <value>Community by Provincials</value>
+  </data>
+  <data name="BulkLoad" xml:space="preserve">
+    <value>Bulk Load</value>
+  </data>
+  <data name="AuditPlan" xml:space="preserve">
+    <value>Audit Plan</value>
+  </data>
+  <data name="FilterPopupActivity" xml:space="preserve">
+    <value>Filter Accounting Activity</value>
+  </data>
+  <data name="MeasurementAttach" xml:space="preserve">
+    <value>Measurement Attach</value>
+  </data>
+  <data name="ProcessTaskMeasurement_LG" xml:space="preserve">
+    <value>Process Task Measurement Languages</value>
+  </data>
+  <data name="ProcessTaskMeasurement_LG_Title" xml:space="preserve">
+    <value>Process Task Measurement Language Information</value>
+  </data>
+  <data name="Attachments" xml:space="preserve">
+    <value>Attachments</value>
+  </data>
+  <data name="UpdateDataSeries" xml:space="preserve">
+    <value>Update Data Series</value>
+  </data>
+  <data name="AdvanceNotice" xml:space="preserve">
+    <value>Reminder</value>
+  </data>
+  <data name="TimeUnitAdvanceNotice" xml:space="preserve">
+    <value>Reminder Time Unit</value>
+  </data>
+  <data name="IdExecutionMeasurement" xml:space="preserve">
+    <value>Execution Measurement Id</value>
+  </data>
+  <data name="Year" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="CommunityByOrganizations" xml:space="preserve">
+    <value>Community by Organizations</value>
+  </data>
+  <data name="CommunityByCountriesBack" xml:space="preserve">
+    <value>Back to Community by Countries</value>
+  </data>
+  <data name="CommunityByMunicipalitiesBack" xml:space="preserve">
+    <value>Back to Community by Municipalities</value>
+  </data>
+  <data name="CommunityByOrganizationsBack" xml:space="preserve">
+    <value>Back to Community by Organizations</value>
+  </data>
+  <data name="CommunityByProvincialsBack" xml:space="preserve">
+    <value>Back to Community by Provincials</value>
+  </data>
+  <data name="DatesIndexEnd" xml:space="preserve">
+    <value>Where is the end date (column or row)</value>
+  </data>
+  <data name="IndexMeasurementDate" xml:space="preserve">
+    <value>Where is the measurement date?</value>
+  </data>
+  <data name="MeasureValue" xml:space="preserve">
+    <value>Measured Values</value>
+  </data>
+  <data name="ValidityPeriod" xml:space="preserve">
+    <value>Valid Period</value>
+  </data>
+  <data name="DataForThePeriod" xml:space="preserve">
+    <value>Data for the Period</value>
+  </data>
+  <data name="IndicatorTracker" xml:space="preserve">
+    <value>Indicator Tracker</value>
+  </data>
+  <data name="FacilityAnalyzer" xml:space="preserve">
+    <value>Facility Analyzer</value>
+  </data>
+  <data name="UseGlobalMenu" xml:space="preserve">
+    <value>View Global Menu</value>
+  </data>
+  <data name="MultiObservatory" xml:space="preserve">
+    <value>Multi Observatory</value>
+  </data>
+</root>

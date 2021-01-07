@@ -1,0 +1,939 @@
+﻿html
+{
+	height: 100%;
+	overflow: hidden;
+}
+body
+{
+	height: 100%;
+	margin: 0px;
+	font-size: 10px;
+	background-color: #FFF;
+}
+input, textarea, button  
+{  
+   visibility: visible !important;  
+}  
+ /* Estrucutra de Scrolls De Content (Scroll vertical & Hoeizontal) */
+#FWContent
+{
+	/*padding: 10px 10px 0 10px;*/
+	text-align:center;
+}
+
+#FWContentTable
+{
+
+	width: 100%;
+	text-align: left;
+}
+#FWContentTable
+{
+
+	//width: 98%;
+	text-align: left;
+}
+.Loading
+{
+	background-repeat: no-repeat;
+	background-position: center center;
+	-ms-background-position-x:center;
+	-ms-background-position-y:center;
+	background-color: #FFFFFF;
+	height: 100%;
+	width: 100%;
+	filter:alpha(opacity=70);
+	-ms-filter:alpha(opacity=70);
+	-moz-opacity:.70;
+	opacity:.70;
+	position: fixed;
+	visibility: visible;
+	z-index: 999999;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	margin: 0px;
+	overflow: visible;
+}      
+
+/* Common Styles 
+.FwButton{
+	text-align:center;
+	background-image: url(Images/Background/Button.gif);
+	border: solid 1px #98C5DB;
+	font-family: Verdana, Arial;
+	font-size: 10px;
+	padding: 0px;
+	height: 17px;
+	color: #307EB4;
+}
+.FwButton:hover
+{
+	color: #333;
+
+}
+*/
+/* Look & Feel */
+
+/*.principalText, 
+#masterTableHeader .tdRight,
+#masterTableHeader a, 
+#masterTableFooter
+{
+	color: #fff;
+	text-decoration: none;
+}
+#masterTableHeader a:hover
+{
+	text-decoration: underline;
+} 
+.contentFrameBackground,
+#masterTableContentToolbar,
+#masterTableContentPageTitle,
+#masterTableGlobalToolbar,
+#masterBreadCrumb,
+.ContentNavigator,
+#masterTableContentStatusBar,
+.GlobalNavigator,
+#masterTableContentPlaceHolderContainer,
+#masterTableContentToolbarSave
+{
+	background: #dad8d8;
+	border-color:#cccccc;
+}
+.secondaryText, 
+#masterTableHeader .tdLeft .divUserName
+{
+	color: #307EB4;
+	text-decoration: none;	
+}*/
+/* END - Look & Feel */
+
+/* Structure */
+.textAlign
+{
+	text-align: center;
+}
+
+.paddingToolbar,
+#masterTableContentPlaceHolderContainer #divContent,
+.ContentNavigator .innerContainer
+{
+	padding-right: 17px;
+}
+/* END - Structure */
+/* END - Common Base Styles */
+
+#masterMainTable
+{
+	width: 100%;
+	padding: 0px;
+}
+
+
+#masterTableGlobalToolbar .GlobalToolbarDashboard,
+#masterTableGlobalToolbar .GlobalToolbarDashboardOpen,
+#masterTableGlobalToolbar .GlobalToolbarModule,
+#masterTableGlobalToolbar .GlobalToolbarModuleOpen,
+#masterTableGlobalToolbar .GlobalToolbarSearch,
+#masterTableGlobalToolbar .GlobalToolbarSearchOpen,
+#masterTableGlobalToolbar .GlobalToolbarOperativeDash,
+#masterTableGlobalToolbar .GlobalToolbarOperativeDashOpen,
+.GlobalNavigator .globalNavigatorButtonMap,
+.GlobalNavigator .globalNavigatorButtonMapOpen,
+.GlobalNavigator .globalNavigatorButtonMapHidden,
+.GlobalNavigator .globalNavigatorButtonConfig,
+.GlobalNavigator .globalNavigatorButtonConfigHidden,
+.GlobalNavigator .globalNavigatorButtonConfigOpen,
+#masterTableContentToolbar .contentToolbarGRC,
+#masterTableContentToolbar .contentToolbarGRCOpen,
+#masterTableContentToolbar .contentToolbarOption,
+#masterTableContentToolbar .contentToolbarOptionOpen,
+#masterTableContentToolbar .contentToolbarSecurity,
+#masterTableContentToolbar .contentToolbarSecurityOpen,
+#masterTableContentToolbar .contentToolbarMap,
+#masterTableContentToolbar .contentToolbarMapOpen,
+#masterTableContentToolbarSave .contentToolbarReturn,
+#masterTableContentToolbarSave .contentToolbarNext,
+#masterTableContentToolbarSave .contentToolbarSave
+{
+	margin: 2px 0 2px 0;
+}
+
+
+/* Header Table */
+
+#masterTableHeader
+{
+	height: 38px;
+	/*padding: 0px;*/
+	vertical-align: top;
+}
+
+#masterTableHeader .LogoCompany
+{
+	background-repeat:no-repeat;
+	/*background-position:  -10px -137px;
+	-ms-background-position-x:-10px;
+	-ms-background-position-y:-137px;*/
+	width: 280px;
+	height: 36px;
+	background-position: left 5px
+}
+
+#masterTableHeader table
+{
+	width: 100%;
+}
+#masterTableHeader .tdLeft
+{
+	vertical-align: top;
+}
+#masterTableHeader .tdRight
+{
+	padding: 0 10px 0 0; 
+	vertical-align: top;
+	background-position:  0px -73px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-73px;
+	width: 390px;
+	height: 38px;
+	/*-*/
+	text-align: right;
+}
+#masterTableHeader .tdRight #divCloseSession
+{
+	margin: 35px 0 0 0;
+	/*-*/	
+	text-align: right;
+}
+#masterTableHeader .tdRight #divCloseSession a:hover
+{
+	text-decoration: underline;
+}
+/* END - Header Table */
+
+/* Master Footer */
+#masterTableFooter
+{
+	background-repeat:repeat-x;
+	background-position: 0px 0px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:0px;
+	height: 27px;
+	/*-*/
+	text-align: center;
+	font-size: 9px;
+}
+#masterTableFooter span
+{
+	line-height: 27px;
+	display: inline-block;
+	}
+/* END - Master Footer */
+
+
+/* Toolbars */
+.toolbar, 
+#masterTableGlobalToolbar, 
+#masterTableContentToolbar,
+#masterTableContentToolbarSave,
+.ContentFormulaGrid .Popup .ContentNavigator
+{
+ width: 25px;
+ //width: 30px;
+ max-width: 25px;
+ min-width: 25px;
+ //max-width: 30px;
+ //min-width: 30px;
+ border-right: 1px solid;
+ vertical-align: top;
+ /*-*/
+ //text-align: center;
+ //display:inline-block;
+ padding-left: 5px;
+ //padding-left: 0px;
+}
+#masterTableGlobalToolbar input, 
+#masterTableContentToolbar input,
+#masterTableContentToolbarSave input
+{
+	//display:block;
+}
+
+#masterTableContentToolbarSave,
+.ContentFormulaGrid .Popup .ContentNavigator
+{
+	vertical-align: bottom;
+}
+
+/* Global Toolbar */
+#masterTableGlobalToolbar
+{
+	border: 1px solid;
+	padding-top: 3px;
+}
+#masterTableGlobalToolbar .GlobalToolbarDashboard
+{
+	background-position: 0px -1240px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-1240px;
+}
+#masterTableGlobalToolbar .GlobalToolbarDashboard:hover
+{
+	background-position: 0px -1260px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-1260px;
+}
+#masterTableGlobalToolbar .GlobalToolbarDashboardOpen
+{
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-1280px;
+	background-position: 0px -1280px;
+}
+#masterTableGlobalToolbar .GlobalToolbarModule
+{
+	background-position: 0px -60px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-60px;
+}
+#masterTableGlobalToolbar .GlobalToolbarModule:hover
+{
+	background-position: 0px -80px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-80px;
+}
+#masterTableGlobalToolbar .GlobalToolbarModuleOpen
+{
+	background-position: 0px -100px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-100px;
+}
+#masterTableGlobalToolbar .GlobalToolbarSearch
+{
+	background-position: 0px -120px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-120px;
+}
+#masterTableGlobalToolbar .GlobalToolbarSearch:hover
+{
+	background-position: 0px -140px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-140px;
+}
+#masterTableGlobalToolbar .GlobalToolbarSearchOpen
+{
+	background-position: 0px -160px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-160px;
+}
+#masterTableGlobalToolbar .GlobalToolbarOperativeDash
+{
+	background-position: 0px 0px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:0px;
+}
+#masterTableGlobalToolbar .GlobalToolbarOperativeDash:hover
+{
+	background-position: 0px -20px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-20px;
+}
+#masterTableGlobalToolbar .GlobalToolbarOperativeDashOpen
+{
+	background-position: 0px -40px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-40px;
+}
+/* END - Global Toolbar */
+
+/* ContentToolbar */
+#masterTableContentToolbar
+{
+	
+	/* Border Fix - Para emparejar las lineas, la overrideo con el color = backColor */
+	/* y crea la ilusion de no estar y fusionarse con el resto del Table FW			 */
+	/*border-top: 1px solid #dad8d8;*/
+}
+
+#masterTableContentToolbar .contentToolbarGRC
+{
+	background-position: 0px -460px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-460px;
+}
+#masterTableContentToolbar .contentToolbarGRC:hover
+{
+	background-position: -0px -480px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-480px;
+}
+#masterTableContentToolbar .contentToolbarGRCOpen
+{
+	background-position: 0px -500px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-500px;
+}
+#masterTableContentToolbar .contentToolbarOption
+{
+	background-position: 0px -400px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-400px;
+}
+#masterTableContentToolbar .contentToolbarOption:hover
+{
+	background-position: 0px -420px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-420px;
+}
+#masterTableContentToolbar .contentToolbarOptionOpen
+{
+	background-position: 0px -440px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-440px;
+}
+#masterTableContentToolbar .contentToolbarMap
+{
+	background-position: 0px -640px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-640px;
+}
+#masterTableContentToolbar .contentToolbarMap:hover
+{
+	background-position: 0px -660px;	
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-660px;
+}
+#masterTableContentToolbar .contentToolbarMapOpen
+{
+	background-position: 0px -680px;	
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-680px;
+}
+#masterTableContentToolbar .contentToolbarSecurity
+{
+	background-position: 0px -520px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-520px;
+}
+#masterTableContentToolbar .contentToolbarSecurity:hover
+{
+	background-position: 0px -540px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-540px;
+}
+#masterTableContentToolbar .contentToolbarSecurityOpen
+{
+	background-position: 0px -560px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-560px;
+}
+#masterTableContentToolbarSave .contentToolbarReturn
+{
+	background-position: 0px -760px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-760px;
+}
+#masterTableContentToolbarSave .contentToolbarReturn:hover
+{
+	background-position: 0px -780px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-780px;
+}
+#masterTableContentToolbarSave .contentToolbarNext
+{
+	background-position: 0px -800px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-800px;
+}
+#masterTableContentToolbarSave .contentToolbarNext:hover
+{
+	background-position: 0px -820px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-820px;
+}
+#masterTableContentToolbarSave .contentToolbarSave
+{
+	background-position: 0px -840px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-840px;
+	margin-bottom: 10px;
+}
+#masterTableContentToolbarSave .contentToolbarSave:hover
+{
+	background-position: 0px -860px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-860px;
+}
+
+/* END ContentToolbar */
+/* END - Toolbars */
+
+/* Content Table */
+#masterTableContent
+{
+	padding: 0px;
+	vertical-align: top;
+}
+
+#masterTableContentPlaceHolderContainer
+{
+	border: 1px solid;
+	text-align: left;
+}
+
+#masterTableContentPlaceHolderContainer #divContent
+{
+	overflow:  auto;
+	padding: 0 0 0 0; 
+	position: relative;
+	/*background-color: #fff;*/
+	
+}
+/* Margen Izquierdo y Derecho para el Content a nivel de TDs */
+.masterTableContentSeparationH
+{
+	height: 3px;
+}
+.masterTableContentSeparationV
+{
+	width: 3px;
+}
+/* - END Margenes - */
+
+
+/* BradCrumb */
+#masterBreadCrumb
+{
+	line-height: 15px;
+	padding:4px 3px 0 3px;
+}
+#masterBreadCrumb
+{
+	border: 1px solid;
+	//height: 26px;
+	//padding: 2px 3px 0 3px;
+	//line-height: 26px;
+	/*-*/
+	/*color: #4A505B;*/
+}
+#masterBreadCrumb .breadCrumbNavigateButtonBack
+{
+	background-position: 0px -180px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-180px;
+}
+#masterBreadCrumb .breadCrumbNavigateButtonBack:hover
+{
+	background-position: 0px -220px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-220px;
+}
+#masterBreadCrumb .breadCrumbNavigateButtonBackDisabled
+{
+	background-position: -0px -200px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-200px;
+}
+#masterBreadCrumb .breadCrumbNavigateButtonNext
+{
+	background-position: 0px -240px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-240px;
+}
+#masterBreadCrumb .breadCrumbNavigateButtonNext:hover
+{
+	background-position: 0px -280px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-280px;
+}
+#masterBreadCrumb .breadCrumbNavigateButtonNextDisabled
+{
+	background-position: 0px -260px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-260px;
+}
+
+#masterBreadCrumb .breadCrumbNavigateButtonHistory
+{
+	background-position: 0px -300px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-300px;
+}
+#masterBreadCrumb .breadCrumbNavigateButtonHistory:hover
+{
+	background-position: 0px -320px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-320px;
+}
+#masterBreadCrumb .breadCrumbNavigateButtonHistoryOpen
+{
+	background-position: -0px -340px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-340px;
+}
+#masterBreadCrumb .breadCrumbNavigateButtonSet
+{
+	background-position: 0px -2020px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-2020px;
+}
+#masterBreadCrumb .breadCrumbNavigateButtonSet:hover
+{
+	background-position: 0px -2040px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-2040px;
+}
+
+#masterBreadCrumb .breadCrumbNavigateButtonSetOpen
+{
+	background-position: -0px -2060px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-2060px;
+}
+#masterBreadCrumb .breadCrumbCurrent,
+#masterBreadCrumb .breadCrumbCurrent a
+{
+	padding-left: 3px;
+	/*-*/		
+	vertical-align: 5px;
+	text-decoration: none;
+	/*color: #4A505B;*/
+}
+#masterBreadCrumb .breadCrumbCurrent:hover, 
+#masterBreadCrumb .breadCrumbCurrentOpen
+{
+	padding-left: 3px;
+	vertical-align: 5px;
+	/*-*/
+	/*color: #4A505B;*/	
+}
+
+/* User&Closed */
+#masterBreadCrumb .masterUser,
+#masterBreadCrumb .masterUser span
+{
+	text-align: right;
+	vertical-align: 5px;
+}
+#masterBreadCrumb .masterUser span
+{
+	padding-right: 6px;
+}
+#masterBreadCrumb .LogOff
+{
+	background-position: 0px -360px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-360px;
+}
+#masterBreadCrumb .LogOff:hover
+{
+	background-position: 0px -380px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-380px;
+}
+
+/* END User&Closed */
+
+/* History List */
+#breadCrumbHistoryList
+{
+	position: absolute;
+	z-index: 2;
+	padding: 5px 25px 7px 10px;
+	border: 1px solid;
+	/*background-color: #FFFFFF;*/
+	max-height: 200px;
+	min-width: 250px;
+	overflow: scroll;
+	overflow-x:  hidden;	
+}
+
+.HistoryListItem,
+#breadCrumbHistoryList a,
+#breadCrumbHistoryList span
+{
+	display: block;
+	padding: 3px 0 0 0;
+	/*color: #888;*/
+}
+
+#breadCrumbHistoryList a
+{
+	/*text-decoration: none;*/
+}
+
+#breadCrumbHistoryList a:hover
+{
+	/*color: #333;*/
+}
+
+/* Seria el Current Item (Label) */
+#breadCrumbHistoryList span
+{
+	
+	/*font-weight: bold;
+	color: #666;*/
+}
+/* END History List*/
+/* END BreadCrumb */
+
+#breadCrumbContextInfoPathList
+{
+	position: absolute;
+	z-index: 0;
+	padding: 5px 25px 7px 10px;
+	border: 1px solid #ccc;
+	background-color: #FFFFFF;
+	max-height: 200px;
+	min-width: 250px;
+	overflow: scroll;
+	overflow-x:  hidden;
+}
+
+.HistoryListItem,
+#breadCrumbContextInfoPathList a,
+#breadCrumbContextInfoPathList span
+{
+	display: block;
+	padding: 3px 0 0 0;
+	color: #666;
+}
+
+#breadCrumbContextInfoPathList a
+{
+	text-decoration: none;
+}
+#breadCrumbContextInfoPathList a:hover
+{
+	color: #4A505B;
+}
+
+/* Seria el Current Item (Label) */
+#breadCrumbContextInfoPathList span
+{
+	font-weight: bold;
+}
+
+/* Page Title */
+
+#masterTableContentPageTitle
+{
+	height: 60px;
+	border-left: 1px solid;
+	border-top: 1px solid;
+	border-right: 1px solid;
+}
+
+/* END Page Title */
+
+/* Global Navigator */
+
+.GlobalNavigator
+{
+	width: 300px;
+	border: 1px solid #ccc;
+	vertical-align: top;
+	padding-left: 15px;
+	padding-right: 15px;
+	z-index: 200;
+	position: absolute;
+	padding-bottom: 1px;
+	//padding-bottom: 3px;
+}
+
+.GlobalNavigator .globalNavigatorButtonMap
+{
+	background-position: 0px -1060px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-1060px;
+	margin: 0 3px 0 0;
+}
+.GlobalNavigator .globalNavigatorButtonMapHidden
+{
+	background-position: 0px -1060px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-1060px;
+	margin: 0 3px 0 0;
+	display:none;
+}
+.GlobalNavigator .globalNavigatorButtonMap:hover
+{
+	background-position: 0px -1080px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-1080px;
+}
+
+.GlobalNavigator .globalNavigatorButtonMapOpen
+{
+	background-position: 0px -1100px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-1100px;
+	margin: 0 3px 0 0;
+}
+.GlobalNavigator .globalNavigatorButtonConfig
+{
+	background-position: 0px -1000px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-1000px;
+	margin: 0 7px 0 0;
+}
+.GlobalNavigator .globalNavigatorButtonConfigHidden
+{
+	background-position: 0px -1000px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-1000px;
+	margin: 0 7px 0 0;
+	display:none;
+}
+.GlobalNavigator .globalNavigatorButtonConfig:hover
+{
+	background-position: -0px -1020px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-1020px;
+}
+
+.GlobalNavigator .globalNavigatorButtonConfigOpen
+{
+	background-position: 0px -1040px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-1040px;
+	margin: 0 7px 0 0;
+}
+.GlobalNavigator .globalNavigatorButtonDocked
+{
+	background-position: 0px -16px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:-16px;
+	height: 10px;
+	width: 10px;
+	margin-bottom: 6px;
+	margin-left: 2px;
+}
+.GlobalNavigator .globalNavigatorButtonUnDocked
+{
+	background-position: 0px 0px;
+	-ms-background-position-x:0px;
+	-ms-background-position-y:0px;
+	height: 10px;
+	width: 10px;
+	margin-bottom: 6px;
+	margin-left: 2px;
+}
+.GlobalNavigatorInnerWidth,
+.GlobalNavigator .Title,
+.GlobalNavigator .headerToolBar,
+.GlobalNavigator .innerContainer
+{
+	text-align:left;
+}
+
+.GlobalNavigator .Table
+{
+	border: 0px;
+	border-spacing: 0px;
+	border-width: 0px;
+	border-collapse: collapse;
+	height: 26px;
+	margin-top: 6px;
+	//margin-top: 2px;
+}
+
+.GlobalNavigator .Title,
+.GlobalNavigator .headerToolBar
+{
+	display: block;
+	line-height: 22px;
+	/*font-weight: 700;
+	color: #666666;*/
+}
+
+.GlobalNavigator .innerContainer {
+	/*background-color: #FFFFFF;
+	border: 1px solid #ccc;*/
+	overflow: auto;
+	white-space: nowrap;
+	padding: 10px 10px 10px 10px;
+	margin-top: 0px;
+}
+/* END Global Navigator */
+
+/* Content Navigator */
+
+.ContentNavigator
+{
+	width: 300px;
+	border-left: 1px solid;
+	text-align:center;
+	vertical-align: top;
+}
+
+.ContentNavigatorInnerWidth,
+.ContentNavigator .Title,
+.ContentNavigator .headerToolBar,
+.ContentNavigator .innerContainer
+{
+	text-align:left;
+}
+
+
+.ContentNavigator .Title,
+.ContentNavigator .headerToolBar
+{
+
+	display: block;
+	/*font-weight: 700;
+	color: #4E8CB0;*/
+	height: 50px;
+}
+
+/*.ContentNavigator .Title
+{
+	display: block;
+	font-weight: 700;
+	color: #4E8CB0;
+}*/
+
+.ContentNavigator .innerContainer {
+	/*background-color: #FFFFFF;
+	border: 1px solid #C2DEF0;*/
+	overflow: auto;
+	white-space: nowrap;
+	padding: 10px 10px 10px 10px;
+}
+
+/* END Content Navigator */
+
+/* Status Bar */
+
+#masterTableContentStatusBar
+{
+	border-left: 1px solid;
+	border-right: 1px solid;
+	border-bottom: 1px solid;
+	height: 28px;
+}
+#masterTableContentStatusBar img
+{
+	vertical-align: -5px;
+	margin: 5px 5px;
+}
+
+#masterTableContentStatusBar span
+{
+	vertical-align: 5px;
+	//line-height: 28px;
+	//vertical-align: 0px;
+	//display:inline-block;
+	/*padding-left: 5px;*/
+}
+
+
+/* END Status Bar */
+
+
+/* END - Content */
+
+
+

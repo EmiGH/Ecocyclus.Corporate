@@ -1,0 +1,687 @@
+﻿body
+{
+	color: #ffffff;
+    font-size: 18px;
+}
+
+#logindivContainer {
+	height:100%;
+	width: 100%;
+	margin: 0 auto; 
+	vertical-align:middle;	
+}
+#logindivMainContent 
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 340px;
+    margin-top: -220px;
+    margin-left: -170px; 
+    border:solid 0px #000;
+}
+
+body
+{
+    margin:0px;
+    border: 0px;
+    width: 100%;
+    height: 100%;
+    font-family: Verdana, Arial;
+
+
+}
+.divLoginBg
+{
+    z-index: 9;
+    position:absolute;
+    
+    width: 100%;
+    height: 385px;
+    
+    background-position:center;
+}
+.divLoginTexture
+{
+    z-index: 10;
+    position:absolute;
+    top: 80px;
+    
+    height: 225px;
+    width: 100%;
+    
+}
+.divLoginImage
+{
+    z-index: 11;
+    position:absolute;
+    top: 80px;
+    
+    height: 122px;
+    width: 100%;
+    
+    background-position:center;
+}
+.divLoginContainer
+{
+    position:absolute;
+    z-index: 12;  
+    width: 100%;  
+
+}
+.divLoginContainer .divLoginContent
+{
+    margin: auto;
+    
+    width: 980px;   
+    height: 385px;
+
+}
+.divLoginContainer .divLoginContent .divLoginLogoGhree
+{
+    position: relative;
+    top: 15px;
+    left: 10px;
+       
+    width: 285px;   
+    height: 47px;
+    
+    background-repeat:no-repeat;
+    
+}
+/* Esto es lo de Pelsa */
+.divLoginContainer .divLoginContent .divLoginAccess
+{
+    position:relative;
+    left: 600px;
+    width: 350px;
+
+    top: 65px;  
+}
+.divLoginContainer .divLoginContent  .divLoginAccess .lblUser,
+.divLoginContainer .divLoginContent  .divLoginAccess .lblPassword
+{    
+	display: block;
+    position:relative;
+
+    margin-bottom: 5px;
+    margin-left: 5px;
+    
+    font-size: 65%;
+    color: #fff;
+
+}
+.divLoginContainer .divLoginContent  .divLoginAccess .input
+{    
+    position:relative;
+    
+    width: 150px;
+    height: 22px;
+        
+    margin-right: 0px;
+    
+    line-height: 22px;
+    font-size: 65%;
+
+    padding: 0 5px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+.divLoginContainer .divLoginContent  .divLoginAccess .user
+{ 
+    top: 0px;    
+}
+.divLoginContainer .divLoginContent  .divLoginAccess .pass
+{ 
+     top: 0px;   
+}
+.divLoginContainer .divLoginContent .divLoginAccess .button
+{ 
+
+    position:relative;
+    z-index: 20;
+    left: 335px;
+    top: -25px;
+    
+    width: 30px;
+    height: 22px;    
+    
+
+
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    border: 0px;
+    
+    background-repeat:no-repeat;
+    background-position:center;
+    background-color:Transparent;
+    
+    cursor:pointer;    
+}
+
+.divLoginContainer .divLoginContent .divLoginAccess .divLoginAccessOptions
+{    
+	display:none;
+    position:relative;
+   
+    top: -10px;       
+    width: 350px;
+}
+.divLoginContainer .divLoginContent .divLoginAccess .checkbox
+{    
+    position:relative;
+    top: -6px;
+    Left: 35px;
+    float:left;
+
+    margin-left: 10px;
+}
+.divLoginContainer .divLoginContent .divLoginAccess .checkbox label
+{    
+   font-size: 50%;
+   vertical-align: 6px;
+}
+.divLoginContainer .divLoginContent .divLoginAccess .checkbox input
+{ 
+    margin-left: 5px; 
+    margin-top: -4px;  
+    float:right;
+}
+
+.divLoginContainer .divLoginContent  .divLoginAccess a
+{    
+    position:relative;
+    float:right;
+    
+    top: -5px;
+    left: 50px;
+    
+    width: 150px;    
+    
+    font-size: 50%;
+    text-decoration:none;    
+}
+.divLoginContainer .divLoginContent  #logindivMessenger
+{    
+    position:relative;
+    float:right;
+    
+    top: 118px;
+    right: 48px;
+    height: 10px;
+    width: 550px;    
+
+    text-align:right;
+    text-decoration:none;    
+}
+.divLoginContainer .divLoginContent  .logindivMessenger span
+{    
+    font-size: 63%;
+    color: #fff;   
+}
+/* Fin Pelsa */
+
+/* Esto es lo de Ghree */
+/*
+.divLoginContainer .divLoginContent .divLoginAccess
+{
+    position:relative;
+    left: 600px;
+    width: 350px;
+
+    top: -35px;  
+}
+.divLoginContainer .divLoginContent  .input
+{    
+    position:relative;
+    width: 150px;
+    height: 22px;
+    margin-right: 0px;
+    
+    line-height: 22px;
+    font-size: 65%;
+    
+
+    padding: 0 5px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+.divLoginContainer .divLoginContent  .user
+{ 
+    top: 0px;    
+}
+.divLoginContainer .divLoginContent  .pass
+{ 
+     top: 0px;   
+}
+.divLoginContainer .divLoginContent .button
+{ 
+
+    position:relative;
+    left: 335px;
+    top: -25px;
+    
+    width: 30px;
+    height: 22px;    
+    
+
+
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    border: 0px;
+    
+    background-repeat:no-repeat;
+    background-position:center;
+    background-color:Transparent;
+    
+    cursor:pointer;    
+}
+
+.divLoginContainer .divLoginContent .divLoginAccessOptions
+{    
+	display:none;
+    position:relative;
+   
+    top: -10px;       
+    width: 350px;
+}
+.divLoginContainer .divLoginContent .checkbox
+{    
+    position:relative;
+    top: -6px;
+    Left: 35px;
+    float:left;
+
+    margin-left: 10px;
+}
+.divLoginContainer .divLoginContent .checkbox label
+{    
+   font-size: 50%;
+   vertical-align: 6px;
+}
+.divLoginContainer .divLoginContent .checkbox input
+{ 
+    margin-left: 5px; 
+    margin-top: -4px;  
+    float:right;
+}
+
+.divLoginContainer .divLoginContent  a
+{    
+    position:relative;
+    float:right;
+    
+    top: -5px;
+    left: 50px;
+    
+    width: 150px;    
+    
+    font-size: 50%;
+    text-decoration:none;    
+}
+.divLoginContainer .divLoginContent .divLoginAccess #logindivMessenger
+{    
+    position:relative;
+    float:right;
+    
+    top: -5px;
+    right: 23px;
+    height: 10px;
+    width: 550px;    
+
+    text-align:right;
+    text-decoration:none;    
+}
+.divLoginContainer .divLoginContent .divLoginAccess .logindivMessenger span
+{    
+    font-size: 55%;   
+}*/
+/* Fin de lo Ghree */
+
+.divLoginContainer .divLoginContent .divLoginBgRegister
+{
+
+    clear:both;
+    /*position: relative;*/
+    top: 10px;
+    left: 600px;
+       
+    width: 365px;   
+    height: 242px;
+    
+}
+.divLoginContainer .divLoginContent .divLoginBgRegister div
+{
+	display:none;
+
+}
+
+.divLoginContainer .divLoginContent .divLoginBgRegister span
+{ 
+    position:relative;
+    left:16px;
+    top: 20px;
+    margin-bottom: 52px;   
+   
+    width: 320px;
+    
+    display:block;
+
+    font-size: 70%;
+}
+
+.divLoginContainer .divLoginContent  .divLoginBgRegister .input
+{    
+    position:relative;
+    left:16px;
+    margin-bottom: 12px;
+    
+    
+    width: 320px;
+    height: 22px;
+    
+    line-height: 22px;
+
+    font-size: 65%;
+    
+
+    padding: 0 5px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+.divLoginContainer .divLoginContent .divLoginBgRegister .button
+{ 
+
+    position:relative;
+    left: 245px;
+    top: 5px;
+    
+    width: 100px;
+    height: 22px;
+    line-height: 22px;
+    text-align:center; 
+ 
+
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    
+   background-image:none;   
+
+   cursor:pointer;   
+   font-size: 60%;
+   
+}
+.divLoginContainer .divLoginContent .divLoginBgRegister .button:hover
+{
+    background-image:none;     
+}
+
+
+
+.divLoginContainer .divLoginContent .divContentChangeThemes
+{
+    position: relative;
+    top: -130px;
+    left: 50px;
+       
+    width: 365px;   
+    height: 31px;    
+}
+.divLoginContainer .divLoginContent .divContentChangeThemes input
+{
+	display:none;
+	
+    margin-right:4px;  
+    float:left;
+    
+    width: 31px;   
+    height: 31px;
+    
+    background-image:url('/App_Themes/ghree/Images/Login/BgButtonChangeThemes.png');
+    background-color:Transparent;
+    border: 0px;
+    cursor:pointer;
+
+}
+
+
+.divLoginContainer .divLoginContent 
+.divContentChangeThemes .btnThemesGhree
+{    
+    opacity:0.4;
+    filter:alpha(opacity=40); 
+}
+.divLoginContainer .divLoginContent 
+.divContentChangeThemes .btnThemesBlue
+{    
+    opacity:0.7;
+    filter:alpha(opacity=70); 
+}
+.divLoginContainer .divLoginContent 
+.divContentChangeThemes .btnThemesBrown
+{    
+    opacity:0.3;
+    filter:alpha(opacity=30); 
+}
+.divLoginContainer .divLoginContent 
+.divContentChangeThemes .btnThemesOrange
+{    
+    opacity:0.5;
+    filter:alpha(opacity=50); 
+}
+
+.divLoginContainer .divLoginContent 
+.divContentChangeThemes .btnThemesGhree:hover
+{    
+    background-image:url('/App_Themes/ghree/Images/Login/BgButtonChangeThemesGhree.png');
+    opacity:1;
+    filter:alpha(opacity=100); 
+}
+.divLoginContainer .divLoginContent 
+.divContentChangeThemes .btnThemesBlue:hover
+{    
+    background-image:url('/App_Themes/ghree/Images/Login/BgButtonChangeThemesBlue.png');
+    opacity:1;
+    filter:alpha(opacity=100); 
+}
+.divLoginContainer .divLoginContent 
+.divContentChangeThemes .btnThemesBrown:hover
+{    
+    background-image:url('/App_Themes/ghree/Images/Login/BgButtonChangeThemesBrown.png');
+    opacity:1;
+    filter:alpha(opacity=100); 
+}
+.divLoginContainer .divLoginContent 
+.divContentChangeThemes .btnThemesOrange:hover
+{    
+    background-image:url('/App_Themes/ghree/Images/Login/BgButtonChangeThemesOrange.png');
+    opacity:1;
+    filter:alpha(opacity=100); 
+}
+.divLoginContainer .divLoginContent .divContentSlogan
+{
+    position: relative;
+    top: -20px;
+    left: 20px;
+       
+    width: 365px;   
+    height: 31px;
+    padding: 0 0 0 44px;
+    
+    background-repeat:no-repeat;
+    background-position: 0 5px;
+}
+.divLoginContainer .divLoginContent .divContentSlogan .lblSlogan
+{
+	display:none;
+    font-size: 85%;
+}
+
+/* Language Ghree */
+
+/*
+.divLoginContainer .divLoginContent .pnlContentLanguege
+{
+    position: relative;
+    top: -18px;
+    left: -63px;
+       
+    height: 31px;
+    float:left;
+    
+    background-repeat:no-repeat;
+    background-position: 0 7px;
+
+}
+.divLoginContainer .divLoginContent .pnlContentLanguege a
+{
+
+    width:auto;
+    margin-left: 14px;
+
+    font-size: 55%;
+    color: #666;
+    text-decoration: none;
+}
+
+.divLoginContainer .divLoginContent .pnlContentLanguege a:hover
+{
+    color: #000;
+}
+*/
+/* Footer Ghree */
+/*
+.divLoginContainer .divLoginContent .pnlContentFooter
+{
+    position: relative;
+    top: -30px;
+    clear:both;
+       
+    width: 980px;
+    height: 31px;
+    float:left;
+    clear:both;
+    padding-top: 5px;
+   
+    border-top: solid 1px #ccc;
+}
+.divLoginContainer .divLoginContent .pnlContentFooter span
+{
+    clear:both;
+
+    width:auto;
+
+    font-size: 55%;
+    color: #666;
+    text-decoration: none;
+}
+.divLoginContainer .divLoginContent .pnlContentFooter div
+{
+    position:relative;
+    right: 40px;
+
+}
+.divLoginContainer .divLoginContent .pnlContentFooter a
+{
+    width:auto;
+    float: right;
+    
+    margin-right: 10px;
+
+    font-size: 55%;
+    color: #666;
+    text-decoration: none;
+}
+*/
+
+/* Footer Pelsa */
+
+.divLoginContainer .divLoginContent .pnlContentFooter
+{
+    position: relative;
+	z-index: 9;
+    top: 0px;
+    clear:both;
+       
+    width: 980px;
+    height: 31px;
+    float:left;
+    clear:both;
+    padding-top: 5px;
+   
+    border-top: solid 1px #ccc;
+}
+.divLoginContainer .divLoginContent .pnlContentFooter span
+{
+    clear:both;
+    float:right;
+
+    width:auto;
+
+    font-size: 55%;
+    color: #666;
+    text-decoration: none;
+}
+.divLoginContainer .divLoginContent .pnlContentFooter div
+{
+	display: none;
+	
+    position:relative;
+    top: -8px;
+    right: 10px;
+
+}
+.divLoginContainer .divLoginContent .pnlContentFooter a
+{
+    width:auto;
+    float: right;
+    
+    margin-right: 10px;
+
+    font-size: 55%;
+    color: #666;
+    text-decoration: none;
+}
+
+/* Language pelsa */ 
+
+.divLoginContainer .divLoginContent .pnlContentLanguege
+{
+    position: relative;
+    top: 38px;
+    left: -15px;
+    z-index: 10;
+       
+    height: 31px;
+    float:left;
+    
+    background-repeat:no-repeat;
+    background-position: 0 7px;
+
+}
+.divLoginContainer .divLoginContent .pnlContentLanguege a
+{
+
+    width:auto;
+    margin-left: 14px;
+
+    font-size: 55%;
+    color: #666;
+    text-decoration: none;
+}
+
+.divLoginContainer .divLoginContent .pnlContentLanguege a:hover
+{
+    color: #000;
+}
+.divLoginContainer .divLoginContent .pnlContentLanguege .selected
+{
+    color: #000;
+    text-decoration: underline;
+}

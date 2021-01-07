@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ErrorGeneric_Title" xml:space="preserve">
+    <value>Error Information</value>
+  </data>
+  <data name="ErrorLogged_Title" xml:space="preserve">
+    <value>Error Information</value>
+  </data>
+  <data name="Login_Title" xml:space="preserve">
+    <value>Welcome to ghree!</value>
+  </data>
+  <data name="mnuAuxiliaryData_Title" xml:space="preserve">
+    <value>Auxiliary Data</value>
+  </data>
+  <data name="mnuAuxiliaryData_ToolTip" xml:space="preserve">
+    <value>Holds all auxiliary data and functionallity.</value>
+  </data>
+  <data name="mnuContextInfoGeneralProperties" xml:space="preserve">
+    <value>General Properties</value>
+  </data>
+  <data name="mnuContextInfoSummaryForOwner" xml:space="preserve">
+    <value>Projects Summary</value>
+  </data>
+  <data name="mnuDashboardExceptions" xml:space="preserve">
+    <value>Exceptions</value>
+  </data>
+  <data name="mnuDashboardExceptions_ToolTip" xml:space="preserve">
+    <value>Available exceptions.</value>
+  </data>
+  <data name="mnuDashboardMyTasks" xml:space="preserve">
+    <value>My Tasks</value>
+  </data>
+  <data name="mnuDashboardMyTask_ToolTip" xml:space="preserve">
+    <value>Available tasks.</value>
+  </data>
+  <data name="mnuExceptionClosed" xml:space="preserve">
+    <value>Closed</value>
+  </data>
+  <data name="mnuExceptionOpened" xml:space="preserve">
+    <value>Opened</value>
+  </data>
+  <data name="mnuExceptionWorking" xml:space="preserve">
+    <value>Working</value>
+  </data>
+  <data name="mnuKCResourcesData_Title" xml:space="preserve">
+    <value>Collaboration Main Data</value>
+  </data>
+  <data name="mnuKCResourcesData_ToolTip" xml:space="preserve">
+    <value>Holds all knowledge &amp; collaboration main data and functionallity.</value>
+  </data>
+  <data name="mnuMyTaskExecutions" xml:space="preserve">
+    <value>Tasks executions listing.</value>
+  </data>
+  <data name="mnuMyTaskFinished" xml:space="preserve">
+    <value>Finished</value>
+  </data>
+  <data name="mnuMyTaskOverDue" xml:space="preserve">
+    <value>OverDue</value>
+  </data>
+  <data name="mnuMyTaskPlanned" xml:space="preserve">
+    <value>Planned</value>
+  </data>
+  <data name="mnuMyTaskWorking" xml:space="preserve">
+    <value>Working</value>
+  </data>
+  <data name="mnuPAPerformanceData_Title" xml:space="preserve">
+    <value>Performance Assessment Main Data</value>
+  </data>
+  <data name="mnuPAPerformanceData_ToolTip" xml:space="preserve">
+    <value>Holds all performance assessment main data and functionallity.</value>
+  </data>
+  <data name="mnuPMProcessesData_Title" xml:space="preserve">
+    <value>Processes Framework Main Data</value>
+  </data>
+  <data name="mnuPMProcessesData_ToolTip" xml:space="preserve">
+    <value>Holds processes framework main data and functionallity.</value>
+  </data>
+  <data name="mnuRMRisksData_Title" xml:space="preserve">
+    <value>Risks and Potentials Main Data</value>
+  </data>
+  <data name="mnuRMRisksData_ToolTip" xml:space="preserve">
+    <value>Holds all risks and potentials main data and functionallity.</value>
+  </data>
+  <data name="radMnuModuleCT" xml:space="preserve">
+    <value>Collaboration Tools</value>
+  </data>
+  <data name="radMnuModuleDS" xml:space="preserve">
+    <value>Directory Services</value>
+  </data>
+  <data name="radMnuModuleIA" xml:space="preserve">
+    <value>Improvement Actions</value>
+  </data>
+  <data name="radMnuModuleKC" xml:space="preserve">
+    <value>Knowledge Collaboration</value>
+  </data>
+  <data name="radMnuModulePA" xml:space="preserve">
+    <value>Performance Assessment</value>
+  </data>
+  <data name="radMnuModulePF" xml:space="preserve">
+    <value>Process Framework</value>
+  </data>
+  <data name="radMnuModuleRM" xml:space="preserve">
+    <value>Risks and Potentials</value>
+  </data>
+  <data name="radMnuModuleRP" xml:space="preserve">
+    <value>Risks and Potentials</value>
+  </data>
+  <data name="radMnuModuleRPT" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="radMnuSectionDashboard" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="AdministrationTool" xml:space="preserve">
+    <value>Administration Tools</value>
+  </data>
+  <data name="ConfigDSDescription" xml:space="preserve">
+    <value>&lt;b&gt; Directory Service Key Functionalities: &lt;/b&gt;  &lt;br/&gt; &lt;br/&gt;Information management of organizations, persons, positions and functions:&lt;br/&gt; &lt;ul&gt;&lt;li&gt; Multiple organizations.&lt;/li&gt; &lt;li&gt; Full organization charts set up.&lt;/li&gt; &lt;li&gt; Dynamic relationships between organizations. &lt;/li&gt;&lt;li&gt; Geographical and functional areas connections.&lt;/li&gt; &lt;li&gt; Facilities identification.&lt;/li&gt;&lt;li&gt; Users, permissions and roles.&lt;/li&gt;&lt;/ul&gt;</value>
+  </data>
+  <data name="ConfigDSPageTitle" xml:space="preserve">
+    <value>Directory Service</value>
+  </data>
+  <data name="DefaultDSDescription" xml:space="preserve">
+    <value>&lt;b&gt; Directory Service Key Functionalities: &lt;/b&gt;  &lt;br/&gt; &lt;br/&gt;Information management of organizations, persons, positions and functions:&lt;br/&gt; &lt;ul&gt;&lt;li&gt; Multiple organizations.&lt;/li&gt; &lt;li&gt; Full organization charts set up.&lt;/li&gt; &lt;li&gt; Dynamic relationships between organizations. &lt;/li&gt;&lt;li&gt; Geographical and functional areas connections.&lt;/li&gt; &lt;li&gt; Facilities identification.&lt;/li&gt;&lt;li&gt; Users, permissions and roles.&lt;/li&gt;&lt;/ul&gt;</value>
+  </data>
+  <data name="DefaultDSOrganization" xml:space="preserve">
+    <value>Please use your left menu to access solution tools.</value>
+  </data>
+  <data name="DefaultDSSubTitle" xml:space="preserve">
+    <value>Directory Service</value>
+  </data>
+  <data name="DefaultDSTitleDescription" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="ManagementTool" xml:space="preserve">
+    <value>Management Tools</value>
+  </data>
+  <data name="ConfigIADescription" xml:space="preserve">
+    <value>&lt;b&gt;Improvement Actions Key Functionalities: &lt;/b&gt;  &lt;br/&gt; &lt;br/&gt; Treatment of exceptions and improvement projects:&lt;br/&gt; &lt;ul&gt;&lt;li&gt; Multiple improvement projects management.&lt;/li&gt; &lt;li&gt; Multiple dynamic classifications based on standards.&lt;/li&gt; &lt;li&gt; Set-up of strategies, measures and actions. &lt;/li&gt;&lt;li&gt; Impacts on processes.&lt;/li&gt; &lt;li&gt; Projects and exceptions completion management.&lt;/li&gt;&lt;li&gt; Exceptions – non conformance – reception and corrective actions implementation.&lt;/li&gt;&lt;/ul&gt;</value>
+  </data>
+  <data name="ConfigIAPageTitle" xml:space="preserve">
+    <value>Improvement Actions</value>
+  </data>
+  <data name="ConfigKCDescription" xml:space="preserve">
+    <value>&lt;b&gt; Collaboration &amp; Knowledge Key Functionalities: &lt;/b&gt;  &lt;br/&gt; &lt;br/&gt; All information and people involved in EMS solution participate in a knowledge and collaboration network.&lt;br/&gt; &lt;ul&gt;&lt;li&gt; Knowledge resources centralization.&lt;/li&gt; &lt;li&gt; Multiple dynamic classifications based on standards.&lt;/li&gt;&lt;li&gt; Types of resources dynamic definition (i.e.: policy, procedure, form-record, etc.). &lt;/li&gt;  &lt;li&gt; Versioning management.&lt;/li&gt; &lt;li&gt; Resource expiry date schedule management (i.e.: procedure, legal document, etc.).&lt;/li&gt;&lt;li&gt; Subscriptions.&lt;/li&gt; &lt;li&gt; Collaboration centers (forums, news, wiki, rss, access records, ranking, etc.).&lt;/li&gt; &lt;li&gt; Knowledge base permanently updated.&lt;/li&gt; &lt;/ul&gt;</value>
+  </data>
+  <data name="ConfigKCPageTitle" xml:space="preserve">
+    <value>Knowledge Collaboration</value>
+  </data>
+  <data name="ConfigPADescription" xml:space="preserve">
+    <value>&lt;b&gt; Perfomance Assessment Key Functionalities: &lt;/b&gt;  &lt;br/&gt; &lt;br/&gt; Indicators and formulas management including all entities needed to establish performance indicators.&lt;br/&gt;&lt;br/&gt;- Indicators definition: &lt;br/&gt; &lt;ul&gt;&lt;li&gt; Multiple dynamic classifications based on standards.&lt;/li&gt; &lt;li&gt; Normal-abnormal conditions definition.&lt;/li&gt;&lt;li&gt; Management of magnitudes and measurement units. &lt;/li&gt;  &lt;li&gt; Measurement devices set up.&lt;/li&gt; &lt;/ul&gt;- Data management: &lt;br/&gt; &lt;ul&gt;&lt;li&gt; Manual and/or automatic data collection (i.e. data entry or PLC input).&lt;/li&gt; &lt;li&gt; Data checking (data integrity and validity checking within its normal or abnormal range).&lt;/li&gt;&lt;li&gt; Data reconciliation.&lt;/li&gt; &lt;/ul&gt;- Exception management: &lt;br/&gt; &lt;ul&gt;&lt;li&gt; Management of compliance requirements, including warnings and alerts when an abnormal or discordant value is detected or a key task, such a calibration, is not performed.&lt;/li&gt;&lt;/li&gt; &lt;/ul&gt;-  Data calculation: &lt;br/&gt; &lt;ul&gt;&lt;li&gt; Creation of formulae.&lt;/li&gt; &lt;/li&gt; Calculation engine&lt;/li&gt; &lt;/ul&gt;- Reporting: &lt;br/&gt; &lt;ul&gt;&lt;li&gt;Full automatic charting capabilities.&lt;/li&gt; &lt;/li&gt;Data comparison and analysis. &lt;/li&gt; &lt;/ul&gt;</value>
+  </data>
+  <data name="ConfigPAPageTitle" xml:space="preserve">
+    <value>Performance Assessment</value>
+  </data>
+  <data name="ConfigPFDescription" xml:space="preserve">
+    <value>&lt;b&gt; Processes Framework Key Functionalities: &lt;/b&gt;  &lt;br/&gt; &lt;br/&gt; Monitoring processes management according to established planning:&lt;br/&gt; &lt;ul&gt;&lt;li&gt; Multiple programs, processes and/or projects management.&lt;/li&gt; &lt;li&gt; Multiple dynamic classifications based on standards.&lt;/li&gt;&lt;li&gt; Schedule and planning. &lt;/li&gt;  &lt;li&gt; Recurrence.&lt;/li&gt; &lt;li&gt; Task assignment (operatives, measurements, calibrations, etc.).&lt;/li&gt;&lt;li&gt; Completion reports.&lt;/li&gt; &lt;li&gt; Non compliance alerts.&lt;/li&gt; &lt;li&gt; Exceptions management.&lt;/li&gt; &lt;/ul&gt;</value>
+  </data>
+  <data name="ConfigPFPageTitle" xml:space="preserve">
+    <value>Processes Framework</value>
+  </data>
+  <data name="ConfigRMDescription" xml:space="preserve">
+    <value>&lt;b&gt; Risks and Potentials Key Functionalities (Under Development): &lt;/b&gt;  &lt;br/&gt; &lt;br/&gt; Management of risks and potentials– threats and opportunities – which affects performance indicators normal-abnormal conditions.&lt;br/&gt; &lt;ul&gt;&lt;li&gt;Multiple dynamic classifications based on standards.&lt;/li&gt;&lt;li&gt; Likelihood and consequences dynamic matrices. &lt;/li&gt;  &lt;li&gt; Records and reports.&lt;/li&gt; &lt;li&gt; Performance indicators and monitoring processes connection.&lt;/li&gt; &lt;/ul&gt;</value>
+  </data>
+  <data name="ConfigRMPageTitle" xml:space="preserve">
+    <value>Risks and Potentials</value>
+  </data>
+  <data name="DefaultIADescription" xml:space="preserve">
+    <value>&lt;b&gt;Improvement Actions Key Functionalities: &lt;/b&gt;  &lt;br/&gt; &lt;br/&gt; Treatment of exceptions and improvement projects:&lt;br/&gt; &lt;ul&gt;&lt;li&gt; Multiple improvement projects management.&lt;/li&gt; &lt;li&gt; Multiple dynamic classifications based on standards.&lt;/li&gt; &lt;li&gt; Set-up of strategies and measures. &lt;/li&gt;&lt;li&gt; Processes connection.&lt;/li&gt; &lt;li&gt; Projects and exceptions completion management.&lt;/li&gt;&lt;li&gt; Exceptions – non conformance – reception and corrective actions implementation.&lt;/li&gt;&lt;/ul&gt;</value>
+  </data>
+  <data name="DefaultIAOrganization" xml:space="preserve">
+    <value>Please use your left menu to access solution tools.</value>
+  </data>
+  <data name="DefaultIAPageTitle" xml:space="preserve">
+    <value>Improvement Actions</value>
+  </data>
+  <data name="DefaultIASubTitle" xml:space="preserve">
+    <value>Improvement Actions Management</value>
+  </data>
+  <data name="DefaultIATitleDescription" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="DefaultKCDescription" xml:space="preserve">
+    <value>&lt;b&gt; Collaboration &amp; Knowledge Key Functionalities: &lt;/b&gt;  &lt;br/&gt; &lt;br/&gt; All information and people involved in EMS solution participate in a knowledge and collaboration network.&lt;br/&gt; &lt;ul&gt;&lt;li&gt; Knowledge resources centralization.&lt;/li&gt; &lt;li&gt; Multiple dynamic classifications based on standards.&lt;/li&gt;&lt;li&gt; Types of resources dynamic definition (i.e.: policy, procedure, form-record, etc.). &lt;/li&gt;  &lt;li&gt; Versioning management.&lt;/li&gt; &lt;li&gt; Recourse expiry date schedule management (i.e.: procedure, legal document, etc.).&lt;/li&gt;&lt;li&gt; Subscriptions.&lt;/li&gt; &lt;li&gt; Collaboration centers (forums, news, wiki, rss, access records, ranking, etc.).&lt;/li&gt; &lt;li&gt; Knowledge base permanently updated.&lt;/li&gt; &lt;/ul&gt;</value>
+  </data>
+  <data name="DefaultKCOrganization" xml:space="preserve">
+    <value>Please use your left menu to access solution tools.</value>
+  </data>
+  <data name="DefaultKCPageTitle" xml:space="preserve">
+    <value>Knowledge Collaboration</value>
+  </data>
+  <data name="DefaultKCTitleDescription" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="DefaultPADescription" xml:space="preserve">
+    <value>&lt;b&gt; Perfomance Assessment Key Functionalities: &lt;/b&gt;  &lt;br/&gt; &lt;br/&gt; Indicators and formulas management including all entities needed to establish performance indicators.&lt;br/&gt;&lt;br/&gt;- Indicators definition: &lt;br/&gt; &lt;ul&gt;&lt;li&gt; Multiple dynamic classifications based on standards.&lt;/li&gt; &lt;li&gt; Normal-abnormal conditions definition.&lt;/li&gt;&lt;li&gt; Management of magnitudes and measurement units. &lt;/li&gt;  &lt;li&gt; Measurement devices set up.&lt;/li&gt; &lt;/ul&gt;- Data management: &lt;br/&gt; &lt;ul&gt;&lt;li&gt; Manual and/or automatic data collection (i.e. data entry or PLC input).&lt;/li&gt; &lt;li&gt; Data checking (data integrity and validity checking within its normal or abnormal range).&lt;/li&gt;&lt;li&gt; Data reconciliation.&lt;/li&gt; &lt;/ul&gt;- Exception management: &lt;br/&gt; &lt;ul&gt;&lt;li&gt; Management of compliance requirements, including warnings and alerts when an abnormal or discordant value is detected or a key task, such a calibration, is not performed.&lt;/li&gt;&lt;/li&gt; &lt;/ul&gt;-  Data calculation: &lt;br/&gt; &lt;ul&gt;&lt;li&gt; Creation of formulae.&lt;/li&gt; &lt;li&gt; Calculation engine&lt;/li&gt; &lt;/ul&gt;- Reporting: &lt;br/&gt; &lt;ul&gt;&lt;li&gt;Full automatic charting capabilities.&lt;li&gt; &lt;/li&gt;Data comparison and analysis. &lt;/li&gt; &lt;/ul&gt;</value>
+  </data>
+  <data name="DefaultPAOrganization" xml:space="preserve">
+    <value>Please use your left menu to access solution tools.</value>
+  </data>
+  <data name="DefaultPASubTitle" xml:space="preserve">
+    <value>Performance Assessment</value>
+  </data>
+  <data name="DefaultPATitleDescription" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="DefaultPFDescription" xml:space="preserve">
+    <value>&lt;b&gt; Processes Framework – Map Key Functionalities: &lt;/b&gt;  &lt;br/&gt; &lt;br/&gt; Monitoring processes management according to established planning:&lt;br/&gt; &lt;ul&gt;&lt;li&gt; Multiple programs, processes and/or projects management.&lt;/li&gt; &lt;li&gt; Multiple dynamic classifications based on standards.&lt;/li&gt;&lt;li&gt; Schedule and planning. &lt;/li&gt;  &lt;li&gt; Recurrence.&lt;/li&gt; &lt;li&gt; Task assignment (operatives, measurements, calibrations, etc.).&lt;/li&gt;&lt;li&gt; Completion reports.&lt;/li&gt; &lt;li&gt; Non compliance alerts.&lt;/li&gt; &lt;li&gt; Exceptions management.&lt;/li&gt; &lt;/ul&gt;</value>
+  </data>
+  <data name="DefaultPFOrganization" xml:space="preserve">
+    <value>Please use your left menu to access solution tools.</value>
+  </data>
+  <data name="DefaultPFSubTitle" xml:space="preserve">
+    <value>Processes Framework</value>
+  </data>
+  <data name="DefaultPFTitleDescription" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="DefaultRMDescription" xml:space="preserve">
+    <value>&lt;b&gt; Risks and Potentials Key Functionalities (Under Development): &lt;/b&gt;  &lt;br/&gt; &lt;br/&gt; Management of risks and potentials– threats and opportunities – which affects performance indicators normal-abnormal conditions.&lt;br/&gt; &lt;ul&gt;&lt;li&gt;Multiple dynamic classifications based on standards.&lt;/li&gt;&lt;li&gt; Likelihood and consequences dynamic matrices. &lt;/li&gt;  &lt;li&gt; Records and reports.&lt;/li&gt; &lt;li&gt; Performance indicators and monitoring processes connection.&lt;/li&gt; &lt;/ul&gt;</value>
+  </data>
+  <data name="DefaultRMOrganization" xml:space="preserve">
+    <value>Please use your left menu to access solution tools.</value>
+  </data>
+  <data name="DefaultRMSubTitle" xml:space="preserve">
+    <value>Risks and Potentials Management</value>
+  </data>
+  <data name="DefaultRMTitleDescription" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="MapDSDescription" xml:space="preserve">
+    <value>&lt;b&gt; Directory Service Key Functionalities: &lt;/b&gt;  &lt;br/&gt; &lt;br/&gt;Information management of organizations, persons, positions and functions:&lt;br/&gt; &lt;ul&gt;&lt;li&gt; Multiple organizations.&lt;/li&gt; &lt;li&gt; Full organization charts set up.&lt;/li&gt; &lt;li&gt; Dynamic relationships between organizations. &lt;/li&gt;&lt;li&gt; Geographical and functional areas connections.&lt;/li&gt; &lt;li&gt; Facilities identification.&lt;/li&gt;&lt;li&gt; Users, permissions and roles.&lt;/li&gt;&lt;/ul&gt;</value>
+  </data>
+  <data name="MapDSPageTitle" xml:space="preserve">
+    <value>Directory Map</value>
+  </data>
+  <data name="MapIADescription" xml:space="preserve">
+    <value>&lt;b&gt;Improvement Actions Key Functionalities: &lt;/b&gt;  &lt;br/&gt; &lt;br/&gt; Treatment of exceptions and improvement projects:&lt;br/&gt; &lt;ul&gt;&lt;li&gt; Multiple improvement projects management.&lt;/li&gt; &lt;li&gt; Multiple dynamic classifications based on standards.&lt;/li&gt; &lt;li&gt; Set-up of strategies and measures. &lt;/li&gt;&lt;li&gt; Impact on processes.&lt;/li&gt; &lt;li&gt; Projects and exceptions completion management.&lt;/li&gt;&lt;li&gt; Exceptions – non conformance – reception and corrective actions implementation.&lt;/li&gt;&lt;/ul&gt;</value>
+  </data>
+  <data name="MapIAPageTitle" xml:space="preserve">
+    <value>Improvement Map</value>
+  </data>
+  <data name="MapKCDescription" xml:space="preserve">
+    <value>&lt;b&gt; Collaboration &amp; Knowledge Key Functionalities: &lt;/b&gt;  &lt;br/&gt; &lt;br/&gt; All information and people involved in EMS solution participate in a knowledge and collaboration network.&lt;br/&gt; &lt;ul&gt;&lt;li&gt; Knowledge resources centralization.&lt;/li&gt; &lt;li&gt; Multiple dynamic classifications based on standards.&lt;/li&gt;&lt;li&gt; Types of resources dynamic definition (i.e.: policy, procedure, form-record, etc.). &lt;/li&gt;  &lt;li&gt; Versioning management.&lt;/li&gt; &lt;li&gt; Recourse expiry date schedule management (i.e.: procedure, legal document, etc.).&lt;/li&gt;&lt;li&gt; Subscriptions.&lt;/li&gt; &lt;li&gt; Collaboration centers (forums, news, wiki, rss, access records, ranking, etc.).&lt;/li&gt; &lt;li&gt; Knowledge base permanently updated.&lt;/li&gt; &lt;/ul&gt;</value>
+  </data>
+  <data name="MapKCPageTitle" xml:space="preserve">
+    <value>Knowledge Map</value>
+  </data>
+  <data name="MapPADescription" xml:space="preserve">
+    <value>&lt;b&gt; Perfomance Assessment Key Functionalities: &lt;/b&gt;  &lt;br/&gt; &lt;br/&gt; Indicators and formulas management including all entities needed to establish performance indicators.&lt;br/&gt;&lt;br/&gt;- Indicators definition: &lt;br/&gt; &lt;ul&gt;&lt;li&gt; Multiple dynamic classifications based on standards.&lt;/li&gt; &lt;li&gt; Normal-abnormal conditions definition.&lt;/li&gt;&lt;li&gt; Management of magnitudes and measurement units. &lt;/li&gt;  &lt;li&gt; Measurement devices set up.&lt;/li&gt; &lt;/ul&gt;- Data management: &lt;br/&gt; &lt;ul&gt;&lt;li&gt; Manual and/or automatic data collection (i.e. data entry or PLC input).&lt;/li&gt; &lt;li&gt; Data checking (data integrity and validity checking within its normal or abnormal range).&lt;/li&gt;&lt;li&gt; Data reconciliation.&lt;/li&gt; &lt;/ul&gt;- Exception management: &lt;br/&gt; &lt;ul&gt;&lt;li&gt; Management of compliance requirements, including warnings and alerts when an abnormal or discordant value is detected or a key task, such a calibration, is not performed.&lt;/li&gt;&lt;/li&gt; &lt;/ul&gt;-  Data calculation: &lt;br/&gt; &lt;ul&gt;&lt;li&gt; Creation of formulae.&lt;/li&gt; &lt;/li&gt; Calculation engine&lt;/li&gt; &lt;/ul&gt;- Reporting: &lt;br/&gt; &lt;ul&gt;&lt;li&gt;Full automatic charting capabilities.&lt;/li&gt; &lt;li&gt;Data comparison and analysis. &lt;/li&gt; &lt;/ul&gt;</value>
+  </data>
+  <data name="MapPAPageTitle" xml:space="preserve">
+    <value>Performance Map</value>
+  </data>
+  <data name="MapPFDescription" xml:space="preserve">
+    <value>&lt;b&gt; Processes Framework – Map Key Functionalities: &lt;/b&gt;  &lt;br/&gt; &lt;br/&gt; Monitoring processes management according to established planning:&lt;br/&gt; &lt;ul&gt;&lt;li&gt; Multiple Programs, Processes and/or Projects management.&lt;/li&gt; &lt;li&gt; Multiple dynamic classifications based on standards.&lt;/li&gt;&lt;li&gt; Schedule and planning. &lt;/li&gt;  &lt;li&gt; Recurrence.&lt;/li&gt; &lt;li&gt; Task assignment (operatives, measurements, calibrations, etc.).&lt;/li&gt;&lt;li&gt; Completion reports.&lt;/li&gt; &lt;li&gt; Non compliance alerts.&lt;/li&gt; &lt;li&gt; Exceptions management.&lt;/li&gt; &lt;/ul&gt;</value>
+  </data>
+  <data name="MapPFPageTitle" xml:space="preserve">
+    <value>Monitoring Map</value>
+  </data>
+  <data name="MapRMDescription" xml:space="preserve">
+    <value>&lt;b&gt; Risks and Potentials Key Functionalities (Under Development): &lt;/b&gt;  &lt;br/&gt; &lt;br/&gt; Management of risks and potentials– threats and opportunities – which affects performance indicators normal-abnormal conditions.&lt;br/&gt; &lt;ul&gt;&lt;li&gt;Multiple dynamic classifications based on standards.&lt;/li&gt;&lt;li&gt; Likelihood and consequences dynamic matrices. &lt;/li&gt;  &lt;li&gt; Records and reports.&lt;/li&gt; &lt;li&gt; Performance indicators and monitoring processes connection.&lt;/li&gt; &lt;/ul&gt;</value>
+  </data>
+  <data name="MapRMPageTitle" xml:space="preserve">
+    <value>Risks and Potentials</value>
+  </data>
+  <data name="SearchPageDescription" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="SearchPageSubtitle" xml:space="preserve">
+    <value>Search on entire solution.</value>
+  </data>
+  <data name="SearchPageTitle" xml:space="preserve">
+    <value>Search on entire solution.</value>
+  </data>
+  <data name="mnuContextInfoEmissionsReporting" xml:space="preserve">
+    <value>Emissions Report</value>
+  </data>
+  <data name="mnuMyTaskExecutionsExecuted" xml:space="preserve">
+    <value>Executed</value>
+  </data>
+  <data name="mnuContextInfoEmissionsByFacility" xml:space="preserve">
+    <value>Emissions by Facility</value>
+  </data>
+  <data name="mnuBulkLoad" xml:space="preserve">
+    <value>Bulk Load</value>
+  </data>
+  <data name="mnuContextInfoIndicatorTracker" xml:space="preserve">
+    <value>Indicator Tracker</value>
+  </data>
+  <data name="mnuContextInfoFacilityAnalyzer" xml:space="preserve">
+    <value>Facility Analyzer</value>
+  </data>
+</root>

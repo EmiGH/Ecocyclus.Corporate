@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Condesus.EMS.Business.KC.Entities.Resource">
+    <Position X="8.5" Y="9.75" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="LanguageOption" Type="Condesus.EMS.Business.KC.Entities.Resource_LG">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.582" Y="0.241" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>EAAIYACAAAEAAAAAAEQQxAAAAAAAAAAUQAAIggIAAAA=</HashCode>
+      <FileName>KC - Knowledge Collaboration\Code\Entities\Resource.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="LanguageOption" />
+      <Property Name="ResourceType" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Classifications" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Condesus.EMS.Business.KC.Entities.ResourceCatalog">
+    <Position X="6" Y="16.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="Catalogues" Type="Condesus.EMS.Business.KC.Entities.Catalog" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.688" Y="18.761" />
+        <Point X="6.688" Y="19.136" />
+        <Point X="6.438" Y="19.136" />
+        <Point X="6.438" Y="21.75" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAACAAIAAAAAAAAAAAAABAgBABAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>KC - Knowledge Collaboration\Code\Entities\ResourceCatalog.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Catalogues" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Condesus.EMS.Business.KC.Entities.ResourceVersion">
+    <Position X="12.25" Y="16.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="Versions" Type="Condesus.EMS.Business.KC.Entities.Version">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.917" Y="0.215" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>IAAAYAAAAAAAAAAAAAAABAAIAAAAAIkEAAAAAABgAAA=</HashCode>
+      <FileName>KC - Knowledge Collaboration\Code\Entities\ResourceVersion.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Versions" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Condesus.EMS.Business.KC.Entities.CatalogDoc">
+    <Position X="7.5" Y="26.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAACIAAAQAAAAAAAAAAAAAAEBAAAAAAAAAAAIgAAAAQ=</HashCode>
+      <FileName>KC - Knowledge Collaboration\Code\Entities\CatalogDoc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.KC.Entities.CatalogURL">
+    <Position X="5.25" Y="26.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>QAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>KC - Knowledge Collaboration\Code\Entities\CatalogURL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.KC.Entities.ResourceVersionHistory">
+    <Position X="15.5" Y="22" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAJQAAAgAAEAAgAAAAAAAAAAABAAAAAAABAA=</HashCode>
+      <FileName>KC - Knowledge Collaboration\Code\Entities\ResourceVersionHistory.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ResourceHistoryState" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Condesus.EMS.Business.KC.Entities.VersionDoc">
+    <Position X="12.5" Y="26.75" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAACIAAAQAAAAAAAAAAAAAAEBAAAAAAAAAAAIgAAAAQ=</HashCode>
+      <FileName>KC - Knowledge Collaboration\Code\Entities\VersionDoc.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="FileAttach" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Condesus.EMS.Business.KC.Entities.VersionURL">
+    <Position X="10" Y="26.75" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>QAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>KC - Knowledge Collaboration\Code\Entities\VersionURL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.KC.Entities.ResourceClassification">
+    <Position X="4.5" Y="8.75" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EAAIIACAAIEAgEAAAEAQhAAAAgAAAAIAAAAIgAAgAgA=</HashCode>
+      <FileName>KC - Knowledge Collaboration\Code\Entities\ResourceClassification.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="LanguageOption" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Condesus.EMS.Business.KC.Entities.ResourceClassification_LG">
+    <Position X="0.75" Y="9.25" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAgAAACAAAAIAQAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>KC - Knowledge Collaboration\Code\Entities\ResourceClassification_LG.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.KC.Entities.Resource_LG">
+    <Position X="13" Y="9.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAgAEACAAAAAAAAAIAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>KC - Knowledge Collaboration\Code\Entities\Resource_LG.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.KC.Entities.Version">
+    <Position X="11.25" Y="21.75" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>CAEQQACACQAAAUAAMAAABAACACAAAIAFACIAAgAgAAE=</HashCode>
+      <FileName>KC - Knowledge Collaboration\Code\Entities\Version.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="ResourceVersionHistories" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Condesus.EMS.Business.KC.Entities.Catalog">
+    <Position X="6.25" Y="21.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAQAACQAAAAAAAAEAAAAAACCAAAAAAEAAIAAgAAAAA=</HashCode>
+      <FileName>KC - Knowledge Collaboration\Code\Entities\Catalog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.KC.Entities.CatalogFile">
+    <Position X="8.75" Y="18.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAEAAAAAAAAAQAAAAAAAAAgIAAAA=</HashCode>
+      <FileName>KC - Knowledge Collaboration\Code\Entities\CatalogFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.KC.Entities.ResourceType">
+    <Position X="13" Y="12.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EAAIoAAEAEEAAAAAQEAUAAAAAAAEAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>KC - Knowledge Collaboration\Code\Entities\ResourceType.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="LanguageOption" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Condesus.EMS.Business.KC.Entities.ResourceType_LG">
+    <Position X="16" Y="12.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAgAAACAAAAIAQAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>KC - Knowledge Collaboration\Code\Entities\ResourceType_LG.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.KC.Entities.FileAttach">
+    <Position X="15.75" Y="27.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAEABAAAAAQAIAAAAABAAAA=</HashCode>
+      <FileName>KC - Knowledge Collaboration\Code\Entities\FileAttach.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condesus.EMS.Business.KC.Entities.ResourceHistoryState">
+    <Position X="15.5" Y="24.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EAAIIAAAAAEAAAAABEAAAAAAAAAAAAAAAAAEgAAAAAA=</HashCode>
+      <FileName>KC - Knowledge Collaboration\Code\Entities\ResourceHistoryState.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="LanguageOption" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Condesus.EMS.Business.KC.Entities.ResourceHistoryState_LG">
+    <Position X="18.5" Y="24.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAgAAACAAAAIAQAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>KC - Knowledge Collaboration\Code\Entities\ResourceHistoryState_LG.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

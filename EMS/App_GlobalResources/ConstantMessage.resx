@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActionNotAllowed" xml:space="preserve">
+    <value>This action is not allowed.</value>
+  </data>
+  <data name="ActionOk" xml:space="preserve">
+    <value>Successfull.</value>
+  </data>
+  <data name="ConfirmDelete" xml:space="preserve">
+    <value>Are you sure you want to delete this information?</value>
+  </data>
+  <data name="DeleteOk" xml:space="preserve">
+    <value>Successfully deleted.</value>
+  </data>
+  <data name="EmptyStack" xml:space="preserve">
+    <value>The stack is empty.</value>
+  </data>
+  <data name="ErrorFileNotFound" xml:space="preserve">
+    <value>The page you requested cannot be found.</value>
+  </data>
+  <data name="ErrorForbiddenAccess" xml:space="preserve">
+    <value>You do not have permission to access this resource.&lt;br&gt;Please contact your administrator.&lt;br&gt;&lt;br&gt;Thank you.</value>
+  </data>
+  <data name="ErrorUnexpected" xml:space="preserve">
+    <value>An unexpected error ocurr.&lt;br&gt;We are sorry for the inconvinience.&lt;br&gt;Please try again later.&lt;br&gt;&lt;br&gt;Thank you.</value>
+  </data>
+  <data name="Failed" xml:space="preserve">
+    <value>Failure. Error: {0}</value>
+  </data>
+  <data name="FileNotFound" xml:space="preserve">
+    <value>File not found</value>
+  </data>
+  <data name="LeyendGeographicDashboard" xml:space="preserve">
+    <value>(For more information on geographical location, click on it.)</value>
+  </data>
+  <data name="LoginFailed" xml:space="preserve">
+    <value>Authentication process has failed.</value>
+  </data>
+  <data name="MethodNotImplemented" xml:space="preserve">
+    <value>This action is not yet available.</value>
+  </data>
+  <data name="NoRecordSelected" xml:space="preserve">
+    <value>There is no record selected.</value>
+  </data>
+  <data name="ProcessState_Finished" xml:space="preserve">
+    <value>Finished</value>
+  </data>
+  <data name="ProcessState_OverDue" xml:space="preserve">
+    <value>OverDue</value>
+  </data>
+  <data name="ProcessState_Planned" xml:space="preserve">
+    <value>Planned</value>
+  </data>
+  <data name="ProcessState_Working" xml:space="preserve">
+    <value>Working</value>
+  </data>
+  <data name="ProcessTaskResult_Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="ProcessTaskResult_Successfully" xml:space="preserve">
+    <value>Successfull</value>
+  </data>
+  <data name="ProcessTaskResult_Waiting" xml:space="preserve">
+    <value>Working</value>
+  </data>
+  <data name="SaveOk" xml:space="preserve">
+    <value>Successfully saved.</value>
+  </data>
+  <data name="SelectACalculationScenarioType" xml:space="preserve">
+    <value>You must select a scenario type.</value>
+  </data>
+  <data name="SelectAContactType" xml:space="preserve">
+    <value>You must select a contact type.</value>
+  </data>
+  <data name="SelectACountry" xml:space="preserve">
+    <value>You must select a country.</value>
+  </data>
+  <data name="SelectAExtendedProperty" xml:space="preserve">
+    <value>You must select an extended property.</value>
+  </data>
+  <data name="SelectAExtendedPropertyClassification" xml:space="preserve">
+    <value>You must select an extended property classification.</value>
+  </data>
+  <data name="SelectAFormula" xml:space="preserve">
+    <value>You must select a formula.</value>
+  </data>
+  <data name="SelectAFunctionalArea" xml:space="preserve">
+    <value>You must select a functional area.</value>
+  </data>
+  <data name="SelectAFunctionalPosition" xml:space="preserve">
+    <value>You must select a functional position.</value>
+  </data>
+  <data name="SelectAGeographicArea" xml:space="preserve">
+    <value>You must select a geographic area.</value>
+  </data>
+  <data name="SelectAGeographicFunctionalArea" xml:space="preserve">
+    <value>You must select a geographic functional area.</value>
+  </data>
+  <data name="SelectAIndicator" xml:space="preserve">
+    <value>You must select a indicator.</value>
+  </data>
+  <data name="SelectAJobTitle" xml:space="preserve">
+    <value>You must select a job title.</value>
+  </data>
+  <data name="SelectAMagnitud" xml:space="preserve">
+    <value>You must select a magnitude.</value>
+  </data>
+  <data name="SelectAMeasurementDevice" xml:space="preserve">
+    <value>You must select a measurement device.</value>
+  </data>
+  <data name="SelectAMeasurementDeviceType" xml:space="preserve">
+    <value>You must select a measurement device type.</value>
+  </data>
+  <data name="SelectAMeasurementUnit" xml:space="preserve">
+    <value>You must select a measurement unit.</value>
+  </data>
+  <data name="SelectAnApplicability" xml:space="preserve">
+    <value>You must select an applicability.</value>
+  </data>
+  <data name="SelectAnApplication" xml:space="preserve">
+    <value>You must select an application.</value>
+  </data>
+  <data name="SelectAnOrganization" xml:space="preserve">
+    <value>You must select an organization.</value>
+  </data>
+  <data name="SelectAnOrganizationalChart" xml:space="preserve">
+    <value>You must select an organizational chart.</value>
+  </data>
+  <data name="SelectAParameterGroup" xml:space="preserve">
+    <value>You must select a condition.</value>
+  </data>
+  <data name="SelectAParameterMeasurement" xml:space="preserve">
+    <value>All parameters must have a measurement assigned to them.</value>
+  </data>
+  <data name="SelectAParticipationType" xml:space="preserve">
+    <value>You must select a participation type.</value>
+  </data>
+  <data name="SelectAPermission" xml:space="preserve">
+    <value>You must select a permission.</value>
+  </data>
+  <data name="SelectAPerson" xml:space="preserve">
+    <value>You must select a person.</value>
+  </data>
+  <data name="SelectAPosition" xml:space="preserve">
+    <value>You must select a position.</value>
+  </data>
+  <data name="SelectAProcess" xml:space="preserve">
+    <value>You must select at least one process.</value>
+  </data>
+  <data name="SelectAProcessClassification" xml:space="preserve">
+    <value>You must select a process classification.</value>
+  </data>
+  <data name="SelectAProject" xml:space="preserve">
+    <value>You must select a project.</value>
+  </data>
+  <data name="SelectAProvider" xml:space="preserve">
+    <value>You must select a provider.</value>
+  </data>
+  <data name="SelectARelationshipType" xml:space="preserve">
+    <value>You must select a relationship type.</value>
+  </data>
+  <data name="SelectAResource" xml:space="preserve">
+    <value>You must select a resource.</value>
+  </data>
+  <data name="SelectAResourceCatalog" xml:space="preserve">
+    <value>You must select an image.</value>
+  </data>
+  <data name="SelectAResourceType" xml:space="preserve">
+    <value>You must select a resource type.</value>
+  </data>
+  <data name="SelectARoleType" xml:space="preserve">
+    <value>You must select a role type.</value>
+  </data>
+  <data name="SelectASalutationType" xml:space="preserve">
+    <value>You must select a salutation type.</value>
+  </data>
+  <data name="SelectATimeUnit" xml:space="preserve">
+    <value>You must select a time unit.</value>
+  </data>
+  <data name="SelectAtLeastOnePost" xml:space="preserve">
+    <value>You must select at least one post.</value>
+  </data>
+  <data name="ValidationLimitedChars" xml:space="preserve">
+    <value>Data must be less than {0} characters.</value>
+  </data>
+  <data name="ValidationMustBeADate" xml:space="preserve">
+    <value>Data must be a valid date.</value>
+  </data>
+  <data name="ValidationMustBeADateRange" xml:space="preserve">
+    <value>Data must be a valid date range.</value>
+  </data>
+  <data name="ValidationMustBeANumber" xml:space="preserve">
+    <value>Data must be a valid number.</value>
+  </data>
+  <data name="ValidationRequiredField" xml:space="preserve">
+    <value>Required information.</value>
+  </data>
+  <data name="lblControlsNotImplemented" xml:space="preserve">
+    <value>Not Implemented.</value>
+  </data>
+  <data name="ValidationInvalidData" xml:space="preserve">
+    <value>&amp;larr; Invalid data.</value>
+  </data>
+  <data name="ValidationPassword" xml:space="preserve">
+    <value>Password does not match.</value>
+  </data>
+  <data name="ValidationInvalidSpecialCharacter" xml:space="preserve">
+    <value>Invalid special characters.</value>
+  </data>
+  <data name="ValidationWrongFormat" xml:space="preserve">
+    <value>Wrong format.</value>
+  </data>
+  <data name="ValidationDateFromTo" xml:space="preserve">
+    <value>Second date must be after the first one.</value>
+  </data>
+  <data name="msgSelectIndicatorAndMeasurementUnit" xml:space="preserve">
+    <value>You must select an indicator and a measurement unit.</value>
+  </data>
+  <data name="ValidationHVHigherLV" xml:space="preserve">
+    <value>High value must be greater than the low value.</value>
+  </data>
+  <data name="ValidationLVLessHV" xml:space="preserve">
+    <value>Low value must be lower than the high value.</value>
+  </data>
+  <data name="ValidationRange0_100" xml:space="preserve">
+    <value>Valid range: 0-100.</value>
+  </data>
+  <data name="ValidationSelectChoice" xml:space="preserve">
+    <value>You must make a choice.</value>
+  </data>
+  <data name="ValidationUploadFile" xml:space="preserve">
+    <value>Please enter or browse for a file to upload.</value>
+  </data>
+  <data name="SelectedCoords" xml:space="preserve">
+    <value>You chose the following coordinates</value>
+  </data>
+  <data name="GeoCodeNotSelected" xml:space="preserve">
+    <value>Geographical coordinates are not selected</value>
+  </data>
+  <data name="SelectAConstant" xml:space="preserve">
+    <value>You must select a constant.</value>
+  </data>
+  <data name="SelectAConstantClassification" xml:space="preserve">
+    <value>You must select a constant classification.</value>
+  </data>
+  <data name="SelectAtLeastOneIndicatorGHG" xml:space="preserve">
+    <value>You must select at least one indicator GHG.</value>
+  </data>
+  <data name="SelectAFacilityType" xml:space="preserve">
+    <value>You must select a facility type.</value>
+  </data>
+  <data name="msgIncorrectSelectionResource" xml:space="preserve">
+    <value>You select the Resource incorrectly. Reselect the resource or leave it on "Select an item" to not use it.</value>
+  </data>
+  <data name="SelectAVariable" xml:space="preserve">
+    <value>You must select a variable.</value>
+  </data>
+  <data name="ValidationContainBaseinFormula" xml:space="preserve">
+    <value>The variable 'Base' must always be declared in the formula.</value>
+    <comment>Base no se traduce, es una constante.</comment>
+  </data>
+  <data name="ValidationFormulaCorrect" xml:space="preserve">
+    <value>The formula is correct.</value>
+  </data>
+  <data name="ValidationFormulaError" xml:space="preserve">
+    <value>The formula is incorrect. Check the parenthesis and variables used.</value>
+  </data>
+  <data name="SelectAAccountingActivity" xml:space="preserve">
+    <value>You must select a accounting activity.</value>
+  </data>
+  <data name="SelectAAccountingScope" xml:space="preserve">
+    <value>You must select a accounting scope.</value>
+  </data>
+  <data name="SelectAtLeastOneEmail" xml:space="preserve">
+    <value>You must select at least one email.</value>
+  </data>
+  <data name="ValidationListEmails" xml:space="preserve">
+    <value>You must enter an valid email address. eg.: lewis@moten.com | lewis@moten.com, me@lewismoten.com | lewis@moten.com;me@lewismoten.com</value>
+  </data>
+  <data name="ValidationEmail" xml:space="preserve">
+    <value>You must enter an valid email address. eg.: he_llo@worl.d.com | hel.l-o@wor-ld.museum | h1ello@123.com</value>
+  </data>
+  <data name="VariableNotDefinedAsParameter" xml:space="preserve">
+    <value>The formula uses an undefined variable as a parameter</value>
+  </data>
+  <data name="FileTypeNotAllowed" xml:space="preserve">
+    <value>File Type not Allowed</value>
+  </data>
+  <data name="DataSeriesIncomplete" xml:space="preserve">
+    <value>The data series is incomplete</value>
+  </data>
+  <data name="LicensePeriodIsExpired" xml:space="preserve">
+    <value>The license period has expired. Please contact the administrator</value>
+  </data>
+</root>

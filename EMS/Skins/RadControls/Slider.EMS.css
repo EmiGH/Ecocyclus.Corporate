@@ -1,0 +1,172 @@
+﻿/* r.a.d.slider EMS skin */
+
+/* ------------------- GLOBAL SLIDER CLASSES ------------------------------------------------------------- */
+
+/* ------------------- GLOBAL SLIDER CLASSES END --------------------------------------------------------- */
+
+/* ------------------- HORIZONTAL SLIDER CLASSES --------------------------------------------------------- */
+.RadSlider_EMS.horizontal
+{
+	height: 21px; line-height: 21px;
+	position: relative;
+
+}
+
+.RadSlider_EMS.horizontal a.handle
+{
+	width: 12px; height: 22px;
+	background-image: url('Slider/Handles.gif');
+	background-repeat: no-repeat;
+}
+
+.RadSlider_EMS.horizontal .decrease
+{
+	background-position: 0 0;
+}
+
+.RadSlider_EMS.horizontal .decrease:hover
+{
+	background-position: -24px 0;
+}
+
+.RadSlider_EMS.horizontal .decrease:active,
+.RadSlider_EMS.horizontal .decrease:focus
+{
+	background-position: -48px 0;
+}
+
+.RadSlider_EMS.horizontal .increase
+{
+	background-position: -12px 0;
+}
+
+.RadSlider_EMS.horizontal .increase:hover
+{
+	background-position: -36px 0;
+}
+
+.RadSlider_EMS.horizontal .increase:active,
+.RadSlider_EMS.horizontal .increase:focus
+{
+	background-position: -60px 0;
+}
+
+.RadSlider_EMS.horizontal a.draghandle
+{
+	top: 0;
+	margin-top: -7px;
+	width: 11px; height: 19px;
+	background-image: url('Slider/DragHandle.gif');
+	background-repeat: no-repeat;
+}
+
+.RadSlider_EMS.horizontal a.draghandle:hover
+{
+	background-position: -11px 0;
+}
+
+.RadSlider_EMS.horizontal a.draghandle:active,
+.RadSlider_EMS.horizontal a.draghandle:focus
+{
+	background-position: -22px 0;
+}
+
+.RadSlider_EMS.horizontal .track
+{
+	left: 12px; top: 0;
+	height: 3px;
+	margin-top: 6px;
+	background: #fff;
+	border-top: solid 1px #ABC7D6;
+	border-bottom: solid 1px #ABC7D6;
+}
+
+.RadSlider_EMS.horizontal .selectedregion
+{
+	background: #3a7aa3;
+	height: 3px;
+}
+
+/* ------------------- HORIZONTAL SLIDER CLASSES END ---------------------------------------------------- */
+
+/* ------------------- VERTICAL SLIDER CLASSES ---------------------------------------------------------- */
+.RadSlider_EMS.vertical
+{
+	width: 21px;
+}
+
+.RadSlider_EMS.vertical .handle
+{
+	width: 22px; height: 12px; line-height: 12px;
+	background-image: url('Slider/HandlesVertical.gif');
+	background-repeat: no-repeat;
+}
+
+.RadSlider_EMS.vertical .decrease
+{
+	background-position: 0 0;
+}
+
+.RadSlider_EMS.vertical .decrease:hover
+{
+	background-position: 0 -24px;
+}
+
+.RadSlider_EMS.vertical .decrease:active,
+.RadSlider_EMS.vertical .decrease:focus
+{
+	background-position: 0 -48px;
+}
+
+.RadSlider_EMS.vertical .increase
+{
+	background-position: 0 -12px;
+}
+
+.RadSlider_EMS.vertical .increase:hover
+{
+	background-position: 0 -36px;
+}
+
+.RadSlider_EMS.vertical .increase:active,
+.RadSlider_EMS.vertical .increase:focus
+{
+	background-position: 0 -60px;
+}
+
+.RadSlider_EMS.vertical .track
+{
+	top: 12px; left: 0;
+	width: 3px;
+	margin-left: 6px;
+	background: #efebe7 url('Slider/TrackVerticalBgr.gif') repeat-y right 0;
+	border-left: solid 1px #383838;
+	border-right: solid 1px #383838;
+}
+
+.RadSlider_EMS.vertical a.draghandle
+{
+	top: 0;
+	width: 19px; height: 11px;
+	margin-left: -7px;
+	background-image: url('Slider/DragVerticalHandle.gif');
+	background-repeat: no-repeat;
+}
+
+.RadSlider_EMS.vertical a.draghandle:hover
+{
+	background-position: 0 -11px;
+}
+
+.RadSlider_EMS.vertical a.draghandle:active,
+.RadSlider_EMS.vertical a.draghandle:focus
+{
+	background-position: 0 -22px;
+}
+
+.RadSlider_EMS.vertical .selectedregion
+{
+	background: #464646;
+	width: 3px;
+}
+/* ------------------- VERTICAL SLIDER CLASSES END ----------------------------------------------------- */

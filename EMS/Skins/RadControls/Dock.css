@@ -1,0 +1,270 @@
+﻿.raddockzone
+{
+    position:relative;
+}
+
+.raddock
+{
+	margin:0px !important;
+}
+
+.rdPlaceHolder
+{
+    border-style:dashed;
+    border-width:1px;
+}
+
+.rdHorizontal .raddock,
+.rdVertical .raddock
+{
+    position:relative;
+}
+
+.rdHorizontal .raddock
+{
+    float:left;
+}
+
+.raddock,
+.rdTopBorder,
+.rdBottomBorder
+{
+    position:absolute;
+    overflow:hidden;
+}
+
+.rdVariableHeight .rdBottomBorder,
+.rdCollapsed .rdBottomBorder
+{
+    position:static;
+}
+
+.rdSideBorders
+{
+    height:100%;
+    overflow:hidden;
+    z-index:10;
+}
+.rdVariableHeight .rdSideBorders
+{
+    height:auto;
+}
+
+.rdTopBorder,
+.rdBottomBorder
+{
+    width:100%;
+}
+.rdTopBorder
+{
+    top:0;
+    left:0;
+}
+.rdBottomBorder
+{
+    bottom:0;
+    left:0;
+}
+
+.rdContent,
+.rdGripTop
+{
+    position:relative;
+}
+
+
+/* titlebar */
+
+.rdTitlebar
+{
+    display:none;
+    position:relative;
+}
+.rdHTitlebar .rdTitlebar,
+.rdVTitlebar .rdTitlebar
+{
+    display:block;
+}
+
+.rdVTitlebar .rdTitlebar
+{
+    position:absolute;
+    overflow:hidden;
+}
+
+.rdCollapsed .rdHTitlebar .rdTitlebar
+{
+    /*top:0;*/
+}
+
+.rdVariableHeight .rdSideBorders .rdTitlebar
+{
+    /*top:0;*/
+}
+
+.rdTitlebar .rdTitle
+{
+    display:block;
+    overflow:hidden;
+    white-space:nowrap;
+    font-style:normal;
+}
+
+.rdTitlebar .rdCommands
+{
+    position:absolute;
+    display:block;
+    z-index:2;
+    right:0;
+}
+.rdHTitlebar .rdTitlebar .rdCommands
+{
+    top:0;
+}
+.rdVTitlebar .rdTitlebar .rdCommands
+{
+    bottom:0;
+}
+
+.rdTitlebar .rdCommands a
+{
+    display:block;
+    overflow:hidden;
+    text-indent:-3333px;
+    cursor:default;
+}
+.rdHTitlebar .rdTitlebar .rdCommands a
+{
+    float:right;
+}
+
+* html .rdTitlebar .rdCommands a
+{
+	display:inline-block;
+}
+/* inner container */
+
+.rdContent
+{
+    overflow:auto;
+}
+/*IE6 overflow fix*/
+* html .rdContent
+{
+    width:100%;
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+* html .rdWGripLeft .rdContent,
+* html .rdWGripRight .rdContent,
+* html .rdVTitlebar .rdContent
+{
+    width:auto;
+}
+
+.rdCollapsed .rdContent
+{
+    display:none;
+}
+.rdVariableHeight .rdSideBorders .rdContent
+{
+    /*top:0;*/
+}
+
+
+/* grips */
+
+.rdGripTop,
+.rdGripLeft
+{
+    display:none;
+    font-size:1px;
+    line-height:1px;
+}
+
+.rdWGripTop .rdGripTop,
+.rdWGripLeft .rdGripLeft
+{
+    display:block;
+}
+
+.rdGripTop
+{
+    width:100%;
+    overflow:hidden;
+}
+
+.rdGripLeft
+{
+    position:absolute;
+    height:100%;
+}
+
+/* dragging */
+
+.rdDraggable
+{
+    cursor:move;
+}
+
+/* float clearing */
+
+.clear
+{
+    clear:both;
+    height:1px;
+    margin-bottom:-1px;
+    visibility:hidden;
+}
+
+/* temporary wrapping table classes */
+.rdWrapTable .rdTopLeft,
+.rdWrapTable .rdTopCenter,
+.rdWrapTable .rdTopRight,
+.rdWrapTable .rdLeftMiddle,
+.rdWrapTable .rdRightMiddle,
+.rdWrapTable .rdBottomLeft,
+.rdWrapTable .rdBottomCenter,
+.rdWrapTable .rdBottomRight
+{
+	padding: 0;
+	margin: 0;
+	font-size: 1px;
+	line-height: 1px;
+}
+
+.rdCenter,
+.rdLeftMiddle,
+.rdRightMiddle
+{
+    vertical-align: top;
+    height: 100%;
+}
+
+.rdWrapTable .rdTopBorder,
+.rdWrapTable .rdCenter,
+.rdWrapTable .rdContent
+{
+    border: 0 !important;
+    top: 0px !important;
+}
+
+.rdWrapTable .rdTitlebar
+{
+    top: 0 !important;
+}
+
+.rdWrapTable .rdTitlebar
+{
+    margin: 0 !important;
+}
+/* temporary wrapping table classes */
+
+.rdWrapTable .rdGripTop {
+	top:0px !important;
+}
+
+.raddockzone
+{
+	padding: 4px !important;
+}

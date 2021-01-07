@@ -1,0 +1,375 @@
+﻿.RadTabStrip,
+.RadTabStrip *,
+.RadTabStripVertical,
+.RadTabStripVertical *
+{
+	margin: 0;
+	padding: 0;
+}
+
+.RadTabStripVertical { display: inline-block; }
+*+html .RadTabStripVertical { display: inline; }
+* html .RadTabStripVertical { display: inline; }
+
+.RadTabStrip .rtsLevel
+{
+	clear:both;
+	overflow: hidden;
+	width: 100%;
+	position: relative;
+}
+
+* html .RadTabStrip .rtsLevel
+{
+	position:static;
+}
+
+*+html .RadTabStrip .rtsLevel
+{
+	position:static;
+}
+
+.RadTabStrip .rtsScroll
+{
+	width: 10000px;
+	white-space:nowrap;
+}
+
+/* clear float; for IE - inline-block display */
+.RadTabStripVertical:after,
+.RadTabStrip .rtsLevel .rtsUL:after,
+.RadTabStripVertical .rtsLevel .rtsUL:after
+{
+	content: "."; 
+	display: block; 
+	height: 0;
+	clear: both; 
+	visibility: hidden;
+}
+
+.RadTabStrip .rtsUL
+{
+	margin:0;
+	padding:0;
+	overflow: hidden;
+	float:left;
+}
+
+.RadTabStrip_rtl .rtsUL
+{
+	float: right;
+}
+
+.RadTabStripVertical .rtsLevel
+{
+	overflow: hidden;
+	height: 100%;
+}
+
+.RadTabStrip .rtsLI
+{
+	overflow: hidden;
+	list-style-type:none;
+	float:left
+}
+
+* html .RadTabStrip .rtsLI
+{
+	display:inline;
+	zoom: 1;
+	float:none;
+}
+
+*+html .RadTabStrip .rtsLI
+{
+	display:inline;
+	zoom: 1;
+	float:none;
+}
+
+.RadTabStripVertical .rtsLI
+{
+	float: left;
+	display: -moz-inline-block;
+	display: inline-block;
+	list-style-type:none;
+	overflow: hidden;
+}
+
+.RadTabStrip .rtsLink,
+.RadTabStripVertical .rtsLink
+{
+	display:block;
+	outline:none;
+	cursor: pointer;
+}
+
+.RadTabStripVertical .rtsLink
+{
+	zoom: 1;
+}
+
+.RadTabStrip .rtsOut,
+.RadTabStripVertical .rtsOut
+{
+	display:block;
+}
+
+.RadTabStrip .rtsIn,
+.RadTabStripVertical .rtsIn
+{
+	display:block;
+	/*width:100%;   /* IE hiding long text (required tab width however) */
+}
+
+.RadTabStrip .rtsPrevArrow,
+.RadTabStrip .rtsNextArrow,
+.RadTabStrip .rtsPrevArrowDisabled,
+.RadTabStrip .rtsNextArrowDisabled
+{
+	font-size:0;
+	display:block;
+	text-indent:-9999px;
+	outline:none;
+}
+
+.RadTabStrip .rtsCenter
+{
+	text-align: center;
+}
+
+.RadTabStrip .rtsImg
+{
+	border: none;
+}
+.RadTabStrip .rtsImg+.rtsTxt { display: -moz-inline-box; }
+.RadTabStrip .rtsTxt { display: inline-block; }
+
+.RadTabStrip .rtsRight .rtsUL
+{
+	float:right;
+}
+
+.RadTabStrip .rtsCenter .rtsUL
+{
+	display: -moz-inline-box;
+	display: inline-block;
+	float:none;
+}
+
+.RadTabStrip .rtsBreak
+{
+	height: 0;
+	width: 0;
+	font-size: 0;
+	line-height: 0;
+	display: block;
+	clear: left;
+	margin-top: -2px;
+}
+
+* html .RadTabStrip .rtsCenter .rtsUL { display: inline-block; }
+* html .RadTabStrip .rtsCenter .rtsUL { display: inline; }
+
+*+html .RadTabStrip .rtsCenter .rtsUL { display: inline-block; }
+*+html .RadTabStrip .rtsCenter .rtsUL { display: inline; }
+
+.RadTabStrip_rtl .rtsLI
+{
+	float:right;
+}
+
+* html .RadTabStrip_rtl .rtsLI
+{
+	float:none;
+}
+
+*+html .RadTabStrip_rtl .rtsLI
+{
+	float:none;
+}
+
+@media screen and (min-width:50px)
+{
+	:root .rtsScroll
+	{
+		width: auto;
+	}
+	
+	:root .rtsLI
+	{
+		float:none;
+		display: inline-block;
+	}
+}
+
+.RadTabStripVertical .rtsUL .rtsLI
+{
+	line-height: 0;
+	font-size: 0;
+}
+
+.RadTabStripVertical .rtsUL li.rtsSeparator
+{
+	display: none;
+}
+
+
+
+.RadTabStrip_Map .rtsLI,
+.RadTabStrip_Map .rtsLink
+{
+	color: #999999;
+	font-size: 10px;
+}
+
+.RadTabStripLeft_Map .rtsLI,
+.RadTabStripRight_Map .rtsLI
+{
+	width: 100%;
+}
+
+.RadTabStripLeft_Map .rtsLevel .rtsUL,
+.RadTabStripRight_Map .rtsLevel .rtsUL
+{
+	width: 150px; /* default width */
+}
+
+.RadTabStrip_Map .rtsLevel
+{
+	background-color: #fff;
+}
+
+.RadTabStrip_Map .rtsLevel1
+{
+	background-color: #fff;
+	border-bottom: solid 1px #ccc;
+}
+
+.RadTabStrip_Map .rtsLink
+{
+	text-decoration: none;
+}
+
+.RadTabStripTop_Map .rtsOut,
+.RadTabStripBottom_Map .rtsOut
+{
+	text-align:center;
+}
+
+.RadTabStrip_Map .rtsIn
+{
+	font-weight:bold;
+	padding: 0 5px;
+}
+
+/* disabled tabs */
+.RadTabStrip_Map .rtsDisabled,
+.RadTabStripLeft_Map .rtsDisabled,
+.RadTabStripRight_Map .rtsDisabled,
+.RadTabStripBottom_Map .rtsDisabled,
+.RadTabStrip_Map_disabled .rtsDisabled
+{
+	color: #ccc;
+	cursor: default;
+}
+
+.RadTabStripLeft_Map .rtsLI .rtsIn,
+.RadTabStripRight_Map .rtsLI .rtsIn
+{
+	padding: 0 10px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.RadTabStripLeft_Map .rtsUL,
+.RadTabStripRight_Map .rtsUL
+{
+	width: 100%;
+}
+
+.RadTabStrip_Map .rtsImg
+{
+	border:0;
+	vertical-align:top;
+	width: 16px;
+	margin: 2px 0;
+}
+
+/* Scrolling */
+.RadTabStrip_Map .rtsNextArrow,
+.RadTabStrip_Map .rtsPrevArrow,
+.RadTabStrip_Map .rtsPrevArrowDisabled,
+.RadTabStrip_Map .rtsNextArrowDisabled
+{
+	height:19px;
+	width:17px;
+	background:transparent url('TabStrip/ScrollArrows.png') no-repeat;
+}
+
+.RadTabStrip_Map .rtsNextArrow { background-position: 100% 0; }
+.RadTabStrip_Map .rtsPrevArrow { background-position: 0 0; }
+.RadTabStrip_Map .rtsNextArrowDisabled { background-position: 100% 100%; }
+.RadTabStrip_Map .rtsPrevArrowDisabled { background-position: 0 100%; }
+
+/* Orientation: Top */
+
+.RadTabStripTop_Map .rtsLink .rtsIn { line-height: 23px;  }
+
+.RadTabStripTop_Map .rtsLevel1 .rtsLink { padding-left: 5px; }
+.RadTabStripTop_Map .rtsLevel1 .rtsLink .rtsOut { padding-right: 5px; }
+
+.RadTabStripTop_Map .rtsLevel1 .rtsSelected { background: transparent url('TabStripMap/TabStripStates.png') no-repeat 0 0; color:#333; }
+.RadTabStripTop_Map .rtsLevel1 .rtsSelected .rtsOut { background: transparent url('TabStripMap/TabStripStates.png') no-repeat 100% 0; }
+
+.RadTabStripTop_Map .rtsLevel2 .rtsSelected { text-decoration: underline; }
+
+.RadTabStripTop_Map .rtsLevel1 .rtsUL { padding: 0 3px; margin-top: 4px; }
+.RadTabStripTop_Map .rtsLevel2 .rtsIn { padding: 0 10px; }
+
+/* Orientation: Bottom */
+
+.RadTabStripBottom_Map .rtsLink .rtsIn { line-height: 23px;  }
+
+.RadTabStripBottom_Map .rtsLevel1 .rtsLink { padding-left: 5px; }
+.RadTabStripBottom_Map .rtsLevel1 .rtsLink .rtsOut { padding-right: 5px; }
+
+.RadTabStripBottom_Map .rtsLevel1 .rtsSelected { background: transparent url('TabStripMap/TabStripStates.png') no-repeat 0 -60px; ; color:#333;  }
+.RadTabStripBottom_Map .rtsLevel1 .rtsSelected .rtsOut { background: transparent url('TabStripMap/TabStripStates.png') no-repeat 100% -60px; }
+
+.RadTabStripBottom_Map .rtsLevel2 .rtsSelected { text-decoration: underline; }
+
+.RadTabStripBottom_Map .rtsLevel1 .rtsUL { padding: 0 3px; margin-bottom: 4px; }
+.RadTabStripBottom_Map .rtsLevel2 .rtsIn { padding: 0 10px; }
+
+/* Orientation: Left */
+
+.RadTabStripLeft_Map .rtsLink .rtsIn { line-height: 30px;  }
+
+.RadTabStripLeft_Map .rtsLevel { float: left; }
+
+.RadTabStripLeft_Map .rtsLevel1 .rtsLink { padding-left: 10px; }
+
+.RadTabStripLeft_Map .rtsLevel1 .rtsSelected { background: transparent url('TabStripMap/TabStripStates.png') no-repeat 0 -30px; color:#333;  }
+.RadTabStripLeft_Map .rtsLevel1 .rtsSelected .rtsOut { background: transparent url('TabStripMap/TabStripStates.png') no-repeat 100% -30px; }
+
+.RadTabStripLeft_Map .rtsLevel2 .rtsSelected { text-decoration: underline; }
+
+.RadTabStripLeft_Map .rtsLevel1 .rtsUL { padding: 4px 0; margin-left: 4px; }
+.RadTabStripLeft_Map .rtsLevel2 .rtsIn { padding: 0 10px; }
+
+/* Orientation: Right */
+
+.RadTabStripRight_Map .rtsLink .rtsIn { line-height: 30px;  }
+
+.RadTabStripRight_Map .rtsLevel { float: right; }
+
+.RadTabStripRight_Map .rtsLevel1 .rtsLink { padding-left: 10px; }
+
+.RadTabStripRight_Map .rtsLevel1 .rtsSelected { background: transparent url('TabStripMap/TabStripStates.png') no-repeat 0 -90px; color:#333;  }
+.RadTabStripRight_Map .rtsLevel1 .rtsSelected .rtsOut { background: transparent url('TabStripMap/TabStripStates.png') no-repeat 100% -90px; }
+
+.RadTabStripRight_Map .rtsLevel2 .rtsSelected { text-decoration: underline; }
+
+.RadTabStripRight_Map .rtsLevel1 .rtsUL { padding: 4px 0; margin-right: 4px; }
+.RadTabStripRight_Map .rtsLevel2 .rtsIn { padding: 0 10px; }

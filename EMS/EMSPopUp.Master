@@ -1,0 +1,82 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="EMSPopUp.master.cs" Inherits="Condesus.EMS.WebUI.EMSPopUp" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+<head runat="server">
+    <%--<meta http-equiv="X-UA-Compatible" content="IE=10; IE=9; IE=8;" />--%>
+    <title>Ghree!</title>
+    <link href="~/Skins/Content.css" type="text/css" rel="stylesheet" />
+    <link href="~/Skins/Master.css" type="text/css" rel="stylesheet" />
+    <link href="~/Skins/PageTitle.css" type="text/css" rel="stylesheet" />
+    <link href="~/Skins/RadControls/Calendar.EMS.css" type="text/css" rel="stylesheet" />
+    <link href="~/Skins/RadControls/ComboBox.EMS.css" type="text/css" rel="stylesheet" />
+    <link href="~/Skins/RadControls/Dock.EMS.css" type="text/css" rel="stylesheet" />
+    <link href="~/Skins/RadControls/Grid.EMS.css" type="text/css" rel="stylesheet" />
+    <link href="~/Skins/RadControls/Menu.EMS.css" type="text/css" rel="stylesheet" />
+    <link href="~/Skins/RadControls/Menu.FrameworkAccionMenu.css" type="text/css" rel="stylesheet" />
+    <link href="~/Skins/RadControls/Slider.EMS.css" type="text/css" rel="stylesheet" />
+    <link href="~/Skins/RadControls/TabStrip.EMS.css" type="text/css" rel="stylesheet" />
+    <link href="~/Skins/RadControls/TreeView.ComboTreeView.css" type="text/css" rel="stylesheet" />
+    <link href="~/Skins/RadControls/TreeView.ContextElementMapsByProcess.css" type="text/css"
+        rel="stylesheet" />
+    <link href="~/Skins/RadControls/TreeView.EMS.css" type="text/css" rel="stylesheet" />
+    <link href="~/Skins/RadControls/TreeView.Form.css" type="text/css" rel="stylesheet" />
+    <link href="~/Skins/RadControls/TreeView.Manage.css" type="text/css" rel="stylesheet" />
+    <style type="text/css">
+        html
+        {
+            height: 100%;
+            overflow: auto;
+        }
+    </style>
+    <meta http-equiv="Page-Enter" content="progid:DXImageTransform.Microsoft.Fade(duration=.75)" />
+    <meta http-equiv="Page-Exit" content="progid:DXImageTransform.Microsoft.Fade(duration=.75)" />
+
+
+    <script type="text/javascript">
+        //Constantes para identificar al navegador y variable publica para saber cual es el navegador actual.
+        var _IEXPLORER = "Microsoft Internet Explorer";
+        var _FIREFOX = "Netscape";
+        var _BrowserName = navigator.appName;
+        
+        //Funciones globales para obtener posiciones del mouse X e Y
+        function GetMousePositionX(e) {
+            if (_BrowserName == _IEXPLORER)
+            {return window.event.x; }
+            else
+            {return e.clientX;}
+        }
+        function GetMousePositionY(e) {
+            if (_BrowserName == _IEXPLORER)
+            { return window.event.y; }
+            else
+            { return e.clientY; }
+        }
+
+        // Prevents event bubble up or any usage after this is called.
+        // pE - event object
+        function StopEvent(e) {
+            if (_BrowserName == _IEXPLORER) {
+                window.event.returnValue = false;
+            }
+            else {
+                e.preventDefault();
+            }
+        }
+    </script>
+
+</head>
+<body>
+    <form id="frmMasterPopUpform" runat="server">
+    <asp:ScriptManager ID="smEMSMasterPopUp" EnablePageMethods="true" runat="server"
+        AsyncPostBackTimeout="180">
+    </asp:ScriptManager>
+    <div id="FWMasterGlobalUpdateProgress" class="Loading" style="display: none">
+    </div>
+
+                <asp:ContentPlaceHolder ID="ContentPopUp" runat="server">
+                </asp:ContentPlaceHolder>
+
+    </form>
+</body>
+</html>

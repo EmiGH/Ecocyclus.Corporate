@@ -1,0 +1,376 @@
+﻿.RadTabStrip,
+.RadTabStrip *,
+.RadTabStripVertical,
+.RadTabStripVertical *
+{
+	margin: 0;
+	padding: 0;
+}
+
+.RadTabStripVertical { display: inline-block; }
+*+html .RadTabStripVertical { display: inline; }
+* html .RadTabStripVertical { display: inline; }
+
+.RadTabStrip .rtsLevel
+{
+	clear:both;
+	overflow: hidden;
+	width: 100%;
+	position: relative;
+}
+
+* html .RadTabStrip .rtsLevel
+{
+	position:static;
+}
+
+*+html .RadTabStrip .rtsLevel
+{
+	position:static;
+}
+
+.RadTabStrip .rtsScroll
+{
+	width: 10000px;
+	white-space:nowrap;
+}
+
+/* clear float; for IE - inline-block display */
+.RadTabStripVertical:after,
+.RadTabStrip .rtsLevel .rtsUL:after,
+.RadTabStripVertical .rtsLevel .rtsUL:after
+{
+	content: "."; 
+	display: block; 
+	height: 0;
+	clear: both; 
+	visibility: hidden;
+}
+
+.RadTabStrip .rtsUL
+{
+	margin:0;
+	padding:0;
+	overflow: hidden;
+	float:left;
+}
+
+.RadTabStrip_rtl .rtsUL
+{
+	float: right;
+}
+
+.RadTabStripVertical .rtsLevel
+{
+	overflow: hidden;
+	height: 100%;
+}
+
+.RadTabStrip .rtsLI
+{
+	overflow: hidden;
+	list-style-type:none;
+	float:left
+}
+
+* html .RadTabStrip .rtsLI
+{
+	display:inline;
+	zoom: 1;
+	float:none;
+}
+
+*+html .RadTabStrip .rtsLI
+{
+	display:inline;
+	zoom: 1;
+	float:none;
+}
+
+.RadTabStripVertical .rtsLI
+{
+	float: left;
+	display: -moz-inline-block;
+	display: inline-block;
+	list-style-type:none;
+	overflow: hidden;
+}
+
+.RadTabStrip .rtsLink,
+.RadTabStripVertical .rtsLink
+{
+	display:block;
+	outline:none;
+	cursor: pointer;
+}
+
+.RadTabStripVertical .rtsLink
+{
+	zoom: 1;
+}
+
+.RadTabStrip .rtsOut,
+.RadTabStripVertical .rtsOut
+{
+	display:block;
+}
+
+.RadTabStrip .rtsIn,
+.RadTabStripVertical .rtsIn
+{
+	display:block;
+	/*width:100%;   /* IE hiding long text (required tab width however) */
+}
+
+.RadTabStrip .rtsPrevArrow,
+.RadTabStrip .rtsNextArrow,
+.RadTabStrip .rtsPrevArrowDisabled,
+.RadTabStrip .rtsNextArrowDisabled
+{
+	font-size:0;
+	display:block;
+	text-indent:-9999px;
+	outline:none;
+}
+
+.RadTabStrip .rtsCenter
+{
+	text-align: center;
+}
+
+.RadTabStrip .rtsImg
+{
+	border: none;
+}
+.RadTabStrip .rtsImg+.rtsTxt { display: -moz-inline-box; }
+.RadTabStrip .rtsTxt { display: inline-block; }
+
+.RadTabStrip .rtsRight .rtsUL
+{
+	float:right;
+}
+
+.RadTabStrip .rtsCenter .rtsUL
+{
+	display: -moz-inline-box;
+	display: inline-block;
+	float:none;
+}
+
+.RadTabStrip .rtsBreak
+{
+	height: 0;
+	width: 0;
+	font-size: 0;
+	line-height: 0;
+	display: block;
+	clear: left;
+	margin-top: -2px;
+}
+
+* html .RadTabStrip .rtsCenter .rtsUL { display: inline-block; }
+* html .RadTabStrip .rtsCenter .rtsUL { display: inline; }
+
+*+html .RadTabStrip .rtsCenter .rtsUL { display: inline-block; }
+*+html .RadTabStrip .rtsCenter .rtsUL { display: inline; }
+
+.RadTabStrip_rtl .rtsLI
+{
+	float:right;
+}
+
+* html .RadTabStrip_rtl .rtsLI
+{
+	float:none;
+}
+
+*+html .RadTabStrip_rtl .rtsLI
+{
+	float:none;
+}
+
+@media screen and (min-width:50px)
+{
+	:root .rtsScroll
+	{
+		width: auto;
+	}
+	
+	:root .rtsLI
+	{
+		float:none;
+		display: inline-block;
+	}
+}
+
+.RadTabStripVertical .rtsUL .rtsLI
+{
+	line-height: 0;
+	font-size: 0;
+}
+
+.RadTabStripVertical .rtsUL li.rtsSeparator
+{
+	display: none;
+}
+
+
+
+.RadTabStrip_Report .rtsLI,
+.RadTabStrip_Report .rtsLink
+{
+	color: #666666;
+	font-size: 10px;
+}
+
+.RadTabStripLeft_Report .rtsLI,
+.RadTabStripRight_Report .rtsLI
+{
+	width: 100%;
+}
+
+.RadTabStripLeft_Report .rtsLevel .rtsUL,
+.RadTabStripRight_Report .rtsLevel .rtsUL
+{
+	width: 150px; /* default width */
+}
+
+.RadTabStrip_Report .rtsLevel
+{
+	background-color: #fff;
+}
+
+.RadTabStrip_Report .rtsLevel1
+{
+	background-color: #fff;
+	border-top: solid 1px #ccc;
+	border-bottom: solid 1px #ccc;
+}
+
+.RadTabStrip_Report .rtsLink
+{
+	text-decoration: none;
+}
+
+.RadTabStripTop_Report .rtsOut,
+.RadTabStripBottom_Report .rtsOut
+{
+	text-align:center;
+}
+
+.RadTabStrip_Report .rtsIn
+{
+	font-weight:bold;
+	padding: 0 5px;
+}
+
+/* disabled tabs */
+.RadTabStrip_Report .rtsDisabled,
+.RadTabStripLeft_Report .rtsDisabled,
+.RadTabStripRight_Report .rtsDisabled,
+.RadTabStripBottom_Report .rtsDisabled,
+.RadTabStrip_Report_disabled .rtsDisabled
+{
+	color: #ccc;
+	cursor: default;
+}
+
+.RadTabStripLeft_Report .rtsLI .rtsIn,
+.RadTabStripRight_Report .rtsLI .rtsIn
+{
+	padding: 0 10px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.RadTabStripLeft_Report .rtsUL,
+.RadTabStripRight_Report .rtsUL
+{
+	width: 100%;
+}
+
+.RadTabStrip_Report .rtsImg
+{
+	border:0;
+	vertical-align:top;
+	width: 16px;
+	margin: 2px 0;
+}
+
+/* Scrolling */
+.RadTabStrip_Report .rtsNextArrow,
+.RadTabStrip_Report .rtsPrevArrow,
+.RadTabStrip_Report .rtsPrevArrowDisabled,
+.RadTabStrip_Report .rtsNextArrowDisabled
+{
+	height:19px;
+	width:17px;
+	background:transparent url('TabStrip/ScrollArrows.png') no-repeat;
+}
+
+.RadTabStrip_Report .rtsNextArrow { background-position: 100% 0; }
+.RadTabStrip_Report .rtsPrevArrow { background-position: 0 0; }
+.RadTabStrip_Report .rtsNextArrowDisabled { background-position: 100% 100%; }
+.RadTabStrip_Report .rtsPrevArrowDisabled { background-position: 0 100%; }
+
+/* Orientation: Top */
+
+.RadTabStripTop_Report .rtsLink .rtsIn { line-height: 23px;  }
+
+.RadTabStripTop_Report .rtsLevel1 .rtsLink { padding-left: 5px; }
+.RadTabStripTop_Report .rtsLevel1 .rtsLink .rtsOut { padding-right: 5px; }
+
+.RadTabStripTop_Report .rtsLevel1 .rtsSelected { background: transparent url('TabStripReport/TabStripStates.png') no-repeat 0 0; color:#fff; }
+.RadTabStripTop_Report .rtsLevel1 .rtsSelected .rtsOut { background: transparent url('TabStripReport/TabStripStates.png') no-repeat 100% 0; }
+
+.RadTabStripTop_Report .rtsLevel2 .rtsSelected { text-decoration: underline; }
+
+.RadTabStripTop_Report .rtsLevel1 .rtsUL { padding: 0 3px; margin-top: 1px; }
+.RadTabStripTop_Report .rtsLevel2 .rtsIn { padding: 0 10px; }
+
+/* Orientation: Bottom */
+
+.RadTabStripBottom_Report .rtsLink .rtsIn { line-height: 23px;  }
+
+.RadTabStripBottom_Report .rtsLevel1 .rtsLink { padding-left: 5px; }
+.RadTabStripBottom_Report .rtsLevel1 .rtsLink .rtsOut { padding-right: 5px; }
+
+.RadTabStripBottom_Report .rtsLevel1 .rtsSelected { background: transparent url('TabStripReport/TabStripStates.png') no-repeat 0 -60px; color:#fff;  }
+.RadTabStripBottom_Report .rtsLevel1 .rtsSelected .rtsOut { background: transparent url('TabStripReport/TabStripStates.png') no-repeat 100% -60px; }
+
+.RadTabStripBottom_Report .rtsLevel2 .rtsSelected { text-decoration: underline; }
+
+.RadTabStripBottom_Report .rtsLevel1 .rtsUL { padding: 0 3px; margin-bottom: 4px; }
+.RadTabStripBottom_Report .rtsLevel2 .rtsIn { padding: 0 10px; }
+
+/* Orientation: Left */
+
+.RadTabStripLeft_Report .rtsLink .rtsIn { line-height: 30px;  }
+
+.RadTabStripLeft_Report .rtsLevel { float: left; }
+
+.RadTabStripLeft_Report .rtsLevel1 .rtsLink { padding-left: 10px; }
+
+.RadTabStripLeft_Report .rtsLevel1 .rtsSelected { background: transparent url('TabStripReport/TabStripStates.png') no-repeat 0 -30px; color:#fff;  }
+.RadTabStripLeft_Report .rtsLevel1 .rtsSelected .rtsOut { background: transparent url('TabStripReport/TabStripStates.png') no-repeat 100% -30px; }
+
+.RadTabStripLeft_Report .rtsLevel2 .rtsSelected { text-decoration: underline; }
+
+.RadTabStripLeft_Report .rtsLevel1 .rtsUL { padding: 4px 0; margin-left: 4px; }
+.RadTabStripLeft_Report .rtsLevel2 .rtsIn { padding: 0 10px; }
+
+/* Orientation: Right */
+
+.RadTabStripRight_Report .rtsLink .rtsIn { line-height: 30px;  }
+
+.RadTabStripRight_Report .rtsLevel { float: right; }
+
+.RadTabStripRight_Report .rtsLevel1 .rtsLink { padding-left: 10px; }
+
+.RadTabStripRight_Report .rtsLevel1 .rtsSelected { background: transparent url('TabStripReport/TabStripStates.png') no-repeat 0 -90px; color:#333;  }
+.RadTabStripRight_Report .rtsLevel1 .rtsSelected .rtsOut { background: transparent url('TabStripReport/TabStripStates.png') no-repeat 100% -90px; }
+
+.RadTabStripRight_Report .rtsLevel2 .rtsSelected { text-decoration: underline; }
+
+.RadTabStripRight_Report .rtsLevel1 .rtsUL { padding: 4px 0; margin-right: 4px; }
+.RadTabStripRight_Report .rtsLevel2 .rtsIn { padding: 0 10px; }

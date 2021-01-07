@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DCC3A44C-E110-4067-AADA-23D2C64BB04E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Condesus.EMS.DataAccess</RootNamespace>
+    <AssemblyName>Condesus.EMS.DataAccess</AssemblyName>
+    <SignAssembly>false</SignAssembly>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DeepSeaObfuscate>false</DeepSeaObfuscate>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dlls\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dlls\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ObjectBuilder, Version=1.0.51206.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dlls\Microsoft.Practices.ObjectBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\Common.cs" />
+    <Compile Include="Common\ExtendedProperties\Entities\CalculateExtendedProperties.cs" />
+    <Compile Include="Common\ExtendedProperties\Entities\FormulaExtendedProperties.cs" />
+    <Compile Include="Common\ExtendedProperties\Entities\IndicatorExtendedProperties.cs" />
+    <Compile Include="Common\ExtendedProperties\Entities\OrganizationExtendedProperties.cs" />
+    <Compile Include="Common\ExtendedProperties\Entities\ParameterGroupExtendedProperties.cs" />
+    <Compile Include="Common\ExtendedProperties\Entities\ResourceExtendedProperties.cs" />
+    <Compile Include="Common\ExtendedProperties\Facade\ExtendedProperties.cs" />
+    <Compile Include="CT - Collaboration Tools\Forum\Entities\Categories.cs" />
+    <Compile Include="CT - Collaboration Tools\Forum\Entities\Categories_LG.cs" />
+    <Compile Include="CT - Collaboration Tools\Forum\Entities\Forums.cs" />
+    <Compile Include="CT - Collaboration Tools\Forum\Entities\Forums_LG.cs" />
+    <Compile Include="CT - Collaboration Tools\Forum\Entities\Messages.cs" />
+    <Compile Include="CT - Collaboration Tools\Forum\Entities\Polls.cs" />
+    <Compile Include="CT - Collaboration Tools\Forum\Entities\Topics.cs" />
+    <Compile Include="CT - Collaboration Tools\Forum\Entities\WordFilters.cs" />
+    <Compile Include="CT - Collaboration Tools\Facade\CollaborationTools.cs" />
+    <Compile Include="DS - Directory Service\Entities\DashBoard.cs" />
+    <Compile Include="DS - Directory Service\Entities\OrganizationalCharts.cs" />
+    <Compile Include="DS - Directory Service\Entities\OrganizationalCharts_LG.cs" />
+    <Compile Include="DS - Directory Service\Entities\OrganizationClassifications.cs" />
+    <Compile Include="DS - Directory Service\Entities\OrganizationClassifications_LG.cs" />
+    <Compile Include="DS - Directory Service\Entities\SalutationTypes_LG.cs" />
+    <Compile Include="DS - Directory Service\Entities\ApplicabilityContactTypes.cs" />
+    <Compile Include="DS - Directory Service\Entities\ApplicabilityContactTypes_LG.cs" />
+    <Compile Include="DS - Directory Service\Entities\ContactAddresses.cs" />
+    <Compile Include="DS - Directory Service\Entities\ContactEmails.cs" />
+    <Compile Include="DS - Directory Service\Entities\ContactMessengers.cs" />
+    <Compile Include="DS - Directory Service\Entities\ContactMessengersApplications.cs" />
+    <Compile Include="DS - Directory Service\Entities\ContactMessengersProviders.cs" />
+    <Compile Include="DS - Directory Service\Entities\ContactTelephones.cs" />
+    <Compile Include="DS - Directory Service\Entities\ContactTypes.cs" />
+    <Compile Include="DS - Directory Service\Entities\ContactTypes_LG.cs" />
+    <Compile Include="DS - Directory Service\Entities\ContactURLs.cs" />
+    <Compile Include="DS - Directory Service\Entities\ContactURLs_LG.cs" />
+    <Compile Include="DS - Directory Service\Entities\FunctionalAreas_LG.cs" />
+    <Compile Include="DS - Directory Service\Entities\FunctionalPositions.cs" />
+    <Compile Include="DS - Directory Service\Entities\FunctionalAreas.cs" />
+    <Compile Include="DS - Directory Service\Entities\GeographicAreas.cs" />
+    <Compile Include="DS - Directory Service\Entities\Countries.cs" />
+    <Compile Include="DS - Directory Service\Entities\Countries_LG.cs" />
+    <Compile Include="DS - Directory Service\Entities\GeographicAreas_LG.cs" />
+    <Compile Include="DS - Directory Service\Entities\GeographicFunctionalAreas.cs" />
+    <Compile Include="DS - Directory Service\Entities\OrganizationsRelationships.cs" />
+    <Compile Include="DS - Directory Service\Entities\OrganizationsRelationshipsTypes.cs" />
+    <Compile Include="DS - Directory Service\Entities\OrganizationsRelationShipsTypes_LG.cs" />
+    <Compile Include="DS - Directory Service\Entities\Positions.cs" />
+    <Compile Include="DS - Directory Service\Entities\Positions_LG.cs" />
+    <Compile Include="DS - Directory Service\Entities\Posts.cs" />
+    <Compile Include="DS - Directory Service\Entities\Presences.cs" />
+    <Compile Include="DS - Directory Service\Entities\Resposibilities.cs" />
+    <Compile Include="DS - Directory Service\Entities\TelephoneFacilities.cs" />
+    <Compile Include="DS - Directory Service\Entities\TelephonePeople.cs" />
+    <Compile Include="DS - Directory Service\Entities\Telephones.cs" />
+    <Compile Include="DS - Directory Service\Entities\Users.cs" />
+    <Compile Include="DS - Directory Service\Entities\Languages.cs" />
+    <Compile Include="GIS - Geographic Information System\Entities\Addresses.cs" />
+    <Compile Include="GIS - Geographic Information System\Entities\FacilityTypes.cs" />
+    <Compile Include="GIS - Geographic Information System\Entities\FacilityTypes_LG.cs" />
+    <Compile Include="GIS - Geographic Information System\Entities\Sites.cs" />
+    <Compile Include="GIS - Geographic Information System\Entities\Sites_LG.cs" />
+    <Compile Include="GIS - Geographic Information System\Entities\GeographicalData.cs" />
+    <Compile Include="GIS - Geographic Information System\Entities\GeographicAreas.cs" />
+    <Compile Include="GIS - Geographic Information System\Entities\GeographicAreas_LG.cs" />
+    <Compile Include="GIS - Geographic Information System\Facade\GeographicInformationSystem.cs" />
+    <Compile Include="IA - Improvement Actions\Entities\ExceptionHistories.cs" />
+    <Compile Include="NT - Notification\Entities\MailTransformationExternal.cs" />
+    <Compile Include="NT - Notification\Entities\MailTransformationPeople.cs" />
+    <Compile Include="NT - Notification\Entities\NotificationConfigurations.cs" />
+    <Compile Include="NT - Notification\Entities\NotificationRecipients.cs" />
+    <Compile Include="NT - Notification\Entities\MailProcessTaskPeople.cs" />
+    <Compile Include="NT - Notification\Facade\Notifications.cs" />
+    <Compile Include="NT - Notification\Entities\MailProcessTaskExternal.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\AccountingActivities.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\AccountingActivities_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\AccountingScenarios.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\AccountingScenarios_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\AccountingScopes.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\AccountingScopes_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\AccountingSectors.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\AccountingSectors_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\CalculateOfTransformationErrors.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\CalculateOfTransformationMeasurementResults.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\CalculateOfTransformationParameterConstants.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\CalculateOfTransformationParameterMeasurements.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\CalculateOfTransformationParameters.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\CalculateOfTransformationParameterTransformations.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\CalculateOfTransformations.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\CalculateOfTransformations_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\CalculateOfTransformationTransformationResults.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\ConfigurationExcelFiles.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\ConstantClassifications.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\ConstantClassifications_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\Constants.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\Constants_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\Methodologies.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\Methodologies_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\Qualities.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\Qualities_LG.cs" />
+    <Compile Include="PF - Processes Framework\Entities\ProcessGroupProcessForums.cs" />
+    <Compile Include="PF - Processes Framework\Entities\ProcessTaskCalibrations.cs" />
+    <Compile Include="PF - Processes Framework\Entities\ProcessTaskDataRecoveries.cs" />
+    <Compile Include="PF - Processes Framework\Entities\ProcessTaskMeasurements.cs" />
+    <Compile Include="PF - Processes Framework\Entities\ProcessTaskOperations.cs" />
+    <Compile Include="DS - Directory Service\Entities\Organizations.cs" />
+    <Compile Include="DS - Directory Service\Entities\People.cs" />
+    <Compile Include="DS - Directory Service\Entities\JobTitles.cs" />
+    <Compile Include="DS - Directory Service\Entities\SalutationTypes.cs" />
+    <Compile Include="DS - Directory Service\Facade\DirectoryServices.cs" />
+    <Compile Include="IA - Improvement Actions\Entities\Exceptions.cs" />
+    <Compile Include="IA - Improvement Actions\Entities\ExceptionStates.cs" />
+    <Compile Include="IA - Improvement Actions\Entities\ExceptionStates_LG.cs" />
+    <Compile Include="IA - Improvement Actions\Entities\ExceptionTypes.cs" />
+    <Compile Include="IA - Improvement Actions\Entities\ExceptionTypes_LG.cs" />
+    <Compile Include="IA - Improvement Actions\Entities\ProjectClassifications.cs" />
+    <Compile Include="IA - Improvement Actions\Entities\ProjectClassifications_LG.cs" />
+    <Compile Include="IA - Improvement Actions\Entities\Projects.cs" />
+    <Compile Include="IA - Improvement Actions\Facades\ImprovementActions.cs" />
+    <Compile Include="KC - Knowledge Collaboration\Entities\Catalogues.cs" />
+    <Compile Include="KC - Knowledge Collaboration\Entities\FileAttaches.cs" />
+    <Compile Include="KC - Knowledge Collaboration\Entities\ResourceClassifications.cs" />
+    <Compile Include="KC - Knowledge Collaboration\Entities\ResourceClassifications_LG.cs" />
+    <Compile Include="KC - Knowledge Collaboration\Entities\ResourceDocs.cs" />
+    <Compile Include="KC - Knowledge Collaboration\Entities\ResourceVersionHistories.cs" />
+    <Compile Include="KC - Knowledge Collaboration\Entities\ResourceVersions.cs" />
+    <Compile Include="KC - Knowledge Collaboration\Entities\ResourceHistoryStates.cs" />
+    <Compile Include="KC - Knowledge Collaboration\Entities\ResourceHistoryStates_LG.cs" />
+    <Compile Include="KC - Knowledge Collaboration\Entities\ResourceUrls.cs" />
+    <Compile Include="KC - Knowledge Collaboration\Entities\Resources.cs" />
+    <Compile Include="KC - Knowledge Collaboration\Entities\Resources_LG.cs" />
+    <Compile Include="KC - Knowledge Collaboration\Entities\ResourceTypes.cs" />
+    <Compile Include="KC - Knowledge Collaboration\Entities\ResourceTypes_LG.cs" />
+    <Compile Include="KC - Knowledge Collaboration\Facade\KnowledgeCollaboration.cs" />
+    <Compile Include="Common\Log\Log.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\CalculationCertificates.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\CalculationEstimates.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\CalculationParameters.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\Calculations.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\CalculationScenarioTypes.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\CalculationScenarioTypesProcessClassification.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\CalculationScenarioTypes_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\Calculations_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\FormulaParameters.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\Formulas.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\FormulaStoredProcedureParameters.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\FormulaStoredProcedures.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\Formulas_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\Magnitudes.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\Magnitudes_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\IndicatorClassifications.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\IndicatorClassifications_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\Indicators.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\Indicators_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\MeasurementDeviceMeasurementUnits.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\MeasurementDevices.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\MeasurementDeviceTypes.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\MeasurementDeviceTypes_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\Measurements.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\Measurements_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\MeasurementUnits.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\MeasurementUnits_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\ParameterGroups.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\ParameterGroups_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\ParameterRanges.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\Parameters.cs" />
+    <Compile Include="PA - Performance Assessment\Entities\Parameters_LG.cs" />
+    <Compile Include="PA - Performance Assessment\Facades\PerformanceAssessments.cs" />
+    <Compile Include="Common\ExtendedProperties\Entities\ExtendedProperties.cs" />
+    <Compile Include="Common\ExtendedProperties\Entities\ExtendedPropertyClassifications_LG.cs" />
+    <Compile Include="Common\ExtendedProperties\Entities\ExtendedProperties_LG.cs" />
+    <Compile Include="PF - Processes Framework\Entities\ParticipationTypes.cs" />
+    <Compile Include="PF - Processes Framework\Entities\ParticipationTypes_LG.cs" />
+    <Compile Include="PF - Processes Framework\Entities\ProcessClassifications.cs" />
+    <Compile Include="PF - Processes Framework\Entities\ProcessClassifications_LG.cs" />
+    <Compile Include="Common\ExtendedProperties\Entities\ExtendedPropertyClassifications.cs" />
+    <Compile Include="PF - Processes Framework\Entities\Processes.cs" />
+    <Compile Include="PF - Processes Framework\Entities\Processes_LG.cs" />
+    <Compile Include="Common\ExtendedProperties\Entities\ProcessExtendedProperties.cs" />
+    <Compile Include="PF - Processes Framework\Entities\ProcessGroupExceptions.cs" />
+    <Compile Include="PF - Processes Framework\Entities\ProcessGroupNodes.cs" />
+    <Compile Include="PF - Processes Framework\Entities\ProcessGroupProcesses.cs" />
+    <Compile Include="PF - Processes Framework\Entities\ProcessGroups.cs" />
+    <Compile Include="PF - Processes Framework\Entities\ProcessPosts.cs" />
+    <Compile Include="PF - Processes Framework\Entities\ProcessResources.cs" />
+    <Compile Include="PF - Processes Framework\Entities\ProcessTaskExecutionFileAttachs.cs" />
+    <Compile Include="PF - Processes Framework\Entities\ProcessTaskPermissions.cs" />
+    <Compile Include="PF - Processes Framework\Entities\ProcessTasks.cs" />
+    <Compile Include="PF - Processes Framework\Entities\ProcessTaskExecutions.cs" />
+    <Compile Include="PF - Processes Framework\Entities\ProcessParticipations.cs" />
+    <Compile Include="PF - Processes Framework\Entities\ProcessRoles.cs" />
+    <Compile Include="PF - Processes Framework\Entities\TimeUnits.cs" />
+    <Compile Include="PF - Processes Framework\Entities\TimeUnits_LG.cs" />
+    <Compile Include="PF - Processes Framework\Facade\ProcessesFramework.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Entities\Graphics.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Entities\Report.cs" />
+    <Compile Include="RG - Reports &amp; Graphics\Facade\ReportGraphic.cs" />
+    <Compile Include="RM - Risk Management\Entities\RiskClassifications.cs" />
+    <Compile Include="RM - Risk Management\Entities\RiskClassifications_LG.cs" />
+    <Compile Include="RM - Risk Management\Facade\RiskManagement.cs" />
+    <Compile Include="Security\Entities\Authority.cs" />
+    <Compile Include="Security\Entities\Permissions.cs" />
+    <Compile Include="Security\Entities\Permissions_LG.cs" />
+    <Compile Include="Security\Entities\Rights.cs" />
+    <Compile Include="Security\Facade\SecuritySystems.cs" />
+    <Compile Include="Service\Service.cs" />
+    <Compile Include="Temporal.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DS - Directory Service\Documentation\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Dlls\Microsoft.Practices.EnterpriseLibrary.Common.dll" />
+    <Content Include="Dlls\Microsoft.Practices.EnterpriseLibrary.Data.dll" />
+    <Content Include="Dlls\Microsoft.Practices.ObjectBuilder.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />  
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

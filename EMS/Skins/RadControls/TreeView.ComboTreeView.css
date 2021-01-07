@@ -1,0 +1,223 @@
+/*
+
+RadTreeView ComboTreeView skin
+
+* For notes on some CSS class names, please check RadTreeView common skin file *
+
+*/
+
+/* general styles */
+
+.RadTreeView_ComboTreeView,
+.RadTreeView_ComboTreeView .rtEdit .rtIn input
+{
+	font:10px verdana,arial;
+	color:#333;
+	line-height:1.273em;
+	
+}
+
+.RadTreeView_ComboTreeView .rtTop, 
+.RadTreeView_ComboTreeView .rtMid, 
+.RadTreeView_ComboTreeView .rtBot
+{
+	padding: 0 0 0 15px;
+	
+}
+
+.RadTreeView_ComboTreeView .rtUL .rtLI .rtUL 
+{
+	padding-left: 15px;
+}
+
+.RadTreeView_ComboTreeView .rtPlus, 
+.RadTreeView_ComboTreeView .rtMinus
+{
+	margin:5px 1px 0 -10px;
+	width:9px;
+	height:9px;
+}
+
+.RadTreeView_ComboTreeView .rtPlus
+{
+}
+
+.RadTreeView_ComboTreeView .rtMinus
+{
+}
+
+.RadTreeView_ComboTreeView .rtSp
+{
+	height:20px;
+}
+
+.RadTreeView_ComboTreeView .rtChk
+{
+	margin: 0 2px;
+	padding:0;
+	width:12px;
+	height:12px;
+}
+
+.RadTreeView_ComboTreeView .rtIn
+{
+	margin-left:3px;
+	padding: 2px 3px;
+	text-decoration:none;
+}
+
+/* endof general styles */
+
+
+/* node states */
+
+.RadTreeView_ComboTreeView .rtHover .rtIn
+{
+	padding: 1px 2px;
+	color: #363636;
+	border: 1px solid #a5acb9;
+	background: #f6fbfd;
+}
+
+.RadTreeView_ComboTreeView .rtSelected .rtIn
+{
+	padding: 1px 2px;
+	color:#333;
+	border: 1px solid #a5acb9;
+	background: #f6fbfd;
+}
+
+.RadTreeView_ComboTreeView_disabled .rtIn,
+.RadTreeView_ComboTreeView .rtDisabled .rtIn
+{
+	color:#ccc;
+}
+
+.RadTreeView_ComboTreeView .rtSelected .rtLoadingBelow
+{
+	color: #333;
+}
+
+/* endof node states */
+
+
+/* in-line editing */
+
+.RadTreeView_ComboTreeView .rtLI .rtEdit .rtIn
+{
+	border: 1px solid #99defd;
+	padding: 0 2px;
+	height:1.2em;
+	background: #fff;
+	text-decoration: none;
+	text-decoration:none;
+}
+
+.RadTreeView_ComboTreeView .rtEdit .rtIn input
+{
+	height:1em;
+	line-height:1em;
+	border:0;
+	margin:0;
+	padding:0;
+	background:transparent;
+	
+}
+
+/* endof in-line editing */
+
+
+/* drop targets */
+
+.rtDropAbove_ComboTreeView,
+.rtDropBelow_ComboTreeView
+{
+    border: 1px dotted black;
+    font-size: 3px;
+    line-height: 3px;
+    height: 3px;
+}
+
+.rtDropAbove_ComboTreeView
+{
+    border-bottom: 0;
+}
+
+.rtDropBelow_ComboTreeView
+{
+    border-top: 0;
+}
+
+/* endof drop targets */
+
+
+/* rtl-specific styles */
+
+.RadTreeView_ComboTreeView_rtl .rtPlus
+{
+	background: transparent url(ComboTreeView/PlusMinus.gif) no-repeat -9px 0;
+}
+
+.RadTreeView_ComboTreeView_rtl .rtMinus
+{
+	background: transparent url(ComboTreeView/PlusMinus.gif) no-repeat -9px -9px;
+}
+
+/* firefox */
+.RadTreeView_ComboTreeView_rtl .rtPlus,
+.RadTreeView_ComboTreeView_rtl .rtMinus
+{
+	margin-right:-9px;
+	right:-8px;
+}
+
+* html .RadTreeView_ComboTreeView_rtl .rtPlus,
+* html .RadTreeView_ComboTreeView_rtl .rtMinus
+{
+	margin-right:-10px;
+	right:0;
+}
+
+*+html .RadTreeView_ComboTreeView_rtl .rtPlus,
+*+html .RadTreeView_ComboTreeView_rtl .rtMinus
+{
+	margin-right:-10px;
+	right:0;
+}
+
+.RadTreeView_ComboTreeView_rtl .rtTop,
+.RadTreeView_ComboTreeView_rtl .rtMid, 
+.RadTreeView_ComboTreeView_rtl .rtBot
+{
+	padding: 0 15px 2px 0;
+	margin:0;
+}
+
+/* endof rtl-specific styles */
+
+
+/* hacks for Opera & Safari */
+@media screen and (min-width:550px)
+{
+	/* fixes for opera (changes the paddings/margins automatically in rtl mode) */
+
+	html:first-child .RadTreeView_ComboTreeView_rtl .rtPlus,
+	html:first-child .RadTreeView_ComboTreeView_rtl .rtMinus,
+	html:first-child .RadTreeView_ComboTreeView_rtl .rtFirst .rtLI .rtPlus,
+	html:first-child .RadTreeView_ComboTreeView_rtl .rtFirst .rtLI .rtMinus
+	{
+		margin:5px 1px 0 -10px;
+		right:0;
+	}
+	
+	/* fix for safari bug (inline-block positioned elements in rtl mode get no width) */
+	:root .RadTreeView_ComboTreeView_rtl .rtPlus,
+	:root .RadTreeView_ComboTreeView_rtl .rtMinus
+	{
+		right: 0;
+		margin-right: -10px;
+		margin-left: 1px;
+	}
+}
+
+/* endof hacks */
