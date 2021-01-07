@@ -83,7 +83,7 @@ namespace Condesus.EMS.WebUI
             protected override void OnInit(EventArgs e)
             {
                 //Facade access to business
-                if (Request.Url.LocalPath != "/Login_ghree.aspx")
+                if (!Request.Url.LocalPath.Contains("/Login_ghree.aspx"))
                 {
                     String _masterName = this.Master.GetType().Name.ToLower();
 
@@ -119,7 +119,7 @@ namespace Condesus.EMS.WebUI
                 InjectSetClassButtonModule();
                 //Inyecta la funcion JS que verifica los Validator de la pagina, esta funcion es global para el sistema. (cualquiera lo puede usar.)
                 InjectCheckClientValidatorPage();
-                if ((Request.Url.LocalPath != "/Login_ghree.aspx") && (this.Master.GetType().Name.ToLower() == "ems_master"))
+                if ((!Request.Url.LocalPath.Contains("/Login_ghree.aspx")) && (this.Master.GetType().Name.ToLower() == "ems_master"))
                 {
                     FwMasterPage.OnNavigation += new Condesus.EMS.WebUI.MasterControls.Navigate(FwMasterPage_OnNavigation);
                 }
@@ -132,7 +132,7 @@ namespace Condesus.EMS.WebUI
 
                 //Llama a la funcion que se encarga de recorrer los controles de la pagina y le pone el tooltip a los Labels.
                 BuildHelperInterface();
-                if ((Request.Url.LocalPath != "/Login_ghree.aspx") && (this.Master.GetType().Name.ToLower() == "ems_master"))
+                if ((!Request.Url.LocalPath.Contains("/Login_ghree.aspx")) && (this.Master.GetType().Name.ToLower() == "ems_master"))
                 {
                     if (!this.Page.IsPostBack)
                     {
@@ -181,7 +181,7 @@ namespace Condesus.EMS.WebUI
             protected override void OnLoadComplete(EventArgs e)
             {
                 base.OnLoadComplete(e);
-                if ((Request.Url.LocalPath != "/Login_ghree.aspx") && (this.Master.GetType().Name.ToLower() == "ems_master"))
+                if ((!Request.Url.LocalPath.Contains("/Login_ghree.aspx")) && (this.Master.GetType().Name.ToLower() == "ems_master"))
                 {
                     if (!this.Page.IsPostBack)
                     {
