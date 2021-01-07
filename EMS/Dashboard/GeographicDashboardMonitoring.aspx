@@ -11,7 +11,7 @@
 
     <%--    <script src="../AppCode/JavaScriptCore/markerclusterer_packed.js" type="text/javascript"></script>--%>
 
-    <script src="//maps.googleapis.com/maps/api/js?sensor=false" type="text/javascript"></script>
+    <script src="//maps.googleapis.com/maps/api/js?key=AIzaSyDzj5Mp1wUYuTzITA9F_Vw0Yjaid30o6dg&sensor=false" type="text/javascript"></script>
         
     <script type="text/javascript">
         var styles = [[{

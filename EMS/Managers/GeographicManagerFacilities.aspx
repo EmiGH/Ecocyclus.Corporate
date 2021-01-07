@@ -7,7 +7,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentMain" runat="server">
 
     <%--<script type="text/javascript" src="http://dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=6.2"></script>--%>
-    <script src="//maps.googleapis.com/maps/api/js?sensor=false" type="text/javascript"></script>
+    <script src="//maps.googleapis.com/maps/api/js?key=AIzaSyDzj5Mp1wUYuTzITA9F_Vw0Yjaid30o6dg&sensor=false" type="text/javascript"></script>
 
     <script type="text/javascript">
             var styles = [[{
