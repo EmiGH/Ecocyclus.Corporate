@@ -4,7 +4,7 @@
 <%-- Calendar--%>
 
 <telerik:RadDatePicker  runat="server" EnableEmbeddedSkins="false" Skin="EMS"  Width="120px"  Calendar-ImagesPath="~/Skins/RadControls/Calendar/">
-<DatePopupButton ImageUrl="/Skins/Images/Trans.gif" HoverImageUrl="/Skins/Images/Trans.gif" CssClass="Calendar" /> 
+<DatePopupButton ImageUrl="~/Skins/Images/Trans.gif" HoverImageUrl="~/Skins/Images/Trans.gif" CssClass="Calendar" /> 
 <%--<Calendar Skin="EMS"></Calendar>--%>
  </telerik:RadDatePicker>
              
@@ -13,8 +13,8 @@
 <%-- Calendar--%>
 
 <telerik:RadDateTimePicker runat="server"  EnableEmbeddedSkins="false" Skin="EMS" Width="163px" ImagesPath="~/Skins/RadControls/Calendar/" >
-<DatePopupButton ImageUrl="/Skins/Images/Trans.gif" CssClass="Calendar" HoverImageUrl="/Skins/Images/Trans.gif" /> 
-<TimePopupButton ImageUrl="/Skins/Images/Trans.gif" CssClass="Time" HoverImageUrl="/Skins/Images/Trans.gif" />
+<DatePopupButton ImageUrl="~/Skins/Images/Trans.gif" CssClass="Calendar" HoverImageUrl="~/Skins/Images/Trans.gif" /> 
+<TimePopupButton ImageUrl="~/Skins/Images/Trans.gif" CssClass="Time" HoverImageUrl="~/Skins/Images/Trans.gif" />
 <%--<Calendar Skin="EMS"></Calendar>--%>
 <%--<TimeView Skin="EMS"></TimeView>--%>
 </telerik:RadDateTimePicker>

@@ -244,7 +244,7 @@ namespace Condesus.EMS.WebUI
                     InjectOnClientContextMenuContextElementShowing();
                     InjectOnClientContextMenuContextElementProcessShowing();
                 }
-                catch 
+                catch (Exception ex)
                 {
                     //Deja el Tree vacio
                     return false;

@@ -1,31 +1,31 @@
 ﻿
 <%-- Header --%>
 
-<asp:Image runat="server" SkinId="LogoCompany" CssClass="LogoCompany" ImageUrl="/Skins/Images/Trans.gif" />
+<asp:Image runat="server" SkinId="LogoCompany" CssClass="LogoCompany" ImageUrl="~/Skins/Images/Trans.gif" />
 
 <%-- END Header--%>
 
 <%-- Global Toolbar--%>
 
-<asp:ImageButton runat="server" SkinID="GlobalToolbarDashBoard"  CssClass="breadCrumbNavigateButtonBack" ImageUrl="/Skins/Images/Trans.gif" />
-<asp:ImageButton runat="server" SkinID="GlobalToolbarGlobalNavigator" CssClass="breadCrumbNavigateButtonBack"  ImageUrl="/Skins/Images/Trans.gif" />
-<asp:ImageButton runat="server" SkinID="GlobalToolbarSearch" CssClass="breadCrumbNavigateButtonBack" ImageUrl="/Skins/Images/Trans.gif" />
-<asp:ImageButton runat="server" SkinID="DocumentGrid" CssClass="DocumentGrid" ImageUrl="/Skins/Images/Trans.gif" />
+<asp:ImageButton runat="server" SkinID="GlobalToolbarDashBoard"  CssClass="breadCrumbNavigateButtonBack" ImageUrl="~/Skins/Images/Trans.gif" />
+<asp:ImageButton runat="server" SkinID="GlobalToolbarGlobalNavigator" CssClass="breadCrumbNavigateButtonBack"  ImageUrl="~/Skins/Images/Trans.gif" />
+<asp:ImageButton runat="server" SkinID="GlobalToolbarSearch" CssClass="breadCrumbNavigateButtonBack" ImageUrl="~/Skins/Images/Trans.gif" />
+<asp:ImageButton runat="server" SkinID="DocumentGrid" CssClass="DocumentGrid" ImageUrl="~/Skins/Images/Trans.gif" />
 
 <%-- END Global Toolbar --%>
 
 <%-- LogOff --%>
 
-<asp:ImageButton runat="server" SkinID="LogOff" CssClass="LogOff" ImageUrl="/Skins/Images/Trans.gif"/>
+<asp:ImageButton runat="server" SkinID="LogOff" CssClass="LogOff" ImageUrl="~/Skins/Images/Trans.gif"/>
 
 <%-- END LogOff--%>
 
 <%--  --%>
 
-<asp:ImageButton runat="server" SkinID="BreadCrumbBack"  ImageUrl="/Skins/Images/Trans.gif" CssClass="breadCrumbNavigateButtonBack" />
-<asp:ImageButton runat="server" SkinID="BreadCrumbNext" ImageUrl="/Skins/Images/Trans.gif" CssClass="breadCrumbNavigateButtonNext" />
-<asp:ImageButton runat="server" SkinID="BreadCrumbHistory" ImageUrl="/Skins/Images/Trans.gif" CssClass="breadCrumbNavigateButtonHistory" />
-<asp:ImageButton runat="server" SkinID="BreadCrumbSet" ImageUrl="/Skins/Images/Trans.gif" CssClass="breadCrumbNavigateButtonSet" />
+<asp:ImageButton runat="server" SkinID="BreadCrumbBack"  ImageUrl="~/Skins/Images/Trans.gif" CssClass="breadCrumbNavigateButtonBack" />
+<asp:ImageButton runat="server" SkinID="BreadCrumbNext" ImageUrl="~/Skins/Images/Trans.gif" CssClass="breadCrumbNavigateButtonNext" />
+<asp:ImageButton runat="server" SkinID="BreadCrumbHistory" ImageUrl="~/Skins/Images/Trans.gif" CssClass="breadCrumbNavigateButtonHistory" />
+<asp:ImageButton runat="server" SkinID="BreadCrumbSet" ImageUrl="~/Skins/Images/Trans.gif" CssClass="breadCrumbNavigateButtonSet" />
 
 
 <%-- END BreadCumb--%>
