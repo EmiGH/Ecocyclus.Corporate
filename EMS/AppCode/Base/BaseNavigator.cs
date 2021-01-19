@@ -594,9 +594,9 @@ namespace Condesus.EMS.WebUI
             switch (_SelectedModuleSection.ToUpper())
             {
                 case "ADMIN":
-                    return "/" + _SelectedModuleValue + "/Configuration.aspx";
+                    return "~/" + _SelectedModuleValue + "/Configuration.aspx";
                 case "MAP":
-                    return "/ManagementTools/" + GetManagmentFolder() + "/Map.aspx";
+                    return "~/ManagementTools/" + GetManagmentFolder() + "/Map.aspx";
                 case "DASHBOARD":
                     //return "/Dashboard/Dashboard.aspx";
                     if (IsOperator())
@@ -607,7 +607,7 @@ namespace Condesus.EMS.WebUI
                     else
                     {
                         //Si el usuario no es operador, va al dashboard geografico
-                        return "/Dashboard/GeographicDashboardMonitoring.aspx"; //"/Dashboard/GeographicDashboard.aspx";
+                        return "~/Dashboard/GeographicDashboardMonitoring.aspx"; //"/Dashboard/GeographicDashboard.aspx";
                     }
 
                 //Son para los Clicks en un Modulo sin seccion (ahora no existen)
