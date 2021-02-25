@@ -484,10 +484,10 @@
     <value>Value</value>
   </data>
   <data name="Home_Title" xml:space="preserve">
-    <value>EMS</value>
+    <value>EcoCyclus Corporate</value>
   </data>
   <data name="Home_Description" xml:space="preserve">
-    <value>Home Page EMS</value>
+    <value>Home Page EcoCyclus Corporate</value>
   </data>
   <data name="mnuCompute" xml:space="preserve">
     <value>Compute</value>
@@ -670,7 +670,7 @@
     <value>Full Name</value>
   </data>
   <data name="TitleRegister" xml:space="preserve">
-    <value>Ghree Want to join? Sign up today!</value>
+    <value>EcoCyclus Corporate Want to join? Sign up today!</value>
   </data>
   <data name="Register" xml:space="preserve">
     <value>Register</value>

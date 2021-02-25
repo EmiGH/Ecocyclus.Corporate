@@ -121,13 +121,13 @@
     <value>Organizaciones e Instalaciones</value>
   </data>
   <data name="lblFooter.Text" xml:space="preserve">
-    <value>Condesus™ ghree© 2012 - All rights reserved.</value>
+    <value>EcoCyclus Corporate 2020 - All rights reserved.</value>
   </data>
   <data name="lblLogOff.Text" xml:space="preserve">
     <value>Cerrar Sesión</value>
   </data>
   <data name="lblPageTitle" xml:space="preserve">
-    <value>Condesus EMS ---Entropy Management Solution---</value>
+    <value>EcoCyclus Corporate ---Entropy Management Solution---</value>
   </data>
   <data name="lblTechnicalSupport.Text" xml:space="preserve">
     <value>Soporte Técnico</value>
@@ -178,7 +178,7 @@
     <value>Módulo: </value>
   </data>
   <data name="lblProductName.Text" xml:space="preserve">
-    <value>EMS©&amp;nbsp; l&amp;nbsp;</value>
+    <value>EcoCyclus©&amp;nbsp; l&amp;nbsp;</value>
   </data>
   <data name="radMnuModuleCT" xml:space="preserve">
     <value>Herramientas de Colaboración</value>

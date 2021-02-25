@@ -484,10 +484,10 @@
     <value>Valor</value>
   </data>
   <data name="Home_Title" xml:space="preserve">
-    <value>EMS</value>
+    <value>EcoCyclus Corporate</value>
   </data>
   <data name="Home_Description" xml:space="preserve">
-    <value>Página Principal EMS</value>
+    <value>Página Principal EcoCyclus Corporate</value>
   </data>
   <data name="mnuCompute" xml:space="preserve">
     <value>Calcular</value>
@@ -586,7 +586,7 @@
     <value>Actividades</value>
   </data>
   <data name="ChartFacilities" xml:space="preserve">
-    <value>Intalaciones</value>
+    <value>Instalaciones</value>
   </data>
   <data name="ChartFacilityTypes" xml:space="preserve">
     <value>Tipos de Instalaciones</value>
@@ -661,7 +661,7 @@
     <value>Recordar usuario</value>
   </data>
   <data name="TitleRegister" xml:space="preserve">
-    <value>¿Quieres unirte a ghree? ¡Regístrate hoy!</value>
+    <value>¿Quieres unirte a EcoCyclus Corporate? ¡Regístrate hoy!</value>
   </data>
   <data name="Register" xml:space="preserve">
     <value>Registrarse</value>
