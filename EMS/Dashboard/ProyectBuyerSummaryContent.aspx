@@ -77,10 +77,10 @@
 
 //            StopEvent(e);
             if (_BrowserName == _IEXPLORER) {   //IE and Opera
-                var newWindow = window.open("http://" + '<%=Request.ServerVariables["HTTP_HOST"]%>' + '/ManagementTools/PerformanceAssessment/MeasurementChart.aspx?idMeasurement=' + idMeasurement, 'IndicatorSeries', 'toolbar=yes,location=yes,resizable=yes,status=yes,menubar=yes,scrollbars=yes');
+                var newWindow = window.open("http://" + '<%=Request.ServerVariables["HTTP_HOST"]%>' + '<%=(!string.IsNullOrEmpty(Request.ApplicationPath) ? Request.ApplicationPath : "")%>' + '/ManagementTools/PerformanceAssessment/MeasurementChart.aspx?idMeasurement=' + idMeasurement, 'IndicatorSeries', 'toolbar=yes,location=yes,resizable=yes,status=yes,menubar=yes,scrollbars=yes');
             }
             else {   //FireFox
-                var newWindow = window.parent.open("http://" + '<%=Request.ServerVariables["HTTP_HOST"]%>' + '/ManagementTools/PerformanceAssessment/MeasurementChart.aspx?idMeasurement=' + idMeasurement, 'IndicatorSeries', 'toolbar=yes,location=yes,resizable=yes,status=yes,menubar=yes,scrollbars=yes');
+                var newWindow = window.parent.open("http://" + '<%=Request.ServerVariables["HTTP_HOST"]%>' + '<%=(!string.IsNullOrEmpty(Request.ApplicationPath) ? Request.ApplicationPath : "")%>' + '/ManagementTools/PerformanceAssessment/MeasurementChart.aspx?idMeasurement=' + idMeasurement, 'IndicatorSeries', 'toolbar=yes,location=yes,resizable=yes,status=yes,menubar=yes,scrollbars=yes');
             }
             //var newWindow = window.open("http://" + '<%=Request.ServerVariables["HTTP_HOST"]%>' + '/ManagementTools/PerformanceAssessment/MeasurementChart.aspx?idMeasurement=' + idMeasurement, 'IndicatorSeries', 'toolbar=yes,location=yes,resizable=yes,status=yes,menubar=yes,scrollbars=yes');
             newWindow.focus();
